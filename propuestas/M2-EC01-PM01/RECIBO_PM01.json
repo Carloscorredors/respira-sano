@@ -1,0 +1,102 @@
+{
+  "version": "PM01 sobre la copia MI01 / RM03 + EC01",
+  "state": "Integrado y verificado en la copia provisional; revisión visual de Carlos pendiente",
+  "verified_at_utc": "2026-11-01T23:30:38.215035+00:00",
+  "human_scope": "Usar una copia del modelo de pulmones de M1 para órganos diana de M2, conservando su detalle, integrarlo y mostrarlo en la copia provisional, sin modificar M1.2.",
+  "source_provenance": "work/investigacion-participacion-toxicologia-20261031/pulmones-M1-en-M2-PM01/ORIGEN_PULMONES_PM01.json",
+  "source": "Modelo principal actual de M1.2, assets/narration11.bundle.js; factory de work/revision11-unoparuno/system09.geometry.js.",
+  "copied_elements": [
+    "Superficies de ambos pulmones y sus colores de vértice",
+    "Fisuras",
+    "Tráquea y anillos",
+    "Bronquios y bronquiolos",
+    "Marcadores terminales y matrices de instancia"
+  ],
+  "geometry_comparison": {
+    "passed": true,
+    "no_decimation": true,
+    "exact_attributes_indices_colors_and_materials": true,
+    "stats": {
+      "meshes": 10,
+      "triangles": 128008,
+      "vertices": 81468,
+      "uniqueGeometries": 10,
+      "uniqueMaterials": 7,
+      "instances": 384
+    },
+    "record": "work/investigacion-participacion-toxicologia-20261031/pulmones-M1-en-M2-PM01/QA_COPIA_GEOMETRICA_PM01.json"
+  },
+  "M2_changes": [
+    "Sustitución de pulmones y vías por una copia autónoma de M1.",
+    "Acercamiento Pulmones.",
+    "Control Ver interior pulmonar con los parámetros de transparencia de M1.",
+    "Corazón de M2 reubicado para la base pulmonar de M1; cerebro y ejemplos conservados.",
+    "Versionado PM01-2 del cargador y visor."
+  ],
+  "copy_modified": [
+    "assets/m2-modelos-RM02/index.html",
+    "assets/m2-modelos-RM02/laboratorio.bundle.js",
+    "assets/m2-modelos-RM02/m2-modelos-launcher.js",
+    "gases-vapores.html"
+  ],
+  "copy_files_unchanged_since_EC01": 386,
+  "copy_missing": [],
+  "copy_added": [],
+  "M12_preserved": true,
+  "main_application_modified": false,
+  "main_application_files_unchanged": 390,
+  "original_M1_source_unchanged": true,
+  "browser_progress_reset": false,
+  "audio_or_sync_changed": false,
+  "backup_original_RM03_preserved": true,
+  "new_participant_zip_created": false,
+  "verification": {
+    "candidate_views": 7,
+    "scenarios": 5,
+    "interior_toggle": true,
+    "widths": [
+      390,
+      1280
+    ],
+    "other_models": [
+      {
+        "id": "mucosa",
+        "ready": true
+      },
+      {
+        "id": "time",
+        "visible": true
+      },
+      {
+        "id": "dose",
+        "ready": true
+      },
+      {
+        "id": "mixtures",
+        "ready": true
+      },
+      {
+        "id": "n95",
+        "ready": true
+      }
+    ],
+    "actual_copy": "work/investigacion-participacion-toxicologia-20261031/pulmones-M1-en-M2-PM01/QA_COPIA_PM01.json",
+    "conservation": "work/investigacion-participacion-toxicologia-20261031/pulmones-M1-en-M2-PM01/QA_CONSERVACION_PM01.json",
+    "main_continuity": "work/investigacion-participacion-toxicologia-20261031/pulmones-M1-en-M2-PM01/CONTINUIDAD_PRINCIPAL_PM01.json",
+    "all_passed": true
+  },
+  "local_url": "http://127.0.0.1:8787/proyecto-respaldo/index.html?rs-route=gases-vapores.html%23gases-vapores&rs-mission=2",
+  "screenshots": [
+    "work/investigacion-participacion-toxicologia-20261031/pulmones-M1-en-M2-PM01/capturas/COPIA-general-PM01.png",
+    "work/investigacion-participacion-toxicologia-20261031/pulmones-M1-en-M2-PM01/capturas/COPIA-pulmones-detalle-PM01.png",
+    "work/investigacion-participacion-toxicologia-20261031/pulmones-M1-en-M2-PM01/capturas/COPIA-pulmones-superficie-PM01.png",
+    "work/investigacion-participacion-toxicologia-20261031/pulmones-M1-en-M2-PM01/capturas/COPIA-movil-general-PM01.png"
+  ],
+  "client_accepted": false,
+  "automations_reactivated": false,
+  "delegation_used": false,
+  "pending": [
+    "Revisión visual de Carlos."
+  ],
+  "scope_limit": "Copia provisional: la aplicación principal permanece en RM03. Ensayo completo de capacitación y servicios externos sin repetir al conservar sus dependencias."
+}

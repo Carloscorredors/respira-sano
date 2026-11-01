@@ -1,0 +1,288 @@
+{
+  "recorded_at_utc": "2026-10-19T08:52:23.611774+00:00",
+  "baseline": "Revisión 16",
+  "state": "Solo recepción de instrucciones y observaciones; ejecución y delegaciones detenidas por Carlos.",
+  "human_request": "Ten en cuenta las siguientes observaciones, guardalas para continuar mas adelante: M1.3 tiene dos columnas de un ancho adecuado cada uno. M1.2 Tiene una colunma de lado al lado, muy ancha y se torna muy incomoda de operarar, desbe ajustar el ancho al mismo nivel de M1.3. Sucede los mismo com M 1.5; M1.6; M1.7 Guando respuesta a la actividad, debes borrarla: Procesa y continuo indicando observaciones.",
+  "observations": [
+    {
+      "id": "CR16-01",
+      "module": "M1.3",
+      "type": "Referencia aprobada de presentación",
+      "instruction": "Tomar las dos columnas y el ancho de M1.3 como referencia visual adecuada.",
+      "status": "Referencia para propuesta posterior"
+    },
+    {
+      "id": "CR16-02",
+      "module": "M1.2",
+      "type": "Ancho y comodidad de operación",
+      "instruction": "Reducir y organizar el ancho de la sección tomando M1.3 como referencia; actualmente una columna de extremo a extremo resulta incómoda.",
+      "constraint": "Nueva observación humana permite planear un ajuste de distribución de M1.2; no implica cambiar modelo, audio01, sincronización, controles funcionales o CT. No ejecutar todavía.",
+      "status": "Ajuste visual implementado y recibido en copia activa el30oct2026; disponible para prueba de Carlos.",
+      "latest_authorization": "Carlos solicitó ejecutar/delegar este cambio puntual de ancho.",
+      "receipt": "work/m12-ancho-20261030/auditor/RECEPCION_FINAL.json",
+      "preserved": "Modelo, audio01, sincronización, CT, controles funcionales, M1.3 y demás contenido preservados."
+    },
+    {
+      "id": "CR16-03",
+      "module": "M1.5",
+      "type": "Ancho y distribución",
+      "instruction": "Corregir la anchura excesiva tomando M1.3 como referencia visual.",
+      "status": "Pendiente de aplicación posterior"
+    },
+    {
+      "id": "CR16-04",
+      "module": "M1.6",
+      "type": "Ancho y distribución",
+      "instruction": "Corregir la anchura excesiva tomando M1.3 como referencia visual.",
+      "status": "Pendiente de aplicación posterior"
+    },
+    {
+      "id": "CR16-05",
+      "module": "M1.7",
+      "type": "Respuesta guardada en la actividad",
+      "literal": "M1.7 Guando respuesta a la actividad, debes borrarla",
+      "working_interpretation": "Eliminar la respuesta que aparece guardada en la actividad para que no se presente previamente resuelta.",
+      "scope_limit": "No interpretar como autorización para borrar todo el progreso, respuestas de otras actividades o datos de participantes. El momento exacto del borrado se precisará al retomar si no queda aclarado en las próximas observaciones.",
+      "status": "Observación registrada; detalle por precisar al retomar"
+    },
+    {
+      "id": "CR16-06",
+      "module": "Módulo 1 · Viaje fantástico",
+      "type": "Prioridad y alcance pedagógico",
+      "priority": "Alta; orientar la próxima revisión de M1 antes de ajustes aislados.",
+      "human_request": "En el modulo uno debes darle mayor alcance y prioridad a lo solicitado, quizas nos centramos mucho en reconocer el sistema respiratorio, dejamos de lado los peligros.",
+      "source_requirement": {
+        "title": "Reconocimiento del riesgo respiratorio",
+        "points": [
+          "Humos, gases, vapores, polvos, nieblas y aerosoles.",
+          "Vías de ingreso y posibles efectos en la salud.",
+          "Actividades y procesos de mayor exposición."
+        ]
+      },
+      "instruction": "Reequilibrar M1 para que el reconocimiento de peligros químicos respiratorios sea su hilo conductor. El sistema respiratorio y el intercambio gaseoso sirven como apoyo para comprender el ingreso y los posibles efectos, evitando que la anatomía concentre el protagonismo y el tiempo.",
+      "proposed_acceptance_for_later_review": [
+        "Que el participante pueda relacionar una tarea o proceso con una fuente y una posible forma del contaminante en el aire.",
+        "Que distinga las formas indicadas en el encargo con ejemplos visuales y decisiones breves.",
+        "Que vincule inhalación y posibles efectos con el peligro identificado, sin atribuir exposición o efectos solo por la apariencia de una escena.",
+        "Que los casos de las áreas sanitarias participen del hilo principal del módulo y no queden únicamente como consulta opcional.",
+        "Revisar el reparto del tiempo y las actividades de M1 antes de añadir más contenido; conservar una experiencia visual y con poco texto."
+      ],
+      "implementation_limit": "Observación guardada para revisión posterior. No ejecutar ahora. No implica por sí sola eliminar M1.2 ni modificar su modelo, audio o sincronización; cualquier redistribución concreta se presentará al retomar.",
+      "reference": "work\\observaciones-carlos-rev16\\03-requisito-reconocimiento-riesgo-respiratorio.png",
+      "status": "Propuesta pedagógica presentada; no implementada.",
+      "proposal": "work/PROPUESTA_M1_PRIORIDAD_RIESGO_REV16.json"
+    },
+    {
+      "id": "CR16-07",
+      "module": "Nuevo M1.3 (actual M1.4)",
+      "type": "Intercambio de orden y prioridad del contenido",
+      "human_request": "El modulo M1.3 podrá pasar a ser el M1.4, y el M1.4 podrá pasar a ser el M1.3. El nuevo M1.3 Explicara los diferentes peligros de la vía respiratorio, que son, como se producen en los lugares de trabajo; Delega a un agente que realice una investigación al respecto.",
+      "instruction": "Usar la actual sección M1.4 como base del nuevo M1.3: qué son los contaminantes/peligros respiratorios y cómo se producen o liberan en tareas de trabajo, con ejemplos del sector salud.",
+      "status": "Observación guardada; investigación puntual delegada, implementación pendiente.",
+      "research_agent": "/root/investigacion_m13_m14",
+      "research_directory": "work/investigacion-m13-m14-20261019/"
+    },
+    {
+      "id": "CR16-08",
+      "module": "Nuevo M1.4 (actual M1.3)",
+      "type": "Modelo alveolar vinculado al ingreso y efectos",
+      "human_request": "El nuevo M1.4 (Actualmente M1.3) usando en mismo modelo explicara como llegar los (gases, polvos, vapores, etc ) al interior y que se produce, como actúan. explicara efectos agudos y efectos crónicos.",
+      "instruction": "Conservar el mismo modelo alveolar como base y preparar explicación de ingreso, comportamiento/acción y efectos agudos y crónicos de los contaminantes, conectado con el nuevo M1.3.",
+      "research_criteria": [
+        "Investigar mecanismos por tipo de contaminante/agente; indicar qué puede representarse en el modelo y qué requiere otro recurso conceptual.",
+        "Verificar límites de deposición y absorción; evitar representar un único recorrido idéntico para todos los contaminantes.",
+        "Revisar solapamiento con M2 para conservar un hilo lógico y distribuir profundidad al preparar la implementación."
+      ],
+      "status": "Observación guardada; sustento técnico incluido en la investigación delegada. Implementación pendiente."
+    },
+    {
+      "id": "CR16-09",
+      "module": "Actual M1.4 · Qué puede acompañar el aire / futuro M1.3",
+      "type": "Sustitución de modelos básicos y producción audiovisual",
+      "human_request": "el actual M1.4 Que puede acompañar el aire: Los modelos son muy básicos, debemos en este caso cambiarlos por imágenes que representen fuente, como se generan y como afectan al organismo (peligros) (dentro de la investigación incluye este tema y posteriormente delega la generación de imágenes y fragmentos de audio explicando).",
+      "instruction": "Proponer sustitución de los modelos básicos por imágenes que conecten fuente, proceso de generación o liberación y posibles efectos en el organismo. Preparar fragmentos de audio que expliquen cada relación.",
+      "authorized_sequence": [
+        "Ampliar investigación con un brief técnico y visual por escena.",
+        "Recibir el brief y delegar generación de imágenes y audios reales en carpeta separada.",
+        "Mostrar recursos para revisión posterior; no integrar todavía en aplicación."
+      ],
+      "media_criteria": [
+        "Representaciones pertinentes al sector salud y a las tareas de las once áreas.",
+        "Roles, edades y uniformes diversos; no todos con bata ni todos jóvenes.",
+        "Efectos específicos y condicionados por agente, respaldados por fuentes; no diagnóstico de personajes.",
+        "Distinguir ilustración conceptual de presencia visible real; evitar nubes visibles universales para gases.",
+        "Voces femeninas y masculinas alternadas por cápsula, guion y transcripción.",
+        "No recetas de mezclas ni secuencias demostrativas de generación peligrosa."
+      ],
+      "status": "Brief técnico recibido y leído; producción de siete imágenes y siete fragmentos de audio delegada al chat audiovisual. Sin integración en aplicación.",
+      "research_directory": "work/investigacion-m13-m14-20261019/",
+      "application_modified": false,
+      "production_assignment": "work/ENCARGO_MEDIOS_M13_RECONOCIMIENTO.json"
+    },
+    {
+      "id": "CR16-10",
+      "module": "M1.5 · Servicios, tareas y peligros respiratorios",
+      "type": "Ampliación de contenido por servicio, adicional al ajuste de ancho CR16-03",
+      "human_request": "El modulo 1.5 (Aparte de ajustar el ancho) debemos: En cada servicio: describir los peligros relacionados con vapores, gases, polvos, nieblas, etc. Mencionar fuentes generadoras, productos químicos, fármacos, polvos etc.",
+      "instruction": "Para cada servicio/área de M1.5, describir los peligros respiratorios pertinentes y relacionarlos con las fuentes generadoras, tareas/procesos, productos químicos, fármacos y materiales que puedan originarlos.",
+      "content_fields_for_future_revision": [
+        {
+          "field": "Servicio y tarea",
+          "purpose": "Identificar qué se hace y en qué actividad puede producirse la liberación."
+        },
+        {
+          "field": "Fuente generadora",
+          "purpose": "Proceso, equipo, material o punto desde el cual puede liberarse el contaminante."
+        },
+        {
+          "field": "Producto, fármaco o material",
+          "purpose": "Nombrar ejemplos sustentados y condicionados al producto/proceso real; confirmar identidad y composición."
+        },
+        {
+          "field": "Generación o liberación",
+          "purpose": "Explicar brevemente cómo puede llegar al aire."
+        },
+        {
+          "field": "Forma en el aire",
+          "purpose": "Indicar gas, vapor, polvo, niebla u otra forma pertinente sin asignar todas las formas a todos los servicios."
+        },
+        {
+          "field": "Peligro y posible efecto",
+          "purpose": "Describir con sustento el peligro específico del agente, conectado con el nuevo M1.3/M1.4."
+        },
+        {
+          "field": "Información para confirmar",
+          "purpose": "Etiqueta, FDS u otra información técnica pertinente del producto, medicamento o proceso."
+        }
+      ],
+      "presentation_criteria": "Mantener explicación visual y breve: resumen por servicio y detalle ampliable, tomando el ancho de M1.3 actual como referencia. Evitar largas listas o párrafos en la vista inicial.",
+      "technical_limits": [
+        "El nombre de un servicio no demuestra presencia de un contaminante ni exposición.",
+        "No atribuir automáticamente gases/vapores a todo medicamento: el ejemplo debe corresponder a su forma y manipulación.",
+        "Reutilizar la matriz de once áreas y la investigación existente antes de ampliar; diferenciar ejemplos didácticos de inventario institucional confirmado."
+      ],
+      "reuse_sources": [
+        "work/jornada-20261019/pedagogia/matriz-m15-v1.json",
+        "work/investigacion-m13-m14-20261019/INVESTIGACION_M13_M14_v1.json"
+      ],
+      "status": "Observación guardada para desarrollo posterior. No hay modificación de aplicación ni nuevo encargo de implementación."
+    },
+    {
+      "id": "CR16-11",
+      "module": "M1.6",
+      "type": "Alcance exclusivamente respiratorio y revisión de pertinencia",
+      "human_request": "M1.6: La actividad es solo Respiratorios, podemos omitir otras vías de ingreso. (mejorar o suprimir este sub-modulo).",
+      "instruction": "Omitir del desarrollo de esta actividad las otras vías de ingreso. Centrar el contenido en la vía respiratoria/inhalación. Al retomar, valorar mejorar M1.6 si aporta un objetivo propio o suprimirlo/absorber su contenido si repite lo explicado en el nuevo M1.4.",
+      "decision_status": "Mejorar o suprimir: alternativa pendiente de valorar con Carlos; no hay autorización actual para ejecutar ninguna.",
+      "related_observations": [
+        "CR16-04",
+        "CR16-08"
+      ],
+      "implementation_status": "Observación guardada. Aplicación sin cambios; agentes detenidos."
+    },
+    {
+      "id": "CR16-12",
+      "module": "M1.7",
+      "type": "Evaluación didáctica, reflexión y síntesis",
+      "human_request": "M1.7: Este modulo estará mucho mas orientado en mostrar los que aprendimos mediante una evaluación didáctica; juegos trivias, armar un puzle etc., reflexión, audio corto con resumen",
+      "instruction": "Reorientar M1.7 como cierre del aprendizaje de M1, donde el participante demuestre lo aprendido mediante una evaluación lúdica y didáctica, acompañada de reflexión y un audio breve de resumen.",
+      "requested_components": [
+        "Evaluación con juego, trivia, armado de puzle u otra dinámica pertinente; opciones propuestas, no obligación de incluirlas todas.",
+        "Reflexión breve del participante sobre lo aprendido.",
+        "Audio corto de síntesis del módulo."
+      ],
+      "review_criteria_for_later": [
+        "Alinear preguntas/juego con reconocimiento de contaminantes, generación, tareas y peligros respiratorios del M1 reorganizado.",
+        "Dar retroalimentación explicativa de las decisiones evaluables.",
+        "Distinguir la reflexión personal de las respuestas que tienen un criterio técnico.",
+        "Revisar también la observación previa sobre una respuesta guardada en M1.7, sin borrar datos ahora."
+      ],
+      "related_observations": [
+        "CR16-05",
+        "CR16-06",
+        "CR16-07",
+        "CR16-08",
+        "CR16-10",
+        "CR16-11"
+      ],
+      "implementation_status": "Observación guardada. Sin diseño de actividad, generación de audio, delegación ni implementación en esta etapa."
+    },
+    {
+      "id": "CR16-13",
+      "module": "M4 · Misión posible",
+      "type": "Precisión humana del propósito y alcance técnico",
+      "human_request": "En M4 el propósito es hablar de campanas, sistemas de extracción, sistemas más complejos como medidas de control de ingeniería y sustitución. También hablaremos de elementos de protección personal y sus capacidades frente a la protección, para qué puedo utilizar un tapabocas quirúrgico, un N95 y en qué momentos puedo utilizar o debería estar utilizando una media cara o una full face.",
+      "instruction": "Desarrollar en M4 controles de ingeniería y sustitución, con ejemplos de campanas, sistemas de extracción y sistemas de mayor complejidad. Incluir EPP/protección respiratoria y comparación de capacidades, limitaciones y condiciones de uso de tapabocas quirúrgico, N95, respirador de media cara y de cara completa.",
+      "requested_topics": [
+        {
+          "topic": "Controles de ingeniería",
+          "scope": [
+            "Campanas",
+            "Sistemas de extracción",
+            "Sistemas más complejos pertinentes a las tareas sanitarias",
+            "Comprender su función y aplicación en el proceso"
+          ]
+        },
+        {
+          "topic": "Sustitución",
+          "scope": [
+            "Sustitución como medida de control",
+            "Ejemplos pertinentes al proceso, por sustentar al retomar"
+          ]
+        },
+        {
+          "topic": "EPP y protección respiratoria",
+          "scope": [
+            "Capacidades y limitaciones",
+            "Para qué puede utilizarse un tapabocas quirúrgico",
+            "Para qué puede utilizarse un N95",
+            "En qué situaciones considerar o requerir media cara",
+            "En qué situaciones considerar o requerir cara completa/full face"
+          ]
+        }
+      ],
+      "curriculum_precedence": "Esta precisión humana amplía/concreta el alcance de M4 frente a la tabla orientativa anterior del auditor, que situaba la selección principalmente en M5. Revisar después la relación M4/M5; no excluir por defecto de M4 la comparación solicitada.",
+      "future_content_criteria": [
+        "Relacionar la comparación con contaminante, tarea y condiciones; sustentar capacidades y limitaciones antes de redactar reglas de uso.",
+        "Distinguir capacidad del equipo completo, tipo de filtro/cartucho y condiciones de utilización al preparar contenidos.",
+        "Revisar distribución de profundidad entre M4 y M5 para evitar duplicaciones, sin decidir todavía una nueva estructura."
+      ],
+      "status": "Observación guardada. No se inicia investigación, producción, delegación ni modificación de aplicación; espera autorización de Carlos."
+    },
+    {
+      "id": "CR16-14",
+      "module": "M6 · Uso, inspección y mantenimiento / M2 pendiente",
+      "type": "Mantenimiento y control de horas de filtros",
+      "human_request": "En el módulo 6 incluir una sección para mantenimiento y sobre todo el control de las horas filtro. En el módulo 2 también podemos hablar... dejémoslo de ese lado y ahorita lo optimizamos.",
+      "instruction": "Incluir en M6 una sección de mantenimiento y dar prioridad al registro y control de las horas de uso de filtros/cartuchos (horas filtro).",
+      "future_review_notes": [
+        "Al retomar, definir un recurso de registro de uso y seguimiento coherente con el programa de protección respiratoria y las instrucciones del fabricante.",
+        "Investigar y distinguir el registro de horas de uso del criterio técnico de recambio: no convertirlo en un número universal de horas válido para todos los filtros, cartuchos o contaminantes.",
+        "No proponer en esta etapa duración garantizada, cálculo de vida útil ni decisiones de recambio basadas en datos no verificados."
+      ],
+      "M2": "Carlos dejó en suspenso la idea sobre M2; no hay una ampliación concreta definida. Retomar su optimización cuando complete instrucciones.",
+      "status": "Observación guardada. Agentes detenidos; sin investigación, diseño, generación o implementación."
+    }
+  ],
+  "references": [
+    "work\\observaciones-carlos-rev16\\01-M12-ancho-actual.png",
+    "work\\observaciones-carlos-rev16\\02-M13-referencia-dos-columnas.png",
+    "work\\observaciones-carlos-rev16\\03-requisito-reconocimiento-riesgo-respiratorio.png"
+  ],
+  "application_modified": false,
+  "next": "Seguir guardando instrucciones y observaciones. Esperar a que Carlos indique que terminó y autorice continuar. Agentes detenidos.",
+  "updated_at_utc": "2026-10-19T09:30:12.558548+00:00",
+  "pedagogical_priority": "CR16-06: M1 centrado en reconocimiento del riesgo respiratorio; anatomía como apoyo.",
+  "latest_human_direction": {
+    "new_M1.3": "Actual M1.4: peligros/contaminantes y su generación en lugares de trabajo.",
+    "new_M1.4": "Actual M1.3: mismo modelo alveolar, ingreso/acción y efectos agudos/crónicos.",
+    "application_modified": false
+  },
+  "human_stop": {
+    "at_utc": "2026-10-19T09:18:30.972839+00:00",
+    "instruction": "detén los agentes, aun no vamos a continuar. te indicare cuando termine de dar instrucciones y observaciones",
+    "state": "Trabajo delegado detenido por instrucción humana; esperar reanudación expresa.",
+    "permitted_now": "Solo registrar nuevas instrucciones y observaciones de Carlos.",
+    "resume_condition": "Carlos indica que terminó y autoriza continuar."
+  }
+}

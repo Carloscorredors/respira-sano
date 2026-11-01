@@ -1,0 +1,76 @@
+RESPIRA SANO · REVISIÓN 17 · COLSANITAS Y ACCESO PARA REVISIÓN
+
+PARA EMPEZAR
+Extrae completa la carpeta respira-sano-interactiva y abre index.html en un navegador actualizado. Conserva juntos sus archivos y subcarpetas. Para la prueba local se usa también HTTP. Las notas y el avance pertenecen al navegador y al registro que utilizas; consulta Mi progreso para conservar una copia.
+
+QUÉ CAMBIA EN ESTA ENTREGA
+M1.5 incorpora once áreas con tareas distintas: laboratorio, enfermería, servicios generales, urgencias, unidad renal/diálisis, hemodinamia, quirófanos, patología, residuos, mantenimiento general y mantenimiento/desinfección de equipo biomédico.
+Elige un caso en el selector o abre la biblioteca y busca por área o tarea. Solo se despliega un caso a la vez. Los puntos de la escena y los botones permiten consultar Tarea, Producto, Emisión y Falta verificar; cada caso incluye una decisión contextual con revisión explícita.
+Las imágenes son escenas ficticias generadas, de apariencia fotográfica. No son fotografías de una institución real, no identifican la composición de los envases y no representan concentraciones ni demuestran liberación. Las líneas unen el número al objeto pertinente; los controles equivalentes permiten consultar la información sin seleccionar un punto de la imagen.
+Las once imágenes para participantes se entregan en WebP a las mismas dimensiones de los originales, sin recorte. Pasan de21,9MB en PNG a1,72MB; los originales se conservan en el archivo privado del proyecto. Los puntos mantienen sus coordenadas sobre la misma composición.
+
+M1.6 presenta un explorador corporal vectorial con profundidad por sombreado: respiración, piel/ojos e ingestión accidental. Selecciona una vía, acerca la zona y muestra la trayectoria cuando lo desees. Volver a la pantalla no reproduce el movimiento. Las líneas muestran relaciones conceptuales de entrada o contacto, sin simular dosis, células dañadas, absorción universal o un efecto inevitable. Se conserva la pregunta original de vías.
+
+M1.7 conserva el reto evaluado y añade piezas ilustradas, una pista anatómica ampliable y tres escenas de generación por capas. La consulta de las pistas no coloca respuestas. Correcto, incorrecto y pendiente se distinguen por texto, icono y contraste; editar una respuesta revisada vuelve a dejarla pendiente. El cierre conserva cinco IDs en el recorrido, tres asociaciones revisadas y la observación propia.
+
+M1.4 incorpora una explicación local en audio y una animación 2D con voz/subtítulos. Elige Escuchar o Ver animación; ambos comienzan manualmente. M1.5 ofrece audios en los casos de laboratorio y servicios generales, con transcripción. La reproducción se pausa al salir de la pantalla o al ocultar la pestaña; regresar no reproduce. Al iniciar uno de estos medios se pausa cualquier otro medio que estuviera sonando.
+Las voces se produjeron con Clipchamp: Salome y Gonzalo, español Colombia. Duraciones reales aproximadas: formas55s, limpieza62s y laboratorio64s. Se verificaron archivos y contenido/transcripción; la naturalidad y escucha humana no se declaran aprobadas. Los audios son alternativas a parte de la lectura/exploración, no requisitos adicionales.
+
+M1.2 FINALIZADO Y PROTEGIDO
+Su sección HTML, cadena original de arranque, modelo sincronizado, doce estructuras, controles, Audio01, cues y CT se conservan. Se congelaron además los117 assets existentes de la revisión11. Los nuevos estilos y adaptadores están limitados a las pantallas que se amplían.
+M1.3 conserva el modelo y añade Audio02; M2 añade exploración visual y cápsula. M3–6 incorporan en esta revisión las escenas, los detalles y los audios descritos más adelante.
+
+TIEMPOS Y RECORRIDO
+Se mantienen las siete pantallas de M1 y20min:2+4+2+3+3+2+4. En M1.5 se investiga un solo caso dentro de sus180s propuestos; las otras diez áreas quedan para consulta y ampliación. Las cápsulas sustituyen parte de la lectura dentro del tiempo previsto; no se exige escuchar todas.
+El curso principal mantiene120min propuestos y los18contenidos técnicos. La consulta adicional puede usarse en una ampliación de60min. Son tiempos de diseño pendientes del ensayo de facilitación; no hay cronómetro obligatorio ni restricción por fechas.
+
+ALCANCE TÉCNICO
+Los casos y las fuentes distinguen tarea, producto, forma de emisión, vía y efecto. La exposición requiere información y evaluación; no se deduce por profesión, servicio, olor o apariencia. En hemodinamia se muestra explícitamente: Escenario con anestesia inhalatoria, si está presente. Material fibroso no confirma asbesto; un equipo cerrado no demuestra emisión.
+Las representaciones no autorizan un procedimiento clínico, una selección de EPP ni un diagnóstico. Las fuentes primarias específicas se consultan en cada caso; estos enlaces requieren conexión. El CT externo es opcional y también requiere conexión; puede superar la capacidad de algunos dispositivos. No se incluyen geometrías externas descargadas.
+
+VERIFICACIÓN Y LÍMITES
+VERIFICACION-REVISION-17.json se incorpora al empaquetar tras la recepción de esta entrega. Los informes de revisiones anteriores describen sus versiones históricas. La copia activa, staging y ZIP se cotejan por sus archivos y hashes. Las comprobaciones previas del motor de progreso se reutilizan si sus fuentes permanecen idénticas.
+La interfaz se recibe mediante HTTP local. Las pruebas file:// y descarga/recuperación JSON completas fueron bloqueadas anteriormente por los permisos de la herramienta de navegador y no se presentan como validadas por HTTP. Prueba esos pasos en el navegador del equipo de uso.
+Los entornos, fixtures de QA, códigos de generación y documentos del facilitador quedan fuera de la carpeta de participantes. La revisión11 y los ZIP anteriores se conservan.
+
+
+AMPLIACIÓN DE ESTA REVISIÓN13
+M1.3 ofrece Audio02 Gonzalo,44,496s reales, entre el modelo/controles y la explicación de la estructura seleccionada. Inicio manual y transcripción; no se sincroniza con M1.2.
+M1.6 añade una narración Gonzalo de57,744s antes de su pregunta original.
+M2 añade un comparador visual: patrón temporal y etiquetas de acción son dos ejes independientes; las acciones admiten selección múltiple. Las cinco tarjetas de agentes incorporan una escena contextual y tres focos para consultar tarea, efectos posibles y dato por verificar. No representa lesiones, concentración ni evolución clínica.
+La cápsula M2 Salome dura77,568s; el MP4 real con subtítulos dura77,583s. Es una alternativa opcional dentro de los15min propuestos, sin acelerar la voz ni exigir escucharla para completar. El enlace al M1.4 se llama Comparar formas en el aire y conserva agente y retorno.
+Los medios comienzan manualmente, pausan al salir/cambiar de etapa/ocultar pestaña y no reinician al volver. Se conserva todo el lote12 recibido. Escucha humana/naturalidad de las nuevas voces permanece sin certificación; archivos, transcripción y fuentes tienen recepción técnica/documental.
+
+
+AMPLIACIÓN DE ESTA REVISIÓN14
+M3 y M4 muestran tres puestos distintos: patología, endoscopia y limpieza, con puntos/medidas y acercamientos. Se distingue lo observado en la escena simulada de los datos que se deben confirmar en la tarea real. Activar captación o ventilación no calcula eficacia ni elimina la fuente.
+M5 incorpora un corte funcional del medio y del sello. La atmósfera desconocida detiene las trayectorias y la exploración, en todos los medios; no equivale a recomendar una protección. M6 conserva su explorador y añade detalles de inspección con Qué revisar/Señal para detener uso, viñetas de preparación y cuidado. Ninguna ilustración acredita aptitud del equipo.
+Se añaden cuatro audios manuales con transcripción: M3 exposición52s, M4 controles63s, M5 selección54s y M6 uso/cuidado63s. Son alternativas a la lectura dentro de20/15/20/20min existentes.
+M1.5 conserva once áreas. Mantenimiento general permite consultar material fibroso o producto volátil como alternativas de la misma área, con escenas y respuestas separadas. La escena de producto volátil muestra consulta previa y envase cerrado; no composición o emisión confirmada.
+La ayuda opcional Etiqueta/FDS permite consultar cuatro símbolos oficiales por separado y las secciones2/7/8/9/10/11. Su único envase ficticio P-R01 contiene GHS07/Atención/H335; H334/GHS08 se compara fuera de esa etiqueta. Pictogramas originales SVG PubChem/NIH-NLM, crédito local assets/ghs14/PROCEDENCIA.txt.
+Servicios generales añade el MP4 real de limpieza revisión visual2, con dos incompatibilidades claramente separadas; la voz y transcripción existentes se conservan.
+La tarjeta histórica de M4 usa el relato de glutaraldehído recogido por NIOSH2001-115/citaCharney1991. Mantiene IDs, notas y exportación. Describe medidas combinadas y mejoría informada, sin atribuir causalidad aislada o reducción ambiental cuantificada; sigue como candidato para revisión. El candidato anterior se conserva en las versiones históricas.
+Todas las fuentes/medios anteriores se conservan. M1.2 continúa idéntico. No se reintentó la emulación móvil bloqueada, ni file:// o importación/exportación JSON completas. No se certifica escucha humana. Teleprompter y restricción de fechas quedan fuera.
+
+
+AMPLIACIÓN DE ESTA REVISIÓN15
+Las preguntas evaluadas de M2–M6 muestran Correcto/Incorrecto con icono y contorno de3px tras la revisión nativa. Editar, mover o restablecer retira la calificación y muestra Pendiente. Se conserva íntegro el fundamento de la actividad. La secuencia M6 se revisa como conjunto; no se inventan calificaciones por posición.
+Sello simulado, condiciones del comparador, propuesta de controles, reflexiones abiertas y cierres conservan su significado. Un supuesto desfavorable no equivale a una respuesta incorrecta y una actividad web no autoriza el uso real del equipo. El adaptador modifica presentación, sin cambiar respuestas, persistencia, reglas, certificados ni desbloqueos.
+M1.2 y todos los recursos recibidos en14 se conservan. Continúan los límites de la verificación móvil, file://, importación/exportaciónJSON y escucha humana descritos en14.
+
+M1.3 muestra sus cuatro estructuras antes del modelo; M1.4 muestra Fuente/Generación/En el aire antes de la escena. Los controles tienen14px y objetivos44px mediante estilos nuevos acotados a esas pantallas. La tarjeta de explicación de M1.4 es compacta en ventana ancha y conserva play visible, selector de audio/video y transcripción. No se modifica geometría, cámara ni fisiología, y se conserva el montaje de los modelos y medios originales.
+
+Mis herramientas incorpora Práctica opcional de60min orientativos después del taller. Sus seis bloques15/10/10/10/10/5min se consultan uno a la vez; todas las salidas son notas personales y no añaden cierres. Los13recursos conservan las guardas nativas de sus misiones. Un suplemento nuevo registra solo la página de consulta0 para conservar el mismo panel y evitar copias de sesión en pestañas separadas; los archivos originales de configuración, reglas y puente permanecen idénticos. No se copian guía de facilitación, respuestas orientadoras ni JSON privados. El tiempo es orientativo, sin ensayo grupal acreditado.
+
+Desde esos recursos, usa Volver a mi práctica para regresar al mismo bloque opcional. El parámetro rs-practice solo presenta ese enlace; no desbloquea misiones ni modifica respuestas. En M1 aparece únicamente enM1.3/M1.4/M1.5, sin espacio o enlace residual enM1.2. El historial Back del navegador con iframes tiene una limitación conocida de concesión antigua; esta revisión no altera nonce, historial, puente o reglas para corregirla.
+
+
+OPTIMIZACIÓN DE FORMATO Y PESO · REVISIÓN16
+Las siete imágenes del panel inicial se entregan en WebP sin pérdida, con dimensiones y píxeles RGB idénticos. El MP4 de apertura M1.1 conserva su nombre público,1920×1080,25fps,90.2s y2255fotogramas; se recodificó únicamente el video. Las pistasAAC y subtítulos mov_text, su duración y cronología se conservan. Transcripción, VTT y WebM permanecen iguales. Los originales se conservan en las fuentes privadas, stage15 yZIP15. No se añaden funciones ni criterios de avance.
+La secciónM1.2 y recorrido.html completos, modelos, Audio01, CT, sincronización, todos los JS/CSS/configuración/puente/reglas y los demás recursos15 permanecen idénticos. La recepción de calidad utiliza comparación de píxeles de las imágenes y fotogramas muestreados del video; no se declara escucha humana nueva ni identidad píxel a píxel del video recodificado. El ahorro real se comunica al empaquetar; no se promete una estimación.
+
+
+CAMBIOS PUNTUALES AUTORIZADOS · REVISIÓN17
+La cabecera muestra el logo Colsanitas suministrado por Carlos. El PNG original RGBA1250×704 se conserva privado; únicamente se recortaron márgenes totalmente transparentes al rectángulo(143,258,1107,445), con resultado964×187. No se regeneró, recoloreó ni reinterpretó la marca. La escala CSS usa object-fit:contain y conserva la proporción. El logo anterior y las imágenes históricas se conservan.
+La bandera explícita assets/review17-config.js establece RespiraProgressConfig.reviewNavigation=true. Permite abrir temporalmente los seis módulos desde tarjetas, navegación y enlaces directos. El texto del panel indica disponibilidad para revisión y conserva el contador real de misiones completadas. La bandera no escribe almacenamiento, no crea certificados y no modifica respuestas o evidencias. Los cierres conservan su evaluación y secuencia originales: una misión posterior puede abrirse para revisión sin que pueda certificarse fuera de orden.
+La navegación de revisión permanece abierta hasta nueva instrucción expresa de Carlos. No hay fecha ni restauración automática del bloqueo. Solo cuando se autorice, establecer reviewNavigation=false y recargar devuelve tarjetas, acceso y enlaces siguientes a su comportamiento progresivo sin transformar los datos guardados. La prueba de reversibilidad se hace únicamente en un entorno de prueba. Se conservan nonce, origen, ventana emisora y resolución autorizada de rutas. Todo el resto del trabajo permanece pausado.

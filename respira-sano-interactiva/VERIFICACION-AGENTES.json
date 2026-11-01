@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "date": "2026-10-18",
+  "browser": "Microsoft Edge headless / WebGL SwiftShader",
+  "mode": "file:// offline",
+  "checks": [
+    "anatomy starts intact",
+    "4 agents × 2 temporal views × 4 phases",
+    "agent-specific system/alveolar views",
+    "oxygen legend hidden in chemical mode",
+    "acute versus repeated evidence",
+    "notes and download",
+    "automatic sequence advances",
+    "pause freezes sequence",
+    "return to anatomy restores exchange",
+    "direct #agentes link",
+    "390px without overflow",
+    "reduced motion remains paused",
+    "chemical content works without WebGL",
+    "no remote requests"
+  ],
+  "pageErrors": [],
+  "networkRequests": []
+}

@@ -1,0 +1,32 @@
+{
+  "status": "ok",
+  "date": "2026-10-18",
+  "browser": "Microsoft Edge",
+  "mode": "file://, offline",
+  "pages": 5,
+  "checks": [
+    "all local links",
+    "9 selectable 3D structures",
+    "pause and zoom view",
+    "animation speed",
+    "6 agent forms",
+    "feedback empty/wrong/correct",
+    "3 cases × 5 clues",
+    "case notes retained",
+    "5 controls on/off",
+    "keyboard SVG hotspot",
+    "12 medium/condition combinations",
+    "unknown atmosphere blocks all media",
+    "leak toggle",
+    "4 inspection points",
+    "4 knowledge decisions",
+    "download includes cross-page notes and decisions",
+    "session notes survive navigation",
+    "375px: five pages without horizontal overflow",
+    "reduced motion",
+    "print styles",
+    "copied atlas: 18 areas"
+  ],
+  "pageErrors": [],
+  "networkRequests": []
+}

@@ -1,0 +1,9 @@
+Mateo revisa un recipiente de fijador en el laboratorio. El nombre del servicio no identifica el contaminante: necesita saber qué producto usa y qué tarea realizará.
+
+Si el fijador contiene formaldehído, abrirlo o manipular la muestra puede liberar ese agente al aire. El formaldehído es un gas que también se utiliza en soluciones acuosas. Otros componentes declarados pueden producir vapores.
+
+La etiqueta y la ficha de datos de seguridad ayudan a reconocer los peligros. El porcentaje del envase no es una medición de la concentración que respira Mateo. La duración, la cantidad abierta y la captación cambian las condiciones de exposición.
+
+La prioridad es evitar liberaciones mediante el procedimiento autorizado, recipientes cerrados y controles en la fuente que funcionen. Esos controles necesitan revisión; el dibujo no demuestra que el aire sea seguro.
+
+Ahora identifica la fuente, el momento de posible emisión y el dato que falta para evaluar la tarea.

@@ -1,0 +1,234 @@
+/* LC01 · Lectura clara de M1.1. Los medios y motores recibidos se conservan. */
+body.rg-ui { --m11-column: min(1024px, max(512px, calc((100dvh - 350px) * 1.777778))); }
+
+/* Cabecera común: controles legibles y una anchura contenida. */
+.rs-shell.rg-ui .rg-top {
+  min-height: 76px;
+  padding: 12px max(24px, calc((100% - 1120px) / 2));
+}
+.rs-shell.rg-ui .rg-product-name { font-size: 16px; }
+.rs-shell.rg-ui .rg-global-menu > summary { min-height: 48px; padding: 11px 14px; font-size: 18px; }
+.rs-shell.rg-ui .rg-global-menu nav a,
+.rs-shell.rg-ui .rg-global-menu nav button {
+  min-height: 48px;
+  font-size: 18px;
+  padding: 11px 14px;
+}
+
+/* El título se desplaza junto con el video: la altura de la ventana no lo encoge. */
+#viaje-fantastico.m11-lectura-clara > .m1-content {
+  flex: 1 1 0%;
+  min-height: 0;
+  overflow: auto;
+  padding: 24px 24px 28px;
+  scrollbar-gutter: stable both-edges;
+}
+#viaje-fantastico .m11-heading {
+  width: 100%;
+  max-width: var(--m11-column);
+  margin: 0 auto 24px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+}
+#viaje-fantastico .m11-heading .m5-screen-meta {
+  display: block;
+  margin: 0 0 12px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #43617a;
+}
+#viaje-fantastico .m11-heading .m5-screen-meta > span { color: inherit; font-weight: 600; }
+#viaje-fantastico .m11-heading h1 {
+  font-size: clamp(2rem, calc(1.5rem + 1vw), 2.5rem) !important;
+  line-height: 1.18 !important;
+  margin: 0 0 12px !important;
+  letter-spacing: -.025em;
+  color: #002f87;
+}
+#viaje-fantastico .m11-heading > p {
+  max-width: 58ch;
+  margin: 0 !important;
+  font-size: clamp(1.25rem, calc(1.1rem + .3vw), 1.375rem) !important;
+  line-height: 1.55 !important;
+  color: #264b65;
+}
+#viaje-fantastico #video-cuerpo-aire {
+  position: relative;
+  width: 100%;
+  max-width: var(--m11-column);
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent;
+}
+#viaje-fantastico #video-cuerpo-aire #pilot-video {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: none;
+  min-height: 0;
+  margin: 0;
+  border-radius: 12px;
+  background: #073b60;
+}
+#viaje-fantastico #video-cuerpo-aire .m1-vd04-captions {
+  display: block;
+  min-height: 88px;
+  margin-top: 10px;
+  padding: 14px 20px;
+  border-radius: 10px;
+}
+#viaje-fantastico #video-cuerpo-aire .m1-vd04-cue {
+  min-height: 30px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+#viaje-fantastico .m1-story-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 12px 0 20px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #43617a;
+}
+#viaje-fantastico .m1-story-meta p { margin: 0; font-size: inherit; line-height: inherit; }
+#viaje-fantastico #video-cuerpo-aire .m1-vd04-toggle {
+  min-height: 48px;
+  padding: 11px 16px;
+  font-size: 16px;
+  line-height: 1.4;
+  border-color: #9db8ca;
+  color: #073b60;
+  background: #fff;
+  white-space: normal;
+}
+#viaje-fantastico #pilot-transcript {
+  width: 100%;
+  max-width: var(--m11-column);
+  margin: 0 auto;
+  padding: 0;
+  overflow-wrap: break-word;
+  border: 1px solid #c5d5e3;
+  border-radius: 10px;
+  background: #fff;
+  font-size: 18px;
+}
+#viaje-fantastico #pilot-transcript > summary {
+  min-height: 52px;
+  padding: 13px 18px;
+  font-size: 18px !important;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #002f87;
+  cursor: pointer;
+}
+#viaje-fantastico #pilot-transcript[open] { padding-bottom: 20px; }
+#viaje-fantastico #pilot-transcript > h3,
+#viaje-fantastico #pilot-transcript > p,
+#viaje-fantastico #pilot-transcript > .m1-vd04-materials { margin-inline: 20px; }
+#viaje-fantastico #pilot-transcript > h3 { font-size: 22px; line-height: 1.4; margin-block: 20px 10px; }
+#viaje-fantastico #pilot-transcript > p { max-width: 70ch; font-size: 20px; line-height: 1.65; margin-block: 12px; }
+#viaje-fantastico #pilot-transcript .m1-vd04-materials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 24px;
+  padding-top: 12px;
+  border-top: 1px solid #d3deea;
+}
+#viaje-fantastico #pilot-transcript .m1-vd04-materials a {
+  min-height: 48px;
+  font-size: 17px;
+  line-height: 1.5;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+#viaje-fantastico .m11-sr-only {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* El selector de pasos ocupa el lugar del contador duplicado en el pie. */
+body.rg-ui:has(#viaje-fantastico.m11-lectura-clara:not([hidden])) .rg-m1-route-holder {
+  position: absolute;
+  display: block;
+  top: auto;
+  bottom: 12px;
+  right: auto;
+  left: 50%;
+  width: max-content;
+  max-width: calc(100% - 32px);
+  margin: 0;
+  padding: 0;
+  transform: translateX(-50%);
+}
+body.rg-ui:has(#viaje-fantastico.m11-lectura-clara:not([hidden])) .rg-m1-route > summary {
+  justify-content: center;
+  min-height: 52px;
+  padding: 12px 16px;
+  font-size: 17px;
+  line-height: 1.4;
+}
+body.rg-ui:has(#viaje-fantastico.m11-lectura-clara:not([hidden])) .rg-m1-route .m1-stepper {
+  top: auto;
+  bottom: 62px;
+  right: 50%;
+  max-height: calc(100dvh - 180px);
+  transform: translateX(50%);
+}
+body.rg-ui:has(#viaje-fantastico.m11-lectura-clara:not([hidden])) .rg-m1-route .m1-stepper a { font-size: 18px; }
+body.rg-ui:has(#viaje-fantastico.m11-lectura-clara:not([hidden])) .rg-m1-route .m1-stepper a b { font-size: 18px; }
+#viaje-fantastico > .m1-bottom {
+  flex-shrink: 0;
+  justify-content: space-between;
+  min-height: 76px;
+  padding: 12px max(24px, calc((100% - max(640px, var(--m11-column))) / 2));
+  background: #fff;
+}
+#viaje-fantastico > .m1-bottom .m5-stop-position { display: none; }
+#viaje-fantastico > .m1-bottom > .button {
+  min-height: 52px;
+  min-width: 140px;
+  padding: 12px 20px !important;
+  font-size: 18px !important;
+  line-height: 1.4;
+}
+
+@media (max-width: 740px) {
+  .rs-shell.rg-ui .rg-top { min-height: 72px; padding: 10px 16px; }
+  .rs-shell.rg-ui .rg-product-name { font-size: 15px; }
+}
+@media (max-width: 700px) {
+  #viaje-fantastico.m11-lectura-clara > .m1-content { padding: 22px 16px 24px; scrollbar-gutter: auto; }
+  #viaje-fantastico .m11-heading { margin-bottom: 20px; }
+  #viaje-fantastico .m11-heading .m5-screen-meta { margin-bottom: 10px; }
+  #viaje-fantastico #video-cuerpo-aire .m1-vd04-captions { padding: 12px 14px; }
+  #viaje-fantastico #video-cuerpo-aire .m1-vd04-cue { font-size: 19px; }
+  #viaje-fantastico .m1-story-meta { gap: 10px 16px; }
+  #viaje-fantastico #pilot-transcript > summary { font-size: 18px !important; padding-inline: 14px; }
+  #viaje-fantastico #pilot-transcript > h3,
+  #viaje-fantastico #pilot-transcript > p,
+  #viaje-fantastico #pilot-transcript > .m1-vd04-materials { margin-inline: 16px; }
+  #viaje-fantastico #pilot-transcript > p { font-size: 19px; }
+  #viaje-fantastico > .m1-bottom { min-height: 132px; padding: 70px 16px 12px; gap: 12px; }
+  #viaje-fantastico > .m1-bottom > .button { min-width: 112px; min-height: 48px; padding: 11px 14px !important; font-size: 17px !important; }
+  body.rg-ui:has(#viaje-fantastico.m11-lectura-clara:not([hidden])) .rg-m1-route-holder { bottom: 72px; }
+  body.rg-ui:has(#viaje-fantastico.m11-lectura-clara:not([hidden])) .rg-m1-route > summary { min-height: 48px; }
+  body.rg-ui:has(#viaje-fantastico.m11-lectura-clara:not([hidden])) .rg-m1-route .m1-stepper { bottom: 58px; }
+}

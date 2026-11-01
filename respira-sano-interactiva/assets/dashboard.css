@@ -1,0 +1,31 @@
+/* Shared module panel · uses the Keralty tokens imported by styles.css. */
+.dashboard-header{background:var(--brand-white);border-bottom:1px solid var(--brand-line)}
+.dashboard-shell{max-width:1320px;margin:auto;display:grid;grid-template-columns:210px minmax(0,1fr);align-items:center;gap:32px;padding:22px 32px}
+.dashboard-brand{display:flex;align-items:center;gap:13px;letter-spacing:-.04em;font-size:1.45rem;white-space:nowrap}
+.dashboard-brand>span{display:block;background:none;color:var(--brand-navy);width:auto;height:auto;border-radius:0;margin:0;font-size:inherit;letter-spacing:inherit}
+.dashboard-brand b{width:44px;height:44px;border-radius:14px;flex:0 0 auto;font-size:.85rem;display:grid;place-items:center;background:var(--brand-blue);color:white}
+nav.module-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:10px;max-width:850px;width:100%;padding:0;margin:0 0 0 auto}
+nav.module-grid .module-tile{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;aspect-ratio:1.08;min-width:0;padding:26px 6px 13px;border:1px solid var(--brand-line);border-radius:13px;background:var(--brand-surface);color:var(--brand-navy);text-decoration:none;text-align:center;transition:transform .18s ease,background .18s ease,border-color .18s ease,box-shadow .18s ease}
+.module-tile svg{display:block;width:28px;height:28px;flex:0 0 auto;color:var(--brand-link)}
+.module-title{font-size:.78rem;font-weight:700;line-height:1.15}
+.module-code{position:absolute;top:9px;left:10px;font-size:.56rem;letter-spacing:.055em;text-transform:uppercase;color:var(--brand-muted);line-height:1}
+.module-current{display:none;position:absolute;top:6px;right:8px;font-size:.8rem;color:var(--brand-mint)}
+nav.module-grid .module-tile:hover{background:var(--brand-soft);border-color:var(--brand-azure);transform:translateY(-3px);box-shadow:0 6px 16px #002e5812}
+nav.module-grid .module-tile[aria-current=page]{background:var(--brand-blue);color:white;border-color:var(--brand-blue);box-shadow:0 5px 14px #002f8726}
+.module-tile[aria-current=page] svg{color:var(--brand-white)}
+.module-tile[aria-current=page] .module-code{color:var(--brand-on-dark)}
+.module-tile[aria-current=page] .module-current{display:block}
+nav.module-grid .module-tile:focus-visible{outline:3px solid var(--brand-azure);outline-offset:4px;z-index:1}
+.dashboard-header .tool-navigation{max-width:1320px;padding:0 32px 16px;gap:6px}
+.dashboard-header .tool-navigation a{font-size:.76rem}
+.home-motto{font-size:clamp(1.3rem,2vw,1.8rem);color:var(--brand-link);line-height:1.3;letter-spacing:-.025em;max-width:520px;margin:0 0 20px}
+body[data-page=index] .hero h1{font-size:clamp(3.5rem,6vw,5.6rem);letter-spacing:-.06em;line-height:1.02;margin:0 0 20px}
+@media(min-width:1051px){body[data-page=index] main{padding-top:36px}}
+@media(max-width:1050px){.dashboard-shell{grid-template-columns:1fr;gap:18px;padding-top:18px;padding-bottom:20px}.dashboard-brand{font-size:1.3rem}.dashboard-brand b{width:36px;height:36px;border-radius:11px}nav.module-grid{max-width:none;margin:0;grid-template-columns:repeat(7,minmax(0,1fr))}nav.module-grid .module-tile{aspect-ratio:auto;min-height:105px}}
+@media(max-width:600px){.dashboard-shell{padding:18px;gap:18px}nav.module-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}nav.module-grid .module-tile{aspect-ratio:1.2;min-height:94px;padding:23px 5px 10px;gap:7px}.module-tile svg{width:25px;height:25px}.module-title{font-size:.76rem}.module-code{font-size:.53rem}.dashboard-header .tool-navigation{padding:0 12px 14px;gap:2px}.dashboard-header .tool-navigation a{font-size:.7rem;padding:6px 8px}body[data-page=index] .hero h1{font-size:3.5rem}.home-motto{font-size:1.35rem}}
+@media(prefers-reduced-motion:reduce){nav.module-grid .module-tile{transition:none}nav.module-grid .module-tile:hover{transform:none}}
+@media print{.dashboard-header{display:none!important}}
+
+/* Case connections */
+.case-model-links{border-top:1px solid var(--brand-line);margin-top:20px;padding-top:18px}.case-model-links p{font-size:.85rem}.case-model-links .actions{gap:8px;margin:14px 0 0}.case-model-links .button{font-size:.78rem;padding:8px 11px}.chemical-controls .case-return{margin:14px 0 5px}.chemical-controls .case-return .button{font-size:.75rem;padding:7px 10px;color:var(--brand-white);border-color:var(--brand-sky)}#formas{scroll-margin-top:20px}
+

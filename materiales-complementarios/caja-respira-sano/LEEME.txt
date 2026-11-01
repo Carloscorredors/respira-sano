@@ -1,0 +1,39 @@
+RESPIRA SANO — CAJA DE HERRAMIENTAS · v1.0
+Base educativa para el sector salud. Preparada el 18 de octubre de 2026.
+
+INICIO
+1. Extraer TODO el archivo ZIP en una carpeta.
+2. Abrir index.html en un navegador actualizado de escritorio.
+3. Mantener las páginas y la carpeta assets juntas.
+No necesita instalación, servidor, inicio de sesión ni conexión para las actividades.
+Los enlaces de fuentes requieren conexión.
+
+CONTENIDO
+index.html: atlas filtrable de 18 áreas y escenarios; exportación CSV.
+micromundos.html: 5 casos simulados, 10 decisiones y retroalimentación; exportación CSV.
+lista-chequeo.html: 15 criterios, observaciones y exportación/importación JSON o exportación CSV.
+leer-fds.html: guía editable de lectura de FDS, con exportación/importación JSON y CSV.
+guia-rapida.html: guía imprimible; el navegador permite guardar como PDF.
+fuentes.html: alcance, criterios de adaptación y 26 fuentes técnicas.
+analisis-areas.csv: copia tabular completa del mapa para edición.
+
+REGISTROS
+Los datos escritos no se envían a un servidor. Se mantienen en memoria mientras
+la página permanece abierta. Descargar el JSON antes de recargar, cerrar o
+cambiar de página. En lista de chequeo y FDS, usar 'Recuperar un registro' para
+continuar. CSV permite llevar la información a una hoja de cálculo.
+Las decisiones de micromundos se registran al pulsar 'Revisar decisión'.
+No se guardan automáticamente respuestas ni se comparan participantes.
+
+FACILITACIÓN
+El facilitador puede compartir pantalla y enviar el ZIP a los participantes.
+Las cinco misiones son una muestra pedagógica, no un curso completo de dos horas.
+No hay videos en esta versión. Una fase posterior puede incorporar videos locales
+y ampliar cada micromundo. No hay ranking ni pizarra colaborativa centralizada.
+
+BASE TÉCNICA
+Los productos son ejemplos por confirmar. No constituyen el inventario de una
+institución. La caja no calcula concentraciones, riesgo higiénico ni cartuchos.
+Validar productos, FDS, procesos y controles con los responsables de la institución.
+Las fuentes estadounidenses se usan como respaldo técnico, no como legislación
+colombiana. No se suministran instrucciones de dilución ni reprocesamiento.

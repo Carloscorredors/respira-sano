@@ -1,0 +1,135 @@
+/* Navegación clara · 30 octubre 2026. Solo presentación; conserva rutas y motores. */
+
+/* Shell común: los controles siguen la misma columna central de la actividad. */
+.rs-shell .rs-app-toolbar {
+  padding: 8px max(24px, calc((100% - 1440px) / 2));
+  gap: 16px;
+}
+.rs-shell .rs-app-toolbar button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 10px 18px;
+  border: 1px solid #6e9fbd;
+  border-radius: 10px;
+  background: #fff;
+  color: #073c64;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 650;
+  white-space: nowrap;
+}
+.rs-shell .rs-app-toolbar > span { font-size: 15px; }
+.rs-shell .rs-app-toolbar button:hover { background: #e7f4fb; border-color: #0069b4; }
+.rs-shell .rs-app-toolbar button:focus-visible { outline: 3px solid #007d9b; outline-offset: 3px; }
+
+/* Las siete etapas permanecen en una sola fila y conservan sus enlaces. */
+.m1-wizard .m1-stepper { padding: 6px max(24px, calc((100% - 1440px) / 2)); }
+.m1-wizard .m1-stepper ol { width: 100%; max-width: 1000px; gap: 8px; justify-content: center; }
+.m1-wizard .m1-stepper li { flex: 1 1 0; min-width: 0; }
+.m1-wizard .m1-stepper a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 46px;
+  padding: 4px 8px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  font-size: 15px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.m1-wizard .m1-stepper a b { display: block; font-weight: 650; }
+.m1-wizard .m1-stepper a span {
+  flex: 0 0 34px;
+  width: 34px;
+  height: 34px;
+  border-color: #81abc5;
+  font-size: 16px;
+  font-weight: 650;
+}
+.m1-wizard .m1-stepper a:hover { background: #edf7fd; border-color: #8bbad7; }
+.m1-wizard .m1-stepper a[aria-current="step"] {
+  color: #004c9f;
+  border-color: #0068bf;
+  background: #e5f3ff;
+}
+.m1-wizard .m1-stepper a[aria-current="step"] span { background: #0067c7; color: #fff; border-color: #0067c7; }
+.m1-wizard .m1-stepper a:focus-visible { outline: 3px solid #007d9b; outline-offset: 2px; }
+
+/* Pie de M1: botones visibles, alineados con la actividad. */
+.m1-wizard .m1-screen > .m1-bottom {
+  padding: 8px max(24px, calc((100% - 1440px) / 2));
+  gap: 12px;
+  min-height: 65px;
+}
+.m1-wizard .m1-bottom > .button,
+.m1-wizard .m1-bottom > button,
+.m1-wizard .m1-bottom .m5-final-controls > * {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  min-width: 122px;
+  padding: 10px 18px !important;
+  border-radius: 10px;
+  font-size: 16px !important;
+  line-height: 1.25;
+  font-weight: 650;
+}
+.m1-wizard .m1-bottom > .secondary,
+.m1-wizard .m1-bottom > .button.secondary {
+  background: #fff;
+  color: #074b78;
+  border: 1px solid #5b90b2;
+}
+.m1-wizard .m1-bottom [data-m5-next],
+.m1-wizard .m1-bottom #m5-close-next,
+.m1-wizard .m1-bottom [data-mission-next] {
+  background: #0067bd;
+  color: #fff;
+  border: 1px solid #0067bd;
+}
+.m1-wizard .m1-bottom [data-m5-next]:hover,
+.m1-wizard .m1-bottom #m5-close-next:hover,
+.m1-wizard .m1-bottom [data-mission-next]:hover { background: #005299; border-color: #005299; }
+.m1-wizard .m1-bottom .m5-stop-position { font-size: 13px; }
+
+/* M1.2: ampliación moderada, con el panel y el audio lateral existentes. */
+#m1-explora .m12p-layout {
+  max-width: 1440px;
+  grid-template-columns: minmax(0, 1.75fr) minmax(0, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 850px) {
+  .m1-wizard .m1-stepper { padding-inline: 14px; }
+  .m1-wizard .m1-stepper ol { gap: 4px; }
+  .m1-wizard .m1-stepper a { padding-inline: 6px; }
+  #m1-explora .m12p-layout { grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 13px; }
+}
+@media (max-width: 700px) {
+  .m1-wizard .m1-stepper { padding: 5px 12px; }
+  .m1-wizard .m1-stepper a { min-height: 44px; padding: 4px; gap: 0; }
+  .m1-wizard .m1-stepper a b { display: none; }
+  .m1-wizard .m1-stepper a span { width: 32px; height: 32px; flex-basis: 32px; }
+  .m1-wizard .m1-screen > .m1-bottom { padding: 8px 12px; gap: 8px; }
+  .m1-wizard .m1-bottom > .button,
+  .m1-wizard .m1-bottom > button,
+  .m1-wizard .m1-bottom .m5-final-controls > * { min-width: 112px; padding: 10px 12px !important; max-width: 100%; }
+  .m1-wizard .m1-bottom .m5-stop-position { font-size: 12px; }
+  .m1-wizard .m1-bottom .m5-final-controls { min-width: 0; max-width: calc(100% - 120px); }
+  #m1-explora .m12p-layout { display: flex; gap: 12px; }
+}
+@media (max-width: 600px) {
+  .rs-shell .rs-app-toolbar { padding: 7px 12px; gap: 8px; }
+  .rs-shell .rs-app-toolbar > span { display: none; }
+  .rs-shell .rs-app-toolbar button { min-height: 48px; padding: 10px 14px; font-size: 15px; }
+}
+@media (max-width: 360px) {
+  .m1-wizard .m1-stepper { padding-inline: 6px; }
+  .m1-wizard .m1-stepper ol { gap: 0; }
+  .m1-wizard .m1-bottom > .m5-stop-position { display: none; }
+}

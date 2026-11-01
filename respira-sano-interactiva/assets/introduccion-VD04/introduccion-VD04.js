@@ -1,0 +1,20 @@
+"use strict";
+(()=>{
+ const video=document.getElementById('pilot-video'),out=document.getElementById('m1-story-cue'),button=document.getElementById('m1-story-caption-toggle');
+ if(!video||!out||!button||!video.addTextTrack||typeof VTTCue==='undefined')return;
+ const cues=[{"start":0.51,"end":3.14,"text":"Comienza una nueva jornada en el centro de salud."},{"start":3.95,"end":6.04,"text":"Camila prepara su área de atención,"},{"start":6.51,"end":8.605,"text":"Elena organiza los elementos de limpieza"},{"start":8.63,"end":10.32,"text":"y Mateo revisa el laboratorio."},{"start":11.11,"end":13.32,"text":"Hoy vas a acompañarlos en Respira Sano."},{"start":14.13,"end":18.3,"text":"A lo largo de seis misiones reconocerás qué sustancias pueden llegar al aire,"},{"start":18.89,"end":23.76,"text":"investigarás la exposición y aprenderás a tomar decisiones para proteger tu respiración."},{"start":24.55,"end":26.865,"text":"La primera misión nos lleva al área de Camila."},{"start":26.89,"end":30.7,"text":"Su primera tarea nos dará una pista para comenzar."},{"start":32.398,"end":36.498,"text":"Antes de limpiar un equipo, Camila revisa la información del producto."},{"start":37.438,"end":39.838,"text":"Aquí aparece una advertencia por inhalación."},{"start":40.718,"end":43.358,"text":"Necesito entender qué significa para esta tarea."},{"start":44.238,"end":47.558,"text":"Si una sustancia de este producto llega al aire y la respiramos,"},{"start":47.838,"end":49.518,"text":"¿por dónde entra y qué puede producir?"},{"start":50.358,"end":53.293,"text":"Al inhalar, el aire entra por la nariz o la boca"},{"start":53.318,"end":56.158,"text":"y recorre las vías respiratorias hasta los pulmones."},{"start":57.058,"end":61.953,"text":"Si transporta sustancias químicas, su comportamiento dependerá de sus propiedades"},{"start":61.978,"end":63.818,"text":"y de las condiciones de exposición."},{"start":64.578,"end":67.858,"text":"Algunas sustancias pueden irritar las vías respiratorias."},{"start":68.778,"end":72.178,"text":"Otras pueden alcanzar zonas más profundas o absorberse."},{"start":72.958,"end":77.013,"text":"Los posibles efectos dependen del agente, de la cantidad inhalada"},{"start":77.038,"end":78.638,"text":"y del tiempo de exposición."},{"start":79.398,"end":84.318,"text":"Entonces, empecemos por comprender cómo respiramos y qué puede acompañar al aire."},{"start":85.218,"end":89.673,"text":"En esta actividad reconocerás las principales estructuras del sistema respiratorio"},{"start":89.698,"end":94.113,"text":"y relacionarás las sustancias presentes en una tarea con su ingreso por inhalación"},{"start":94.138,"end":96.258,"text":"y sus posibles efectos en la salud."}];
+ // Cues incorporados: funcionan también sin peticiones VTT desde file://.
+ for(const existing of Array.from(video.textTracks))existing.mode='disabled';
+ const track=video.addTextTrack('captions','Español','es');
+ for(const cue of cues)track.addCue(new VTTCue(cue.start,cue.end,cue.text));
+ let enabled=true,nativeFullscreen=false;
+ function fullscreen(){const root=document.fullscreenElement;return nativeFullscreen||root===video||Boolean(root&&root.contains(video));}
+ function update(){const active=track.activeCues;out.textContent=!enabled?'Subtítulos desactivados.':active&&active.length?Array.from(active,c=>c.text).join(' '):video.ended?'Fin de la introducción.':video.currentTime===0?'Pulsa Reproducir para comenzar.':'…';}
+ function mode(){track.mode=enabled?(fullscreen()?'showing':'hidden'):'disabled';update();}
+ button.addEventListener('click',()=>{enabled=!enabled;button.setAttribute('aria-pressed',String(enabled));button.textContent='Subtítulos: '+(enabled?'activados':'desactivados');mode();});
+ track.addEventListener('cuechange',update);video.addEventListener('seeked',update);video.addEventListener('ended',update);video.addEventListener('loadedmetadata',mode);
+ document.addEventListener('fullscreenchange',mode);
+ video.addEventListener('webkitbeginfullscreen',()=>{nativeFullscreen=true;mode();});
+ video.addEventListener('webkitendfullscreen',()=>{nativeFullscreen=false;mode();});
+ mode();
+})();

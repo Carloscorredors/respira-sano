@@ -1,0 +1,128 @@
+{
+  "status": "ok",
+  "date": "2026-10-18",
+  "mode": "file:// offline",
+  "videos": [
+    {
+      "id": "gases-vapores",
+      "file": "gases-vapores.html",
+      "duration": 37.966667,
+      "width": 1280,
+      "height": 720,
+      "paused": true,
+      "autoplay": false,
+      "controls": true,
+      "tracks": 1,
+      "cues": 4,
+      "mp4_sha256": "6ac4b4b6be13403e466935ac0386972f3d9183e578ffd127d3a92ac9e2fccc37",
+      "webm_sha256": "dfd58c3842b7acc6fcdfda1eebc620426bdfb1e6836d09a47ab1aabf5944ab6f",
+      "mp4_mtime_utc": "2026-10-18T16:52:13+00:00"
+    },
+    {
+      "id": "investiga",
+      "file": "hospital.html",
+      "duration": 37.95,
+      "width": 1280,
+      "height": 720,
+      "paused": true,
+      "autoplay": false,
+      "controls": true,
+      "tracks": 1,
+      "cues": 4,
+      "mp4_sha256": "3bcf9abef22d0448fc8c963dba67e21dba03fc177eca94279bb38d467c18a040",
+      "webm_sha256": "2169a211dbd5ac249af6c7a4acf71325b4352c1dbcf77d0161a277b04332e4cc",
+      "mp4_mtime_utc": "2026-10-18T17:00:58+00:00"
+    },
+    {
+      "id": "proteccion",
+      "file": "respiradores.html",
+      "duration": 37.966992,
+      "width": 1280,
+      "height": 720,
+      "paused": true,
+      "autoplay": false,
+      "controls": true,
+      "tracks": 1,
+      "cues": 4,
+      "mp4_sha256": "5466163551751d85cb5ba73f197592b59f2b8675e6ac1af5f1b384b519a1b30a",
+      "webm_sha256": "149859440d822e5f679d9567556be0cd31fde5366e6399e25422c0424c612c97",
+      "mp4_mtime_utc": "2026-10-18T16:53:32+00:00"
+    }
+  ],
+  "checks": [
+    "3 actual MP4 videos 30–45 seconds",
+    "controls and no autoplay",
+    "playback clock advances",
+    "4 local caption cues per video and active cue visible",
+    "4 decoded frames sampled per clip",
+    "4-part accessible transcript per clip",
+    "Gases start leads to introduction without autoplay",
+    "Investiga CTA selects existing Mateo case",
+    "Protection inspection and use sequence retained",
+    "390px without horizontal overflow",
+    "no JavaScript errors or remote requests"
+  ],
+  "pageErrors": [],
+  "visual_review": {
+    "status": "reviewed",
+    "at_utc": "2026-10-18T17:16:20+00:00",
+    "samples_seconds": [
+      2,
+      12,
+      23,
+      33
+    ],
+    "files": [
+      {
+        "path": "work/qa-videos-modulos/gases-vapores-2s.png",
+        "sha256": "dbaf3cd465754886bc0307cc2af7dcb54222fdc7a5107a2ddcbdf204aa5a4293"
+      },
+      {
+        "path": "work/qa-videos-modulos/gases-vapores-12s.png",
+        "sha256": "009a5da0cae5721e04073a888fc3d5b90a949852c7b67c32919b269c63c8981d"
+      },
+      {
+        "path": "work/qa-videos-modulos/gases-vapores-23s.png",
+        "sha256": "fadb93e92834f9d299cea22b99f59b5f56db7ec463b1434adfe0bf01b12dbaee"
+      },
+      {
+        "path": "work/qa-videos-modulos/gases-vapores-33s.png",
+        "sha256": "d3e41fa7e988cff7817032c50fabc61cece9286814d32d0f00af71079e2d5040"
+      },
+      {
+        "path": "work/qa-videos-modulos/investiga-2s.png",
+        "sha256": "17c8cb75c3feef301895e395217a9f1310e230a79e4cf8448108d0120f3bbdb8"
+      },
+      {
+        "path": "work/qa-videos-modulos/investiga-12s.png",
+        "sha256": "ed93f4d33fd037a19e666b253b03244f9c5d46c33d69df28c6a542a12f246cdf"
+      },
+      {
+        "path": "work/qa-videos-modulos/investiga-23s.png",
+        "sha256": "bc30c4de1923288f2aa2fb81b1572019cd55f16e857d3b9b3ef7daa713996b80"
+      },
+      {
+        "path": "work/qa-videos-modulos/investiga-33s.png",
+        "sha256": "7880b42411149959cfb1a5d1a355dfd69435d970e89b9c7134fdc652669d9b52"
+      },
+      {
+        "path": "work/qa-videos-modulos/proteccion-2s.png",
+        "sha256": "fc216c24c57b7a51a7d4479706e67cdb9c360f413107dade50ba967ae748e493"
+      },
+      {
+        "path": "work/qa-videos-modulos/proteccion-12s.png",
+        "sha256": "eab99e06a8521474adef030464b6a3f2b202bc63e73ad143b523afc8746bc4e2"
+      },
+      {
+        "path": "work/qa-videos-modulos/proteccion-23s.png",
+        "sha256": "a4b7b19276f400fc77356dde1d60dc4f5967af8b144c90dc2a618e547b85ae22"
+      },
+      {
+        "path": "work/qa-videos-modulos/proteccion-33s.png",
+        "sha256": "8cd58c254e7a05e55ad60767ba94ade89d24fa7e6fc99d13745d01f130d0831f"
+      }
+    ],
+    "notes": "Se revisaron cuatro cuadros por clip y el encuadre actualizado de Investiga: sin recortes del texto principal o de la tarjeta. Recursos secundarios de interfaz no sustituyen la lectura interactiva de los módulos.",
+    "content_limits": "Historias simuladas existentes, sin medición, lesión inevitable ni selección de equipo en atmósfera desconocida."
+  }
+}

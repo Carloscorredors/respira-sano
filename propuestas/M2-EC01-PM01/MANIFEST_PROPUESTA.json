@@ -1,0 +1,22 @@
+{
+  "assets/m2-modelos-RM02/index.html": {
+    "sha256": "134224f9ef67365becc9c640dfdddc3877588f44d03217b532e46a5ae3bff0a7",
+    "bytes": 2617
+  },
+  "assets/m2-modelos-RM02/laboratorio.bundle.js": {
+    "sha256": "ef55bc35fddf38b54d5fdd9de1567be0a13254fc262bab1c4daf13b45a779f1a",
+    "bytes": 3097307
+  },
+  "assets/m2-modelos-RM02/laboratorio.css": {
+    "sha256": "e1a8b94a69468975a546ff9d28d5f767e283ff65bcbecbb8a3dd184859c804e9",
+    "bytes": 4896
+  },
+  "assets/m2-modelos-RM02/m2-modelos-launcher.js": {
+    "sha256": "18db4e5c5f1ef44d19ee34990225e72ec75c14ecf29615118be59f6ee88edae1",
+    "bytes": 3056
+  },
+  "gases-vapores.html": {
+    "sha256": "787cdda45170f843614b4430b3898196a0564d9ad4d8b254d9ded7e2d6f151ed",
+    "bytes": 27583
+  }
+}

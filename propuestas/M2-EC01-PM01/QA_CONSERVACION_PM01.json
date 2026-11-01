@@ -1,0 +1,23 @@
+{
+  "version": "PM01",
+  "passed": true,
+  "copy_files": 390,
+  "copy_modified": [
+    "assets/m2-modelos-RM02/index.html",
+    "assets/m2-modelos-RM02/laboratorio.bundle.js",
+    "assets/m2-modelos-RM02/m2-modelos-launcher.js",
+    "gases-vapores.html"
+  ],
+  "copy_unchanged_since_EC01": 386,
+  "copy_missing": [],
+  "copy_added": [],
+  "main_application_files": 390,
+  "main_application_unchanged": true,
+  "M12_and_protected_files_changed": [],
+  "M1_source_geometry_unchanged": true,
+  "copied_constructor_body_identical": true,
+  "M2_activity_HTML_unchanged_except_loader_version": true,
+  "copy_continuity_passed": true,
+  "copy_inventory_failures": [],
+  "client_accepted": false
+}

@@ -1,0 +1,101 @@
+{
+  "revision": "17",
+  "at_utc": "2026-10-19T14:35:50.661623+00:00",
+  "status": "received-for-Carlos-testing",
+  "scope": "Only supplied Colsanitas header mark and explicit reversible navigation-only review flag; all other work paused.",
+  "baseline16_sha256": "d29d5943081d5cc6c2d16ff250b1123cd0cde6a8af97a75322eb6ce90d14c392",
+  "frozen_manifest_sha256": "2cdf033d27d57820ba1f08a1227479cca28754d2d96692569b4c99bc76d0e5a2",
+  "changed_existing": [
+    "LEEME.txt",
+    "assets/progress-bridge.js",
+    "assets/progress-shell.js",
+    "index.html"
+  ],
+  "new_runtime_files": [
+    "assets/branding17.css",
+    "assets/colsanitas-logo17.png",
+    "assets/review17-config.js"
+  ],
+  "preserved_existing_files": 258,
+  "logo": {
+    "original_private": "work/revision17-review/logo-colsanitas-original-suministrado.png",
+    "original_sha256": "8593eb64e9c99bff6cc62499a1498da68820f318494bffdbc3a508e67956879d",
+    "mode": "RGBA",
+    "original_size": [
+      1250,
+      704
+    ],
+    "alpha_bbox": [
+      143,
+      258,
+      1107,
+      445
+    ],
+    "crop_size": [
+      964,
+      187
+    ],
+    "process": "Pillow crop at alpha bounding box; original RGBA samples inside bbox preserved; PNG lossless; no recolor/AI/rescale",
+    "runtime_sha256": "000a4c1ec102aa208fbe8b3db49278d20feba7b19186ec3931c5144db75751c7"
+  },
+  "review_flag": {
+    "file": "assets/review17-config.js",
+    "property": "RespiraProgressConfig.reviewNavigation",
+    "enabled": true,
+    "automatic_expiry": false,
+    "disable_only_on_human_instruction": true
+  },
+  "protection": {
+    "M12_and_all_recorrido_content_unchanged": true,
+    "all_models_Audio01_media_CT_content_assets_unchanged": true,
+    "base_rules_configuration_and_sequential_closure_unchanged": true,
+    "previous_files_preserved_identical": 258,
+    "nonce_origin_source_route_guards_retained": true,
+    "review_navigation_enabled_no_automatic_expiry": true
+  },
+  "course_proposed_minutes": 120,
+  "optional_extension_minutes": 60,
+  "ui_sources_receipt_sha256": "28b7aad5e3d326e815d8d8efca7d2f37a86dc4914d080951f19eb23b134a9378",
+  "checks": {
+    "exact_four_existing_changes": true,
+    "exact_three_new_files": true,
+    "no_removals": true,
+    "265_preview_files": true,
+    "258_prior_files_identical": true,
+    "recorrido_entirely_unchanged": true,
+    "rules_and_original_config_unchanged": true,
+    "audio01_and_model_dependencies_unchanged": true,
+    "logo_exact_transparent_margin_crop": true,
+    "logo964x187_rgba": true,
+    "flag_true_and_no_storage": true,
+    "shell_message_guard_preserved": true,
+    "bridge_message_guard_preserved": true,
+    "commit_calls_original_rules": true,
+    "revision16_archive_preserved": true,
+    "frozen_manifest_exact": true,
+    "all265_runtime_match_frozen": true,
+    "all7_sources_match_both_producer_receipts": true,
+    "six_missions_loaded_by_coordinator": true,
+    "M3_M4_M5_M6_next_links_loaded": true,
+    "M6_reload_and_direct_route_loaded": true,
+    "real_progress_1_of6_retained": true,
+    "CPU41_directed_checks_received_with_provenance": true,
+    "producer6_UI_checks_received_with_provenance": true,
+    "documentation_matches_two_authorized_changes": true,
+    "other_fronts_remain_paused": true
+  },
+  "directed_DOM_checks": 41,
+  "directed_DOM_receipt_sha256": "a3afdc52fdc0c2e4211503f09a99457f5c3ea3850b23dac6d7a01942965fc21c",
+  "human_listening_accepted": false,
+  "mobile390_ui_verified": false,
+  "limits": [
+    "Review navigation remains enabled until a new express human instruction; no expiry or automatic relocking.",
+    "Opening a mission does not certify it. Sequential evaluation/commit and real completion counts remain unchanged.",
+    "Logo crop removes only fully transparent margins; supplied original is retained privately.",
+    "Coordinator UI covers six cards, next links, direct route/reload and unchanged historical completion count. Producer home/logo observations and isolated41checks are attributed separately.",
+    "No model, Audio01, synchronization, CT, teaching content or historical-image changes.",
+    "Only ordinary viewport UI; previously rejected mobile/file/import tests were not retried.",
+    "BrowserBack limitation from earlier deliveries remains unchanged.",
+    "All other fronts, agents, image/audio generation and automation remain paused."
+  ]
+}

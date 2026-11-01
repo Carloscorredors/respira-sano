@@ -1,0 +1,70 @@
+{
+  "status": "ok",
+  "date": "2026-10-18",
+  "mode": "HTTP local",
+  "model": "212addc22db34a329ec279d3e1a29665",
+  "checks": [
+    "Cuatro anotaciones nativas creadas en puntos de superficie verificados; no usan coordenadas fijas de pantalla.",
+    "Giro30° y acercamiento mantienen puntos sobre visor/cuerpo/medio/anclaje.",
+    "Mostrar/Ocultar y selección de la leyenda operan por teclado con aria-pressed.",
+    "Selección del anclaje4 desde el menú nativo sincroniza Anclajes y su pregunta; mantiene la vista del usuario.",
+    "Recorrido completo conserva selección sincronizada en leyenda; no se interrumpe por las selecciones de programa.",
+    "Carga inicial sin solicitudes externas ni iframe antes de activación.",
+    "Móvil390px: cuatro anclajes mundiales permanecen sobre el conjunto, leyenda legible y sin desbordamiento horizontal.",
+    "Con movimiento reducido, la fase de válvulas no ejecuta animación CSS; selección y apertura/cierre por teclado, foco en título y retorno al botón.",
+    "Pérdida de conexión elimina el iframe y conserva rótulos locales; llamada SVG4 se selecciona con Enter y sincroniza pregunta.",
+    "Válvulas: Inhalación/Exhalación cambian trayecto y membranas del esquema; texto y fuente distinguen diseño conceptual del modelo artístico.",
+    "Pit stop: ida y regreso conservan nota de prueba, medio y condición desconocida; se pausa el recorrido.",
+    "Rótulos locales móviles: números grandes asociados a la leyenda accesible, sin texto diminuto sobre el dibujo.",
+    "Ocultar rótulos: leyenda cerrada, aria-pressed=false y cuatro marcadores ausentes en la captura final, con modelo y crédito visibles.",
+    "Última carga sin errores de consola."
+  ],
+  "screenshots": [
+    "rotulos-frontal-final.png",
+    "rotulos-giro-final.png",
+    "rotulos-zoom-final.png",
+    "rotulos-ocultos.png",
+    "rotulos-movil.png",
+    "rotulos-local-movil-diagrama-final.png",
+    "valvulas-local-inhalacion.png",
+    "valvulas-local-exhalacion.png"
+  ],
+  "limits": [
+    "Carga externa desde file:// no comprobada: el navegador de pruebas bloquea esa navegación.",
+    "Anotaciones propias durante la sesión del visor; no se redistribuye geometría de terceros.",
+    "Válvulas internas no identificadas en el modelo artístico; se explica un diseño conceptual aparte."
+  ],
+  "world_anchor_count": 4,
+  "native_animation_count": 0,
+  "capture_note": "Se excluyeron tomas con franja transitoria del iframe durante desplazamiento. Las vistas finales frontal/giro/zoom se revisaron completas con cámara detenida; el detalle de válvulas se captura junto al esquema local.",
+  "native_selection_test": "Selección por menú nativo de anotaciones y por leyenda; puntos renderizados comprobados en tres vistas de cámara. El clic por coordenadas sobre iframe no se utilizó por una limitación de inspección de la herramienta.",
+  "sources": [
+    "https://sketchfab.com/developers/viewer/functions",
+    "https://www.cdc.gov/niosh/ppe/respirators/elastomeric.html",
+    "https://multimedia.3m.com/mws/media/95995O/3m-full-facepiece-respirator-6000-series-user-instructions.pdf"
+  ],
+  "idempotence": "passed",
+  "html_pages": 13,
+  "local_links_and_ids": "passed",
+  "previous_package": "Respira-Sano-modelos-3D-full-face.zip",
+  "previous_package_sha256": "2d52ff6216b5b72db249995226e4c79aad65a9abbe425b25b2590c95fd4cb978",
+  "changed_existing_files": [
+    "LEEME.txt",
+    "assets/fullface-inspection.js",
+    "respiradores.html"
+  ],
+  "preserved_assets_by_sha256": 55,
+  "all_six_videos_covers_captions_app_and_ct_preserved": true,
+  "stories_six_modules_120_proposed_minutes_18_points_preserved": true,
+  "visual_review": "passed",
+  "visual_evidence_sha256": {
+    "rotulos-frontal-final.png": "fbdc4309d48a0ff35bacf94352eb954623039fd2cdaaaaea1f8300f29f28b998",
+    "rotulos-giro-final.png": "2d933a48a31c5f0e93768bac84b9b0aad948895ac61e36084e9c59290c663a96",
+    "rotulos-zoom-final.png": "c6e8474c032515ef8a6306486d8087cef7727f31f4fe74266d982e099385e91b",
+    "rotulos-ocultos.png": "a50c4d337185693f551256853bd8df757843df3d5213fd1d1e27a2295534a886",
+    "rotulos-movil.png": "c7cf0d253e45f02e9e38b2d8c33f8f236f8958b9fee03c0f6e36840ac6150788",
+    "rotulos-local-movil-diagrama-final.png": "fa70572a9d7a00639cc1189312ee05882281eecddbba983c95ea342fa48aeabd",
+    "valvulas-local-inhalacion.png": "940cff8a4ebf854e0cea24f44565809eb6a42d65a96e5abaf5d6fe647462ad12",
+    "valvulas-local-exhalacion.png": "14e4467dbc4820262f562d703755871131e794d34bb62a12d846fc7d1dbe7bbe"
+  }
+}

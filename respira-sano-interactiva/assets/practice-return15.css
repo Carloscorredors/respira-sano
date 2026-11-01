@@ -1,0 +1,7 @@
+/* Only owned nodes/classes; no global layout or M1.2 selectors. */
+.rs15-practice-return{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:9px 14px;border:1px solid #72a2b7;border-radius:9px;background:#fff;color:#07556f;font:650 14px/1.35 'Segoe UI',Arial,sans-serif;text-decoration:none;text-align:center;box-sizing:border-box}
+.rs15-practice-return:hover{background:#dff0f6;color:#123f59;border-color:#477f99}.rs15-practice-return:active{background:#c7e3ee;color:#123b53}.rs15-practice-return:focus-visible{outline:3px solid #ad720c;outline-offset:3px}
+.rs15-practice-band{position:sticky;top:8px;z-index:30;display:flex;align-items:center;justify-content:space-between;gap:12px;box-sizing:border-box;max-width:100%;padding:7px 12px;margin:0 0 14px;background:#f3fafc;border:1px solid #a7c7d7;border-radius:11px;box-shadow:0 5px 16px #16466014}
+.rs15-practice-context{color:#365f77;font:600 14px/1.4 'Segoe UI',Arial,sans-serif}.rs15-practice-footer{flex-wrap:wrap}.rs15-practice-foot-link{display:flex;justify-content:flex-end;align-items:center;margin-left:auto;flex:0 1 auto}
+@media(max-width:640px){.rs15-practice-band{padding:7px 9px;gap:7px;top:5px}.rs15-practice-context{font-size:14px;max-width:45%}.rs15-practice-return{font-size:14px;min-height:44px;padding:9px 11px}.rs15-practice-foot-link{flex-basis:100%;justify-content:center;margin-left:0}.rs15-practice-foot-link .rs15-practice-return{width:100%}}
+@media print{.rs15-practice-band,.rs15-practice-foot-link{display:none!important}}

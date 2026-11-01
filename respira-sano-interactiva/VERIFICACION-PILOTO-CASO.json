@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "date": "2026-10-18",
+  "mode": "file:// offline",
+  "video": {
+    "duration": 37.958333,
+    "width": 1280,
+    "height": 720,
+    "controls": true,
+    "autoplay": false,
+    "paused": true
+  },
+  "textTrack": {
+    "tracks": 1,
+    "label": "Español",
+    "cues": 4
+  },
+  "checks": [
+    "real 30–45 second video decodes and plays offline",
+    "MP4 1280x720 with controls and no autoplay",
+    "story then video then model",
+    "four decoded-frame screenshots reviewed separately",
+    "four-section transcript and normal-function limitation",
+    "390px video without overflow",
+    "external case marked candidate and not institutional incident",
+    "four evaluations and variable results stated",
+    "1997 abstract and peer-review limitation explicit",
+    "two questions saved in exported notebook",
+    "case at 390 and 1440",
+    "canonical change-schedules URL",
+    "no page errors or remote requests"
+  ],
+  "pageErrors": []
+}

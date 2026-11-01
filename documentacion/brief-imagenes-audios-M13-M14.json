@@ -1,0 +1,637 @@
+{
+  "schema_version": "1.0",
+  "title": "Adenda: producción de imágenes y fragmentos de audio para actual M1.4 / futuro M1.3",
+  "created_utc": "2026-10-19T09:15:58.094323+00:00",
+  "authority": "Nueva instrucción expresa de Carlos recibida por Auditar: sustituir modelos básicos por imágenes que expliquen fuente, generación/liberación y peligro. Investigación y brief únicamente; producción será delegada después.",
+  "base_research": {
+    "path": "INVESTIGACION_M13_M14_v1.json",
+    "sha256": "85fb9fa6223774d20ac7e8d4faa7e4e2b3ff0bf83a03fc248fb4433973e4a384",
+    "preserved": true
+  },
+  "status": "Brief entregado; siete imágenes y siete fragmentos de audio propuestos. Cero medios generados o integrados.",
+  "image_generation_authorized_here": false,
+  "audio_generation_authorized_here": false,
+  "application_changes_authorized_here": false,
+  "scene_count": 7,
+  "main_process_scenes": 6,
+  "comparison_scenes": 1,
+  "production_contract": {
+    "destination": "El coordinador asignará al chat audiovisual una carpeta nueva y separada; estos nombres son candidatos, no archivos existentes.",
+    "replace_scope": "Reemplazo visual previsto de los modelos básicos del actual M1.4/futuro M1.3. No elimina modelos todavía. El modelo alveolar del futuro M1.4 se conserva.",
+    "style": "Serie coherente de ilustración editorial realista de alta calidad, detalle y volumen; personas adultas latinoamericanas de edades diversas. No presentarlas como fotografías de Keralty ni casos reales.",
+    "composition": "Tríptico comprensible al seleccionar una forma: fuente → proceso conceptual → posible efecto condicionado. Separación visual clara del recuadro anatómico respecto de la persona.",
+    "responsive": "Preferir tres paneles separables o recortables desde una composición maestra. Confirmar dimensiones con integración antes de producir variantes. Una sola escena seleccionada por vez.",
+    "html_text": "Sin párrafos, nombres, fórmulas, logos ni pictogramas SGA inventados dentro de las imágenes. Títulos, etiquetas, flechas semánticas, transcripción y advertencia conceptual se integran como HTML accesible después.",
+    "process_symbols": "Las moléculas/partículas se muestran solo en una ampliación didáctica. Colores y tamaños son convenciones, sin escala ni densidad representativa.",
+    "health_symbols": "Representar órgano diana o contacto conceptual. No lesión clínica fotográfica, diagnóstico, persona enferma, certeza de daño ni secuencia inevitable.",
+    "source_content": "Cada fuente respalda las afirmaciones concretas indicadas. La escena laboral es propuesta editorial condicionada, no registro de una sede.",
+    "voices": "Alternar femenina/masculina por cápsula: F, M, F, M, F, M, F. Locución en español colombiano, sin usar la voz personal de Carlos.",
+    "playback": "Propuesta para integración posterior: reproducción manual, pausa al salir, un solo medio activo, transcripción coincidente. No bloquear avance por escuchar todas las cápsulas.",
+    "duration": "Fragmentos breves; duración real se registrará al generar. La suma de toda la galería no se asigna como escucha obligatoria ni cambia aquí tiempos de la capacitación.",
+    "supplied_labels_status": "Propuesta editorial revisada con fuentes; pendiente aceptación de Carlos/institución. No afirmar aprobación clínica o de cliente."
+  },
+  "scenes": [
+    {
+      "id": "m13-gas-incompatibilidad",
+      "order": 1,
+      "title": "Gas: una reacción puede liberarlo",
+      "category": "Escena principal",
+      "task_area": "Servicios generales / limpieza",
+      "person_representation": "Mujer de aproximadamente 52 años, piel morena, cabello recogido y uniforme antifluido verde petróleo; sin bata. En actitud de consulta, no mezclando.",
+      "technical_content": {
+        "source_or_task": "Consulta de dos productos de limpieza cerrados y sus incompatibilidades.",
+        "generation_or_release": "Contacto incompatible de hipoclorito con un ácido puede liberar cloro. Se enseña la advertencia, sin ejecutar el contacto.",
+        "airborne_form": "Gas cloro como ejemplo condicionado.",
+        "possible_effect": "Irritación y posible lesión de vías respiratorias por cloro; no todo gas produce este efecto.",
+        "condition": "Solo si las formulaciones y la incompatibilidad corresponden. No afirmar que el hipoclorito emita cloro en cualquier uso.",
+        "source_ids": [
+          "S12",
+          "S13",
+          "S11"
+        ]
+      },
+      "image_brief": {
+        "candidate_filename": "m13-gas-incompatibilidad.webp",
+        "file_exists": false,
+        "composition": "Tríptico horizontal continuo: fuente → generación/liberación → posible efecto. Etiquetas y flechas semánticas se incorporarán en HTML, fuera del bitmap.",
+        "panels": [
+          "Fuente: dos envases genéricos cerrados, separados, ficha consultada por la trabajadora. Sin marcas ni pictogramas inventados.",
+          "Generación: una tarjeta conceptual de incompatibilidad y una ampliación con símbolos moleculares, separados de los envases. No mostrar vertido ni recipiente común.",
+          "Posible efecto: pequeño esquema independiente de vías respiratorias, resaltado de contacto/irritación sin tejido destruido. Persona sana, sin gestos de intoxicación."
+        ],
+        "avoid": [
+          "No mezclar, verter o indicar proporciones.",
+          "No nube verde visible alrededor de la trabajadora.",
+          "No identificar gas por olor, color o un pictograma aislado.",
+          "No incluir cloraminas en la misma nube ni llamarlas cloramida."
+        ],
+        "accessible_alt_proposed": "Escena didáctica: Consulta de dos productos de limpieza cerrados y sus incompatibilidades. Contacto incompatible de hipoclorito con un ácido puede liberar cloro. Se enseña la advertencia, sin ejecutar el contacto. El recuadro anatómico ilustra irritación y posible lesión de vías respiratorias por cloro; no todo gas produce este efecto. No representa exposición medida ni diagnóstico."
+      },
+      "minimal_html_text": {
+        "title": "Gas: una reacción puede liberarlo",
+        "three_labels": [
+          "Productos e incompatibilidad",
+          "Gas por reacción",
+          "Posible lesión respiratoria"
+        ],
+        "caption": "Caso condicionado al producto o proceso real. Ampliación conceptual; sin escala, dosis o concentración."
+      },
+      "audio_brief": {
+        "candidate_filename": "m13-gas-incompatibilidad.mp3",
+        "file_exists": false,
+        "voice": "Femenina",
+        "accent": "Español de Colombia, natural, claro, empático y técnico.",
+        "script": "En limpieza, un contacto incompatible entre hipoclorito y un producto ácido puede liberar cloro. La imagen explica la advertencia: no muestra una mezcla para realizar. El cloro puede irritar y lesionar las vías respiratorias. Confirma los productos y sus incompatibilidades; no identifiques el peligro solo por el olor.",
+        "transcript": "En limpieza, un contacto incompatible entre hipoclorito y un producto ácido puede liberar cloro. La imagen explica la advertencia: no muestra una mezcla para realizar. El cloro puede irritar y lesionar las vías respiratorias. Confirma los productos y sus incompatibilidades; no identifiques el peligro solo por el olor.",
+        "word_count": 48,
+        "technical_status": "Revisado técnicamente para la condición expresada, con las fuentes indicadas. Pendiente de aceptación editorial e institucional; no aprobado como protocolo.",
+        "media_status": "Guion propuesto. No hay audio generado.",
+        "production_notes": "Sin música que compita con la explicación; pausas naturales entre las tres ideas. No añadir dosis, nombres comerciales o efectos fuera del guion."
+      },
+      "source_links": [
+        {
+          "id": "S12",
+          "title": "CDC MMWR — Chlorine Gas Toxicity from Mixture of Bleach",
+          "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00015111.htm"
+        },
+        {
+          "id": "S13",
+          "title": "ATSDR — Chlorine, Medical Management Guidelines",
+          "url": "https://wwwn.cdc.gov/TSP/MMG/MMGDetails.aspx?mmgid=198&toxid=36"
+        },
+        {
+          "id": "S11",
+          "title": "OSHA/NIOSH — Protecting Workers Who Use Cleaning Chemicals",
+          "url": "https://www.cdc.gov/niosh/docs/2012-126/pdfs/2012-126.pdf"
+        }
+      ],
+      "acceptance_specific": [
+        "Se conserva la condición del producto/tarea en texto y audio.",
+        "El efecto aparece como concepto independiente de la persona, sin síntomas dramatizados.",
+        "La imagen no permite deducir emisión, concentración o eficacia de controles reales."
+      ]
+    },
+    {
+      "id": "m13-vapor-disolvente",
+      "order": 2,
+      "title": "Vapor: el líquido puede evaporarse",
+      "category": "Escena principal",
+      "task_area": "Patología / histología, solo si utiliza el producto",
+      "person_representation": "Hombre de aproximadamente 45 años, piel trigueña, cabello con algunas canas, bata clara sobre uniforme vino tinto; único personaje principal con bata en la serie.",
+      "technical_content": {
+        "source_or_task": "Puesto de histología con disolvente declarado como xileno en la FDS; trabajador consulta la información, sin ejecutar una técnica clínica.",
+        "generation_or_release": "Evaporación desde una superficie líquida expuesta, representada en un recorte conceptual.",
+        "airborne_form": "Vapor de disolvente; no gotas.",
+        "possible_effect": "Xileno puede causar irritación y efectos neurológicos, como mareo o somnolencia, según exposición.",
+        "condition": "El ejemplo exige xileno declarado en el producto real; la FDS de la mezcla prevalece sobre una ficha de sustancia.",
+        "source_ids": [
+          "S18",
+          "S01"
+        ]
+      },
+      "image_brief": {
+        "candidate_filename": "m13-vapor-disolvente.webp",
+        "file_exists": false,
+        "composition": "Tríptico horizontal continuo: fuente → generación/liberación → posible efecto. Etiquetas y flechas semánticas se incorporarán en HTML, fuera del bitmap.",
+        "panels": [
+          "Fuente: recipiente y estación de trabajo realistas, información de producto en mano. Mesa ordenada sin publicidad institucional.",
+          "Generación: recorte ampliado de una interfaz líquido/aire con pocos símbolos moleculares que pasan a fase gaseosa; señal de ampliación conceptual.",
+          "Posible efecto: esquema discreto de vías de contacto y cerebro, sin representar paso universal o exacto. No colorear una nube en toda la sala."
+        ],
+        "avoid": [
+          "No gotas visibles rotuladas como vapor.",
+          "No presentar a la persona mareada o enferma.",
+          "No sugerir que todo vapor tiene el efecto del xileno.",
+          "No convertir la escena en instrucción de uso, trasvase o preparación."
+        ],
+        "accessible_alt_proposed": "Escena didáctica: Puesto de histología con disolvente declarado como xileno en la FDS; trabajador consulta la información, sin ejecutar una técnica clínica. Evaporación desde una superficie líquida expuesta, representada en un recorte conceptual. El recuadro anatómico ilustra xileno puede causar irritación y efectos neurológicos, como mareo o somnolencia, según exposición. No representa exposición medida ni diagnóstico."
+      },
+      "minimal_html_text": {
+        "title": "Vapor: el líquido puede evaporarse",
+        "three_labels": [
+          "Disolvente declarado",
+          "Evaporación",
+          "Irritación y efecto sistémico posible"
+        ],
+        "caption": "Caso condicionado al producto o proceso real. Ampliación conceptual; sin escala, dosis o concentración."
+      },
+      "audio_brief": {
+        "candidate_filename": "m13-vapor-disolvente.mp3",
+        "file_exists": false,
+        "voice": "Masculina",
+        "accent": "Español de Colombia, natural, claro, empático y técnico.",
+        "script": "Un disolvente líquido puede evaporarse y acompañar al aire como vapor. Aquí el ejemplo es xileno, únicamente si lo declara la ficha del producto. Además de irritar, puede afectar el sistema nervioso y causar mareo o somnolencia según la exposición. Las gotas suspendidas serían otra forma: niebla.",
+        "transcript": "Un disolvente líquido puede evaporarse y acompañar al aire como vapor. Aquí el ejemplo es xileno, únicamente si lo declara la ficha del producto. Además de irritar, puede afectar el sistema nervioso y causar mareo o somnolencia según la exposición. Las gotas suspendidas serían otra forma: niebla.",
+        "word_count": 47,
+        "technical_status": "Revisado técnicamente para la condición expresada, con las fuentes indicadas. Pendiente de aceptación editorial e institucional; no aprobado como protocolo.",
+        "media_status": "Guion propuesto. No hay audio generado.",
+        "production_notes": "Sin música que compita con la explicación; pausas naturales entre las tres ideas. No añadir dosis, nombres comerciales o efectos fuera del guion."
+      },
+      "source_links": [
+        {
+          "id": "S18",
+          "title": "NIOSH Pocket Guide — o-Xylene",
+          "url": "https://www.cdc.gov/niosh/npg/npgd0668.html"
+        },
+        {
+          "id": "S01",
+          "title": "OSHA 3143 — Industrial Hygiene",
+          "url": "https://www.osha.gov/publications/OSHA3143"
+        }
+      ],
+      "acceptance_specific": [
+        "Se conserva la condición del producto/tarea en texto y audio.",
+        "El efecto aparece como concepto independiente de la persona, sin síntomas dramatizados.",
+        "La imagen no permite deducir emisión, concentración o eficacia de controles reales."
+      ]
+    },
+    {
+      "id": "m13-polvo-material",
+      "order": 3,
+      "title": "Polvo: una tarea libera partículas",
+      "category": "Escena principal",
+      "task_area": "Mantenimiento general en infraestructura sanitaria",
+      "person_representation": "Mujer de aproximadamente 58 años, piel clara, cabello gris recogido, ropa de trabajo gris y naranja; sin bata. Consulta inventario/material antes de la intervención.",
+      "technical_content": {
+        "source_or_task": "Intervención prevista de material de obra o infraestructura; sílice solo si su composición la incluye.",
+        "generation_or_release": "La fragmentación puede generar polvo que se suspenda; el recorte mecánico es conceptual, sin operadora ejecutando el trabajo.",
+        "airborne_form": "Partículas sólidas; fracción respirable del agente solo cuando corresponde.",
+        "possible_effect": "Polvo con sílice cristalina respirable puede causar silicosis y otros daños graves; no es el efecto de todo polvo.",
+        "condition": "Confirmar material, composición, tarea y exposición. No diagnosticar sílice o asbesto por apariencia.",
+        "source_ids": [
+          "S20",
+          "S19",
+          "S01"
+        ]
+      },
+      "image_brief": {
+        "candidate_filename": "m13-polvo-material.webp",
+        "file_exists": false,
+        "composition": "Tríptico horizontal continuo: fuente → generación/liberación → posible efecto. Etiquetas y flechas semánticas se incorporarán en HTML, fuera del bitmap.",
+        "panels": [
+          "Fuente: área de intervención de infraestructura detenida y delimitada, profesional revisando ficha del material.",
+          "Generación: ampliación separada de fragmentación de sólido, fragmentos pequeños y trayecto conceptual hacia aire. Sin nubes invadiendo un área clínica.",
+          "Posible efecto: silueta pulmonar independiente con icono de advertencia de daño a largo plazo, sin nódulos o fibrosis fotorrealistas."
+        ],
+        "avoid": [
+          "No mostrar herramienta activa cerca de pacientes.",
+          "No afirmar sílice/asbesto por color o textura.",
+          "No indicar tamaños o fracciones universales.",
+          "No animar todas las partículas entrando en sangre."
+        ],
+        "accessible_alt_proposed": "Escena didáctica: Intervención prevista de material de obra o infraestructura; sílice solo si su composición la incluye. La fragmentación puede generar polvo que se suspenda; el recorte mecánico es conceptual, sin operadora ejecutando el trabajo. El recuadro anatómico ilustra polvo con sílice cristalina respirable puede causar silicosis y otros daños graves; no es el efecto de todo polvo. No representa exposición medida ni diagnóstico."
+      },
+      "minimal_html_text": {
+        "title": "Polvo: una tarea libera partículas",
+        "three_labels": [
+          "Material por confirmar",
+          "Fragmentación o resuspensión",
+          "Daño según composición"
+        ],
+        "caption": "Caso condicionado al producto o proceso real. Ampliación conceptual; sin escala, dosis o concentración."
+      },
+      "audio_brief": {
+        "candidate_filename": "m13-polvo-material.mp3",
+        "file_exists": false,
+        "voice": "Femenina",
+        "accent": "Español de Colombia, natural, claro, empático y técnico.",
+        "script": "Una intervención puede liberar polvo del material trabajado. Para conocer su peligro, primero confirma la composición. Si contiene sílice cristalina respirable, la exposición puede causar silicosis y otros daños graves. No todo polvo es sílice, y el tamaño visible no permite saber qué parte puede penetrar en el sistema respiratorio.",
+        "transcript": "Una intervención puede liberar polvo del material trabajado. Para conocer su peligro, primero confirma la composición. Si contiene sílice cristalina respirable, la exposición puede causar silicosis y otros daños graves. No todo polvo es sílice, y el tamaño visible no permite saber qué parte puede penetrar en el sistema respiratorio.",
+        "word_count": 50,
+        "technical_status": "Revisado técnicamente para la condición expresada, con las fuentes indicadas. Pendiente de aceptación editorial e institucional; no aprobado como protocolo.",
+        "media_status": "Guion propuesto. No hay audio generado.",
+        "production_notes": "Sin música que compita con la explicación; pausas naturales entre las tres ideas. No añadir dosis, nombres comerciales o efectos fuera del guion."
+      },
+      "source_links": [
+        {
+          "id": "S20",
+          "title": "NIOSH — Silica and Worker Health",
+          "url": "https://www.cdc.gov/niosh/silica/about/index.html"
+        },
+        {
+          "id": "S19",
+          "title": "EPA — Protect Your Family from Exposures to Asbestos",
+          "url": "https://www.epa.gov/asbestos/protect-your-family-exposures-asbestos"
+        },
+        {
+          "id": "S01",
+          "title": "OSHA 3143 — Industrial Hygiene",
+          "url": "https://www.osha.gov/publications/OSHA3143"
+        }
+      ],
+      "acceptance_specific": [
+        "Se conserva la condición del producto/tarea en texto y audio.",
+        "El efecto aparece como concepto independiente de la persona, sin síntomas dramatizados.",
+        "La imagen no permite deducir emisión, concentración o eficacia de controles reales."
+      ]
+    },
+    {
+      "id": "m13-niebla-gotas",
+      "order": 4,
+      "title": "Niebla: gotas suspendidas",
+      "category": "Escena principal",
+      "task_area": "Servicios generales / limpieza",
+      "person_representation": "Hombre de aproximadamente 29 años, piel negra, uniforme antifluido azul oscuro, sin bata. Revisa el método autorizado; no pulveriza el área.",
+      "technical_content": {
+        "source_or_task": "Producto de limpieza con isopropanol declarado; considerar niebla solo si el método real genera gotas.",
+        "generation_or_release": "Dispersión de líquido en gotas representada mediante esquema de atomización aislado de la tarea clínica.",
+        "airborne_form": "Gotas líquidas suspendidas; puede coexistir evaporación, pero se explica por separado.",
+        "possible_effect": "Isopropanol puede irritar ojos, nariz y garganta; la composición completa determina otros peligros.",
+        "condition": "No promover atomización ni sustituir el método institucional. Producto y aplicación requieren confirmación.",
+        "source_ids": [
+          "S06",
+          "S11",
+          "S02"
+        ]
+      },
+      "image_brief": {
+        "candidate_filename": "m13-niebla-gotas.webp",
+        "file_exists": false,
+        "composition": "Tríptico horizontal continuo: fuente → generación/liberación → posible efecto. Etiquetas y flechas semánticas se incorporarán en HTML, fuera del bitmap.",
+        "panels": [
+          "Fuente: trabajador y producto genérico cerrado con procedimiento de limpieza, sin disparador accionado.",
+          "Generación: recorte conceptual muestra líquido dividido en gotas con superficie definida; no humo ni moléculas sueltas.",
+          "Posible efecto: pequeño esquema de mucosas/vías superiores, resalte suave de contacto. No signos clínicos en la persona."
+        ],
+        "avoid": [
+          "No presentar pulverización como método recomendado.",
+          "No llamar gas a la gota.",
+          "No usar el mismo símbolo de molécula para gotas y vapor.",
+          "No atribuir intoxicación a todo producto de limpieza."
+        ],
+        "accessible_alt_proposed": "Escena didáctica: Producto de limpieza con isopropanol declarado; considerar niebla solo si el método real genera gotas. Dispersión de líquido en gotas representada mediante esquema de atomización aislado de la tarea clínica. El recuadro anatómico ilustra isopropanol puede irritar ojos, nariz y garganta; la composición completa determina otros peligros. No representa exposición medida ni diagnóstico."
+      },
+      "minimal_html_text": {
+        "title": "Niebla: gotas suspendidas",
+        "three_labels": [
+          "Producto y método",
+          "Gotas suspendidas",
+          "Irritación posible"
+        ],
+        "caption": "Caso condicionado al producto o proceso real. Ampliación conceptual; sin escala, dosis o concentración."
+      },
+      "audio_brief": {
+        "candidate_filename": "m13-niebla-gotas.mp3",
+        "file_exists": false,
+        "voice": "Masculina",
+        "accent": "Español de Colombia, natural, claro, empático y técnico.",
+        "script": "Si un método dispersa líquido en gotas suspendidas, hablamos de niebla. No es lo mismo que vapor. En un producto que contenga isopropanol, el contacto puede irritar ojos, nariz y garganta. Este dibujo explica la forma en el aire; no recomienda pulverizar. Confirma el producto y el método autorizado.",
+        "transcript": "Si un método dispersa líquido en gotas suspendidas, hablamos de niebla. No es lo mismo que vapor. En un producto que contenga isopropanol, el contacto puede irritar ojos, nariz y garganta. Este dibujo explica la forma en el aire; no recomienda pulverizar. Confirma el producto y el método autorizado.",
+        "word_count": 49,
+        "technical_status": "Revisado técnicamente para la condición expresada, con las fuentes indicadas. Pendiente de aceptación editorial e institucional; no aprobado como protocolo.",
+        "media_status": "Guion propuesto. No hay audio generado.",
+        "production_notes": "Sin música que compita con la explicación; pausas naturales entre las tres ideas. No añadir dosis, nombres comerciales o efectos fuera del guion."
+      },
+      "source_links": [
+        {
+          "id": "S06",
+          "title": "NIOSH Pocket Guide — Isopropyl alcohol",
+          "url": "https://www.cdc.gov/niosh/npg/npgd0359.html"
+        },
+        {
+          "id": "S11",
+          "title": "OSHA/NIOSH — Protecting Workers Who Use Cleaning Chemicals",
+          "url": "https://www.cdc.gov/niosh/docs/2012-126/pdfs/2012-126.pdf"
+        },
+        {
+          "id": "S02",
+          "title": "NIOSH — Aerosols in the Workplace",
+          "url": "https://www.cdc.gov/niosh/aerosols/about/"
+        }
+      ],
+      "acceptance_specific": [
+        "Se conserva la condición del producto/tarea en texto y audio.",
+        "El efecto aparece como concepto independiente de la persona, sin síntomas dramatizados.",
+        "La imagen no permite deducir emisión, concentración o eficacia de controles reales."
+      ]
+    },
+    {
+      "id": "m13-humo-condensacion",
+      "order": 5,
+      "title": "Humo de condensación: partículas de un proceso térmico",
+      "category": "Escena principal",
+      "task_area": "Mantenimiento general: ampliación condicionada a trabajo en caliente real",
+      "person_representation": "Mujer de aproximadamente 40 años, piel trigueña, ropa técnica oscura con detalles mostaza, cabello recogido; revisa la orden de trabajo, lejos de una demostración activa. Sin bata.",
+      "technical_content": {
+        "source_or_task": "Trabajo térmico sobre metal solo si existe y está autorizado. Óxido de zinc únicamente si el material/proceso lo genera.",
+        "generation_or_release": "Material vaporizado que se enfría forma partículas sólidas; el efecto se condiciona al componente.",
+        "airborne_form": "Humo de condensación: aerosol de partículas sólidas.",
+        "possible_effect": "El humo de óxido de zinc puede causar fiebre de humos metálicos y síntomas respiratorios.",
+        "condition": "Es ampliación de mantenimiento, no tarea rutinaria que se atribuya al personal clínico. No todos los humos contienen zinc.",
+        "source_ids": [
+          "S01",
+          "S23"
+        ]
+      },
+      "image_brief": {
+        "candidate_filename": "m13-humo-condensacion.webp",
+        "file_exists": false,
+        "composition": "Tríptico horizontal continuo: fuente → generación/liberación → posible efecto. Etiquetas y flechas semánticas se incorporarán en HTML, fuera del bitmap.",
+        "panels": [
+          "Fuente: estación técnica detenida con orden de trabajo y pieza metálica; contexto de mantenimiento del centro, fuera del área asistencial.",
+          "Generación: recorte conceptual de tres estados: calentamiento, material vaporizado, partículas al enfriarse. Sin parámetros, chispas espectaculares o receta.",
+          "Posible efecto: tarjeta con símbolo respiratorio y termómetro conceptual, sin persona febril ni anatomía lesionada."
+        ],
+        "avoid": [
+          "No humo metálico presentado como un gas puro.",
+          "No inferir componente químico solo por ver soldadura.",
+          "No extrapolar fiebre de humos metálicos al humo quirúrgico.",
+          "No convertir la imagen en guía de trabajos en caliente o de EPR."
+        ],
+        "accessible_alt_proposed": "Escena didáctica: Trabajo térmico sobre metal solo si existe y está autorizado. Óxido de zinc únicamente si el material/proceso lo genera. Material vaporizado que se enfría forma partículas sólidas; el efecto se condiciona al componente. El recuadro anatómico ilustra el humo de óxido de zinc puede causar fiebre de humos metálicos y síntomas respiratorios. No representa exposición medida ni diagnóstico."
+      },
+      "minimal_html_text": {
+        "title": "Humo de condensación: partículas de un proceso térmico",
+        "three_labels": [
+          "Proceso térmico condicionado",
+          "Condensación en partículas",
+          "Efecto según componente"
+        ],
+        "caption": "Caso condicionado al producto o proceso real. Ampliación conceptual; sin escala, dosis o concentración."
+      },
+      "audio_brief": {
+        "candidate_filename": "m13-humo-condensacion.mp3",
+        "file_exists": false,
+        "voice": "Femenina",
+        "accent": "Español de Colombia, natural, claro, empático y técnico.",
+        "script": "Algunos procesos térmicos vaporizan material que, al enfriarse, forma partículas sólidas: humo de condensación. El peligro depende de sus componentes. Por ejemplo, el humo de óxido de zinc puede causar fiebre de humos metálicos y síntomas respiratorios. Este caso solo aplica si el material y el trabajo realmente corresponden.",
+        "transcript": "Algunos procesos térmicos vaporizan material que, al enfriarse, forma partículas sólidas: humo de condensación. El peligro depende de sus componentes. Por ejemplo, el humo de óxido de zinc puede causar fiebre de humos metálicos y síntomas respiratorios. Este caso solo aplica si el material y el trabajo realmente corresponden.",
+        "word_count": 49,
+        "technical_status": "Revisado técnicamente para la condición expresada, con las fuentes indicadas. Pendiente de aceptación editorial e institucional; no aprobado como protocolo.",
+        "media_status": "Guion propuesto. No hay audio generado.",
+        "production_notes": "Sin música que compita con la explicación; pausas naturales entre las tres ideas. No añadir dosis, nombres comerciales o efectos fuera del guion."
+      },
+      "source_links": [
+        {
+          "id": "S01",
+          "title": "OSHA 3143 — Industrial Hygiene",
+          "url": "https://www.osha.gov/publications/OSHA3143"
+        },
+        {
+          "id": "S23",
+          "title": "NIOSH Pocket Guide — Zinc oxide",
+          "url": "https://www.cdc.gov/niosh/npg/npgd0675.html"
+        }
+      ],
+      "acceptance_specific": [
+        "Se conserva la condición del producto/tarea en texto y audio.",
+        "El efecto aparece como concepto independiente de la persona, sin síntomas dramatizados.",
+        "La imagen no permite deducir emisión, concentración o eficacia de controles reales."
+      ]
+    },
+    {
+      "id": "m13-humo-quirurgico",
+      "order": 6,
+      "title": "Humo quirúrgico: una mezcla del proceso",
+      "category": "Escena principal",
+      "task_area": "Quirófano",
+      "person_representation": "Hombre de aproximadamente 56 años, instrumentador o profesional de enfermería con canas visibles en sienes, uniforme quirúrgico verde, gorro; sin bata de laboratorio. Sin rostro de paciente reconocible.",
+      "technical_content": {
+        "source_or_task": "Uso de láser o electrocirugía sobre tejido cuando forma parte del procedimiento.",
+        "generation_or_release": "La acción térmica sobre tejido puede generar humo quirúrgico de composición variable.",
+        "airborne_form": "Mezcla que puede incluir partículas, gases y vapores; no una sustancia única.",
+        "possible_effect": "Posible irritación ocular y de vías respiratorias; no diagnostica enfermedad individual ni atribuye un efecto crónico único a toda mezcla.",
+        "condition": "Confirmar procedimiento, equipo y composición esperable; no representar el humo como si siempre fuera visible.",
+        "source_ids": [
+          "S15",
+          "S02"
+        ]
+      },
+      "image_brief": {
+        "candidate_filename": "m13-humo-quirurgico.webp",
+        "file_exists": false,
+        "composition": "Tríptico horizontal continuo: fuente → generación/liberación → posible efecto. Etiquetas y flechas semánticas se incorporarán en HTML, fuera del bitmap.",
+        "panels": [
+          "Fuente: contexto quirúrgico ilustrado sin cirugía explícita; detalle del equipo y su punto de trabajo en esquema, con profesional en contexto.",
+          "Generación: recorte conceptual no gráfico de energía sobre tejido y una ampliación con partículas y símbolos gaseosos diferenciados.",
+          "Posible efecto: pequeño esquema ocular/respiratorio de irritación; no cáncer, infección, sangrado o lesiones clínicas renderizadas."
+        ],
+        "avoid": [
+          "No lista universal de componentes en cada procedimiento.",
+          "No nube visible obligatoria o nube única tóxica verde.",
+          "No paciente identificable ni tejido cruento.",
+          "No promesa de enfermedad o eficacia de un control por la imagen."
+        ],
+        "accessible_alt_proposed": "Escena didáctica: Uso de láser o electrocirugía sobre tejido cuando forma parte del procedimiento. La acción térmica sobre tejido puede generar humo quirúrgico de composición variable. El recuadro anatómico ilustra posible irritación ocular y de vías respiratorias; no diagnostica enfermedad individual ni atribuye un efecto crónico único a toda mezcla. No representa exposición medida ni diagnóstico."
+      },
+      "minimal_html_text": {
+        "title": "Humo quirúrgico: una mezcla del proceso",
+        "three_labels": [
+          "Láser o electrocirugía",
+          "Mezcla de emisiones",
+          "Irritación posible"
+        ],
+        "caption": "Caso condicionado al producto o proceso real. Ampliación conceptual; sin escala, dosis o concentración."
+      },
+      "audio_brief": {
+        "candidate_filename": "m13-humo-quirurgico.mp3",
+        "file_exists": false,
+        "voice": "Masculina",
+        "accent": "Español de Colombia, natural, claro, empático y técnico.",
+        "script": "En procedimientos con láser o electrocirugía, la acción térmica sobre el tejido puede producir humo quirúrgico. Es una mezcla variable que puede incluir partículas, gases y vapores. Puede irritar ojos y vías respiratorias. La imagen amplía componentes para explicarlos; no representa lo que siempre se ve ni una enfermedad diagnosticada.",
+        "transcript": "En procedimientos con láser o electrocirugía, la acción térmica sobre el tejido puede producir humo quirúrgico. Es una mezcla variable que puede incluir partículas, gases y vapores. Puede irritar ojos y vías respiratorias. La imagen amplía componentes para explicarlos; no representa lo que siempre se ve ni una enfermedad diagnosticada.",
+        "word_count": 50,
+        "technical_status": "Revisado técnicamente para la condición expresada, con las fuentes indicadas. Pendiente de aceptación editorial e institucional; no aprobado como protocolo.",
+        "media_status": "Guion propuesto. No hay audio generado.",
+        "production_notes": "Sin música que compita con la explicación; pausas naturales entre las tres ideas. No añadir dosis, nombres comerciales o efectos fuera del guion."
+      },
+      "source_links": [
+        {
+          "id": "S15",
+          "title": "OSHA — Hospitals, Surgical Suite, Smoke Plume",
+          "url": "https://www.osha.gov/etools/hospitals/surgical-suite/smoke-plume"
+        },
+        {
+          "id": "S02",
+          "title": "NIOSH — Aerosols in the Workplace",
+          "url": "https://www.cdc.gov/niosh/aerosols/about/"
+        }
+      ],
+      "acceptance_specific": [
+        "Se conserva la condición del producto/tarea en texto y audio.",
+        "El efecto aparece como concepto independiente de la persona, sin síntomas dramatizados.",
+        "La imagen no permite deducir emisión, concentración o eficacia de controles reales."
+      ]
+    },
+    {
+      "id": "m13-aerosol-comparacion",
+      "order": 7,
+      "title": "Aerosol: partículas o gotas en el aire",
+      "category": "Comparación de cierre; no octava sustancia",
+      "task_area": "Comparación didáctica transversal",
+      "person_representation": "Pequeñas referencias a las mismas personas y escenas previas, sin nuevos personajes clínicos, sin bata añadida y sin atribuirles síntomas.",
+      "technical_content": {
+        "source_or_task": "Comparación de polvo, niebla y humo previamente explicados, con categoría gaseosa separada.",
+        "generation_or_release": "Agrupación conceptual según la fase de lo suspendido; no un nuevo proceso único.",
+        "airborne_form": "Aerosol agrupa partículas sólidas o gotas. Gas y vapor son fase gaseosa.",
+        "possible_effect": "No hay un efecto único del aerosol; depende de composición y condiciones. Referir a los efectos específicos de escenas previas.",
+        "condition": "No sumar aerosol como sexta forma excluyente ni equiparar aerosol químico con infección.",
+        "source_ids": [
+          "S02"
+        ]
+      },
+      "image_brief": {
+        "candidate_filename": "m13-aerosol-comparacion.webp",
+        "file_exists": false,
+        "composition": "Tríptico horizontal continuo: fuente → generación/liberación → posible efecto. Etiquetas y flechas semánticas se incorporarán en HTML, fuera del bitmap.",
+        "panels": [
+          "Fuente: tres miniaturas coherentes de escenas previas: polvo, niebla y humo, sin nuevos agentes.",
+          "Generación: marco común de aerosol para partículas/gotas y grupo separado de gas/vapor; dejar espacios para etiquetas HTML.",
+          "Posible efecto: tres iconos de consulta conectados a composición/FDS, evitando un pulmón lesionado universal."
+        ],
+        "avoid": [
+          "No nube única que convierta gas o vapor en aerosol.",
+          "No virus como símbolo genérico de todo aerosol.",
+          "No un efecto de salud universal del grupo.",
+          "No textos o fórmulas extensas dentro del bitmap."
+        ],
+        "accessible_alt_proposed": "Escena didáctica: Comparación de polvo, niebla y humo previamente explicados, con categoría gaseosa separada. Agrupación conceptual según la fase de lo suspendido; no un nuevo proceso único. El recuadro anatómico ilustra no hay un efecto único del aerosol; depende de composición y condiciones. referir a los efectos específicos de escenas previas. No representa exposición medida ni diagnóstico."
+      },
+      "minimal_html_text": {
+        "title": "Aerosol: partículas o gotas en el aire",
+        "three_labels": [
+          "Partículas sólidas",
+          "Gotas líquidas",
+          "Confirma composición y peligro"
+        ],
+        "caption": "Caso condicionado al producto o proceso real. Ampliación conceptual; sin escala, dosis o concentración."
+      },
+      "audio_brief": {
+        "candidate_filename": "m13-aerosol-comparacion.mp3",
+        "file_exists": false,
+        "voice": "Femenina",
+        "accent": "Español de Colombia, natural, claro, empático y técnico.",
+        "script": "Aerosol es una categoría: partículas sólidas o gotas suspendidas en aire. Por eso, polvo, niebla y humo pueden formar parte de ella. Gas y vapor pertenecen a la fase gaseosa. La palabra aerosol no identifica por sí sola el daño: para eso necesitas conocer la composición y las condiciones de exposición.",
+        "transcript": "Aerosol es una categoría: partículas sólidas o gotas suspendidas en aire. Por eso, polvo, niebla y humo pueden formar parte de ella. Gas y vapor pertenecen a la fase gaseosa. La palabra aerosol no identifica por sí sola el daño: para eso necesitas conocer la composición y las condiciones de exposición.",
+        "word_count": 51,
+        "technical_status": "Revisado técnicamente para la condición expresada, con las fuentes indicadas. Pendiente de aceptación editorial e institucional; no aprobado como protocolo.",
+        "media_status": "Guion propuesto. No hay audio generado.",
+        "production_notes": "Sin música que compita con la explicación; pausas naturales entre las tres ideas. No añadir dosis, nombres comerciales o efectos fuera del guion."
+      },
+      "source_links": [
+        {
+          "id": "S02",
+          "title": "NIOSH — Aerosols in the Workplace",
+          "url": "https://www.cdc.gov/niosh/aerosols/about/"
+        }
+      ],
+      "acceptance_specific": [
+        "Se conserva la condición del producto/tarea en texto y audio.",
+        "El efecto aparece como concepto independiente de la persona, sin síntomas dramatizados.",
+        "La imagen no permite deducir emisión, concentración o eficacia de controles reales."
+      ]
+    }
+  ],
+  "voice_manifest": [
+    {
+      "scene": "m13-gas-incompatibilidad",
+      "order": 1,
+      "voice": "Femenina",
+      "word_count": 48,
+      "status": "Guion; audio no generado"
+    },
+    {
+      "scene": "m13-vapor-disolvente",
+      "order": 2,
+      "voice": "Masculina",
+      "word_count": 47,
+      "status": "Guion; audio no generado"
+    },
+    {
+      "scene": "m13-polvo-material",
+      "order": 3,
+      "voice": "Femenina",
+      "word_count": 50,
+      "status": "Guion; audio no generado"
+    },
+    {
+      "scene": "m13-niebla-gotas",
+      "order": 4,
+      "voice": "Masculina",
+      "word_count": 49,
+      "status": "Guion; audio no generado"
+    },
+    {
+      "scene": "m13-humo-condensacion",
+      "order": 5,
+      "voice": "Femenina",
+      "word_count": 49,
+      "status": "Guion; audio no generado"
+    },
+    {
+      "scene": "m13-humo-quirurgico",
+      "order": 6,
+      "voice": "Masculina",
+      "word_count": 50,
+      "status": "Guion; audio no generado"
+    },
+    {
+      "scene": "m13-aerosol-comparacion",
+      "order": 7,
+      "voice": "Femenina",
+      "word_count": 51,
+      "status": "Guion; audio no generado"
+    }
+  ],
+  "additional_primary_source": {
+    "id": "S23",
+    "title": "NIOSH Pocket Guide — Zinc oxide",
+    "url": "https://www.cdc.gov/niosh/npg/npgd0675.html",
+    "consulted_date": "2026-10-19",
+    "supports": "Inhalación de humo de óxido de zinc: fiebre de humos metálicos y síntomas respiratorios. No atribuye ese síndrome a todos los humos.",
+    "status": "Consulta primaria adicional puntual para respaldar el ejemplo condicionado de humo metálico. Sin umbrales ni recomendaciones de EPR."
+  },
+  "constraints": [
+    "No inventar presencia de un producto, dosis, mediciones o inventarios de Keralty.",
+    "No recetas de mezclas, proporciones, tratamientos ni compatibilidades de EPR.",
+    "No cambiar M1.2, el modelo alveolar, ZIP, teleprompter, rutas, tiempos o desbloqueos en esta tarea.",
+    "La serie no requiere una imagen por cada una de las once áreas; la matriz completa de investigación sigue disponible como ampliación."
+  ],
+  "editorial_decisions_pending": [
+    "Confirmar xileno para el ejemplo de vapor y el producto de limpieza para gotas con FDS institucionales.",
+    "Usar humo de condensación como ampliación condicionada de mantenimiento; no atribuir soldadura a toda sede.",
+    "Decidir si el gas de la ruta principal usa incompatibilidad o una alternativa de N2O. Esta entrega desarrolla la primera y no prescribe cambiarla sin revisión.",
+    "Integración debe valorar maquetación de imágenes/controles después de que Carlos complete sus observaciones."
+  ],
+  "audit_note": "La precisión de los guiones se revisó contra las fuentes; esto no certifica pronunciación, naturalidad, calidad de imagen, interfaz, comprensión o resultados de salud. Todo medio posterior tendrá su propia recepción."
+}

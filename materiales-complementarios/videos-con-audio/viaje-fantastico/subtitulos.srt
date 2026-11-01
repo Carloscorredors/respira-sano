@@ -1,0 +1,33 @@
+1
+00:00:00,350 --> 00:00:03,405
+Camila recibe una muestra con fijador.
+
+2
+00:00:03,555 --> 00:00:07,415
+Antes de abrirla, investiga qué puede pasar al aire.
+
+3
+00:00:09,850 --> 00:00:13,400
+Explora las vías respiratorias y los alvéolos.
+
+4
+00:00:13,550 --> 00:00:17,070
+El modelo muestra una función normal del cuerpo.
+
+5
+00:00:19,350 --> 00:00:24,815
+Reconoce gases, vapores y aerosoles como polvos, humos y
+nieblas.
+
+6
+00:00:24,965 --> 00:00:28,855
+Sus propiedades y la tarea condicionan la exposición.
+
+7
+00:00:29,710 --> 00:00:32,940
+Gira el modelo y selecciona sus partes.
+
+8
+00:00:33,090 --> 00:00:38,025
+Después compara agentes: no todos interactúan igual con el
+cuerpo.

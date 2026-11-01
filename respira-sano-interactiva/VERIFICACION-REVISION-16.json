@@ -1,0 +1,153 @@
+{
+  "revision": "16",
+  "at_utc": "2026-10-19T05:54:17.791387+00:00",
+  "status": "received-for-Carlos-testing",
+  "scope": "Ocho reemplazos de formato/peso; mismo contenido, sin nuevas funciones o medios.",
+  "baseline15_sha256": "118611a37b8d44b1cf02b42a32793d1bc0d57be4cc562542af8732b5dd581738",
+  "frozen_manifest_sha256": "0f1f8cc18e11b7d2697b08864d64d8c31d21fd934f4527ff1b485fa30f715e7a",
+  "scope_sha256": "2e6b76eda7887e81619a349e7d068d47d9cf28ea4b769a97b0c0f8f7ec3b476e",
+  "changed_existing": [
+    "LEEME.txt",
+    "assets/m1-historia-v3.mp4",
+    "index.html"
+  ],
+  "removed_public": [
+    "assets/home-csi-v2.png",
+    "assets/home-gases-v2.png",
+    "assets/home-hero-v2.png",
+    "assets/home-mision-v2.png",
+    "assets/home-mitos-v2.png",
+    "assets/home-pitstop-v2.png",
+    "assets/home-viaje-v2.png"
+  ],
+  "new_runtime_files": [
+    "assets/home-csi-v2.webp",
+    "assets/home-gases-v2.webp",
+    "assets/home-hero-v2.webp",
+    "assets/home-mision-v2.webp",
+    "assets/home-mitos-v2.webp",
+    "assets/home-pitstop-v2.webp",
+    "assets/home-viaje-v2.webp"
+  ],
+  "preserved_existing_files": 251,
+  "original_media_sha256": {
+    "assets/home-csi-v2.png": "cc752ebcb6f16c472d2a8a663318bc68c136abbceb175777ced3a3d3331fd67c",
+    "assets/home-gases-v2.png": "1230c8ada34e6646202d4d7abbc95b4cea945020f527bf9d701f4624682f7738",
+    "assets/home-hero-v2.png": "664f72f7a20745847ad633d9f506f0610af99dafb6a62838c619b6bee3febb0b",
+    "assets/home-mision-v2.png": "08592d33bae6d0b83c0be2faa865da978ade342f412955db821874482081684e",
+    "assets/home-mitos-v2.png": "053e1637b8650acdfc0b273d15f3bbc2218bf96fd7ed42290ec96a05864679a5",
+    "assets/home-pitstop-v2.png": "f49aef313437d308406e215013a7a3498bb78e678b4a45a33b138f1ed405f8b5",
+    "assets/home-viaje-v2.png": "e7bf751e14ecf073d48c840d2e7d2cfe6a8197399d53142d8a82247c49fe6e36",
+    "assets/m1-historia-v3.mp4": "9639ce5f8c436230fec84c3073d101d7145961efeae6c9cf6064584fd6eb64eb"
+  },
+  "original_media_archive": "Respira-Sano-REVISION-15-decisiones-y-practica-opcional.zip",
+  "protection": {
+    "M12_section_unchanged": true,
+    "recorrido_entire_file_unchanged": true,
+    "all_JS_CSS_configuration_WebM_unchanged": true,
+    "previous_assets_preserved_identical": 203,
+    "only_eight_explicit_media_replaced": true
+  },
+  "mission1_minutes": 20,
+  "course_proposed_minutes": 120,
+  "optional_extension_minutes": 60,
+  "duration_exceptions_inherited": {
+    "Audio02": {
+      "actual_seconds": 44.496,
+      "target_seconds": [
+        45,
+        60
+      ],
+      "target_met": false,
+      "fits_M13_120_seconds": true
+    },
+    "M2_audio": {
+      "actual_seconds": 77.568,
+      "target_seconds": [
+        45,
+        75
+      ],
+      "target_met": false,
+      "fits_M2_900_seconds": true
+    }
+  },
+  "human_listening_accepted": false,
+  "mobile390_ui_verified": false,
+  "checks": {
+    "ui": {
+      "frozen16_SHA_exact": true,
+      "261_runtime_hashes_exact": true,
+      "10_source_hashes": true,
+      "only_three_authorized_existing_changes": true,
+      "only_seven_PNG_removed": true,
+      "only_seven_WebP_added": true,
+      "eight_media_candidates_exact": true,
+      "251_previous_files_identical": true,
+      "203_nonreplaced_assets_identical": true,
+      "recorrido_HTML_entire_exact": true,
+      "M12_section_exact": true,
+      "all_original_JS_CSS_config_WebM_exact": true,
+      "index_only_repoints_seven_image_extensions": true,
+      "eight_originals_preserved_stage15_and_ZIP15": true,
+      "prior19_quality_checks_received": true,
+      "producer_home_seven_complete_dimensions_and_composition": true,
+      "manual_video_play_1080p_no_error": true,
+      "browser_duration90_2s": true,
+      "Spanish_captions_selected_and_visibly_present": true,
+      "video_paused_on_M13_exit_and_no_media_playing": true
+    },
+    "documentary": {
+      "frozen_manifest_SHA_and_phase_exact": true,
+      "authorization_scope_SHA_exact": true,
+      "baseline15_archive_preserved": true,
+      "all261_runtime_names_exact": true,
+      "all261_runtime_hashes_exact": true,
+      "ten_source_hashes_exact": true,
+      "only3_authorized_existing_files_modified": true,
+      "only7_authorized_PNG_removed": true,
+      "only7_authorized_WebP_added": true,
+      "251_previous_files_identical": true,
+      "203_other_assets_exact": true,
+      "entire_recorrido_and_M12_exact": true,
+      "all_JS_CSS_configuration_and_WebM_exact": true,
+      "home_HTML_only_seven_image_source_references_changed": true,
+      "README_only_version_report_reference_and_appended_optimization_note": true,
+      "eight_replacement_candidate_hashes_exact": true,
+      "eight_originals_preserved_in_stage15_and_received_ZIP15": true,
+      "nine_private_facilitator_sources_exact": true,
+      "quality19_receipt_bound_to_scope_and_stage": true,
+      "prior_AV_evidence_hashes_bound": true,
+      "seven_image_RGB_and_dimensions_evidence_received_not_reexecuted": true,
+      "video_1920x1080_25fps_90_2s_2255frames_evidence_received": true,
+      "AAC_subtitle_payload_and_timing_evidence_received": true,
+      "dependency_receipt_bound_no_M12_overlap": true,
+      "producer_home_and_auditor_video_UI_receipts_received_with_attribution": true,
+      "course120_optional60_and_duration_exceptions_preserved": true,
+      "no_private_work_helpers_or_facilitator_in_runtime": true,
+      "honest_lossless_images_lossy_video_and_inherited_limits": true
+    }
+  },
+  "receipt_sha256": {
+    "ui": "22a4596628dcc559e7018f26b175900cfbc9b51e139d0530025db9353ab83c8f",
+    "documentary": "221cafe77b0848e2db0fc84f0423752850ead9435ebda9347ed3c5979c76e577"
+  },
+  "reused_evidence": {
+    "progress_rules_API": 52,
+    "synchronization_geometry_media_clock": 47,
+    "media_candidate_quality": "d5c9dff758e8af4666578531af3586fc113ca45f904d3794134851baf139ee0e",
+    "media_dependency_confirmation": "ba1f4c079e64dca245286b4427d23caae5045764d57ffbc18de309d63bc497e8",
+    "received15_package_sha256": "118611a37b8d44b1cf02b42a32793d1bc0d57be4cc562542af8732b5dd581738"
+  },
+  "limits": [
+    "Seven home images preserve dimensions and decoded RGB pixels exactly; visual composition checked in ordinary viewport.",
+    "Opening video is recoded at1920x1080,25fps,90.2s and2255frames. It is not pixel-identical; sampled visual quality received.",
+    "Original compressed AAC and mov_text payloads and timing remain identical; no new human-listening claim.",
+    "All original sources and ZIP15 remain archived; public-file replacement exception enumerates exactly eight media and does not rewrite earlier receipts.",
+    "M1.2, entire recorrido.html and every JS/CSS/configuration/bridge/rules/WebM file remain identical to15.",
+    "No denied mobile emulation, file:// or fullJSON import/export retries; no52/47 broad reruns.",
+    "Browser Back iframe concession limitation remains; explicit optional-practice return is unchanged.",
+    "No clinical concentrations, dose or efficacy calculations; group-duration trial remains uncertified.",
+    "No access-restriction or teleprompter changes."
+  ],
+  "weight_note": "Actual package saving is calculated only after final ZIP creation and recorded in the external package receipt."
+}

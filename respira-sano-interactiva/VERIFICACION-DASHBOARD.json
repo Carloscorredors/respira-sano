@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "date": "2026-10-18",
+  "pages": 12,
+  "widths": [
+    1440,
+    768,
+    390
+  ],
+  "checks": [
+    "7 module tiles per page",
+    "exactly one current module",
+    "Respira Sano main title",
+    "removed sector label",
+    "no horizontal overflow",
+    "tiles do not overlap",
+    "tool subnavigation retained",
+    "brand text visible on tools",
+    "keyboard focus and Enter navigate all modules",
+    "offline without remote requests"
+  ],
+  "pageErrors": []
+}

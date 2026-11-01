@@ -1,0 +1,52 @@
+{
+  "revision": "03",
+  "at_utc": "2026-10-19T00:04:12.871483+00:00",
+  "status": "verified-with-disclosed-browser-limits-pending-Carlos-review",
+  "scope": "Misión1: portada breve y4pantallas sucesivas; historia narrada; tareas con equipo de edades diversas; cierre único conservando el contrato.",
+  "screens": [
+    "Portada",
+    "Historia",
+    "Explora",
+    "Reconoce",
+    "Resuelve"
+  ],
+  "progress_criteria": "Same33-case contract as02a, rules file byte-identical; video and consultations not required",
+  "changed_existing_files": [
+    "LEEME.txt",
+    "assets/progress-config.js",
+    "recorrido.html"
+  ],
+  "unchanged_baseline_files": 108,
+  "other_five_missions_and_models": "preserved by sha256",
+  "checks": {
+    "generation_idempotence": true,
+    "single_visible_screen": true,
+    "single_quiz_notes_air_and_commit": true,
+    "back_preserves_response_and_note": true,
+    "empty_and_wrong_closures_rejected": true,
+    "correct_closure_unlocks2": true,
+    "legacy_deep_links": "agentes/forms/notes-air passed in HTTP",
+    "responsive": "desktop1280x720 and mobile390x844",
+    "desktop_model_and_controls_fit": true,
+    "desktop_task_cards_and_detail_fit": true,
+    "auditor_ui_accepted": true,
+    "auditor_media_accepted": true
+  },
+  "media": {
+    "voice": "Salomé · Clipchamp · Español de Colombia, según recepción audiovisual",
+    "captions": "23 VTT and inline TextTrack cues; Spanish enabled through native player menu in HTTP QA",
+    "transcript": true,
+    "autoplay": false,
+    "sources_embedded": "local approved media only",
+    "presentation": "Illustrated story with camera movement and dissolves, per audiovisual receipt",
+    "human_listening": "Carlos pending; no claim of continuous human listening"
+  },
+  "qa_receipt_sha256": "0dd825f2db66a3d13abf67c30f6929799e0e54c349be7d1c849e587321448da4",
+  "limits": [
+    "Real file:// opening not verified: browser tool policy blocked that test. HTTP is not a file:// test.",
+    "Progress JSON download/recovery not verified end-to-end: prior browser permission denial not retried.",
+    "Client review and session rehearsal remain pending."
+  ],
+  "private_materials": "Teleprompter and existing audiovisual folders untouched",
+  "access_expiry": "not implemented"
+}

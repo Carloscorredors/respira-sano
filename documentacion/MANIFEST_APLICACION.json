@@ -1,0 +1,1566 @@
+{
+  "files": {
+    "galeria-fotografica.html": {
+      "sha256": "8b55318bf8a1dc7d3128b8f86a63434737701f1cdce41ea5f96d1f3a194b15b0",
+      "bytes": 25137
+    },
+    "gases-vapores.html": {
+      "sha256": "452cdffccf8d93d301e01d11879fbc9a311b2f1e0acfb54ae3a92d41dde942a3",
+      "bytes": 27574
+    },
+    "hospital.html": {
+      "sha256": "d92b5ed5838261647eade054b2e15272b75cdbb39522de2e89ac64730ba8d85e",
+      "bytes": 32161
+    },
+    "IDENTIDAD-KERALTY.md": {
+      "sha256": "7a3a74d90fc5d28ca114f373d53474f747ccb2881c747dc9112ee146cdc1ba57",
+      "bytes": 2271
+    },
+    "index.html": {
+      "sha256": "bdb91e529748a2b891666a653f681f64ca7de58e0d75da3df1107561ccaa2449",
+      "bytes": 8036
+    },
+    "LEEME.txt": {
+      "sha256": "a1cc3e4d842a84150230030261d591c1b0ab81ba1ef894d216aab92501435d63",
+      "bytes": 14397
+    },
+    "recorrido.html": {
+      "sha256": "2b4e70865dac70f66b84389402fe59b41e958cdc9db804d9feb98effbe928216",
+      "bytes": 50084
+    },
+    "referencias.html": {
+      "sha256": "a5b3318b47119551454aba91a14716b2c85bde4c1d05e56e1d205ab86075d706",
+      "bytes": 24437
+    },
+    "respiradores.html": {
+      "sha256": "33e707383e759f1fab129bc8d93b085e124b21e9bdc5f114c6a7e80a3743afad",
+      "bytes": 48866
+    },
+    "VERIFICACION-3D.json": {
+      "sha256": "3d20bf546b077dd25f9b24acd57ac2a49637fda9a1ccb9fe6c0649368ffaf89d",
+      "bytes": 860
+    },
+    "VERIFICACION-AGENTES.json": {
+      "sha256": "d683fd37c19f6184eb9386ed6bcd1683616077e120bd0d74d0d9e7e5faab06a4",
+      "bytes": 699
+    },
+    "VERIFICACION-AUDIO01.json": {
+      "sha256": "78f17c507c5b86ed1d142d759b36ae8486f15a1f8fe53434a21a85e6579d5278",
+      "bytes": 5461
+    },
+    "VERIFICACION-CONEXIONES.json": {
+      "sha256": "10e8c797fb4bc6353e9823fff0264f9c1bdfb345acb37f5afe4e4cb6be2e585c",
+      "bytes": 657
+    },
+    "VERIFICACION-CORRECCIONES.json": {
+      "sha256": "429bf22b837aa74c7be8069218751555b7339b652818f4a8d9b3fc0b665cd4e9",
+      "bytes": 956
+    },
+    "VERIFICACION-DASHBOARD.json": {
+      "sha256": "d6c3e0e2720b6ae02fe24a38b5221672ae08ca1ea5d1c8ffd6a3c9578d9188e3",
+      "bytes": 487
+    },
+    "VERIFICACION-GASES-VAPORES.json": {
+      "sha256": "d4211d4edc8426ff3f190489d656e6384bf1f1298c0d5b50a842b7aab482b188",
+      "bytes": 896
+    },
+    "VERIFICACION-HISTORIAS-ALINEADAS.json": {
+      "sha256": "254f900c42ab28449adc03267dd125eca9da45ef793e327b5ba010f3bc78f518",
+      "bytes": 10291
+    },
+    "VERIFICACION-INFOGRAFIA-PDF.json": {
+      "sha256": "61b9ae86e7a270bc1edb30fa9a386dd2e1c75cf150a560196e410242ef8bf518",
+      "bytes": 360
+    },
+    "VERIFICACION-M1.4-GENERACION.json": {
+      "sha256": "fb3949bccb3fb484986cd0e1280d0d236acb6089a47df881dd4ded6a65c1ff65",
+      "bytes": 5570
+    },
+    "VERIFICACION-MARCA.json": {
+      "sha256": "679a0bcc5b4e87c42b99e1025d92f521a10e5f593f354f29a5320e2bd79cc2b4",
+      "bytes": 915
+    },
+    "VERIFICACION-MODELOS-3D.json": {
+      "sha256": "0fcc073b549efe1030bfb9c8db269e182381b31db63fd26a73ddfa8d2f838c33",
+      "bytes": 5380
+    },
+    "VERIFICACION-NARRATIVA-CAMILA.json": {
+      "sha256": "758e8493dd9e6f567b10d9b585f774aef990d99ee1a13f31e9a1339c33acf295",
+      "bytes": 3646
+    },
+    "VERIFICACION-PILOTO-CASO.json": {
+      "sha256": "5353b051bd44f1e29dc52fb5c7cb7071fbc68143464755095bf24f2ba9740699",
+      "bytes": 969
+    },
+    "VERIFICACION-REVISION-01.json": {
+      "sha256": "716cfa57f678f4dac09de1a498c19363ff52b04c9012ffdc90a3d6d7634c4724",
+      "bytes": 10088
+    },
+    "VERIFICACION-REVISION-01A.json": {
+      "sha256": "6c9367f26a3f5b925b514d7c7acecc87c068302a0e63c50acf61150899af6e13",
+      "bytes": 1255
+    },
+    "VERIFICACION-REVISION-02.json": {
+      "sha256": "f5cd2c672e7d72eb005fe53d72e469115893f3b59b486e8690b317a7db6e5c04",
+      "bytes": 3821
+    },
+    "VERIFICACION-REVISION-03.json": {
+      "sha256": "ef89c32c2e5bf410eccfb9b586e58e35eac324a19c1c7dc7b0b407f7a0261ada",
+      "bytes": 2322
+    },
+    "VERIFICACION-REVISION-04.json": {
+      "sha256": "7b871fed418fb07173785362343f790a04c331d5f801b17180b021d267fcd6ea",
+      "bytes": 5559
+    },
+    "VERIFICACION-REVISION-05.json": {
+      "sha256": "a6f920a89a089022489a584ae4c6e2a7e947a8cae4ce3a38557b9b4fa498867b",
+      "bytes": 7672
+    },
+    "VERIFICACION-REVISION-08.json": {
+      "sha256": "5243f1864c8322c079dbb264daf3dce081db623d5e970977a445003e7b206b46",
+      "bytes": 6406
+    },
+    "VERIFICACION-REVISION-10.json": {
+      "sha256": "25709111e3387f2ab1e938dfbd09ae737993898b05aebe9e579fb0bd49d5f58d",
+      "bytes": 7799
+    },
+    "VERIFICACION-REVISION-11.json": {
+      "sha256": "b9bdcccaa5122ecd5cffc9d579e18e0266df8e01ffadeca1b0858f2df85146ce",
+      "bytes": 4102
+    },
+    "VERIFICACION-REVISION-12.json": {
+      "sha256": "2b5bf41d2bd5f979c0056874c139c8309a6793bdfacac361f93f11a42b0585b3",
+      "bytes": 5535
+    },
+    "VERIFICACION-REVISION-13.json": {
+      "sha256": "f453afbc4214d326b6547472184189c71f203364d54c9effbe168122eefc772d",
+      "bytes": 6321
+    },
+    "VERIFICACION-REVISION-14.json": {
+      "sha256": "96324599c0e8d91246ddd4ccde499abb21c61451c29479930048571b60bc64eb",
+      "bytes": 8920
+    },
+    "VERIFICACION-REVISION-15.json": {
+      "sha256": "76d2de5bd13a82c3bbacf75ef713419aadb72cdfd439f9db818a82ca9981c958",
+      "bytes": 6920
+    },
+    "VERIFICACION-REVISION-16.json": {
+      "sha256": "ab951297214dad9ae790cc78c853d6b481c30cbddbeb38fa1e1d7975e9e6beb1",
+      "bytes": 7364
+    },
+    "VERIFICACION-REVISION-17.json": {
+      "sha256": "5f5a54ca6613d9f613e79df520189863802fc8efc08f45493379864978693170",
+      "bytes": 4437
+    },
+    "VERIFICACION-ROTULOS-FULLFACE.json": {
+      "sha256": "222b491f7a527f5d986aeb1ea8d0eaf8b45b441a36947cad12899ee0c76ca8a5",
+      "bytes": 4620
+    },
+    "VERIFICACION-SEIS-MICROMODULOS.json": {
+      "sha256": "1897d162cf9797fdf4646e66761881dc0cc69a76c64f5498e59e73cba8dfadc8",
+      "bytes": 9256
+    },
+    "VERIFICACION-VIDEOS-MODULOS.json": {
+      "sha256": "dbec03c085f16738ab92209e8c3b5ed8d1a032ba349f2dacf948a8093304a263",
+      "bytes": 4714
+    },
+    "VERIFICACION.json": {
+      "sha256": "9b363e9bcdc4e6ad1d05422cad04f1d3847f8258ba5b1233738477e5c6616bc7",
+      "bytes": 862
+    },
+    "assets/activities11.js": {
+      "sha256": "a617ae949d557e97ebf8b24ff5df807a05ef65dfe8ac1601175b2d4ff74e9166",
+      "bytes": 7986
+    },
+    "assets/anatomia-v8-adapter.js": {
+      "sha256": "1de3034ce0d03afb75fd68ece1235ebacb5e4f56171c0e285cbb2852c5630b56",
+      "bytes": 553
+    },
+    "assets/anatomia-v8-LICENSE.txt": {
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "bytes": 1081
+    },
+    "assets/anatomia-v8.bundle.js": {
+      "sha256": "c6029a2303960ff0fb04e844aff1bf2c36b6799202d585a752e27bd62499e222",
+      "bytes": 613608
+    },
+    "assets/anatomia-v8.css": {
+      "sha256": "2541f11d61d71838674960ed3bd5d863a2a0cbd9751d431650e3ba93d5fba79b",
+      "bytes": 2563
+    },
+    "assets/app.js": {
+      "sha256": "dd4529e43b2b4d2657f3805809bb5c6684e0e8dd054254198b8059d91da67d81",
+      "bytes": 23154
+    },
+    "assets/audio01-controller.js": {
+      "sha256": "29adf4861914c70c20d415a227c35ee3361a135d7e5d06faf8ca4e8fe645cff5",
+      "bytes": 466
+    },
+    "assets/audio01.css": {
+      "sha256": "7a901c67311e6dade6dcc8efdb8756b06822eba38c6110026920db335c875f1e",
+      "bytes": 1542
+    },
+    "assets/audio13.css": {
+      "sha256": "6b186b1110a284c079e7850555e85f121c92e862961a310f53ee869dd07510c3",
+      "bytes": 669
+    },
+    "assets/audio13.js": {
+      "sha256": "9fe6f084928ff93057916492c90042452be5906d67921120a6ca3db6a7ce72e7",
+      "bytes": 1651
+    },
+    "assets/boot12.js": {
+      "sha256": "dd8b3398c863488b835b69742c3674d12c97977f1170c8f7b6071fd1c8bdb2e0",
+      "bytes": 2085
+    },
+    "assets/boot13.js": {
+      "sha256": "17314d42c18516e82eec4f4329e5a2d60f5e12ab8d188690f924f89a10258d41",
+      "bytes": 1749
+    },
+    "assets/boot14.js": {
+      "sha256": "9217d35fcd2b1b38636910c8bd8f91556e1a6c39d16d2d1b6c1edcea9d5bce13",
+      "bytes": 3201
+    },
+    "assets/brand-tokens.css": {
+      "sha256": "e45c1fdcd407df5675835c08ee4eaaf66162dce104ebdd1c7a52f4c664b8f68c",
+      "bytes": 1610
+    },
+    "assets/branding17.css": {
+      "sha256": "ad4e7c10ea59d8dc15d67303b62e9db15c001d187ff8ce625d3edd4404783613",
+      "bytes": 292
+    },
+    "assets/bridge12.css": {
+      "sha256": "0efdb7843a6e01a3bdf95eb6c3d056cacbb79c45d5b05947d5c58d484f3bf61a",
+      "bytes": 1710
+    },
+    "assets/case-connections.js": {
+      "sha256": "bc98668d4a81778856e8c5ba55a41cc9a18efca1a865c4bfd8d84ce4762d3594",
+      "bytes": 1692
+    },
+    "assets/cases12-data.js": {
+      "sha256": "78850b41ee0636cf45970e57e440eccd77321423a251ac53873242a85f98b51d",
+      "bytes": 49229
+    },
+    "assets/cases12.css": {
+      "sha256": "b55212375fc330b15a65e24cd0406763246c13ed5333aefceb149dce0e1d701a",
+      "bytes": 10484
+    },
+    "assets/cases12.js": {
+      "sha256": "b29b0cd841fc21e50f48c9b5bf8aad49dc3ba8c07c4d0f920abb1d901020d7d8",
+      "bytes": 9037
+    },
+    "assets/challenge-visual12.css": {
+      "sha256": "a5d63a06f12aba124ce8067fe534ecd35a97f30d8a221343c3c458c0e87c1539",
+      "bytes": 6382
+    },
+    "assets/challenge-visual12.js": {
+      "sha256": "e9e3b5792fd266d8e37ea260bada7b6d1bb092de9d92c52a0c00eccbb8546871",
+      "bytes": 16569
+    },
+    "assets/chemical-lesson.css": {
+      "sha256": "01da3e7cf3f0ecc2c811396be15ebb10fe44c47b973d364584a2c7d7e4469c82",
+      "bytes": 4392
+    },
+    "assets/coherence14.js": {
+      "sha256": "e0c75fbd54971843143a9035098ad8b0c09ab722952e37ee0cab85fea249fba6",
+      "bytes": 1409
+    },
+    "assets/colsanitas-logo17.png": {
+      "sha256": "000a4c1ec102aa208fbe8b3db49278d20feba7b19186ec3931c5144db75751c7",
+      "bytes": 19916
+    },
+    "assets/como-funciona-sistema-respiratorio-salome.mp3": {
+      "sha256": "c68e571b8a42a0e57cb8d7d4cb13b230edabe577aab9c1e6c78ddd815481c612",
+      "bytes": 1951449
+    },
+    "assets/config15.js": {
+      "sha256": "9debe6dc438a2080292870d40f428a318ef18c5848113327ad845920b23d9eed",
+      "bytes": 435
+    },
+    "assets/content-health-CM01.css": {
+      "sha256": "e607a750c7c81f0917c4216e9fcc249041d72c09776d507ba1b606072ecf3728",
+      "bytes": 2209
+    },
+    "assets/content-health-CM01.js": {
+      "sha256": "daa282e4d0d38a87302ac9ba48689f5ada6234747cf8e5929fdad3962bfa259d",
+      "bytes": 2131
+    },
+    "assets/ct09-controller.js": {
+      "sha256": "91ae865cbc613954e0001ae0b9381ddf048767f7568598bbd52f6976cc119391",
+      "bytes": 5396
+    },
+    "assets/dashboard.css": {
+      "sha256": "6609b7a41a6290fe994ab2bf1a3c2090ef43e572e8017b1a9a03ba01c534632e",
+      "bytes": 4437
+    },
+    "assets/external-models.css": {
+      "sha256": "fba3c5668bd42843e03989da5d11f89a51ca2a9794938c3991cfc56a3d678bf0",
+      "bytes": 4928
+    },
+    "assets/external-models.js": {
+      "sha256": "311e43d97b4bb6706d8f2c26c06c6c6b61aef59fa8b67f88eb9a0bf356e25f31",
+      "bytes": 6973
+    },
+    "assets/fds-help13.css": {
+      "sha256": "1d1129d9392ca14c7e0da415b299fbe11d3c68fd11da6a54ccbbe3e1ff2e8cc0",
+      "bytes": 5920
+    },
+    "assets/fds-help13.js": {
+      "sha256": "b61a1a2dcef0114075be309bc6ebc2cea48560f09e8ed452278c00b2d292b779",
+      "bytes": 10393
+    },
+    "assets/fds-help14-data.js": {
+      "sha256": "855b5d88f3f68af8440a307e6dd3cf5099a9a265034742831ff1c4b4c9665b71",
+      "bytes": 7229
+    },
+    "assets/feedback15.css": {
+      "sha256": "67113838334cecfec6b6cc2eff86937f9a50267fbc93889a27f3261e1c9ff4b9",
+      "bytes": 2339
+    },
+    "assets/feedback15.js": {
+      "sha256": "eb9cbd942c4a55fa896a24510ce48f5612d7fa7d67f947f9fc9870bb5ff6119f",
+      "bytes": 8434
+    },
+    "assets/forms-media12-data.js": {
+      "sha256": "5f6945983b384f5c50f970010581fe00c4d2461c040b2beedfdfaee9b99a8dc0",
+      "bytes": 1174
+    },
+    "assets/fullface-inspection.js": {
+      "sha256": "25839d264179dbf617dc0728bd6fc9124bf06c7801f99d397d25c2c132436d50",
+      "bytes": 7814
+    },
+    "assets/fullface-labels.css": {
+      "sha256": "340b60524d156c13b722cae177ea80dc93ad05745265db380a7d0e4df1e558ac",
+      "bytes": 3462
+    },
+    "assets/fullface-labels.js": {
+      "sha256": "2323fbc77cb4c5a53efb00e37a117b2486bd69f3e6a71161e9eed2c8434e21a0",
+      "bytes": 10580
+    },
+    "assets/gases-vapores-data.js": {
+      "sha256": "612be3a74648d86e4123fe607bd0d2e4d510d17f3f578ef6fcaf63cc58261705",
+      "bytes": 15809
+    },
+    "assets/gases-vapores.css": {
+      "sha256": "4847ef621db4429862c1f83f42ce39883800802991705f990f7e37b5057f7a21",
+      "bytes": 7223
+    },
+    "assets/gases-vapores.js": {
+      "sha256": "1ecde1014937f5ba722187a9c969a25c23cb5194f9baec1caf61ce616ce3d151",
+      "bytes": 9968
+    },
+    "assets/home-csi-v2.webp": {
+      "sha256": "e8edb8a385e37deeb998f338d559d62b59365f17cf002ec86715aa51b1cad5c1",
+      "bytes": 1472958
+    },
+    "assets/home-gases-v2.webp": {
+      "sha256": "b6794af97430ad615dc0c4415471ec7834ad1a4945f20f518bb69725777706e8",
+      "bytes": 1597260
+    },
+    "assets/home-hero-v2.webp": {
+      "sha256": "7c5ef336df5a61129cd28d7d84ba510a0b85be1abc98a07e43d506624f429fc6",
+      "bytes": 1575082
+    },
+    "assets/home-mision-v2.webp": {
+      "sha256": "6ce7b67f9b15fad63d897733deb207cc040b9fbd9f269842b0cb9a0fad5f00b8",
+      "bytes": 1379210
+    },
+    "assets/home-mitos-v2.webp": {
+      "sha256": "424457d194a0cc211370001a07010aa6d881673bce3a3cd4ade48ade8d30db3e",
+      "bytes": 1659286
+    },
+    "assets/home-pitstop-v2.webp": {
+      "sha256": "524005e900cbcfcdc1fd093d0b855c07c1e41199ed4836be7856eb737066615c",
+      "bytes": 1470062
+    },
+    "assets/home-v2.css": {
+      "sha256": "7136f8aa42f41646fd20e991f63cc86ebed25610912a1bf5780bfdfccd14dfd8",
+      "bytes": 8130
+    },
+    "assets/home-viaje-v2.webp": {
+      "sha256": "ab9c8cfda6d499c82886e4a7ea76d6924a83dadfe10f7d7224b674bfb128b6cd",
+      "bytes": 1775836
+    },
+    "assets/hospital12-scenes.js": {
+      "sha256": "6fb739ae128d3dcca37e633c23315cf20a8cf49d8ae721d2621cbc2f2d50f52e",
+      "bytes": 62228
+    },
+    "assets/hospital12.css": {
+      "sha256": "41117043a50ab3d06d5abf2b6b312d7f09c21083ed17db71422f271c251708bc",
+      "bytes": 4402
+    },
+    "assets/hospital12.js": {
+      "sha256": "d3d3ca86d9c8f36d9ab4dd6ee461ff55d69259d2d2e6a3cf2623c1ef432cf2fa",
+      "bytes": 11599
+    },
+    "assets/infografia-respira-sano.pdf": {
+      "sha256": "499ddc149c60123c2ba5c3128ffd89965aa25a392ed0f7c813ae52b03bf4dfb9",
+      "bytes": 56163
+    },
+    "assets/infografia.css": {
+      "sha256": "74d22088793f746f66050614a92818d1d68b5c14c998e23fb6f7c301c899d424",
+      "bytes": 3886
+    },
+    "assets/intro-controles-poster.png": {
+      "sha256": "2cdf6e295f5c1c568bc9eb1f89107c46f05caf9d68387269abb782b907e1d70b",
+      "bytes": 111599
+    },
+    "assets/intro-controles.mp4": {
+      "sha256": "6a6453bec4a441920a47da95ef58dd9ffca57e07eb0bc0b40f738af4f1b31ffb",
+      "bytes": 1148835
+    },
+    "assets/intro-controles.vtt": {
+      "sha256": "dc1a98790d5476adfa1170f5b50e31e172e56633c97b11a6f3081f9913a65d4a",
+      "bytes": 775
+    },
+    "assets/intro-controles.webm": {
+      "sha256": "f7979b5af4882b236a8760c93c9f5aecec244486b44a8d001dc05fbbe1a0bab2",
+      "bytes": 3095439
+    },
+    "assets/intro-gases-vapores-poster.png": {
+      "sha256": "c7d32f4b3e76ac91d4b6135e3df4ed9a2d7cde9f9692eee8cd6f4531351a58cb",
+      "bytes": 508637
+    },
+    "assets/intro-gases-vapores.mp4": {
+      "sha256": "6ac4b4b6be13403e466935ac0386972f3d9183e578ffd127d3a92ac9e2fccc37",
+      "bytes": 1681498
+    },
+    "assets/intro-gases-vapores.vtt": {
+      "sha256": "b8e8e577d702b995b17542f2228cc900fbac010e51c97e80988c999274f8243f",
+      "bytes": 707
+    },
+    "assets/intro-gases-vapores.webm": {
+      "sha256": "dfd58c3842b7acc6fcdfda1eebc620426bdfb1e6836d09a47ab1aabf5944ab6f",
+      "bytes": 3313467
+    },
+    "assets/intro-investiga-poster.png": {
+      "sha256": "d3c02faa978e4a94c8baf7459fa6e3fa2e1e7635e3dd29893db66de27a6189c5",
+      "bytes": 117716
+    },
+    "assets/intro-investiga.mp4": {
+      "sha256": "3bcf9abef22d0448fc8c963dba67e21dba03fc177eca94279bb38d467c18a040",
+      "bytes": 1235709
+    },
+    "assets/intro-investiga.vtt": {
+      "sha256": "076d2ce4837f745bc619c9e578329ecfbc2934302298e85dd1cab49a4af7dd77",
+      "bytes": 782
+    },
+    "assets/intro-investiga.webm": {
+      "sha256": "2169a211dbd5ac249af6c7a4acf71325b4352c1dbcf77d0161a277b04332e4cc",
+      "bytes": 3126794
+    },
+    "assets/intro-proteccion-poster.png": {
+      "sha256": "6d7ba83ebfa097ec86e08e4423445a04b7ea2819860c4e8edc758529397dd497",
+      "bytes": 142790
+    },
+    "assets/intro-proteccion.mp4": {
+      "sha256": "5466163551751d85cb5ba73f197592b59f2b8675e6ac1af5f1b384b519a1b30a",
+      "bytes": 2104909
+    },
+    "assets/intro-proteccion.vtt": {
+      "sha256": "a7e4d10a129446dafe836b42f2a783bfe4ea78a47826ebb8903c9b87dbcdf8a0",
+      "bytes": 829
+    },
+    "assets/intro-proteccion.webm": {
+      "sha256": "149859440d822e5f679d9567556be0cd31fde5366e6399e25422c0424c612c97",
+      "bytes": 3422746
+    },
+    "assets/intro-uso-cuidado-poster.png": {
+      "sha256": "172436ef86ceb4e7e24689697d4f6b02a44271e1cb14542d0878513a8c88769a",
+      "bytes": 130137
+    },
+    "assets/intro-uso-cuidado.mp4": {
+      "sha256": "c32cf0a59c4542e21cd2faf1ad8f6fea9a4b8384ada0ee25cad5c36563617a18",
+      "bytes": 1158026
+    },
+    "assets/intro-uso-cuidado.vtt": {
+      "sha256": "9b37d7290174565e302378a876aa7201258c926fe55e3c7dd1cf81667ffcae97",
+      "bytes": 796
+    },
+    "assets/intro-uso-cuidado.webm": {
+      "sha256": "157f51d6eab587a56f708dd581c96609e7a62f3c2a9292c3b1def9dfc51975db",
+      "bytes": 3051736
+    },
+    "assets/keralty-logo-original.png": {
+      "sha256": "52d63c3578895ce4a76f4340d35df54b1ca51c233a81f9c25b8e994fb5a7f3d8",
+      "bytes": 26935
+    },
+    "assets/layout09-compact.js": {
+      "sha256": "4e5e60292a737618ae5e51950105e3e69893828029cd363e6dbcba75f3586a00",
+      "bytes": 743
+    },
+    "assets/layout09.css": {
+      "sha256": "04e221f8503002e42d9cb8aae5dcad7f371db96a410fbc2ebd32b2539eb3f45a",
+      "bytes": 5342
+    },
+    "assets/layout15.css": {
+      "sha256": "8fd262e0d86622c5f9d586bde5d509974a87db485ced7fa10551e7e642f72c6c",
+      "bytes": 6399
+    },
+    "assets/layout15.js": {
+      "sha256": "8fd4303eb4ff2ed6b950be188004c3e2ed5eae761addfdc3a9fefd8b812d9bc3",
+      "bytes": 2866
+    },
+    "assets/lesson-captions.js": {
+      "sha256": "7dccbc5422e304c7d76735a7e67561469746d9053319958ebe1458a36004f9a7",
+      "bytes": 3121
+    },
+    "assets/m1-camila-v3.png": {
+      "sha256": "e990947f62a250dacd04acfd544ff5c2e79bcd1b5b6c4c946f0e224dd21a6cc7",
+      "bytes": 2005753
+    },
+    "assets/m1-detail-v5-LICENSE.txt": {
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "bytes": 1081
+    },
+    "assets/m1-detail-v5.bundle.js": {
+      "sha256": "0c997f004f3ac154f98d444cc62e34bd79fd2fddfa70b7b551e846473aeba1bb",
+      "bytes": 622693
+    },
+    "assets/m1-detail-v5.css": {
+      "sha256": "c98879918e42b632713643aa59c3df543fec721051ad893276882f2498aefda4",
+      "bytes": 5210
+    },
+    "assets/m1-elena-v3.png": {
+      "sha256": "900533905d800a47507120ec14ba178b686e4dff4a17e1bdde2d963a86d0a674",
+      "bytes": 1871731
+    },
+    "assets/m1-encuentro-v3.png": {
+      "sha256": "aa98c57144c18c8b28cfe7db10cac1dc38189429774d77e88f60756b37ed3be3",
+      "bytes": 1974401
+    },
+    "assets/m1-expedicion-v3.png": {
+      "sha256": "1b63742196305958c430cb25b8bf43d1e4109ef3a9d449a4079cedd94c410347",
+      "bytes": 2151122
+    },
+    "assets/m1-generation-v6-LICENSE.txt": {
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "bytes": 1081
+    },
+    "assets/m1-generation-v6.bundle.js": {
+      "sha256": "d6fb3f3726313fa7c9fab7f7b8cda4f8cb8f2e7a87746ca035d15808a8f407c1",
+      "bytes": 607696
+    },
+    "assets/m1-generation-v6.css": {
+      "sha256": "f7873c38cfe0d5a123a0af0a575f328f292f579e7914e246d57a0e09ffb46ff9",
+      "bytes": 5566
+    },
+    "assets/m1-historia-v3.mp4": {
+      "sha256": "f21ca85819428de0b7a66383f9a08d73f56ca2d16f45ab26abb02ca05c8ca616",
+      "bytes": 23709449
+    },
+    "assets/m1-historia-v3.png": {
+      "sha256": "54768824703807e9c446b50bba8e18f117c2a9748b8007a42732dc35ac6638a4",
+      "bytes": 2018268
+    },
+    "assets/m1-historia-v3.txt": {
+      "sha256": "0c34a490a556a60b81b9f31286ce9dacbf185b6985af6f49f8b2cb1fa7c867cb",
+      "bytes": 1233
+    },
+    "assets/m1-historia-v3.vtt": {
+      "sha256": "a1759a3ca7bb95d30acfcc3565bc8f5d6c93f3c5393df1d89d92860feb124e82",
+      "bytes": 2102
+    },
+    "assets/m1-mateo-v3.png": {
+      "sha256": "48c5a762bc0d65eb344a86ee143cf014cf086b84cdbe71359174a9dc5133a8da",
+      "bytes": 1810450
+    },
+    "assets/m1-plano-v3.png": {
+      "sha256": "a75c60edb31532f7ab248089fa9b11f3652c954cea3a898121f45b7f26a82fcc",
+      "bytes": 2071634
+    },
+    "assets/m11-lectura-clara-LC01.css": {
+      "sha256": "0afc2f46dfbf0195ac3f7b7ac1e9484bcfa17cf5346c83f4fb978b03fd2581b8",
+      "bytes": 7420
+    },
+    "assets/m12-ancho-cr16-02.css": {
+      "sha256": "66b107b23c4232ad04df6db9bb9baf9bb7c5c7ffa6896bd8e4ddaeaebb35adf4",
+      "bytes": 1041
+    },
+    "assets/m12-panel-funcion.css": {
+      "sha256": "8cdce0d78dcc25fac88b427fa667f3b126e17326849625be575ea4b8083d6284",
+      "bytes": 1991
+    },
+    "assets/m12-panel-funcion.js": {
+      "sha256": "41eaf45962a243e668087ad1ce623b80b026cd5dab5e4457d49f83c185e159c7",
+      "bytes": 5141
+    },
+    "assets/m2-visual-data.js": {
+      "sha256": "f9c4bc0e4f2b08d4828a206eee631c016a166a51ef4d9e36f10c85dc0f38fd1f",
+      "bytes": 8962
+    },
+    "assets/m2-visual.css": {
+      "sha256": "25f427adc499e84e2278b5c3e1be0dcd389a5ca4de562762917700ee3eaf1c1b",
+      "bytes": 4879
+    },
+    "assets/m2-visual.js": {
+      "sha256": "4ada4b7186dd2c176e3cca177edabecf5d7c4ee55390cb9e024a0c5e2aff0d15",
+      "bytes": 18181
+    },
+    "assets/maintenance14-data.js": {
+      "sha256": "97cddecc49713fa0741f48545153b2d76dccdbc45a5b6ff148a5fb10a2b9bc79",
+      "bytes": 4684
+    },
+    "assets/maintenance14.css": {
+      "sha256": "956ffb4c58dcc7927b4aea637ac359cff9083ad7a273370d058affa74691e95f",
+      "bytes": 1626
+    },
+    "assets/maintenance14.js": {
+      "sha256": "63350fee683c9ecb637c01c37e15ca501d112996701011994382e2f2e7c29f03",
+      "bytes": 5416
+    },
+    "assets/mask-function12.css": {
+      "sha256": "f21a09603147b55bf8121024da1baff508180abd9ede7549e499d3f35e661be7",
+      "bytes": 4654
+    },
+    "assets/mask-function12.js": {
+      "sha256": "bd5807672d8e5d414dbdea1cae7dc91bdf965d44fdd31bdafe803dd66e7d078b",
+      "bytes": 14552
+    },
+    "assets/media12.css": {
+      "sha256": "748762d4b999e37d26cd18dfc9ac69afbedf1a606c0bb4914e17953987e2ad07",
+      "bytes": 1548
+    },
+    "assets/media12.js": {
+      "sha256": "98eabe4b87dd393f766eba05a24a3d45ab0268568039eb7413c9b47bdde9ab89",
+      "bytes": 2160
+    },
+    "assets/media13-data.js": {
+      "sha256": "ec00992f6b7cc6464537733463ea2f663a1d6679be0db9f73afabd703a39df4b",
+      "bytes": 3420
+    },
+    "assets/media14-data.js": {
+      "sha256": "29d2d07c42de48fe428486702166000dfd9157768c377924800ad6ea663b4b68",
+      "bytes": 5500
+    },
+    "assets/micromodules.css": {
+      "sha256": "9e74035a604dd0e0bfdd8a62deaed5b163af5dfece5ba155ba1151b937d65115",
+      "bytes": 3567
+    },
+    "assets/micromodules.js": {
+      "sha256": "7bd19a976f7d86134a9104c8102daba8b2555d4dfa3110331df67ce728fa6ef2",
+      "bytes": 943
+    },
+    "assets/mission1-activities-v4.js": {
+      "sha256": "75173fe40e4471ac7e8687041f22423a5efe65d1644f25329540910890f7e3d2",
+      "bytes": 9786
+    },
+    "assets/mission1-captions-v3.js": {
+      "sha256": "558bdd5d89296901f12e47310cc2217580affa6e2e6179f8b0c4459b91c1b729",
+      "bytes": 2580
+    },
+    "assets/mission1-content-v4.js": {
+      "sha256": "82a3071c01b7a96b219f86e0acbb832183f51a8138347322674ebc2e0c0b0c53",
+      "bytes": 5677
+    },
+    "assets/mission1-ct-v4.js": {
+      "sha256": "0e04244429eec503d4d27ddbc4296e9c1f3b4a4fa831602e738a542fc2fb13da",
+      "bytes": 5906
+    },
+    "assets/mission1-generation-adapter.js": {
+      "sha256": "74c61c89ade26d4c452fa2e54476f2b4e440c4d4a25fc79f0984f0e20b04ff82",
+      "bytes": 891
+    },
+    "assets/mission1-graphics-v4.css": {
+      "sha256": "cdc42c685e0b6ae7bd8ddb70f84812598586a0068bad1082f3d9514e4894cdf9",
+      "bytes": 4714
+    },
+    "assets/mission1-layout-v5.css": {
+      "sha256": "4123eef2bab64db79ff8a4b10be12473bb975884b561dde83b6a9699c959ca95",
+      "bytes": 13514
+    },
+    "assets/mission1-v3.css": {
+      "sha256": "f4f7f2df0611f9cdd852d302d32a63474933f818057001839981d49dcafb8b34",
+      "bytes": 15405
+    },
+    "assets/mission1-v3.js": {
+      "sha256": "28be78b29409cf22d9e08055d8e2257d700493dbcb5d1c897b76ee3f0ec697d3",
+      "bytes": 11513
+    },
+    "assets/narration09.bundle.js": {
+      "sha256": "7e4b2fd0e41d1c631da7600e6725d1a868bf4c330c81844d733d440e44bc9acb",
+      "bytes": 665503
+    },
+    "assets/narration10.bundle.js": {
+      "sha256": "b43e9fccb6e336d3ed64812c333c2bc4eab1d83b6c951c60b025c268d60c50ad",
+      "bytes": 666956
+    },
+    "assets/narration11.bundle.js": {
+      "sha256": "dd8dca70ea082bd517db8471371c947d72e249611e739719d89465e049cb5099",
+      "bytes": 667487
+    },
+    "assets/navegacion-clara-20261030.css": {
+      "sha256": "3dbe826bc4027436105fe4b55c4168b54c6e9aa5b5d71c2204ccb45decab9dbf",
+      "bytes": 4930
+    },
+    "assets/pager10.css": {
+      "sha256": "304463a1c6c7fa3df0702206f22b9136a943d5d5844b5f69779e010dc9966b24",
+      "bytes": 1280
+    },
+    "assets/pilot-captions.js": {
+      "sha256": "d9b4f865c0ad238e1e11250595502eba06c02c71f26df707fc008e17a1cb477b",
+      "bytes": 1013
+    },
+    "assets/pilot-case.css": {
+      "sha256": "3fe65608113f26a860c15fb10fa4eab6a3b8e33b33ac81aff0985dad5d3f9130",
+      "bytes": 1376
+    },
+    "assets/piloto-cuerpo-aire-poster.png": {
+      "sha256": "a3ec9eab56682d469a22f82a018c3f2f6ca0747d2e21cc6b92acd842bab95acd",
+      "bytes": 242000
+    },
+    "assets/piloto-cuerpo-aire.mp4": {
+      "sha256": "642d73f14d43f4a91bb47ce69362c603f197afa610f2e38aea796fea607c1914",
+      "bytes": 1002171
+    },
+    "assets/piloto-cuerpo-aire.vtt": {
+      "sha256": "7abcf5a8c67bd342d426ce3ff0b078b5b1fea879d6d0e659fdfccbc4ffe9315e",
+      "bytes": 715
+    },
+    "assets/piloto-cuerpo-aire.webm": {
+      "sha256": "6eefe12e48e3d19ff1b1ff4a541a9b52bafed77a31ec4dfd9fc2b18e0adfaac3",
+      "bytes": 3217011
+    },
+    "assets/portada-cazadores-de-mitos.png": {
+      "sha256": "bd167896ac8aa5237e5e9f9a6258131924775b64064e1aa5607d4a078f55c104",
+      "bytes": 2083074
+    },
+    "assets/portada-csi-del-aire.png": {
+      "sha256": "a3367ad668c6ce4ec7ec00bc4b1c581c2ec3c25fa79694c10e8c052a7f6c345d",
+      "bytes": 1938993
+    },
+    "assets/portada-gases-vapores.png": {
+      "sha256": "373f4c2b2ca74bef0c67906ed71644c45a3b9dbd1447ace52813605256300423",
+      "bytes": 1936735
+    },
+    "assets/portada-mision-posible.png": {
+      "sha256": "b3f46bdd6fecc68f6f41914cdcd7e2bbe4657bd8888564e3df4101fc4760d620",
+      "bytes": 1944999
+    },
+    "assets/portada-pit-stop-respiratorio.png": {
+      "sha256": "5a4ba82e45f7646f9b88bc034186708c4ef79723b35f8fc4b2431022249cbcee",
+      "bytes": 2168077
+    },
+    "assets/portada-viaje-fantastico.png": {
+      "sha256": "f28b2e566b7f0f5caf4e89bf581b259369a077435db803544f918a258451efe6",
+      "bytes": 2070037
+    },
+    "assets/practice-return15.css": {
+      "sha256": "609d04165d29f3113c40f4da947e3df4ba797c7e9f22bc417f2c6d25cfc80e0d",
+      "bytes": 1538
+    },
+    "assets/practice-return15.js": {
+      "sha256": "017bdb486937a3f571d1332d323ba24a4d18f9a89b25e9b08354f6124ce07650",
+      "bytes": 3626
+    },
+    "assets/progress-bridge.js": {
+      "sha256": "94b37c29ab2598dcbf5b4bf6f602f6e05b2a6b47a2e8fcfe24e6b78860762413",
+      "bytes": 7749
+    },
+    "assets/progress-config.js": {
+      "sha256": "340afd2782874c7152bc3c2f14415ee1a34cad515232237da31a9bf2261fdbe1",
+      "bytes": 8424
+    },
+    "assets/progress-rules.js": {
+      "sha256": "42a0a6dc150492ed4163841792f2619e26f4e2ad4bed3976be96348992b7c8b9",
+      "bytes": 12010
+    },
+    "assets/progress-shell.js": {
+      "sha256": "fc80d78dd942cb65c7a4020dfa027a3bfa97de3d16cdcce33852504dfb2b7bda",
+      "bytes": 8800
+    },
+    "assets/progress.css": {
+      "sha256": "f95b555056b50dba221124697cb56cd59bd2e0f55f7129acd9144fe9bd65a18f",
+      "bytes": 1667
+    },
+    "assets/respirator-use.css": {
+      "sha256": "b67009f7c16cd851486905022311659e51a7685bc9d70aca6d52aa5f85ea26f1",
+      "bytes": 2072
+    },
+    "assets/respirator-use.js": {
+      "sha256": "39e2538ceeb2b1a28f7a7cb2bd09993c06037ab795bbc73fa9539429b8638b08",
+      "bytes": 10811
+    },
+    "assets/respiratory-fallback.svg": {
+      "sha256": "c4f8a72dc62a2867a8b24fdba9d8deee12ce6498aecb45af6a0f681d941e3c27",
+      "bytes": 3359
+    },
+    "assets/respiratory3d.bundle.js": {
+      "sha256": "2257d313d4fb54cc40212478471bb6672dbc823799691e4d047584458bde6f2f",
+      "bytes": 631341
+    },
+    "assets/respiratory3d.css": {
+      "sha256": "d5303f15b77a7f9de3ebed24081d58147ec4645f6dc578b6336f62190f2e9ce6",
+      "bytes": 5876
+    },
+    "assets/review17-config.js": {
+      "sha256": "a4032e037a263cff703c07b7c30a27afc19e87d3d427d49665fafde0fbd1eba4",
+      "bytes": 228
+    },
+    "assets/revision01.css": {
+      "sha256": "902e960d22ee48b09f27f0b957d482313390639639f1974debcbdffadabfb336",
+      "bytes": 5140
+    },
+    "assets/revision01.js": {
+      "sha256": "c35416a7e8c8ebc6b9caed0172f09c5d105384d066d534292f5a81355649f971",
+      "bytes": 6673
+    },
+    "assets/routes12.css": {
+      "sha256": "0b50dc99e2c8e8cca044948aeaf8d88b0b2affa1bec59825dbf110e1789ad115",
+      "bytes": 5343
+    },
+    "assets/routes12.js": {
+      "sha256": "0f443338dac59d741fd85372a426d9cadb4685992bf4ace125d7715e084e0ed4",
+      "bytes": 17739
+    },
+    "assets/ruta-guiada-rg01.css": {
+      "sha256": "6ee588fe228b9d02a2cd4e29cca3023343c5a733ecbecbf612e40137851d20fc",
+      "bytes": 21328
+    },
+    "assets/ruta-guiada-rg01.js": {
+      "sha256": "0b29f2dfda77724fd1de49f4a41744b682595dca9a873dc4fef4039c977c1095",
+      "bytes": 12342
+    },
+    "assets/six-intro-captions.js": {
+      "sha256": "1876684355971b12970143c8fe416260724c4e38d0c48790a880c6ad7be5d1dd",
+      "bytes": 2718
+    },
+    "assets/styles.css": {
+      "sha256": "e837d71ca19a158bca43ee86fa1ec6fb1d1a856d63c4add1434408ae35cd6ebe",
+      "bytes": 9564
+    },
+    "assets/sync09-adapter.js": {
+      "sha256": "ac45034534b563aa2edc080aa250a15b5ca41ca1092745b4ef20f8ca58ad0781",
+      "bytes": 558
+    },
+    "assets/sync09.css": {
+      "sha256": "72e9a68528533b6018418ce96aec015bbe43f4bb1baf6f52f111c780b0543153",
+      "bytes": 1616
+    },
+    "assets/THREE-LICENSE.txt": {
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "bytes": 1081
+    },
+    "assets/timeline09.js": {
+      "sha256": "a62ab63bf08159d1e3a61f403368042516dcd33264cca26ba49440c2ef0a3fdd",
+      "bytes": 16300
+    },
+    "assets/use-scenes12.css": {
+      "sha256": "bea5588802b3ab6b6bc994ed425a9cf87e72df82e48b24494d13af6dcbe39263",
+      "bytes": 4111
+    },
+    "assets/use-scenes12.js": {
+      "sha256": "8ae956d30e100cdc1b7c2cb74e1f6fe19304b9502e0becbac1efaa2a566cc08a",
+      "bytes": 26543
+    },
+    "herramientas/ampliacion-opcional.html": {
+      "sha256": "6c1e42a362ca65fc4c4f1d7af32608fce4a2c68578dd6859e9ad5108aa9efb08",
+      "bytes": 23466
+    },
+    "herramientas/fuentes.html": {
+      "sha256": "39be98487a929e6531fb81d57a0e1d266a21e0ccd1491c03923651635b16d40c",
+      "bytes": 9652
+    },
+    "herramientas/guia-rapida.html": {
+      "sha256": "1f8daf188abb620ffcc58aea87e6ddfe8f41eeb6ed371851d9cdc312b9484dbe",
+      "bytes": 8866
+    },
+    "herramientas/index.html": {
+      "sha256": "eee532bc0b1026a8bd97442b4adebdae54dada984fa5c8e56f85afefc2f5843f",
+      "bytes": 10595
+    },
+    "herramientas/infografia.html": {
+      "sha256": "b845f9390f3c4e289893d74cb83a6c427c4876eb757b1c18d9753b8dd7d9bb28",
+      "bytes": 11362
+    },
+    "herramientas/leer-fds.html": {
+      "sha256": "f57a2eca9dfb53fce984da351517a9651a70b2f5a14d9348bbc7a2fdea291366",
+      "bytes": 8617
+    },
+    "herramientas/lista-chequeo.html": {
+      "sha256": "e6edff1d025db77b9055af60c534c69adc0fb6f92200cd80de018b0818ac245f",
+      "bytes": 8595
+    },
+    "herramientas/micromundos.html": {
+      "sha256": "71f314ae5f4f44abd1691f2cc70271143dc7a229ee0392705fd31259e473d3a1",
+      "bytes": 7570
+    },
+    "assets/areas12/biomedico-v1.webp": {
+      "sha256": "7e51e87d9e2cd1ddad588838b075385e7b5bfc015cae054bf4129a65df58cab8",
+      "bytes": 155870
+    },
+    "assets/areas12/enfermeria-v1.webp": {
+      "sha256": "dd522e74a64bed5aab3890c5266f72804006c2db31ba43dc4f1b2422565fec91",
+      "bytes": 117958
+    },
+    "assets/areas12/hemodinamia-v1.webp": {
+      "sha256": "6362b8e7aa02413db3e8851509b15ba5c28b47bbffc18e35a760b080716fd09f",
+      "bytes": 189996
+    },
+    "assets/areas12/laboratorio-v1.webp": {
+      "sha256": "4517de6ca6bc34917a8d36f6f055fd9062779c765140fcb1f45f4a674f9b16cf",
+      "bytes": 133862
+    },
+    "assets/areas12/mantenimiento-general-v1.webp": {
+      "sha256": "e4126ebf015d5c9ca77ffef5740d2768ef827357f55221ac319bc7f06301513c",
+      "bytes": 219206
+    },
+    "assets/areas12/patologia-v1.webp": {
+      "sha256": "fe45c05008b52efe19682aa9e7966f75381222e44d2a2590e7e027858f824828",
+      "bytes": 162968
+    },
+    "assets/areas12/quirofanos-v1.webp": {
+      "sha256": "0d11e345bdb418e8e57c4e099912e7227a281833c71c4b150479b6c017e01c80",
+      "bytes": 177816
+    },
+    "assets/areas12/residuos-v1.webp": {
+      "sha256": "c3db4c6d5e5a6e3bef568c036154419a0c0696e23d131756ca6f120e760a50ac",
+      "bytes": 162994
+    },
+    "assets/areas12/servicios-generales-v1.webp": {
+      "sha256": "6b2093800fa5d9f092eb33c81f050880867277a0811e89bce7931a8dafce645c",
+      "bytes": 155354
+    },
+    "assets/areas12/unidad-renal-v1.webp": {
+      "sha256": "0b6887afa515080a064ae6eb4fc46130d4107de9fed4d9a2107d43c0ded3cea8",
+      "bytes": 129046
+    },
+    "assets/areas12/urgencias-v1.webp": {
+      "sha256": "c4ff4c4f3b846477de73d8a39e36d7fdf8688d50f44b44f02fee456201fbbf70",
+      "bytes": 110950
+    },
+    "assets/areas14/mantenimiento-volatil-v1.webp": {
+      "sha256": "f5181b30777e0fe853634e9d1b488d48c8a474c10fe84cd9703941f6801d82b0",
+      "bytes": 151168
+    },
+    "assets/fotografia-v2/biomedico-foto-v2.png": {
+      "sha256": "022a96ad12ee934bf4b855a200e44122867f9cf21745026dc2c1069decf36318",
+      "bytes": 2066579
+    },
+    "assets/fotografia-v2/biomedico-foto-v2.webp": {
+      "sha256": "fe1f035ba254f6fffbe5ee7339a7b374eb019c848776dd193781fb675e463099",
+      "bytes": 131862
+    },
+    "assets/fotografia-v2/biomedico.prompt.txt": {
+      "sha256": "1ebfff1d58c50faba8f1f1c03f641aa513aef0abff1ef9452907ccae8e097087",
+      "bytes": 3057
+    },
+    "assets/fotografia-v2/enfermeria-foto-v2.png": {
+      "sha256": "8f81ee5b8adf4b5bfcf00cbc7a59736ab9c8871d2997a166f8f8ef7e75a43770",
+      "bytes": 2039172
+    },
+    "assets/fotografia-v2/enfermeria-foto-v2.webp": {
+      "sha256": "b1008dfb19221cd136cd066be88d34789fa8c8e8f444b13bc7a18430e222aea6",
+      "bytes": 148950
+    },
+    "assets/fotografia-v2/enfermeria.prompt.txt": {
+      "sha256": "529a6c8de70eccb6004b1212cdbb555dfadda2da6d331cd320248d1071694f68",
+      "bytes": 3062
+    },
+    "assets/fotografia-v2/grupo-salud-foto-v2.png": {
+      "sha256": "80cecd744587b6a6d616e089ee361f97fb610e3e8291c985d227b8e5b4b1b80d",
+      "bytes": 2028082
+    },
+    "assets/fotografia-v2/grupo-salud-foto-v2.webp": {
+      "sha256": "a64413291fba63587fd94c8d692284e25c9b0c72e131c3573c852e77663f540d",
+      "bytes": 134282
+    },
+    "assets/fotografia-v2/grupo-salud.prompt.txt": {
+      "sha256": "1849d70ac08c6e9a89a44cae23e8e9b0eec21d75d20f6119637291ac64db471e",
+      "bytes": 3728
+    },
+    "assets/fotografia-v2/hemodinamia-foto-v2.png": {
+      "sha256": "8a404614d27edeeefa85aecbaff0b1b31a5eca8468f57749e8674e5aec0ff063",
+      "bytes": 2209469
+    },
+    "assets/fotografia-v2/hemodinamia-foto-v2.webp": {
+      "sha256": "ece285637795c647bf74fc486c45de5fcf9bc46bb85f69060b4695b033d76e45",
+      "bytes": 158824
+    },
+    "assets/fotografia-v2/hemodinamia.prompt.txt": {
+      "sha256": "fd1a73214199f65c53bff0cd8f14bf8d215f6d6894273667b122f3b37663738b",
+      "bytes": 3117
+    },
+    "assets/fotografia-v2/laboratorio-foto-v2.png": {
+      "sha256": "24061836d4fb891cf1fe4ac5a1947c47d83dc00850bde93c1590c829cdad071a",
+      "bytes": 1970269
+    },
+    "assets/fotografia-v2/laboratorio-foto-v2.webp": {
+      "sha256": "ee65e83b205f260dd66a3fc4142b4f513dc1de029a73e6438b598c2f060c3fd9",
+      "bytes": 127094
+    },
+    "assets/fotografia-v2/laboratorio.prompt.txt": {
+      "sha256": "7dd65a5ed66e4c212172a6637874a43602ec6dfab65fa90d64bedfa2b85fd7d8",
+      "bytes": 3061
+    },
+    "assets/fotografia-v2/manifest.json": {
+      "sha256": "c28a209c3befce714aa55d7b93f48c740296846462a899c0b89ea602e7643db9",
+      "bytes": 49976
+    },
+    "assets/fotografia-v2/mantenimiento-general-foto-v2.png": {
+      "sha256": "2e56e0a6cd149b66507761986dfd7e0a5f1a31c6f5375cfe5f8e8ad9357f6d11",
+      "bytes": 1977987
+    },
+    "assets/fotografia-v2/mantenimiento-general-foto-v2.webp": {
+      "sha256": "a9e7551e230ecd800db87a0684f610738068a903339343a4b5d4ef9abf0f46b8",
+      "bytes": 121604
+    },
+    "assets/fotografia-v2/mantenimiento-general.prompt.txt": {
+      "sha256": "3d7d1a64589d26a6b4398b71d02d7a6f887dd766afdc9694344f453d68d7973d",
+      "bytes": 3762
+    },
+    "assets/fotografia-v2/mantenimiento-volatil-foto-v2.png": {
+      "sha256": "f782822022aac9e57d2075bf302df5a5ba26811ab249144c14955a1a858948d1",
+      "bytes": 2086127
+    },
+    "assets/fotografia-v2/mantenimiento-volatil-foto-v2.webp": {
+      "sha256": "90b980c275d1aa18a51c7c26ea59b6bc71431f630b1cc6b8b96144b5ce9db1e7",
+      "bytes": 137722
+    },
+    "assets/fotografia-v2/mantenimiento-volatil.prompt.txt": {
+      "sha256": "b8642e724476bb11e12a6b2fb23b37ef0cef30df4d012674d71a5f607f7cfe7d",
+      "bytes": 3092
+    },
+    "assets/fotografia-v2/patologia-foto-v2.png": {
+      "sha256": "e4f85d3fbb1b8515da01ee1b98f3242b764d2313b277dc0872dc051f69e1f543",
+      "bytes": 1943238
+    },
+    "assets/fotografia-v2/patologia-foto-v2.webp": {
+      "sha256": "494bbc888d180d9e96b655a1d48822c48a02591f35d56ee83c89d15fa6608006",
+      "bytes": 120050
+    },
+    "assets/fotografia-v2/patologia.prompt.txt": {
+      "sha256": "287bc687dd373ac17ad307812dc53df5574a76bebf58a2137c0db28aedb6c4e0",
+      "bytes": 3065
+    },
+    "assets/fotografia-v2/quirofanos-foto-v2.png": {
+      "sha256": "66f3fe602116a883afd4cdfe699064b4bd80236ad5ce4b606ed4cc71eed397c8",
+      "bytes": 2036274
+    },
+    "assets/fotografia-v2/quirofanos-foto-v2.webp": {
+      "sha256": "6591a08402555d7956337c7daf35ea9f6a3b5eca6008d244a1779d1ffbb9a812",
+      "bytes": 136132
+    },
+    "assets/fotografia-v2/quirofanos.prompt.txt": {
+      "sha256": "98a2c378ae72adb953b391deb8b0ec531a6f74d6f84242eb80b212fdfa3f7b90",
+      "bytes": 3119
+    },
+    "assets/fotografia-v2/residuos-foto-v2.png": {
+      "sha256": "7b8d42aea791edacd0257b1416a2a9ddb8c1df54157fc3c0e5ec13d71059b031",
+      "bytes": 1963672
+    },
+    "assets/fotografia-v2/residuos-foto-v2.webp": {
+      "sha256": "6b75c947d303d55db1da0bc0a2d41119233bcd8c64ebe9c0f2fa49682c9e006a",
+      "bytes": 127594
+    },
+    "assets/fotografia-v2/residuos.prompt.txt": {
+      "sha256": "6500832670f9b51258279f9a4ee162884a0ea1f191ebf1d46d7fe6a4366a0091",
+      "bytes": 4036
+    },
+    "assets/fotografia-v2/servicios-generales-foto-v2.png": {
+      "sha256": "1a5a39132259a45311a68aa44581ca1a87e086b916661a917a0796c9edd4829f",
+      "bytes": 2017152
+    },
+    "assets/fotografia-v2/servicios-generales-foto-v2.webp": {
+      "sha256": "6733abb6d2130a1abc1b5edd17f0d7ebd09301f6e6ac6282982b6301793132e6",
+      "bytes": 141914
+    },
+    "assets/fotografia-v2/servicios-generales.prompt.txt": {
+      "sha256": "272c233986e74242df315a31ea2cdf83498d3a5e23162f962d9ce8685c88d755",
+      "bytes": 3092
+    },
+    "assets/fotografia-v2/unidad-renal-foto-v2.png": {
+      "sha256": "3e199d83ba10aa8e9d19a81fa356bec1729a0f86723cdbca1b9e6f890e9da5e5",
+      "bytes": 2001382
+    },
+    "assets/fotografia-v2/unidad-renal-foto-v2.webp": {
+      "sha256": "fdde41ab3b05e949e517ab986918f205f8dd551700b6d7da0af861bb95cc073b",
+      "bytes": 144036
+    },
+    "assets/fotografia-v2/unidad-renal.prompt.txt": {
+      "sha256": "a1f7b043870910e050bc0ca34e6f69c2cf28c98f286f304a1a92d2468756cb83",
+      "bytes": 3002
+    },
+    "assets/fotografia-v2/urgencias-foto-v2.png": {
+      "sha256": "8d1098c5d65fe98c0c827524c986fc267122bda6beb3e055753300a9e1005a5b",
+      "bytes": 1945681
+    },
+    "assets/fotografia-v2/urgencias-foto-v2.webp": {
+      "sha256": "f13a84a434a247d8e57ab61a79c854f13cc9af58eb41bc73b07b889802c9b035",
+      "bytes": 138572
+    },
+    "assets/fotografia-v2/urgencias.prompt.txt": {
+      "sha256": "084c40a50ebedb6b655d162ea23f036a63efdbe56f0ab0f2e6eee582f37e736e",
+      "bytes": 3172
+    },
+    "assets/fotografia-v3/historia-camila-foto-v3.png": {
+      "sha256": "d28f6ff99302aa7eefd6b2107eeb27f5abbdde67e7aa192af4a001a2d660b31d",
+      "bytes": 2073406
+    },
+    "assets/fotografia-v3/historia-camila-foto-v3.webp": {
+      "sha256": "275a63338039ce1dead4651849fcf48096f4cddd2f168fddc03eb612a3f538f8",
+      "bytes": 155504
+    },
+    "assets/fotografia-v3/historia-camila.prompt.txt": {
+      "sha256": "8915720c14b44ea9b562282648fd6e5ea2bdf78a756a073f1829675b36757b5f",
+      "bytes": 2804
+    },
+    "assets/fotografia-v3/historia-elena-foto-v3.png": {
+      "sha256": "b14af5b1d9cc5938ddaca7e1c865b28d2d7025791b658a5d18738f62fc742b3c",
+      "bytes": 1969640
+    },
+    "assets/fotografia-v3/historia-elena-foto-v3.webp": {
+      "sha256": "3c58f96fc7e63154c4fcc2887204a1afe3cf86481946ec320c5d5955d43dc5f2",
+      "bytes": 139534
+    },
+    "assets/fotografia-v3/historia-elena.prompt.txt": {
+      "sha256": "ceb1dfe1d1c2a32bb8971bce02aa86fbafee00e09b5f48c6a86baa800ec59a62",
+      "bytes": 2761
+    },
+    "assets/fotografia-v3/historia-encuentro-foto-v3.png": {
+      "sha256": "3c13150c16636f65f1e5d25cf1b82e6e5178f9d32d5585bbbac708440e7ab0e7",
+      "bytes": 2027127
+    },
+    "assets/fotografia-v3/historia-encuentro-foto-v3.webp": {
+      "sha256": "a7b03d375f3aff74fcf383fc1962a183d7157383e1d268de7310a3451c34fedf",
+      "bytes": 139136
+    },
+    "assets/fotografia-v3/historia-encuentro.prompt.txt": {
+      "sha256": "7c98c2337b1970aec79ae9ade0995b5297f756d1aa6bf25b83aac959d6072541",
+      "bytes": 2870
+    },
+    "assets/fotografia-v3/historia-expedicion-foto-v3.png": {
+      "sha256": "7b9eb4f1d0ba52dab41277905778351aa401ae1765f03cbe48b3ee71f62f336a",
+      "bytes": 2002551
+    },
+    "assets/fotografia-v3/historia-expedicion-foto-v3.webp": {
+      "sha256": "450c6a7f9e8a2f6f28416735c1213e91788e2f521938d3d95dea2c1a60a67eb3",
+      "bytes": 131352
+    },
+    "assets/fotografia-v3/historia-expedicion.prompt.txt": {
+      "sha256": "bf393ac3af22cdd5d4652b9cdd725de79c9a363ca2ec999e0697b64db53ba610",
+      "bytes": 2816
+    },
+    "assets/fotografia-v3/historia-fotografica-v4.mp4": {
+      "sha256": "559ca2d0a3b19e79eb9cc332331bffea1d2e88c1118c8e97c3fe4e0e9da7ffbf",
+      "bytes": 3409999
+    },
+    "assets/fotografia-v3/historia-mateo-foto-v3.png": {
+      "sha256": "d0fd21040ede4e3b8109cf3ba8cd26c28b02b8dedfa45f3c66c8b7a66baf8e0f",
+      "bytes": 1932901
+    },
+    "assets/fotografia-v3/historia-mateo-foto-v3.webp": {
+      "sha256": "74755130db465320e1b9f617d171ee09bb873aaf75395db3899e405e0a215078",
+      "bytes": 131590
+    },
+    "assets/fotografia-v3/historia-mateo.prompt.txt": {
+      "sha256": "4c4484d2062cefcdad2f3178a132160752bfa191640df470682e6ff91853143a",
+      "bytes": 2798
+    },
+    "assets/fotografia-v3/historia-plano-foto-v3.png": {
+      "sha256": "329560c5c68d34c4bca7ffefe5c107136d6f32087250518a8f085350d77f2a4a",
+      "bytes": 2063237
+    },
+    "assets/fotografia-v3/historia-plano-foto-v3.webp": {
+      "sha256": "8277b6da76ab7ba3566e174143fdf38016f5707c780bd4c1281564639335b7ae",
+      "bytes": 137184
+    },
+    "assets/fotografia-v3/historia-plano.prompt.txt": {
+      "sha256": "67a543ceb549a3ef091aa900619b1ad6be3afc3e78dfdc1aba903d63364b80fb",
+      "bytes": 2824
+    },
+    "assets/fotografia-v3/manifest.json": {
+      "sha256": "fc682eb08f714923195cdbb9eb530a5b4a9718ee76d2822b50d72862ad95124e",
+      "bytes": 52987
+    },
+    "assets/fotografia-v3/mision-controles-foto-v3.png": {
+      "sha256": "d26ef1470015ad2d0dc34250a2d6f5567e430b390a57949a1028e3fdb0fbb511",
+      "bytes": 1997204
+    },
+    "assets/fotografia-v3/mision-controles-foto-v3.webp": {
+      "sha256": "037bb13e0dffa93c38ede58044b840f5ae801fb825f551790c489282562d05ff",
+      "bytes": 126822
+    },
+    "assets/fotografia-v3/mision-controles.prompt.txt": {
+      "sha256": "b97f0c57d298c56e0d7d91a61142c31de11552b08407918fa60935ded4544446",
+      "bytes": 2653
+    },
+    "assets/fotografia-v3/mision-csi-foto-v3.png": {
+      "sha256": "4af10ff71e508c75b79c0b6887b33010c6ea6da0996a8beb7d4d0f9eefb5142a",
+      "bytes": 1927733
+    },
+    "assets/fotografia-v3/mision-csi-foto-v3.webp": {
+      "sha256": "4fae44c1a1af4c31202af835ddbfcf0d062c2eac897ea219c7500468a7d62bf2",
+      "bytes": 107004
+    },
+    "assets/fotografia-v3/mision-csi.prompt.txt": {
+      "sha256": "acaa699f91b500375940029da229ceeb0c09dc8e3aada037cb634f5eea59605e",
+      "bytes": 2678
+    },
+    "assets/fotografia-v3/mision-cuidado-foto-v3.png": {
+      "sha256": "52f1cf6b01d7e917a2cfaabef7c589a729cad84f5b14ffe45a9c6eabf4266625",
+      "bytes": 2054129
+    },
+    "assets/fotografia-v3/mision-cuidado-foto-v3.webp": {
+      "sha256": "dd40ed397af5a713c185a145cec863bcfbed4593f63c1b54cf3cdb16f0a1ce85",
+      "bytes": 129362
+    },
+    "assets/fotografia-v3/mision-cuidado.prompt.txt": {
+      "sha256": "de72aa9cea1c1e6f7deb061b09dda81ac9902b8e40558290c42025edb95e6b37",
+      "bytes": 2742
+    },
+    "assets/fotografia-v3/mision-gases-foto-v3.png": {
+      "sha256": "eb1747b746ff27147c97bdec2024148bb7a9c0744a7542a18ccccc5854de9dea",
+      "bytes": 2026721
+    },
+    "assets/fotografia-v3/mision-gases-foto-v3.webp": {
+      "sha256": "9c58a74eaf680a990b860b7aaddd2da53910b0b876158d956743f0f20c7f1aa7",
+      "bytes": 126218
+    },
+    "assets/fotografia-v3/mision-gases.prompt.txt": {
+      "sha256": "4e39b6a21e1325d562edb4bc0aa4c88503af3b292f72a353c221729aa0223ec9",
+      "bytes": 2610
+    },
+    "assets/fotografia-v3/mision-seleccion-foto-v3.png": {
+      "sha256": "488437f1d0b1b8c59ab20bf03671f964e946d58eee59f8bc50e1db0262d1d438",
+      "bytes": 2025636
+    },
+    "assets/fotografia-v3/mision-seleccion-foto-v3.webp": {
+      "sha256": "2cbed08fd94b8dfd72405dc4658a2cdcf149057f82544ad20aa4d8e2aee860a6",
+      "bytes": 115026
+    },
+    "assets/fotografia-v3/mision-seleccion.prompt.txt": {
+      "sha256": "447ff9da1c423acef2a0dc86c19ef26ae5fde87eeee6d57529f967531a870dd8",
+      "bytes": 2746
+    },
+    "assets/fotografia-v3/mision-viaje-foto-v3.png": {
+      "sha256": "09135ce7af41603786ea686641da216e540ed4702e05bde339cde8ab83626179",
+      "bytes": 1994985
+    },
+    "assets/fotografia-v3/mision-viaje-foto-v3.webp": {
+      "sha256": "49d8a1e8094449d14f120f827ddd5571d1912210c672406d4dc2053c17a52354",
+      "bytes": 126298
+    },
+    "assets/fotografia-v3/mision-viaje.prompt.txt": {
+      "sha256": "ce8cca3c00bc15e4f943c64cb36d2b28d0726108ceed20fd245b9febf8c4e31d",
+      "bytes": 2587
+    },
+    "assets/fullface-FV01/fullface-FV01-poster.jpg": {
+      "sha256": "1d7b1f07bbc9ec63315b998d12b38af08eb465e00f7942bda79803b8d1089a30",
+      "bytes": 102372
+    },
+    "assets/fullface-FV01/fullface-FV01-transcripcion.txt": {
+      "sha256": "48eaac6fbc0deaa8f62b7d2848a44fc4bf3543a3a9fd37642abb26c6ccf9b58b",
+      "bytes": 2220
+    },
+    "assets/fullface-FV01/fullface-FV01.css": {
+      "sha256": "26bbdd3857ccfba5e344f779fff4057ad9b1e0f2451e1b8dfc34d325d122392c",
+      "bytes": 1661
+    },
+    "assets/fullface-FV01/fullface-FV01.js": {
+      "sha256": "f8e26a290a5081f1c572ad7c94562007eb4b6b5bb8fe5251c56f2c9317ea29e9",
+      "bytes": 5360
+    },
+    "assets/fullface-FV01/fullface-FV01.mp4": {
+      "sha256": "b5630e33c1401147858f6b7da7a098a22339eaf0b4d6c7367210b874a10ec637",
+      "bytes": 13028964
+    },
+    "assets/fullface-FV01/fullface-FV01.vtt": {
+      "sha256": "4fec11961aa0deddc7aa23162a499d73d1c819ddd68ad1e14c48d1a35661f88a",
+      "bytes": 3572
+    },
+    "assets/fullface-original-FV02/fullface-original-CC02.mp4": {
+      "sha256": "b7a01bbcd2b2ecc9bb420d725e84a9d29c434abd1a04478955bf47443f4d18af",
+      "bytes": 306767028
+    },
+    "assets/ghs14/GHS05.svg": {
+      "sha256": "c7cfafdfd977532ffe35a6054705432e3df97c1759eaa9f2117f12d602923a20",
+      "bytes": 13531
+    },
+    "assets/ghs14/GHS06.svg": {
+      "sha256": "fa76c689f464f89335bf691f4760ad1a5a7c236fbd591a988fd60639d08c6aed",
+      "bytes": 12588
+    },
+    "assets/ghs14/GHS07.svg": {
+      "sha256": "d30496410eb4808d19b0fa24e9a0079d800f4e5b3feffe82b7036aacc57746de",
+      "bytes": 1675
+    },
+    "assets/ghs14/GHS08.svg": {
+      "sha256": "f4f72dce1e8330cda7eaa1d711bc033596c9b6d5690b8ed51a4fd081f0cd8696",
+      "bytes": 15192
+    },
+    "assets/ghs14/PROCEDENCIA.txt": {
+      "sha256": "ce4f9a4a1943db0a4e263b92cd97434f49b205ebec204315fa86c43492a58662",
+      "bytes": 430
+    },
+    "assets/imagenes-generadas/personal-salud-grupo-fotografico-v1.png": {
+      "sha256": "80cecd744587b6a6d616e089ee361f97fb610e3e8291c985d227b8e5b4b1b80d",
+      "bytes": 2028082
+    },
+    "assets/imagenes-generadas/personal-salud-grupo-fotografico-v1.prompt.txt": {
+      "sha256": "1849d70ac08c6e9a89a44cae23e8e9b0eec21d75d20f6119637291ac64db471e",
+      "bytes": 3728
+    },
+    "assets/imagenes-generadas/viaje-fantastico-sistema-respiratorio-v1.png": {
+      "sha256": "17f445fdbc51864f6798a7d7ddaf0fdc3623f825182a68b508dc0aa8072dd1e3",
+      "bytes": 2332359
+    },
+    "assets/imagenes-generadas/viaje-fantastico-sistema-respiratorio-v1.prompt.txt": {
+      "sha256": "b5601f9b4d89bbcac5ddb80560b4ce7f182142d2cfa7b53c0d2e0e942fe9df03",
+      "bytes": 2524
+    },
+    "assets/introduccion-VD03/intro-M1-VD03-poster.png": {
+      "sha256": "e95c6c85ffab410ac9576f56a881760943fbb1a7c907488408078d602d4e58a8",
+      "bytes": 136976
+    },
+    "assets/introduccion-VD03/intro-M1-VD03-transcripcion.txt": {
+      "sha256": "cecdec7287c383591b06537aa720e247c7ef718b627e19634530c4d139938173",
+      "bytes": 1210
+    },
+    "assets/introduccion-VD03/intro-M1-VD03.mp4": {
+      "sha256": "930c407384cb8aa8545fe6d2b617293a729a7decc67954667f61b014aa97f085",
+      "bytes": 3022268
+    },
+    "assets/introduccion-VD03/intro-M1-VD03.vtt": {
+      "sha256": "3f8e5b4f13801b316549129f43fa96993d162ca9861c400f2fa7e127df0c2280",
+      "bytes": 1658
+    },
+    "assets/introduccion-VD03/introduccion-VD03.css": {
+      "sha256": "06cf76a194de0f89bfc9a5a779bb01a8aaacfdadad85b569ed7675b9aa3c9854",
+      "bytes": 1663
+    },
+    "assets/introduccion-VD03/introduccion-VD03.js": {
+      "sha256": "6e27e67e5cdf1ec29be1411fd9f9ab7280ca897742dcd77c40eb288122b99c23",
+      "bytes": 3378
+    },
+    "assets/introduccion-VD04/intro-M1-VD04-poster.png": {
+      "sha256": "4c9b3ec482a37a188195275002bcbb5763468fe294472e5cca2e23ed323e3265",
+      "bytes": 70707
+    },
+    "assets/introduccion-VD04/intro-M1-VD04-transcripcion.txt": {
+      "sha256": "6dc94249a48c05f9b7d24dcc95f97a3ac424f3fd3390e47a78bbb9c581bf70b8",
+      "bytes": 1735
+    },
+    "assets/introduccion-VD04/intro-M1-VD04.mp4": {
+      "sha256": "f25405e6b113296a9fe734da7f5c4b753bd00d52ea7c0c6c61dd68352fbf5f47",
+      "bytes": 4715429
+    },
+    "assets/introduccion-VD04/intro-M1-VD04.vtt": {
+      "sha256": "7819f97d8c927a77a92b4a8aeeb3d1e2d5bdab678edbd1c1c1c56077633d33ef",
+      "bytes": 2479
+    },
+    "assets/introduccion-VD04/introduccion-VD04.css": {
+      "sha256": "dd79463a1ef17a372b8eba53d68eb3c2bfdff66fa10f62a578a259abf7257e3e",
+      "bytes": 1663
+    },
+    "assets/introduccion-VD04/introduccion-VD04.js": {
+      "sha256": "2952fe4c523d82f02e3330d05e2603193582f3667c2d6e254310333ff4a13ba3",
+      "bytes": 4189
+    },
+    "assets/m2-modelos-RM02/index.html": {
+      "sha256": "1126f9be2b2a5e066cf4e9583e63c503679cab3c462835d846794dd9bee51e09",
+      "bytes": 2585
+    },
+    "assets/m2-modelos-RM02/laboratorio.bundle.js": {
+      "sha256": "429496c5ae8c36f1040ae7bd1e102e1ac88edb28e2c6409295708bb7559095f2",
+      "bytes": 3101046
+    },
+    "assets/m2-modelos-RM02/laboratorio.css": {
+      "sha256": "c7385a0bb9f85127e7bc3aeb43294d9b930989341654473fd07c6260d907ddbc",
+      "bytes": 4480
+    },
+    "assets/m2-modelos-RM02/m2-modelos-launcher.css": {
+      "sha256": "8a1ad41bd43d95e54a151f696ff883aa351eb85cc1bbd82a4c39d10d098975ad",
+      "bytes": 1099
+    },
+    "assets/m2-modelos-RM02/m2-modelos-launcher.js": {
+      "sha256": "41b202e9755869cdcd1ea6181acad50074a02f016819dc8158f34add60211fd8",
+      "bytes": 1373
+    },
+    "assets/m2-modelos-RM02/THREE-LICENSE.txt": {
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "bytes": 1081
+    },
+    "assets/media12/m14-formas-v1-poster.jpg": {
+      "sha256": "51a95220a9e48a08ba47e4da1fca798bd1b5dad2250ce7f80dd629e26652f4a2",
+      "bytes": 65631
+    },
+    "assets/media12/m14-formas-v1.mp3": {
+      "sha256": "ef4d600bcd75e7e5af53aca97ef50d12f42238362935c7ad19a4394cbfcbeb15",
+      "bytes": 1091760
+    },
+    "assets/media12/m14-formas-v1.mp4": {
+      "sha256": "a75cfcb7a38774aed3eebc80744c46378245e23f1e03ebf8f432c4709681099b",
+      "bytes": 1606278
+    },
+    "assets/media12/m14-formas-v1.txt": {
+      "sha256": "cbbd9640198fc39bb35d38912975dee1a7c56a9d8edb46cdde0e61aebb76cfce",
+      "bytes": 834
+    },
+    "assets/media12/m14-formas-v1.vtt": {
+      "sha256": "4423e0980741d1a58838d92573c7b7a2c0374b275b0f6a0de58fc0a5d49c85c5",
+      "bytes": 1339
+    },
+    "assets/media12/m15-laboratorio-v1.mp3": {
+      "sha256": "613b5de244f8907ec2cab27ce5836272c4befc633059d2608636fb203fe04414",
+      "bytes": 1278014
+    },
+    "assets/media12/m15-laboratorio-v1.txt": {
+      "sha256": "fd1b8971a596c0a154e82c2d5c7c6ecaf24fc8d1b9d0e4db437eebfbf90ff215",
+      "bytes": 977
+    },
+    "assets/media12/m15-laboratorio-v1.vtt": {
+      "sha256": "25a3b6c839da08d2c013249035d06b00f0d1022c7c7b7ed159b3f369761ec164",
+      "bytes": 1525
+    },
+    "assets/media12/m15-limpieza-v1.mp3": {
+      "sha256": "fa58400f0437f4dfb31424c262993f7da797a5947482fd5ba2237372d0ba1fa7",
+      "bytes": 1246817
+    },
+    "assets/media12/m15-limpieza-v1.txt": {
+      "sha256": "f48749f282e3c346975588cc24817d87e3f2ec8c2b877afb0b8411ef8dfb1287",
+      "bytes": 1051
+    },
+    "assets/media12/m15-limpieza-v1.vtt": {
+      "sha256": "b109f8dcec5c72a45f909639251671a0b216ada9cfc36b4ac1bd947324e2f974",
+      "bytes": 1632
+    },
+    "assets/media13/m16-ingreso-v1.mp3": {
+      "sha256": "2b792f27ef4d0ee7f0f6f26304dee223f5ba19323b513ad348ab3f4f2d50895c",
+      "bytes": 1156578
+    },
+    "assets/media13/m16-ingreso-v1.txt": {
+      "sha256": "a0f67dbb54bdceadcb1d24785f8dec17aa4f21d9f11b5cb1f50ede61e1b2d88d",
+      "bytes": 969
+    },
+    "assets/media13/m16-ingreso-v1.vtt": {
+      "sha256": "4626966807b0df96bce045c81bb890523f2af3bab7b19b4d83bfe1f8e052dda8",
+      "bytes": 1517
+    },
+    "assets/media13/m2-mecanismos-v1_1-poster.jpg": {
+      "sha256": "f137bf24d20d8c5b3fcffbc7e53017228ed690e9f1391ab659a76eff42c1767f",
+      "bytes": 57925
+    },
+    "assets/media13/m2-mecanismos-v1_1.mp3": {
+      "sha256": "3a09756c92ba0014b34cd8f7375c2c39ba0d4f37efa34ac349c40cd640ca9530",
+      "bytes": 1552572
+    },
+    "assets/media13/m2-mecanismos-v1_1.mp4": {
+      "sha256": "4b9552f017963e3beebfe06754706776aecc9267287a658372a1b4d8c38d3af6",
+      "bytes": 1740167
+    },
+    "assets/media13/m2-mecanismos-v1_1.txt": {
+      "sha256": "247b7a0d9fa713619321af14daed270c9f08808ed91804b4339cd610a6089cda",
+      "bytes": 1132
+    },
+    "assets/media13/m2-mecanismos-v1_1.vtt": {
+      "sha256": "4990dd6b5b10902b19c816871982b97aff0cd198891dacd8a0b9ec015d0ae103",
+      "bytes": 1849
+    },
+    "assets/media13/unidad-alveolar-capilar-gonzalo.mp3": {
+      "sha256": "b8e63f19b3e1bb7b8522c2aefac0060ab9eaf9f5000469663a6fc52e5ad0ab63",
+      "bytes": 891613
+    },
+    "assets/media13/unidad-alveolar-capilar-gonzalo.txt": {
+      "sha256": "94c714be39f9c3b1bf0129d51ae7126ebdd3d28d58a1ae83648e01e3f6f0cae1",
+      "bytes": 741
+    },
+    "assets/media14/m15-limpieza-v2-poster.jpg": {
+      "sha256": "36de2e096c8cfb5357dd6d446cc1d082d59dffb20facedc26929c937aa899f33",
+      "bytes": 61257
+    },
+    "assets/media14/m15-limpieza-v2.mp4": {
+      "sha256": "24be38df53b32c78e0dd3cd4abf8713ad5975ec955f63f2d96f35c96668ba8c1",
+      "bytes": 1525037
+    },
+    "assets/media14/m3-exposicion-v1_1.mp3": {
+      "sha256": "a81338d3fe9b612043bd5ab9bf03e42c91054238559fb7f9d56415eafc43d212",
+      "bytes": 1038015
+    },
+    "assets/media14/m3-exposicion-v1_1.txt": {
+      "sha256": "88bbae9983d7610c9914be9a5ca6e140341f85956fdabf26313f0ad2479deea0",
+      "bytes": 864
+    },
+    "assets/media14/m3-exposicion-v1_1.vtt": {
+      "sha256": "f3a6802a9997473f41aa2ccc907e9743c5226bcbb6ce51f969d066c3f8da7a02",
+      "bytes": 1378
+    },
+    "assets/media14/m4-controles-v1.mp3": {
+      "sha256": "d98718fc09f736d01dd8812323115828bd71b8d6481db00b7246b7c10b461888",
+      "bytes": 1254978
+    },
+    "assets/media14/m4-controles-v1.txt": {
+      "sha256": "e2bb00c5890848c7bcb1995b10ea3e351b42bf4763059e2b20ecade0180593bc",
+      "bytes": 943
+    },
+    "assets/media14/m4-controles-v1.vtt": {
+      "sha256": "30bf08ea58c5e82c198795da80ebdb988239581238c65c7f63505e58bf861036",
+      "bytes": 1457
+    },
+    "assets/media14/m5-seleccion-v1.mp3": {
+      "sha256": "8760edf25cc00bcc22e998e5f33f50dfbfdbe631a523f6cf5510cc0c3b80c070",
+      "bytes": 1086983
+    },
+    "assets/media14/m5-seleccion-v1.txt": {
+      "sha256": "e9d95c32388270abd7daf2f63c03ac5c493c833c7e2ede55f4117703a79220f7",
+      "bytes": 867
+    },
+    "assets/media14/m5-seleccion-v1.vtt": {
+      "sha256": "b85e3c2b306b38996460952bb9f08d1b6cd7e57b120d2b022a4038c47a13ff1c",
+      "bytes": 1415
+    },
+    "assets/media14/m6-uso-v1.mp3": {
+      "sha256": "bab17982210dbb9e6cb093303531fdcc721c9af217b6d2cb98eb07cbd76f6fbd",
+      "bytes": 1259305
+    },
+    "assets/media14/m6-uso-v1.txt": {
+      "sha256": "7f0522cdcdfd7779468fd517e3d1e30e1f00b580614e58030f2ce005fa60db7f",
+      "bytes": 875
+    },
+    "assets/media14/m6-uso-v1.vtt": {
+      "sha256": "b9aa2a4a116224be3845ec46ee760842e7e473f2d2f300b83d8a6c80e2f1cdc3",
+      "bytes": 1388
+    },
+    "assets/miniaturas-fantasia-MF01/m1-viaje.webp": {
+      "sha256": "84814b744b144dac7b49b39beed553b0897aa42a4a35cba0e2e4e4eb5ac9d2e2",
+      "bytes": 254820
+    },
+    "assets/miniaturas-fantasia-MF01/m2-gases.webp": {
+      "sha256": "052e3a1200720a2e9efed4b5c23624d97af2882bfbcb0f1bb3b96cce20e4e2e3",
+      "bytes": 246038
+    },
+    "assets/miniaturas-fantasia-MF01/m3-csi.webp": {
+      "sha256": "763ebc2b0c503354dcc1fe4ff5940bfda5b34af32dbc2f72474486fda826c1d4",
+      "bytes": 199742
+    },
+    "assets/miniaturas-fantasia-MF01/m4-controles.webp": {
+      "sha256": "409d3f5beb0a7311b5bda6a0d50afb619af74911c0bf048ad8d1374829fd6d06",
+      "bytes": 218384
+    },
+    "assets/miniaturas-fantasia-MF01/m5-mitos.webp": {
+      "sha256": "06c80339bbb6716c633c373afc9c2329e7787993b5bcd901f112adf7f6cfad66",
+      "bytes": 236282
+    },
+    "assets/miniaturas-fantasia-MF01/m6-pitstop.webp": {
+      "sha256": "de718d501fd301d1e4b98b72bf5eeb72d8d7dc192b107b1b69144a1ba8c2c4b2",
+      "bytes": 244832
+    },
+    "assets/miniaturas-fantasia-MF01/miniaturas-MF01.css": {
+      "sha256": "5d65b9f2f8fdb1c749c6d690135f3ce05a6d0285a79c5063547dbebe5a4ced33",
+      "bytes": 1826
+    },
+    "herramientas/assets/app.js": {
+      "sha256": "c3a42a5d860e70b60575cbc9bac706628704d5051a2f1e7fce39eb63e82dc678",
+      "bytes": 11218
+    },
+    "herramientas/assets/data.js": {
+      "sha256": "40c0811c1f4be1c5568cfa4b7344f080407730711cf00270192082568f74a971",
+      "bytes": 25345
+    },
+    "herramientas/assets/styles.css": {
+      "sha256": "34052f33a456dc05a070c38110d0439b50609975ea25b9644d3246318dbc28ed",
+      "bytes": 8294
+    }
+  },
+  "count": 390,
+  "bytes": 510207822
+}

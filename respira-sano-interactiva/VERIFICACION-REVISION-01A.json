@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "date": "2026-10-18",
+  "client_review": "pending",
+  "scope": "Only the accessible SVG description in Misión posible.",
+  "description": "Esquema conceptual del puesto simulado. Las medidas se exploran con los controles de esta actividad; sus cambios visuales muestran dónde actuarían y no calculan concentración ni eficacia.",
+  "changed_existing_files": [
+    "hospital.html"
+  ],
+  "csi_description_preserved": true,
+  "svg_aria_reference": "mission-scene-title mission-scene-desc",
+  "unique_description_id": true,
+  "no_hotspots_promised": true,
+  "idempotence": "passed",
+  "javascript_css_media_and_all_other_site_files_preserved": true,
+  "functional_qa_repeated": false,
+  "validation": "Exact text replacement, SVG/ARIA reference, original CSI description and file hashes; prior functional/visual QA retained.",
+  "previous_package": "Respira-Sano-REVISION-01-inicio-y-mision.zip",
+  "previous_package_sha256": "86e0b3bb8161b862176004fc6fdd8dd2c2f5f6a8c8fd8e837f5aed9cb174a2e9",
+  "previous_files": 95,
+  "before_hospital_sha256": "ee0fe486a3ba4fcff1833bfc44f013d6d03e128ff57e62d2e46d8b3606d7273f",
+  "after_hospital_sha256": "1ccd78395e30e59e935825f7eedbc24812c651c7fe50eb83e7289e816ca6b974"
+}

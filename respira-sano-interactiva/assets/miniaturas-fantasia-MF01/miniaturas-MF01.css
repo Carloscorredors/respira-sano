@@ -1,0 +1,22 @@
+/* MF01: solamente las seis tarjetas de la portada. Ilustraciones generadas, archivos anteriores conservados. */
+.rg-ui .rs-missions .rs-card[data-rs-card="1"]{--mf-accent:#185c9c}
+.rg-ui .rs-missions .rs-card[data-rs-card="2"]{--mf-accent:#713f94}
+.rg-ui .rs-missions .rs-card[data-rs-card="3"]{--mf-accent:#875a17}
+.rg-ui .rs-missions .rs-card[data-rs-card="4"]{--mf-accent:#096a52}
+.rg-ui .rs-missions .rs-card[data-rs-card="5"]{--mf-accent:#a04e13}
+.rg-ui .rs-missions .rs-card[data-rs-card="6"]{--mf-accent:#006a76}
+.rg-ui .rs-missions .rs-card{border-top:3px solid var(--mf-accent);box-shadow:0 3px 12px #12324b08}
+.rg-ui .rs-missions .rs-card:hover{border-color:var(--mf-accent);box-shadow:0 5px 18px #12324b1a}
+.rg-ui .rs-missions .rs-card-art{background:#102b45;overflow:hidden}
+.rg-ui .rs-missions .rs-card-art img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;object-position:center}
+.rg-ui .rs-missions .rs-card .rs-card-number{background:var(--mf-accent)!important;color:#fff;box-shadow:0 1px 6px #0003}
+@media(max-width:740px){
+ .rg-ui .rs-missions .rs-card{display:block}
+ .rg-ui .rs-missions .rs-card-art{display:block}
+ .rg-ui .rs-missions .rs-card-art img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+ .rg-ui .rs-missions .rs-card-title{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:7px 12px;padding:15px 16px;min-height:96px;font-size:21px}
+ .rg-ui .rs-missions .rs-card-label{grid-column:2;grid-row:1;align-self:start;justify-self:end;padding:5px 7px}
+ .rg-ui .rs-missions .rg-card-purpose{grid-column:1/-1;grid-row:2;font-size:15px}
+ .rg-ui .rs-missions .rs-card .rs-card-number{width:32px;height:32px;font-size:17px;top:10px;left:10px}
+}
+@media(min-width:560px) and (max-width:740px){.rg-ui .rs-missions .rs-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}

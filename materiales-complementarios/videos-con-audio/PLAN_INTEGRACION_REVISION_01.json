@@ -1,0 +1,599 @@
+{
+  "document": "Recepción y mapa de integración audiovisual — revisión 01",
+  "version": "0.1",
+  "recorded_at_utc": "2026-10-18T22:13:59.683424+00:00",
+  "status": "mapa_para_revision_sin_produccion_ni_integracion",
+  "receipt": {
+    "incoming_request": "Preparar únicamente recepción, mapa de seis módulos y criterios de aceptación; respetar la pausa de pulido indicada por Carlos.",
+    "authoritative_user_direction": "Esta voz suena mejor, pero puliremos en otra sesión.",
+    "windows_voice": "Rechazada por Carlos para la entrega final. Conservar únicamente como referencia.",
+    "salome": "Base preferida; pulido y aceptación final pendientes.",
+    "integration_authorization": "No se ejecuta integración. La futura integración corresponde al chat de desarrollo y requiere coordinación y revisión de Carlos.",
+    "new_pedagogical_route": "Recibida como referencia work/RUTA_PEDAGOGICA_REVISION_01.json, versión 0.1 del 2026-10-18. Propuesta para revisión y prototipo de Inicio/Misión; la ruta global no está implementada ni aprobada como versión final.",
+    "pedagogical_route_compatibility": {
+      "reference": "work/RUTA_PEDAGOGICA_REVISION_01.json",
+      "reference_version": "0.1",
+      "scope": "Recepción y contraste documental; sin producción ni integración audiovisual.",
+      "compatible_structure": "Conserva seis módulos y la continuidad de Camila en reconocimiento y gases, Mateo en investigación y controles, y Andrés en selección y cuidado. Sitúa los clips introductorios en el momento de historia, antes de la instrucción y la actividad.",
+      "pending_alignment": [
+        "Gases y vapores debe continuar la historia de Camila y conectar los efectos posibles con la investigación de la exposición.",
+        "CSI y Misión posible deben mantener el expediente de la misma tarea de Mateo; la propuesta de controles incluye justificación y evidencia por verificar, sin presentar su eficacia como comprobada.",
+        "Cazadores de mitos mantiene detenida la tarea de atmósfera desconocida. Pit stop corresponde a otra tarea evaluada, con equipo seleccionado y manual.",
+        "Las transiciones y los cierres audiovisuales deben contrastarse con las seis evidencias y la navegación cuando Carlos retome la sesión; el contraste documental no aprueba los guiones actuales."
+      ],
+      "approval_status": "Ruta global y aceptación audiovisual final pendientes de revisión de Carlos.",
+      "audio_status": "Salome sigue como base preferida, con pulido y aplicación en pausa. Las voces Windows siguen como referencias históricas rechazadas para entrega; persiste la incompatibilidad de hashes de narrativa registrada en source_versions.",
+      "action_now": "Solo actualizar esta recepción; ningún video sustituido ni nuevo audio generado."
+    }
+  },
+  "summary": {
+    "modules": 6,
+    "current_site_mp4_with_audio": 0,
+    "windows_references_with_audio": 6,
+    "salome_complete_module_samples": 1,
+    "final_voice_approved": false,
+    "videos_replaced": 0
+  },
+  "source_versions": {
+    "current_theme_file": "work/NARRATIVA_SEIS_MICROMODULOS.json",
+    "current_theme_version": "0.3",
+    "current_theme_sha256": "90c655d7849dfbbd4a1f432539122987ffd8307b6b38c0e05f24bcfd9072df9f",
+    "theme_sha256_captured_by_narrated_manifest": "ee0c7647c3606a8b206493cf84bebd333dcdeb697db2c0c0fb9c7ce21c403336",
+    "theme_hash_matches_narrated_manifest": false,
+    "narrated_manifest": "videos-con-audio/manifest.json",
+    "manifest_version": "candidata-1",
+    "manifest_status_is_historical": "El manifiesto conserva su voz Windows y estado histórico; no acredita aceptación vigente. Rigen la instrucción de Carlos y este mapa."
+  },
+  "modules": [
+    {
+      "id": "viaje-fantastico",
+      "title": "Viaje fantástico: una misión dentro de ti",
+      "technical_block": "1. Reconocimiento del riesgo respiratorio",
+      "actor_or_case": "Camila",
+      "current_site": {
+        "page": "respira-sano-interactiva/recorrido.html",
+        "entrypoint": "recorrido.html#viaje-fantastico",
+        "player_id": "pilot-video",
+        "transcript_id": "pilot-transcript",
+        "sources": [
+          "respira-sano-interactiva/assets/piloto-cuerpo-aire.mp4",
+          "respira-sano-interactiva/assets/piloto-cuerpo-aire.webm"
+        ],
+        "vtt": "respira-sano-interactiva/assets/piloto-cuerpo-aire.vtt",
+        "poster": "respira-sano-interactiva/assets/piloto-cuerpo-aire-poster.png",
+        "mp4_probe": {
+          "path": "respira-sano-interactiva/assets/piloto-cuerpo-aire.mp4",
+          "exists": true,
+          "duration_seconds": 37.958333,
+          "audio_stream_count": 0,
+          "streams": [
+            {
+              "type": "video",
+              "codec": "h264"
+            }
+          ],
+          "sha256": "642d73f14d43f4a91bb47ce69362c603f197afa610f2e38aea796fea607c1914"
+        },
+        "caption_scripts": [
+          "respira-sano-interactiva/assets/pilot-captions.js"
+        ]
+      },
+      "windows_narrated_reference": {
+        "status": "historical_reference_voice_rejected_for_final_delivery",
+        "voice": "Microsoft Sabina es-MX",
+        "files": {
+          "video": "videos-con-audio/viaje-fantastico/viaje-fantastico-narrado.mp4",
+          "audio": "videos-con-audio/viaje-fantastico/narracion.wav",
+          "transcript": "videos-con-audio/viaje-fantastico/transcripcion.txt",
+          "vtt": "videos-con-audio/viaje-fantastico/subtitulos.vtt",
+          "srt": "videos-con-audio/viaje-fantastico/subtitulos.srt",
+          "poster": "videos-con-audio/viaje-fantastico/poster.png"
+        },
+        "probe": {
+          "path": "videos-con-audio/viaje-fantastico/viaje-fantastico-narrado.mp4",
+          "exists": true,
+          "duration_seconds": 38.88,
+          "audio_stream_count": 1,
+          "streams": [
+            {
+              "type": "video",
+              "codec": "h264"
+            },
+            {
+              "type": "audio",
+              "codec": "aac"
+            },
+            {
+              "type": "subtitle",
+              "codec": "mov_text"
+            }
+          ],
+          "sha256": "4fb91b2535673b9a0e9e1fffd4489985023882e4e9e4eaacaa352ca0247192ae"
+        },
+        "subtitle_cues": 8,
+        "not_for_integration": true
+      },
+      "narrative_check": {
+        "level": "consistent_in_case_or_function_not_literal_match",
+        "finding": "Camila aparece en la locución de la primera escena; muestra con fijador y recorrido del aire coherentes con la historia actual.",
+        "alignment_when_resumed": "Conservar la conexión de Camila con el producto y la tarea; ajustar el cierre a la nueva ruta de reconocimiento. Revisar capturas anatómicas frente al visor vigente. La locución ahora incluye formas en aire que no coinciden literalmente con el piloto silencioso."
+      },
+      "salome_status": "preferred_voice_base_polishing_deferred_not_final",
+      "salome_sample": {
+        "voice": "Salome",
+        "language": "Español (Colombia)",
+        "rate": "1x",
+        "pitch": "Predeterminado",
+        "files": {
+          "video": "videos-con-audio/comparacion-clipchamp/viaje-fantastico-salome-clipchamp.mp4",
+          "audio": "videos-con-audio/comparacion-clipchamp/narracion-salome-clipchamp.mp3",
+          "vtt": "videos-con-audio/comparacion-clipchamp/salome-subtitulos.vtt",
+          "srt": "videos-con-audio/comparacion-clipchamp/salome-subtitulos.srt",
+          "script": "videos-con-audio/comparacion-clipchamp/guion-exacto.txt",
+          "comparison": "videos-con-audio/comparacion-clipchamp/comparar-voces.html",
+          "metadata": "videos-con-audio/comparacion-clipchamp/estado.json"
+        },
+        "probe": {
+          "path": "videos-con-audio/comparacion-clipchamp/viaje-fantastico-salome-clipchamp.mp4",
+          "exists": true,
+          "duration_seconds": 36.802667,
+          "audio_stream_count": 1,
+          "streams": [
+            {
+              "type": "video",
+              "codec": "h264"
+            },
+            {
+              "type": "audio",
+              "codec": "aac"
+            },
+            {
+              "type": "subtitle",
+              "codec": "mov_text"
+            }
+          ],
+          "sha256": "1af0e382fbb4b6c9ef7460bfa2787c8e9fbb4cea83ef4bf808c3024edd54b50d"
+        },
+        "subtitle_cues": 4,
+        "text_comparison_with_windows_narration": true,
+        "user_feedback": "Esta voz suena mejor, pero puliremos en otra sesión.",
+        "not_for_integration": true
+      }
+    },
+    {
+      "id": "gases-vapores",
+      "title": "No te hagas el loco con los gases y vapores",
+      "technical_block": "Refuerzo de 1. Reconocimiento: efectos y tareas",
+      "actor_or_case": "Camila",
+      "current_site": {
+        "page": "respira-sano-interactiva/gases-vapores.html",
+        "entrypoint": "gases-vapores.html",
+        "player_id": "intro-video-gases-vapores",
+        "transcript_id": "intro-transcript-gases-vapores",
+        "sources": [
+          "respira-sano-interactiva/assets/intro-gases-vapores.mp4",
+          "respira-sano-interactiva/assets/intro-gases-vapores.webm"
+        ],
+        "vtt": "respira-sano-interactiva/assets/intro-gases-vapores.vtt",
+        "poster": "respira-sano-interactiva/assets/intro-gases-vapores-poster.png",
+        "mp4_probe": {
+          "path": "respira-sano-interactiva/assets/intro-gases-vapores.mp4",
+          "exists": true,
+          "duration_seconds": 37.966667,
+          "audio_stream_count": 0,
+          "streams": [
+            {
+              "type": "video",
+              "codec": "h264"
+            }
+          ],
+          "sha256": "6ac4b4b6be13403e466935ac0386972f3d9183e578ffd127d3a92ac9e2fccc37"
+        },
+        "caption_scripts": [
+          "respira-sano-interactiva/assets/lesson-captions.js"
+        ]
+      },
+      "windows_narrated_reference": {
+        "status": "historical_reference_voice_rejected_for_final_delivery",
+        "voice": "Microsoft Sabina es-MX",
+        "files": {
+          "video": "videos-con-audio/gases-vapores/gases-vapores-narrado.mp4",
+          "audio": "videos-con-audio/gases-vapores/narracion.wav",
+          "transcript": "videos-con-audio/gases-vapores/transcripcion.txt",
+          "vtt": "videos-con-audio/gases-vapores/subtitulos.vtt",
+          "srt": "videos-con-audio/gases-vapores/subtitulos.srt",
+          "poster": "videos-con-audio/gases-vapores/poster.png"
+        },
+        "probe": {
+          "path": "videos-con-audio/gases-vapores/gases-vapores-narrado.mp4",
+          "exists": true,
+          "duration_seconds": 38.88,
+          "audio_stream_count": 1,
+          "streams": [
+            {
+              "type": "video",
+              "codec": "h264"
+            },
+            {
+              "type": "audio",
+              "codec": "aac"
+            },
+            {
+              "type": "subtitle",
+              "codec": "mov_text"
+            }
+          ],
+          "sha256": "14304398c0904ba56b5107a5a7390c0c5ca685a988ab68f436e9c51513d4ee28"
+        },
+        "subtitle_cues": 8,
+        "not_for_integration": true
+      },
+      "narrative_check": {
+        "level": "consistent_in_case_or_function_not_literal_match",
+        "finding": "La locución menciona a Camila y los Addams; mantiene agente, tarea y efectos posibles.",
+        "alignment_when_resumed": "El sitio ya presenta a Camila como continuación del viaje; la frase narrada Los Addams abren la historia de Camila debe revisarse para expresar continuidad y acompañar la nueva pregunta de entrada."
+      },
+      "salome_status": "not_generated_for_this_module"
+    },
+    {
+      "id": "csi-del-aire",
+      "title": "CSI del aire: sigue las pistas",
+      "technical_block": "2. Evaluación de la exposición",
+      "actor_or_case": "Mateo",
+      "current_site": {
+        "page": "respira-sano-interactiva/hospital.html",
+        "entrypoint": "hospital.html#csi-del-aire",
+        "player_id": "intro-video-investiga",
+        "transcript_id": "intro-transcript-investiga",
+        "sources": [
+          "respira-sano-interactiva/assets/intro-investiga.mp4",
+          "respira-sano-interactiva/assets/intro-investiga.webm"
+        ],
+        "vtt": "respira-sano-interactiva/assets/intro-investiga.vtt",
+        "poster": "respira-sano-interactiva/assets/intro-investiga-poster.png",
+        "mp4_probe": {
+          "path": "respira-sano-interactiva/assets/intro-investiga.mp4",
+          "exists": true,
+          "duration_seconds": 37.95,
+          "audio_stream_count": 0,
+          "streams": [
+            {
+              "type": "video",
+              "codec": "h264"
+            }
+          ],
+          "sha256": "3bcf9abef22d0448fc8c963dba67e21dba03fc177eca94279bb38d467c18a040"
+        },
+        "caption_scripts": [
+          "respira-sano-interactiva/assets/lesson-captions.js",
+          "respira-sano-interactiva/assets/six-intro-captions.js"
+        ]
+      },
+      "windows_narrated_reference": {
+        "status": "historical_reference_voice_rejected_for_final_delivery",
+        "voice": "Microsoft Sabina es-MX",
+        "files": {
+          "video": "videos-con-audio/csi-del-aire/csi-del-aire-narrado.mp4",
+          "audio": "videos-con-audio/csi-del-aire/narracion.wav",
+          "transcript": "videos-con-audio/csi-del-aire/transcripcion.txt",
+          "vtt": "videos-con-audio/csi-del-aire/subtitulos.vtt",
+          "srt": "videos-con-audio/csi-del-aire/subtitulos.srt",
+          "poster": "videos-con-audio/csi-del-aire/poster.png"
+        },
+        "probe": {
+          "path": "videos-con-audio/csi-del-aire/csi-del-aire-narrado.mp4",
+          "exists": true,
+          "duration_seconds": 38.92,
+          "audio_stream_count": 1,
+          "streams": [
+            {
+              "type": "video",
+              "codec": "h264"
+            },
+            {
+              "type": "audio",
+              "codec": "aac"
+            },
+            {
+              "type": "subtitle",
+              "codec": "mov_text"
+            }
+          ],
+          "sha256": "53c2c36558f7e8efb38baa54f576b6bd71dcb1834dca1c4f7a06d5ca3abb59d1"
+        },
+        "subtitle_cues": 8,
+        "not_for_integration": true
+      },
+      "narrative_check": {
+        "level": "consistent_in_case_or_function_not_literal_match",
+        "finding": "Mateo aparece en la primera escena y realiza el cambio de suministro tras un ciclo cerrado; compatible con el caso simulado actual.",
+        "alignment_when_resumed": "Ajustar la salida de CSI a los datos conocidos y pendientes que recibirá Misión posible, según la nueva ruta. No narrar controles como si su desempeño ya estuviera comprobado."
+      },
+      "salome_status": "not_generated_for_this_module"
+    },
+    {
+      "id": "mision-posible",
+      "title": "Misión posible: controla la fuente",
+      "technical_block": "3. Controles para proteger la respiración",
+      "actor_or_case": "Mateo y su equipo",
+      "current_site": {
+        "page": "respira-sano-interactiva/hospital.html",
+        "entrypoint": "hospital.html#mision-posible",
+        "player_id": "intro-video-controles",
+        "transcript_id": "intro-transcript-controles",
+        "sources": [
+          "respira-sano-interactiva/assets/intro-controles.mp4",
+          "respira-sano-interactiva/assets/intro-controles.webm"
+        ],
+        "vtt": "respira-sano-interactiva/assets/intro-controles.vtt",
+        "poster": "respira-sano-interactiva/assets/intro-controles-poster.png",
+        "mp4_probe": {
+          "path": "respira-sano-interactiva/assets/intro-controles.mp4",
+          "exists": true,
+          "duration_seconds": 37.983333,
+          "audio_stream_count": 0,
+          "streams": [
+            {
+              "type": "video",
+              "codec": "h264"
+            }
+          ],
+          "sha256": "6a6453bec4a441920a47da95ef58dd9ffca57e07eb0bc0b40f738af4f1b31ffb"
+        },
+        "caption_scripts": [
+          "respira-sano-interactiva/assets/lesson-captions.js",
+          "respira-sano-interactiva/assets/six-intro-captions.js"
+        ]
+      },
+      "windows_narrated_reference": {
+        "status": "historical_reference_voice_rejected_for_final_delivery",
+        "voice": "Microsoft Sabina es-MX",
+        "files": {
+          "video": "videos-con-audio/mision-posible/mision-posible-narrado.mp4",
+          "audio": "videos-con-audio/mision-posible/narracion.wav",
+          "transcript": "videos-con-audio/mision-posible/transcripcion.txt",
+          "vtt": "videos-con-audio/mision-posible/subtitulos.vtt",
+          "srt": "videos-con-audio/mision-posible/subtitulos.srt",
+          "poster": "videos-con-audio/mision-posible/poster.png"
+        },
+        "probe": {
+          "path": "videos-con-audio/mision-posible/mision-posible-narrado.mp4",
+          "exists": true,
+          "duration_seconds": 39.56,
+          "audio_stream_count": 1,
+          "streams": [
+            {
+              "type": "video",
+              "codec": "h264"
+            },
+            {
+              "type": "audio",
+              "codec": "aac"
+            },
+            {
+              "type": "subtitle",
+              "codec": "mov_text"
+            }
+          ],
+          "sha256": "72c1166f91fbe1e1760cc79a8d1273281c36e17d37c1aa894fec653af6c679f8"
+        },
+        "subtitle_cues": 7,
+        "not_for_integration": true
+      },
+      "narrative_check": {
+        "level": "consistent_in_case_or_function_not_literal_match",
+        "finding": "La voz de Windows trata controles en términos generales y no nombra a Mateo. Es compatible en función, pero el clip silencioso y la transición del sitio sí continúan explícitamente su caso.",
+        "alignment_when_resumed": "Prioridad de alineación: recibir la corrección de Misión posible y la ruta pedagógica antes de redactar o grabar. Definir tarea/fuente inicial, decisión sobre controles, comprobación y producto de salida. No fijar ahora una dinámica nueva."
+      },
+      "salome_status": "not_generated_for_this_module"
+    },
+    {
+      "id": "cazadores-de-mitos",
+      "title": "Cazadores de mitos: ¿qué protege de qué?",
+      "technical_block": "4. Selección del respirador",
+      "actor_or_case": "Andrés",
+      "current_site": {
+        "page": "respira-sano-interactiva/respiradores.html",
+        "entrypoint": "respiradores.html#cazadores-de-mitos",
+        "player_id": "intro-video-proteccion",
+        "transcript_id": "intro-transcript-proteccion",
+        "sources": [
+          "respira-sano-interactiva/assets/intro-proteccion.mp4",
+          "respira-sano-interactiva/assets/intro-proteccion.webm"
+        ],
+        "vtt": "respira-sano-interactiva/assets/intro-proteccion.vtt",
+        "poster": "respira-sano-interactiva/assets/intro-proteccion-poster.png",
+        "mp4_probe": {
+          "path": "respira-sano-interactiva/assets/intro-proteccion.mp4",
+          "exists": true,
+          "duration_seconds": 37.966992,
+          "audio_stream_count": 0,
+          "streams": [
+            {
+              "type": "video",
+              "codec": "h264"
+            }
+          ],
+          "sha256": "5466163551751d85cb5ba73f197592b59f2b8675e6ac1af5f1b384b519a1b30a"
+        },
+        "caption_scripts": [
+          "respira-sano-interactiva/assets/lesson-captions.js",
+          "respira-sano-interactiva/assets/six-intro-captions.js"
+        ]
+      },
+      "windows_narrated_reference": {
+        "status": "historical_reference_voice_rejected_for_final_delivery",
+        "voice": "Microsoft Sabina es-MX",
+        "files": {
+          "video": "videos-con-audio/cazadores-de-mitos/cazadores-de-mitos-narrado.mp4",
+          "audio": "videos-con-audio/cazadores-de-mitos/narracion.wav",
+          "transcript": "videos-con-audio/cazadores-de-mitos/transcripcion.txt",
+          "vtt": "videos-con-audio/cazadores-de-mitos/subtitulos.vtt",
+          "srt": "videos-con-audio/cazadores-de-mitos/subtitulos.srt",
+          "poster": "videos-con-audio/cazadores-de-mitos/poster.png"
+        },
+        "probe": {
+          "path": "videos-con-audio/cazadores-de-mitos/cazadores-de-mitos-narrado.mp4",
+          "exists": true,
+          "duration_seconds": 39.48,
+          "audio_stream_count": 1,
+          "streams": [
+            {
+              "type": "video",
+              "codec": "h264"
+            },
+            {
+              "type": "audio",
+              "codec": "aac"
+            },
+            {
+              "type": "subtitle",
+              "codec": "mov_text"
+            }
+          ],
+          "sha256": "f7ca3534fa0b413fc95226587c18d029de729425af1e5e9dc9c4f71f95a1d833"
+        },
+        "subtitle_cues": 8,
+        "not_for_integration": true
+      },
+      "narrative_check": {
+        "level": "consistent_in_case_or_function_not_literal_match",
+        "finding": "Andrés aparece en la primera escena; se detiene la selección por falta de información sobre la atmósfera. Compatible con el dilema actual de mantenimiento y ofrecimiento de un N95, que la locución resume.",
+        "alignment_when_resumed": "Alinear el caso que llega desde controles y las pistas necesarias para detener o fundamentar la selección. Mantener límites de purificadores y distinguir filtro de partículas de cartucho químico."
+      },
+      "salome_status": "not_generated_for_this_module"
+    },
+    {
+      "id": "pit-stop-respiratorio",
+      "title": "Pit stop respiratorio: revisa, ajusta y cuida",
+      "technical_block": "5. Uso, inspección y mantenimiento",
+      "actor_or_case": "Andrés, en un supuesto distinto de tarea ya evaluada",
+      "current_site": {
+        "page": "respira-sano-interactiva/respiradores.html",
+        "entrypoint": "respiradores.html#pit-stop-respiratorio",
+        "player_id": "intro-video-uso-cuidado",
+        "transcript_id": "intro-transcript-uso-cuidado",
+        "sources": [
+          "respira-sano-interactiva/assets/intro-uso-cuidado.mp4",
+          "respira-sano-interactiva/assets/intro-uso-cuidado.webm"
+        ],
+        "vtt": "respira-sano-interactiva/assets/intro-uso-cuidado.vtt",
+        "poster": "respira-sano-interactiva/assets/intro-uso-cuidado-poster.png",
+        "mp4_probe": {
+          "path": "respira-sano-interactiva/assets/intro-uso-cuidado.mp4",
+          "exists": true,
+          "duration_seconds": 38.0,
+          "audio_stream_count": 0,
+          "streams": [
+            {
+              "type": "video",
+              "codec": "h264"
+            }
+          ],
+          "sha256": "c32cf0a59c4542e21cd2faf1ad8f6fea9a4b8384ada0ee25cad5c36563617a18"
+        },
+        "caption_scripts": [
+          "respira-sano-interactiva/assets/lesson-captions.js",
+          "respira-sano-interactiva/assets/six-intro-captions.js"
+        ]
+      },
+      "windows_narrated_reference": {
+        "status": "historical_reference_voice_rejected_for_final_delivery",
+        "voice": "Microsoft Sabina es-MX",
+        "files": {
+          "video": "videos-con-audio/pit-stop-respiratorio/pit-stop-respiratorio-narrado.mp4",
+          "audio": "videos-con-audio/pit-stop-respiratorio/narracion.wav",
+          "transcript": "videos-con-audio/pit-stop-respiratorio/transcripcion.txt",
+          "vtt": "videos-con-audio/pit-stop-respiratorio/subtitulos.vtt",
+          "srt": "videos-con-audio/pit-stop-respiratorio/subtitulos.srt",
+          "poster": "videos-con-audio/pit-stop-respiratorio/poster.png"
+        },
+        "probe": {
+          "path": "videos-con-audio/pit-stop-respiratorio/pit-stop-respiratorio-narrado.mp4",
+          "exists": true,
+          "duration_seconds": 41.6,
+          "audio_stream_count": 1,
+          "streams": [
+            {
+              "type": "video",
+              "codec": "h264"
+            },
+            {
+              "type": "audio",
+              "codec": "aac"
+            },
+            {
+              "type": "subtitle",
+              "codec": "mov_text"
+            }
+          ],
+          "sha256": "c5478f701d7647154e95d8ef81b16a30b9f181374a39aa63451dc28953a03cfd"
+        },
+        "subtitle_cues": 10,
+        "not_for_integration": true
+      },
+      "narrative_check": {
+        "level": "consistent_in_case_or_function_not_literal_match",
+        "finding": "La locución de Windows no nombra a Andrés, pero empieza Para una tarea evaluada. El sitio explicita que es un nuevo supuesto y no autoriza entrar en la atmósfera desconocida del caso anterior.",
+        "alignment_when_resumed": "Expresar la transición al nuevo supuesto evaluado y al equipo/manual seleccionados. Revisar dibujos y rótulos de componentes frente a las mejoras actuales; conservar inspección, sello, cuidado y diferencia con prueba de ajuste."
+      },
+      "salome_status": "not_generated_for_this_module"
+    }
+  ],
+  "version_incompatibilities": [
+    "Los seis reproductores del sitio siguen usando archivos silenciosos. La existencia de narrados en otra carpeta no demuestra integración.",
+    "El sitio maneja subtítulos y transcripciones del texto en pantalla; las narraciones fueron reescritas y no son una copia literal de ese texto. Sustituir únicamente el MP4 dejaría diferencias de contenido.",
+    "Las referencias narradas Windows tienen aproximadamente 38,86 a 41,60 s y 7 a 10 cues; Salome de Viaje fantástico dura 36,802667 s y usa cuatro cues por escena. No reutilizar las marcas 0–9/9–18/18–28/28–38 del sitio.",
+    "La ficha temática vigente tiene una huella distinta de la capturada por el manifiesto de narrados. Revisar deltas de historia, entradas, salidas e imágenes; no asumir que las capturas antiguas reflejan las interfaces actuales.",
+    "La muestra Salome conserva literalmente la narración de Windows de Viaje fantástico, pero cambia tiempos. No equivale a un guion nuevo aprobado para la futura ruta.",
+    "Las alternativas MP4 y WebM del sitio deben corresponder al mismo montaje y audio; conservar un WebM silencioso como alternativa del MP4 narrado crearía comportamientos distintos por navegador.",
+    "Los IDs intro-investiga/controles/proteccion/uso-cuidado y los scripts de captions actuales no usan los mismos IDs semánticos que las carpetas narradas. Actualizar mapeos de forma explícita al integrar.",
+    "No hay muestras Salome de gases, CSI, controles, selección ni cuidado. Los seis narrados Windows no deben confundirse con seis voces Salome."
+  ],
+  "acceptance_criteria_when_resumed": [
+    {
+      "id": "AV01",
+      "criterion": "Recibir ruta pedagógica, momentos de entrada/salida, objetivo y producto de cada módulo revisados por Carlos; resolver Misión posible antes de grabar su nueva locución."
+    },
+    {
+      "id": "AV02",
+      "criterion": "Alinear guion con Camila/Mateo/Andrés y con la actividad posterior; señalar casos simulados y explicitar el nuevo supuesto de tarea evaluada antes de Pit stop."
+    },
+    {
+      "id": "AV03",
+      "criterion": "Pulir una muestra Salome con voz femenina latina, tono cercano y profesional; escuchar pronunciación, entonación, pausas y ritmo con Carlos antes de extenderla. No usar Windows como voz final."
+    },
+    {
+      "id": "AV04",
+      "criterion": "Fijar por módulo una versión de guion, audio, montaje e imágenes. Adaptar escenas a la locución real y actualizar transcripción exacta y cues; no acelerar para mantener 38 s ni alterar la agenda por la duración del clip."
+    },
+    {
+      "id": "AV05",
+      "criterion": "Comprobar cobertura de la función introductoria y límites técnicos; no presentar seis clips como cobertura completa del temario, medición de exposición, prueba de ajuste o autorización de entrada."
+    },
+    {
+      "id": "AV06",
+      "criterion": "Integración por desarrollo como conjunto coherente: MP4/WebM o alternativa equivalente acordada, pista de audio, VTT/SRT, captions JS, transcripción, póster, rótulo sin narración y duración visible; prevenir cues duplicados o de otra versión."
+    },
+    {
+      "id": "AV07",
+      "criterion": "Validar reproducción manual con sonido y CC, tiempos por escena, legibilidad, teclado, móvil, funcionamiento sin conexión y enlaces de descarga; decodificación técnica y niveles de audio. La escucha humana no se sustituye por mediciones."
+    },
+    {
+      "id": "AV08",
+      "criterion": "Presentar la entrega integrada a Carlos antes de cerrarla; documentar aceptación y pendientes. Solo después preparar el paquete coordinado, verificar correspondencia de archivos y hashes y comunicar al facilitador las duraciones/transiciones acordadas."
+    }
+  ],
+  "qa_limits": {
+    "now": "Solo lectura de fuentes, análisis de referencias HTML/JS, existencia, hashes y ffprobe. Sin render, TTS, Clipchamp, nuevos audios ni sustitución de archivos.",
+    "historical": "QA técnica/visual de referencias y muestra ya existe. La prueba funcional de los índices en navegador quedó pendiente; la muestra comparativa file: fue bloqueada por política. No se repitieron esas pruebas.",
+    "unchanged": "Originales, HTML/ZIP de participantes, guion del facilitador y encargo anterior intactos."
+  },
+  "handoff": {
+    "route_owner": "Planear capacitación interactiva",
+    "integration_owner": "chat de desarrollo del sitio",
+    "coordination": "Auditar proyecto web",
+    "audio_polishing": "Reservado a otra sesión; no iniciado por este mapa.",
+    "communication": "Este archivo y el resumen de recepción quedan disponibles en la carpeta compartida. No se envían mensajes a otros chats desde esta tarea."
+  }
+}

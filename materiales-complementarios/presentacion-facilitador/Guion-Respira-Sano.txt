@@ -1,0 +1,814 @@
+Respira Sano — GUION DEL FACILITADOR
+0.2.4 · Rótulos de componentes y válvulas · Minutaje para ensayo
+Propuesta de trabajo, incluye participación y videos; ensayo y aceptación final pendientes.
+
+OBJETIVO
+Fortalecer la capacidad de los participantes para identificar contaminantes químicos presentes en el aire, seleccionar medidas de control y utilizar adecuadamente los elementos de protección respiratoria, reduciendo el riesgo de exposición y afectación a la salud.
+
+A01 · 0–1 min · Abrimos el Expediente Respira Sano
+MOSTRAR
+Inicio y cierre
+HABLAR
+Bienvenidas y bienvenidos. Hoy vamos a identificar contaminantes en el aire, justificar controles y reconocer cómo seleccionar, utilizar y cuidar la protección respiratoria.
+
+Recorreremos seis mundos. Cada uno nos dejará una pregunta y una herramienta para investigar el trabajo.
+INTERACTUAR
+Presentar el objetivo y la ruta. Confirmar que el grupo ve la ventana de participantes.
+PREGUNTAR
+¿Qué decisión de tu trabajo te gustaría poder fundamentar mejor?
+ORIENTAR
+Recoger una necesidad concreta relacionada con reconocer, controlar o utilizar protección.
+CERRAR Y CONECTAR
+Antes del viaje, conozcamos dos ideas con las que llegamos.
+CONTINGENCIA
+Guiar la misma decisión en pantalla y recoger una respuesta por chat. Registrar la contingencia; no presentarla como trivia o pizarra compartida configurada.
+FUENTES
+NIOSH · Jerarquía de controles: https://www.cdc.gov/niosh/hierarchy-of-controls/about/
+
+====================
+
+A02 · 1–3 min · Dos decisiones para comenzar
+MOSTRAR
+Inicio y cierre
+HABLAR
+Vamos a responder dos preguntas breves sobre olor y protección respiratoria. Guardaremos las ideas para contrastarlas al terminar.
+
+Cada respuesta necesita un fundamento. Reconocer que falta información también es una decisión útil.
+INTERACTUAR
+Dos sondeos de unos 30 segundos: olor como indicador de seguridad y filtro de partículas para cualquier contaminante. Recuperar una justificación y orientar.
+PREGUNTAR
+¿El olor demuestra seguridad? ¿Un filtro de partículas resuelve cualquier contaminante?
+ORIENTAR
+No. El olor no demuestra concentración controlada y la función del filtro depende del contaminante; no atribuir protección química a un filtro de partículas.
+CERRAR Y CONECTAR
+Nuestra tarea será descubrir qué información sustenta esas decisiones.
+CONTINGENCIA
+Guiar la misma decisión en pantalla y recoger una respuesta por chat. Registrar la contingencia; no presentarla como trivia o pizarra compartida configurada.
+FUENTES
+NIOSH · Selección y uso de respiradores: https://www.cdc.gov/niosh/ppe/respirators/selection.html
+ATSDR · Formaldehído: https://wwwn.cdc.gov/TSP/PHS/PHS.aspx?phsid=218&toxid=39
+
+====================
+
+A03 · 3–5 min · Seis mundos y un mismo expediente
+MOSTRAR
+Inicio y cierre
+HABLAR
+Camila recibe una muestra con fijador; Mateo investiga un reprocesamiento; Andrés debe decidir si tiene información suficiente para seleccionar protección. Son historias simuladas, abiertas a preguntas sobre productos y condiciones reales.
+
+Viajaremos por el cuerpo, visitaremos a los Addams, investigaremos con CSI del aire, activaremos Misión posible, contrastaremos mitos y terminaremos en un pit stop respiratorio.
+INTERACTUAR
+Explicar cómo abrir las experiencias y escribir en el cuaderno. Reservar fuentes y ejemplos adicionales para consulta; compartir solo la ventana de participantes.
+PREGUNTAR
+¿Qué dejaremos registrado de cada mundo?
+ORIENTAR
+La tarea o fuente, la decisión y el dato o evidencia que se necesita comprobar.
+CERRAR Y CONECTAR
+Abrimos Viaje fantástico: una misión dentro de ti.
+CONTINGENCIA
+Guiar la misma decisión en pantalla y recoger una respuesta por chat. Registrar la contingencia; no presentarla como trivia o pizarra compartida configurada.
+FUENTES
+NIOSH · Riesgos químicos en salud: https://www.cdc.gov/niosh/healthcare/risk-factors/chemical-hazards.html
+
+====================
+
+V01 · 5–10 min · Viaje fantástico: entrada y recorrido del aire
+MOSTRAR
+Viaje fantástico: una misión dentro de ti
+HABLAR
+Camila recibe una muestra con fijador. Antes de abrir el recipiente, se pregunta qué podría liberarse al aire y qué necesita conocer sobre esa exposición. Para empezar, nos propone seguir el recorrido de una respiración.
+
+Sigamos una respiración desde la entrada hacia las vías respiratorias y los alvéolos. O₂ y CO₂ ilustran una función normal; esta vista no representa la ruta de un químico. Ojos, piel e ingestión accidental también pueden ser relevantes según la tarea.
+INTERACTUAR
+Reproducir el clip de unos 38 s. Usar el explorador didáctico para girar, ampliar y seleccionar entrada, tráquea y alvéolos. Si hay conexión, se puede sustituir parte de esa exploración por hasta 45 s en «Abrir modelo CT · Internet»: observar tráquea/bronquios y volver con «Acercar alvéolos didácticos». Si no carga, continuar en el explorador local; todo cabe en estos cinco minutos.
+PREGUNTAR
+¿Por qué conocer esta vía ayuda a investigar una exposición?
+ORIENTAR
+Permite conectar una fuente con la inhalación. Las propiedades del agente y las condiciones determinan su interacción; no todos llegan igual a alvéolos o sangre.
+CERRAR Y CONECTAR
+La expedición necesita reconocer qué puede acompañar al aire.
+CONTINGENCIA
+Guiar la misma decisión en pantalla y recoger una respuesta por chat. Registrar la contingencia; no presentarla como trivia o pizarra compartida configurada.
+FUENTES
+NHLBI · Sistema respiratorio: https://www.nhlbi.nih.gov/es/salud/pulmones/sistema-respiratorio
+ATSDR · Formaldehído: https://wwwn.cdc.gov/TSP/PHS/PHS.aspx?phsid=218&toxid=39
+Sketchfab · Lung CT scan · Holoxica · Referencia anatómica: https://sketchfab.com/models/f7232f2e10524eacbfb8fd149d0550e0/embed
+
+====================
+
+V02 · 10–15 min · Clasificar las formas en el aire
+MOSTRAR
+Viaje fantástico: una misión dentro de ti
+HABLAR
+Una pulverización puede producir gotas; un polvo contiene partículas sólidas y ciertos procesos generan humos. Aerosol comprende partículas sólidas o líquidas suspendidas: las categorías se relacionan.
+
+Comparemos esas formas con gases y vapores. Una tarea puede generar una mezcla; el nombre del servicio o del envase no basta para clasificar la emisión.
+INTERACTUAR
+Clasificar tres escenas de pulverización, polvo y humo quirúrgico; incluir explícitamente gases y vapores en la comparación.
+PREGUNTAR
+¿Qué nos permite distinguir una niebla de un vapor?
+ORIENTAR
+La niebla contiene gotas suspendidas; vapor corresponde a fase gaseosa de una sustancia. La tarea y las propiedades orientan qué formas investigar.
+CERRAR Y CONECTAR
+Identifiquemos ahora las tareas que pueden liberar esos agentes.
+CONTINGENCIA
+Numerar escenas en chat y resolver una por una.
+FUENTES
+OSHA · Laboratorios: https://www.osha.gov/sites/default/files/publications/OSHA3404laboratory-safety-guidance.pdf
+NIOSH · Riesgos químicos en salud: https://www.cdc.gov/niosh/healthcare/risk-factors/chemical-hazards.html
+NIOSH · Humo quirúrgico: https://www.cdc.gov/niosh/bulletin/2020/surgical-smoke.html
+
+====================
+
+V03 · 15–22 min · Agente, tarea y vía: seguir la fuente
+MOSTRAR
+Viaje fantástico: una misión dentro de ti
+HABLAR
+Una fuente puede acompañar la toma, traslado, recepción y manejo de una muestra. También investigamos aperturas, conexiones, pulverización, mantenimiento, generación de humos y residuos.
+
+Relacionemos patología, reprocesamiento y limpieza con tareas concretas. En función renal, hemodinamia y biomédica confirmamos el inventario y el procedimiento; no asignamos sustancias por el nombre del área.
+INTERACTUAR
+Comparar tres tareas y pedir agente posible, forma en el aire, vía y personas potencialmente expuestas. Usar el atlas para transferencia, sin explorar todas las áreas en vivo.
+PREGUNTAR
+¿Qué parte de la tarea puede liberar el agente y quién puede exponerse?
+ORIENTAR
+Aceptar hipótesis ligadas al producto y al proceso; separar lo confirmado de lo supuesto y señalar FDS o procedimiento faltantes.
+CERRAR Y CONECTAR
+Cerremos el primer mundo con una decisión de reconocimiento.
+CONTINGENCIA
+Guiar la misma decisión en pantalla y recoger una respuesta por chat. Registrar la contingencia; no presentarla como trivia o pizarra compartida configurada.
+FUENTES
+NIOSH · Riesgos químicos en salud: https://www.cdc.gov/niosh/healthcare/risk-factors/chemical-hazards.html
+ATSDR · Formaldehído: https://wwwn.cdc.gov/TSP/PHS/PHS.aspx?phsid=218&toxid=39
+NIOSH · Peracético, peróxido y acético en un hospital: https://www.cdc.gov/niosh/hhe/reports/pdfs/2017-0114-3357.pdf
+NIOSH · Humo quirúrgico: https://www.cdc.gov/niosh/bulletin/2020/surgical-smoke.html
+
+====================
+
+V04 · 22–25 min · Primera pista del expediente
+MOSTRAR
+Viaje fantástico: una misión dentro de ti
+HABLAR
+Elijamos la clasificación que evita confundir gotas con vapor o cualquier emisión con un gas.
+
+Cada persona dejará una relación entre agente, forma, vía y tarea. Camila ya reconoce el recorrido del aire; ahora se pregunta: Si el fijador libera sustancias al aire, ¿qué efectos podrían producir y de qué dependerían?
+INTERACTUAR
+Usar el reactivo M11 preparado para sondeo. Revisar una justificación y registrar una pista en el cuaderno.
+PREGUNTAR
+¿Qué dato de la tarea sustentó tu clasificación?
+ORIENTAR
+Debe relacionar el mecanismo de liberación y el producto; no clasificar únicamente por aspecto u olor.
+CERRAR Y CONECTAR
+Camila ya conoce por dónde entra el aire. Ahora quiere saber qué podría ocurrir con lo que lo acompaña. Pasemos a No te hagas el loco con los gases y vapores para investigar los efectos posibles y de qué dependen.
+CONTINGENCIA
+Guiar la misma decisión en pantalla y recoger una respuesta por chat. Registrar la contingencia; no presentarla como trivia o pizarra compartida configurada.
+FUENTES
+OSHA · Laboratorios: https://www.osha.gov/sites/default/files/publications/OSHA3404laboratory-safety-guidance.pdf
+NIOSH · Riesgos químicos en salud: https://www.cdc.gov/niosh/healthcare/risk-factors/chemical-hazards.html
+
+====================
+
+GV01 · 25–27 min · Addams: abrir el mito y pedir evidencia
+MOSTRAR
+No te hagas el loco con los gases y vapores
+HABLAR
+Camila trae la pregunta del viaje: si el fijador libera sustancias al aire, ¿qué efectos podrían producir y de qué dependerían?
+
+En No te hagas el loco con los gases y vapores, la familia Addams abre una conversación sobre ficción y evidencia. La apariencia de los personajes no permite reconocer exposición ni diagnosticar efectos.
+
+Para responder, Camila necesita conocer el producto, la tarea y las condiciones. Compararemos cuándo pueden aparecer o persistir los efectos y cómo puede actuar cada agente. Todavía necesitamos caracterizar la exposición de su tarea.
+INTERACTUAR
+Recuperar la pregunta de Camila del cierre de Viaje. Mostrar la portada existente y reproducir el clip de unos 38 s. Relacionar apariencia, evidencia y datos que faltan sobre su tarea.
+PREGUNTAR
+¿La apariencia basta para responder a Camila? ¿Qué información necesitamos sobre el producto y su tarea?
+ORIENTAR
+La apariencia no identifica ni descarta la exposición. Se necesita conocer el producto, la tarea y las condiciones; los efectos posibles dependen del agente y de la exposición.
+CERRAR Y CONECTAR
+En este mundo separaremos el tiempo y el tipo de acción.
+CONTINGENCIA
+Guiar la misma decisión en pantalla y recoger una respuesta por chat. Registrar la contingencia; no presentarla como trivia o pizarra compartida configurada.
+FUENTES
+ATSDR · Formaldehído: https://wwwn.cdc.gov/TSP/PHS/PHS.aspx?phsid=218&toxid=39
+
+====================
+
+GV02 · 27–30 min · Tiempo, persistencia y tipo de acción
+MOSTRAR
+No te hagas el loco con los gases y vapores
+HABLAR
+Preguntemos cuándo ocurre la exposición, cuándo aparecen los efectos y si persisten. Son preguntas diferentes de cómo puede actuar un agente.
+
+Irritación, posible lesión corrosiva cuando proceda, sensibilización y otros efectos no son alternativas de agudo o crónico. Las etiquetas pueden coexistir y un episodio breve puede requerir atención por sus consecuencias.
+INTERACTUAR
+Comparar los dos ejes del módulo y resolver la decisión GV-TIEMPO; orientar sin predecir lesión individual.
+PREGUNTAR
+¿Agudo significa necesariamente leve o reversible?
+ORIENTAR
+No. Hay que separar patrón temporal, aparición, persistencia y mecanismo, considerando el agente y la exposición.
+CERRAR Y CONECTAR
+Apliquemos esas preguntas a los ejemplos del sector salud.
+CONTINGENCIA
+Guiar la misma decisión en pantalla y recoger una respuesta por chat. Registrar la contingencia; no presentarla como trivia o pizarra compartida configurada.
+FUENTES
+CDC · Cloro: https://www.cdc.gov/chemical-emergencies/chemical-fact-sheets/chlorine.html
+ATSDR · Formaldehído: https://wwwn.cdc.gov/TSP/PHS/PHS.aspx?phsid=218&toxid=39
+
+====================
+
+GV03 · 30–35 min · Comparar agentes y efectos posibles
+MOSTRAR
+No te hagas el loco con los gases y vapores
+HABLAR
+Vamos a comparar formaldehído, glutaraldehído y formulaciones oxidantes del módulo. Cada tarjeta relaciona una tarea posible, un efecto y una fuente.
+
+Examinemos irritación, sensibilización u otros efectos que la evidencia respalda para cada agente. Cloro y xileno quedan para consulta. No todas las formulaciones ni todas las tareas producen las mismas condiciones.
+INTERACTUAR
+Mostrar tres tarjetas y sus fuentes. Pedir una diferencia relevante; conservar dos tarjetas adicionales para consulta posterior.
+PREGUNTAR
+¿Qué cambia al cambiar el agente, la formulación o la tarea?
+ORIENTAR
+Cambian propiedades, formas de liberación y efectos posibles. Reconocer un peligro no calcula dosis ni predice enfermedad individual.
+CERRAR Y CONECTAR
+Pasemos de la comparación a una decisión preventiva.
+CONTINGENCIA
+Guiar la misma decisión en pantalla y recoger una respuesta por chat. Registrar la contingencia; no presentarla como trivia o pizarra compartida configurada.
+FUENTES
+ATSDR · Formaldehído: https://wwwn.cdc.gov/TSP/PHS/PHS.aspx?phsid=218&toxid=39
+NIOSH · Glutaraldehído en hospitales: https://www.cdc.gov/niosh/docs/2001-115/pdfs/2001-115.pdf
+NIOSH · Peracético, peróxido y acético en un hospital: https://www.cdc.gov/niosh/hhe/reports/pdfs/2017-0114-3357.pdf
+CDC · Cloro: https://www.cdc.gov/chemical-emergencies/chemical-fact-sheets/chlorine.html
+ATSDR · Xileno: https://www.atsdr.cdc.gov/es/phs/es_phs71.html
+
+====================
+
+GV04 · 35–38 min · Elegir una decisión preventiva
+MOSTRAR
+No te hagas el loco con los gases y vapores
+HABLAR
+Conocer un efecto posible ayuda a preguntar qué tarea puede liberar el agente y qué condición necesita controlarse.
+
+La tarjeta orienta una investigación. La selección de controles y respiradores requiere el escenario; la desarrollaremos en sus propios bloques.
+INTERACTUAR
+Resolver una de las decisiones preventivas del módulo y pedir el dato que faltaría antes de actuar.
+PREGUNTAR
+¿Qué revisarías primero en esa tarea y qué necesitas comprobar?
+ORIENTAR
+Relacionar fuente o liberación con producto, procedimiento y condiciones. Reconocer información insuficiente es válido.
+CERRAR Y CONECTAR
+Dejemos una pista para el equipo de CSI del aire.
+CONTINGENCIA
+Guiar la misma decisión en pantalla y recoger una respuesta por chat. Registrar la contingencia; no presentarla como trivia o pizarra compartida configurada.
+FUENTES
+ATSDR · Formaldehído: https://wwwn.cdc.gov/TSP/PHS/PHS.aspx?phsid=218&toxid=39
+NIOSH · Jerarquía de controles: https://www.cdc.gov/niosh/hierarchy-of-controls/about/
+
+====================
+
+GV05 · 38–40 min · Dejar la pista para CSI del aire
+MOSTRAR
+No te hagas el loco con los gases y vapores
+HABLAR
+Camila ya puede distinguir preguntas sobre el tiempo y el tipo de efecto. Para valorar su tarea aún necesita identificar el producto y reunir datos de exposición. Su siguiente pregunta es: ¿qué información necesitamos para investigar esa exposición?
+
+Escribe una fuente o tarea, un efecto posible o dato faltante y una acción que deba verificarse.
+INTERACTUAR
+Un minuto para escribir en el cuaderno. Recuperar una respuesta y distinguir lo confirmado de lo supuesto.
+PREGUNTAR
+¿Qué dato te falta sobre el agente o la exposición que elegiste?
+ORIENTAR
+Debe formular una pregunta verificable de tarea, producto, condiciones o evaluación; no un diagnóstico por aspecto.
+CERRAR Y CONECTAR
+Camila ya sabe qué preguntar sobre los posibles efectos, pero necesita datos de la tarea y de la exposición. Llevemos esa forma de investigar al caso de Mateo: abrimos CSI del aire.
+CONTINGENCIA
+Guiar la misma decisión en pantalla y recoger una respuesta por chat. Registrar la contingencia; no presentarla como trivia o pizarra compartida configurada.
+FUENTES
+NIOSH · Riesgos químicos en salud: https://www.cdc.gov/niosh/healthcare/risk-factors/chemical-hazards.html
+
+====================
+
+CSI01 · 40–43 min · CSI del aire: abrir el caso de Mateo
+MOSTRAR
+CSI del aire: sigue las pistas
+HABLAR
+Mateo termina un ciclo de reprocesamiento y se prepara para cambiar un suministro. Aunque el ciclo haya permanecido cerrado, todavía debe revisar conexiones, aperturas y manejo de residuos. Antes de continuar, se pregunta: ¿en qué momentos de esta tarea podría liberarse un agente y qué información necesito para evaluar la exposición?
+
+El clip nos deja una hipótesis. El servicio y la escena son simulados: comprobaremos producto, procedimiento y condiciones antes de concluir.
+INTERACTUAR
+Mostrar la portada CSI y el clip de unos 38 s. Seleccionar el caso de Mateo/Endoscopia y recoger una hipótesis inicial.
+PREGUNTAR
+¿En qué momentos de esta tarea podría liberarse un agente y qué información necesito para evaluar la exposición?
+ORIENTAR
+En las tareas y elementos del proceso, no únicamente en el ciclo principal o el nombre del servicio.
+CERRAR Y CONECTAR
+Abramos las pistas del producto y la tarea.
+CONTINGENCIA
+Guiar la misma decisión en pantalla y recoger una respuesta por chat. Registrar la contingencia; no presentarla como trivia o pizarra compartida configurada.
+FUENTES
+NIOSH · Riesgos químicos en salud: https://www.cdc.gov/niosh/healthcare/risk-factors/chemical-hazards.html
+NIOSH · Peracético, peróxido y acético en un hospital: https://www.cdc.gov/niosh/hhe/reports/pdfs/2017-0114-3357.pdf
+
+====================
+
+CSI02 · 43–49 min · Reunir producto, FDS, tarea y personas
+MOSTRAR
+CSI del aire: sigue las pistas
+HABLAR
+Mateo usa un desinfectante en un equipo. El primer dato no es solo 'peracético': necesitamos producto comercial, fabricante, ingredientes y uso autorizado.
+
+En la FDS buscamos composición, peligros, controles, propiedades e incompatibilidades. La ficha debe corresponder al producto. La concentración del líquido no nos da directamente la concentración del aire; faltan condiciones de la tarea y evaluación.
+INTERACTUAR
+Explorar pistas del escenario: producto/FDS, tarea, fuente, personas y residuos. Clasificar la información como confirmada, supuesta o pendiente.
+PREGUNTAR
+¿Podemos copiar recomendaciones entre productos por compartir ingrediente?
+ORIENTAR
+No. Comparamos formulación, equipo, uso, compatibilidad y exposición.
+CERRAR Y CONECTAR
+Ahora revisemos cuánto tiempo, qué concentración conocemos y cómo se controla el aire.
+CONTINGENCIA
+Mostrar una ficha y preguntar qué secciones consultarían.
+FUENTES
+OSHA · Fichas de datos de seguridad: https://www.osha.gov/sites/default/files/publications/OSHA3514.pdf
+NIOSH · Peracético, peróxido y acético en un hospital: https://www.cdc.gov/niosh/hhe/reports/pdfs/2017-0114-3357.pdf
+
+====================
+
+CSI03 · 49–54 min · Concentración, tiempo y ventilación
+MOSTRAR
+CSI del aire: sigue las pistas
+HABLAR
+La concentración del producto no equivale a la concentración en el aire. La duración, frecuencia y condiciones de la tarea orientan la evaluación.
+
+Una rejilla puede introducir o extraer aire, y su presencia no demuestra captación eficaz. Necesitamos conocer función y desempeño del sistema y la relación entre la fuente y la persona.
+INTERACTUAR
+Relacionar las pistas de tiempo/concentración y ventilación. Pedir qué datos faltan y qué observación no permite concluir.
+PREGUNTAR
+¿Podemos dar por controlada la exposición porque hay una extracción instalada?
+ORIENTAR
+No. Deben verificarse su función y desempeño y caracterizar la exposición con la estrategia adecuada.
+CERRAR Y CONECTAR
+Distingamos lo que aporta una inspección de lo que necesita medición.
+CONTINGENCIA
+Guiar la misma decisión en pantalla y recoger una respuesta por chat. Registrar la contingencia; no presentarla como trivia o pizarra compartida configurada.
+FUENTES
+OSHA · Fichas de datos de seguridad: https://www.osha.gov/sites/default/files/publications/OSHA3514.pdf
+INSST · NTP 937 / INRS: https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/27-serie-ntp-numeros-926-a-960-ano-2012/nota-tecnica-de-prevencion-ntp-937
+
+====================
+
+CSI04 · 54–58 min · Inspección, métodos y mediciones
+MOSTRAR
+CSI del aire: sigue las pistas
+HABLAR
+Los métodos cualitativos orientan decisiones dentro de sus límites. La NTP 936 presenta COSHH Essentials; la NTP 937 incluye procedimiento y protección colectiva. No son la misma herramienta.
+
+La inspección no mide concentración. La estrategia higiénica define agente, personas, tareas, método e interpretación. Reconocer que faltan datos es una decisión preventiva. Una simulación no reemplaza esa evaluación.
+INTERACTUAR
+Contrastar inspección, método cualitativo y medición. Usar M22 para discutir el alcance de observar una rejilla, sin cálculos no validados.
+PREGUNTAR
+¿FDS y rejilla visible demuestran exposición controlada?
+ORIENTAR
+No. Son puntos de partida; hay que evaluar el escenario y la eficacia de los controles, con mediciones cuando corresponda.
+CERRAR Y CONECTAR
+Completemos el expediente con lo que sabemos y lo que falta comprobar.
+CONTINGENCIA
+Responder por chat y explicar antes de avanzar.
+FUENTES
+INSST · NTP 936 / COSHH Essentials: https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/27-serie-ntp-numeros-926-a-960-ano-2012/nota-tecnica-de-prevencion-ntp-936
+INSST · NTP 937 / INRS: https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/27-serie-ntp-numeros-926-a-960-ano-2012/nota-tecnica-de-prevencion-ntp-937
+
+====================
+
+CSI05 · 58–60 min · Cerrar el perfil de exposición
+MOSTRAR
+CSI del aire: sigue las pistas
+HABLAR
+Nuestro expediente ya distingue información disponible, supuestos y datos faltantes.
+
+Registra una fuente, una condición de exposición y una pregunta que necesite verificación o medición. Eso orientará la propuesta de control.
+INTERACTUAR
+Completar la ficha o cuaderno con conocidos, supuestos, faltantes y siguiente paso. Recuperar un ejemplo.
+PREGUNTAR
+¿Qué dato cambiaría tu decisión sobre el escenario?
+ORIENTAR
+Aceptar datos relevantes de agente, tarea, exposición, ventilación o medición, ligados a una pregunta concreta.
+CERRAR Y CONECTAR
+Mateo ya reunió las primeras pistas: una fuente posible, las condiciones de la tarea y los datos que faltan. Ahora necesita convertir ese expediente en una propuesta: ¿qué cambiaríamos para evitar o reducir la liberación y cómo comprobaríamos el resultado? Entramos en Misión posible: controla la fuente.
+CONTINGENCIA
+Guiar la misma decisión en pantalla y recoger una respuesta por chat. Registrar la contingencia; no presentarla como trivia o pizarra compartida configurada.
+FUENTES
+OSHA · Fichas de datos de seguridad: https://www.osha.gov/sites/default/files/publications/OSHA3514.pdf
+INSST · NTP 937 / INRS: https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/27-serie-ntp-numeros-926-a-960-ano-2012/nota-tecnica-de-prevencion-ntp-937
+
+====================
+
+MP01 · 60–62 min · Misión posible: recuperar la fuente
+MOSTRAR
+Misión posible: controla la fuente
+HABLAR
+Mateo vuelve con el expediente de la misma tarea. Su equipo debe utilizar las pistas para proponer cambios en la fuente, el ambiente y el procedimiento, y definir cómo comprobarlos. La nueva misión es decidir qué cambiar primero y qué evidencia necesitarían para valorar el resultado.
+
+Recuperemos el mismo escenario y sus datos pendientes. El equipo de operaciones actuará sobre fuente, ambiente y prácticas.
+INTERACTUAR
+Mostrar portada Misión posible y el clip propio de Controles de unos 38 s, dentro de estos dos minutos. Recuperar una fuente; no repetir la introducción de evaluación.
+PREGUNTAR
+¿Qué podemos cambiar y cómo comprobaríamos que la medida funciona?
+ORIENTAR
+Una condición relacionada con la fuente y la liberación, justificada por las pistas y los datos pendientes. Proponer una comprobación pertinente del desempeño; la propuesta todavía necesita evaluación y verificación.
+CERRAR Y CONECTAR
+Comparemos las medidas superiores de la jerarquía.
+CONTINGENCIA
+Guiar la misma decisión en pantalla y recoger una respuesta por chat. Registrar la contingencia; no presentarla como trivia o pizarra compartida configurada.
+FUENTES
+NIOSH · Jerarquía de controles: https://www.cdc.gov/niosh/hierarchy-of-controls/about/
+
+====================
+
+MP02 · 62–67 min · Combinar eliminación, sustitución y controles técnicos
+MOSTRAR
+Misión posible: controla la fuente
+HABLAR
+Primero valoramos si la operación puede eliminarse o si existe una sustitución compatible. En salud, también debemos conservar la eficacia y compatibilidad del proceso.
+
+Encerrar una operación, captar la emisión y ventilar tienen funciones diferentes. Construyamos una combinación y dejemos la protección respiratoria como última barrera dentro del conjunto que corresponda.
+INTERACTUAR
+Combinar medidas en el escenario y resolver M31. Justificar dónde actúa cada medida; no atribuir porcentajes a la animación.
+PREGUNTAR
+¿Sobre qué parte de la exposición actúa cada control propuesto?
+ORIENTAR
+Relacionar fuente, trayectoria o prácticas y reconocer límites. La sustitución requiere validación del proceso y no se decide por olor.
+CERRAR Y CONECTAR
+La combinación debe incluir cómo se realiza el trabajo y se previenen fugas.
+CONTINGENCIA
+Guiar la misma decisión en pantalla y recoger una respuesta por chat. Registrar la contingencia; no presentarla como trivia o pizarra compartida configurada.
+FUENTES
+NIOSH · Jerarquía de controles: https://www.cdc.gov/niosh/hierarchy-of-controls/about/
+NIOSH · Peracético, peróxido y acético en un hospital: https://www.cdc.gov/niosh/hhe/reports/pdfs/2017-0114-3357.pdf
+CDC · Reprocesamiento y hemodiálisis: https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/healthcare-equipment.html
+
+====================
+
+MP03 · 67–70 min · Procedimientos, conexiones y fugas
+MOSTRAR
+Misión posible: controla la fuente
+HABLAR
+Diana encuentra productos distintos en el carro. Antes de abrirlos revisa identificación, incompatibilidades, dosificación y procedimiento.
+
+Hipoclorito con ácidos puede liberar cloro; con amoniaco puede generar cloraminas. No vamos a demostrar mezclas. Ante una fuga desconocida se activa el plan institucional y la respuesta autorizada. Tener un respirador no convierte a cualquiera en respondiente de emergencias.
+INTERACTUAR
+Plantear una conexión que pierde y pedir la primera decisión preventiva. Evitar neutralización o limpieza genéricas.
+PREGUNTAR
+¿Qué previene la liberación antes de depender de protección personal?
+ORIENTAR
+Separación, identificación, cierres y conexiones adecuados, dosificación compatible y procedimiento conocido.
+CERRAR Y CONECTAR
+Contrastemos esta propuesta con una experiencia externa que se siguió evaluando.
+CONTINGENCIA
+Leer la situación y recoger la primera acción en chat.
+FUENTES
+CDC · Cloro y cloraminas por incompatibilidad: https://www.cdc.gov/mmwr/preview/mmwrhtml/00015111.htm
+OSHA · Fichas de datos de seguridad: https://www.osha.gov/sites/default/files/publications/OSHA3514.pdf
+
+====================
+
+MP04 · 70–72 min · Caso documentado: mejorar y volver a comprobar
+MOSTRAR
+Misión posible: controla la fuente
+HABLAR
+El candidato documentado es un seguimiento de cuatro evaluaciones de óxido nitroso en odontología pediátrica entre 1978 y 1996. El resumen de congreso de 1997 describe mejoras y resultados variables.
+
+Es una referencia externa, sin revisión por pares según el registro; no representa una evaluación de Colsanitas ni permite trasladar caudales o límites. Nos ayuda a preguntar qué se combinó y cómo se comprobó.
+INTERACTUAR
+Abrir el caso integrado y recuperar una medida y una evidencia de seguimiento. Su selección definitiva sigue para revisión conjunta.
+PREGUNTAR
+¿Qué comprobarías para saber si una mejora sigue funcionando?
+ORIENTAR
+Desempeño de controles, prácticas y exposición mediante seguimiento pertinente; la mera presencia de un equipo no acredita control sostenido.
+CERRAR Y CONECTAR
+Construyamos una propuesta breve del grupo.
+CONTINGENCIA
+Guiar la misma decisión en pantalla y recoger una respuesta por chat. Registrar la contingencia; no presentarla como trivia o pizarra compartida configurada.
+FUENTES
+NIOSH · Resumen de congreso sobre seguimiento de controles de N₂O (1997): https://stacks.cdc.gov/view/cdc/193881
+NIOSH · Jerarquía de controles: https://www.cdc.gov/niosh/hierarchy-of-controls/about/
+
+====================
+
+MP05 · 72–75 min · La propuesta fuente-control-evidencia
+MOSTRAR
+Misión posible: controla la fuente
+HABLAR
+Mateo y el equipo relacionan cada tarea y fuente con un control propuesto y una evidencia para comprobarlo. Cada aporte del grupo debe conservar esa relación.
+
+Recuperaremos dos ejemplos para discutir su fundamento. Las respuestas individuales también pueden conservarse en el cuaderno.
+INTERACTUAR
+Con pizarra configurada: 45 s de instrucción, 90 s de aportes y 45 s de retroalimentación y puente a Andrés. La cuenta, capacidad y permisos deben haberse ensayado.
+PREGUNTAR
+¿Qué evidencia pedirías antes de dar por eficaz tu propuesta?
+ORIENTAR
+Debe ligar la medida y su función con una comprobación pertinente; el respirador no reemplaza por sí mismo controles superiores viables.
+CERRAR Y CONECTAR
+Mateo y su equipo dejan una propuesta de controles y una forma de comprobarlos. La siguiente decisión es qué protección respiratoria requiere cada tarea y cuándo faltan datos para seleccionarla. Andrés nos trae ese dilema: entramos en Cazadores de mitos.
+CONTINGENCIA
+Guiar la misma decisión en pantalla y recoger una respuesta por chat. Registrar la contingencia; no presentarla como trivia o pizarra compartida configurada.
+FUENTES
+NIOSH · Jerarquía de controles: https://www.cdc.gov/niosh/hierarchy-of-controls/about/
+
+====================
+
+CM01 · 75–78 min · Cazadores de mitos: abrir la selección
+MOSTRAR
+Cazadores de mitos: ¿qué protege de qué?
+HABLAR
+Andrés debe realizar una intervención de mantenimiento. Un compañero le ofrece un N95, pero aún faltan datos sobre los contaminantes y las condiciones del lugar. Antes de aceptarlo, Andrés se pregunta: ¿este equipo corresponde al peligro de la tarea y tengo información suficiente para seleccionarlo?
+
+Abrimos Cazadores de mitos para comprobar afirmaciones sobre equipos. La decisión necesita agente, concentración, tarea y condiciones; no se resuelve por apariencia.
+INTERACTUAR
+Mostrar portada y clip de unos 38 s. Enumerar datos necesarios sin autorizar una entrada.
+PREGUNTAR
+¿Este equipo corresponde al peligro de la tarea y tengo información suficiente para seleccionarlo?
+ORIENTAR
+Falta caracterizar la atmósfera y el escenario; no improvisar con un purificador.
+CERRAR Y CONECTAR
+Comprobemos primero qué función cumplen filtros y cartuchos.
+CONTINGENCIA
+Guiar la misma decisión en pantalla y recoger una respuesta por chat. Registrar la contingencia; no presentarla como trivia o pizarra compartida configurada.
+FUENTES
+NIOSH · Selección y uso de respiradores: https://www.cdc.gov/niosh/ppe/respirators/selection.html
+OSHA · Programa, uso y mantenimiento: https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134
+
+====================
+
+CM02 · 78–83 min · Qué protege de qué: filtros y cartuchos
+MOSTRAR
+Cazadores de mitos: ¿qué protege de qué?
+HABLAR
+Andrés recibe un N95 para un agente desconocido. Antes de aceptar, revisemos la función del medio.
+
+Un filtro de partículas no elimina gases o vapores por filtrar partículas pequeñas. Los cartuchos responden a agentes específicos y condiciones de evaluación. Una combinación necesita estar aprobada y ser compatible; no se arma cualquier conjunto. Vamos a comparar funciones antes de decidir.
+INTERACTUAR
+Contrastar partículas, gas/vapor y mezcla y pedir que anticipen el resultado. La máscara de referencia es facial completa; su forma o el color no seleccionan el cartucho. Se puede observar con «Abrir máscara 3D · Internet» o «Esquema facial completo · Sin conexión». El N95 de la comparación es otro tipo de equipo; el modelo mostrado no se convierte en un N95. Reservar el recorrido completo para Pit stop.
+PREGUNTAR
+¿Un N95 controla formaldehído gaseoso por usarse en salud?
+ORIENTAR
+No. Filtrar partículas no corresponde a ese agente gaseoso; se necesita selección técnica.
+CERRAR Y CONECTAR
+La protección también depende del conjunto y del ajuste a quien lo usa.
+CONTINGENCIA
+Comparar tres tarjetas de medios y sus funciones.
+FUENTES
+NIOSH · Respiradores filtrantes: https://www.cdc.gov/niosh/ppe/respirators/ffr.html
+NIOSH · Selección y uso de respiradores: https://www.cdc.gov/niosh/ppe/respirators/selection.html
+Sketchfab · Gas Mask · jespermolander3d · Referencia visual: https://sketchfab.com/models/212addc22db34a329ec279d3e1a29665/embed
+
+====================
+
+CM03 · 83–87 min · La fuga, el ajuste y la protección del conjunto
+MOSTRAR
+Cazadores de mitos: ¿qué protege de qué?
+HABLAR
+El aire puede evitar el medio y entrar por un espacio entre rostro y pieza facial. El filtro puede funcionar y el conjunto no proteger como se espera.
+
+Modelo, talla, estado y colocación importan. En equipos herméticos, vello en la zona de sello u otras interferencias pueden comprometerlo. No corregimos una selección inadecuada apretando cada vez más las bandas.
+INTERACTUAR
+Mostrar fuga conceptual. Pedir dos condiciones que comprometan el sello y cómo verificarlas.
+PREGUNTAR
+¿Mayor eficiencia del filtro resuelve una fuga por el rostro?
+ORIENTAR
+No. Es una ruta distinta. Se requiere ajuste y uso apropiados del conjunto.
+CERRAR Y CONECTAR
+Separemos ahora eficiencia, protección y duración del medio.
+CONTINGENCIA
+Señalar borde y medio en un equipo o esquema.
+FUENTES
+NIOSH · Selección y uso de respiradores: https://www.cdc.gov/niosh/ppe/respirators/selection.html
+OSHA · Programa, uso y mantenimiento: https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134
+
+====================
+
+CM04 · 87–91 min · Tres conceptos que no son equivalentes
+MOSTRAR
+Cazadores de mitos: ¿qué protege de qué?
+HABLAR
+La eficiencia corresponde al medio en condiciones de ensayo. La protección del conjunto depende del equipo, ajuste y programa. La vida del cartucho es otra cuestión, ligada al agente y las condiciones.
+
+N95 no significa una reducción personal garantizada del 95 por ciento frente a cualquier peligro. Tampoco podemos prometer las mismas horas de servicio para todos los cartuchos y tareas.
+INTERACTUAR
+Clasificar tres afirmaciones en filtro, conjunto o recambio; pedir justificar.
+PREGUNTAR
+¿Qué hace falta para explicar cuánto protege un equipo?
+ORIENTAR
+Tipo, configuración aprobada, factor aplicable, exposición, ajuste, uso y condiciones del programa.
+CERRAR Y CONECTAR
+El último mito se resuelve reconociendo cuándo un purificador queda fuera del escenario.
+CONTINGENCIA
+Crear tres columnas en el tablero o usar chat.
+FUENTES
+NIOSH · Lógica de selección: https://www.cdc.gov/niosh/docs/2005-100/pdfs/2005-100.pdf
+OSHA · Cambio de cartuchos: https://www.osha.gov/etools/respiratory-protection/change-schedules/
+
+====================
+
+CM05 · 91–95 min · Reconocer límites y detener la selección
+MOSTRAR
+Cazadores de mitos: ¿qué protege de qué?
+HABLAR
+Un purificador utiliza el aire del lugar; no aporta oxígeno. Atmósfera desconocida, posible deficiencia de oxígeno o peligro inmediato exigen decisiones que no se improvisan con un cartucho.
+
+Andrés reconoce que no puede entrar con la información disponible. Suspender y gestionar evaluación autorizada es prevenir. No probamos el ambiente por tolerancia personal, olor ni entradas breves.
+INTERACTUAR
+Resolver M42 y la comparación de atmósfera desconocida. Pedir el motivo y la gestión que corresponde antes de la intervención.
+PREGUNTAR
+¿Se puede entrar brevemente para comprobar si es tolerable?
+ORIENTAR
+No. Se requiere evaluación y procedimiento autorizados; no improvisar purificadores.
+CERRAR Y CONECTAR
+Andrés toma una primera decisión: detener una selección que todavía no puede fundamentar. Ahora se plantea otra pregunta: cuando una tarea ya está evaluada y el equipo seleccionado, ¿qué debo comprobar para utilizarlo y cuidarlo? Entramos al Pit stop respiratorio con ese nuevo supuesto de práctica.
+CONTINGENCIA
+Leer el caso y resolver primera decisión y aviso.
+FUENTES
+OSHA · Programa, uso y mantenimiento: https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134
+NIOSH · Selección y uso de respiradores: https://www.cdc.gov/niosh/ppe/respirators/selection.html
+
+====================
+
+PS01 · 95–100 min · Pit stop: inspección del equipo
+MOSTRAR
+Pit stop respiratorio: revisa, ajusta y cuida
+HABLAR
+Andrés ha detenido la selección del caso anterior. Para aprender el siguiente paso, participa en un ejercicio de preparación para otra tarea ya evaluada, con un equipo seleccionado y su manual. Su reto es revisar el estado del equipo, seguir la colocación y la verificación del sello, y decidir cómo limpiarlo, guardarlo y gestionar el recambio.
+
+Revisamos pieza facial, bandas, válvulas, conexiones y medios conforme al modelo. Una fisura, pieza faltante o conexión incompatible requiere gestionar la resolución antes de usarlo.
+
+El recorrido sirve para observar regiones de una pieza facial completa. La comprobación real del equipo y del sello corresponde al modelo seleccionado y sus instrucciones.
+INTERACTUAR
+Mostrar portada Pit stop y clip de unos 38 s. Pulsar «Explorar máscara facial completa →» y «Mostrar rótulos». Usar los nombres de la leyenda: «Visor», «Cuerpo», «Filtros o cartuchos y conexiones» y «Anclajes». Para explicar y recoger respuestas, seleccionar cada región manualmente o pausar el recorrido: el avance automático dura seis segundos por región. Relacionar cada nombre con su pregunta de inspección. Abrir «Válvulas · detalle conceptual», comparar «Inhalación» y «Exhalación» y usar «Cerrar detalle y volver al modelo»; ese esquema no identifica las membranas internas del modelo artístico. «Ocultar rótulos» permite recuperar la vista despejada. Usar «Volver al Pit stop →» para revisar componentes y defectos, y pasar a PS02: colocación y verificación del sello según el equipo y su manual. Esta secuencia sustituye exploración libre dentro de estos cinco minutos; no añade tiempo ni realiza una comprobación real del sello.
+PREGUNTAR
+Cuando la tarea está evaluada y el equipo seleccionado, ¿qué debo comprobar antes, durante y después de usarlo?
+ORIENTAR
+Antes: selección fundamentada, instrucciones, inspección, colocación y sello. Durante: reconocer anomalías y actuar según el procedimiento. Después: limpieza, almacenamiento y recambio conforme al equipo y al programa. Este ejercicio es otro supuesto; no autoriza la intervención del caso anterior.
+CERRAR Y CONECTAR
+Con el equipo revisado, ordenemos la colocación y la comprobación del sello.
+CONTINGENCIA
+Nombrar componentes sobre el esquema compartido.
+FUENTES
+OSHA · Programa, uso y mantenimiento: https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134
+Sketchfab · Gas Mask · jespermolander3d · Referencia visual: https://sketchfab.com/models/212addc22db34a329ec279d3e1a29665/embed
+NIOSH · Respiradores elastoméricos · Componentes y tipos: https://www.cdc.gov/niosh/ppe/respirators/elastomeric.html
+
+====================
+
+PS02 · 100–106 min · Preparar, colocar y verificar el sello
+MOSTRAR
+Pit stop respiratorio: revisa, ajusta y cuida
+HABLAR
+Prueba de ajuste y verificación de sello tienen propósitos distintos. La primera evalúa con un protocolo la adaptación de un modelo al usuario; el sello se verifica en cada colocación según instrucciones.
+
+Ordenemos una secuencia conceptual: inspeccionar, colocar conforme al fabricante, ajustar y verificar el sello antes de exponerse. La HTML no realiza una prueba real ni certifica competencia práctica.
+INTERACTUAR
+Ordenar los pasos, revisar los supuestos de sello y decidir no usar en la tarea si falla. Demostración conforme al modelo y manual reales; no realizar una prueba de ajuste simulada.
+PREGUNTAR
+¿Una prueba de ajuste permite omitir la verificación de sello?
+ORIENTAR
+No. Son actividades diferentes; el sello se verifica en cada colocación.
+CERRAR Y CONECTAR
+El pit stop continúa con limpieza, guarda y criterios de recambio.
+CONTINGENCIA
+Clasificar dos frases como prueba de ajuste o verificación de sello.
+FUENTES
+NIOSH · Selección y uso de respiradores: https://www.cdc.gov/niosh/ppe/respirators/selection.html
+OSHA · Programa, uso y mantenimiento: https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134
+
+====================
+
+PS03 · 106–111 min · Cuidado por componente y recambio
+MOSTRAR
+Pit stop respiratorio: revisa, ajusta y cuida
+HABLAR
+Primero distinguimos los componentes y sus instrucciones. La limpieza permitida para una pieza reutilizable no se traslada automáticamente a filtros o cartuchos.
+
+El almacenamiento protege de daño y contaminación según fabricante. El recambio necesita criterios sustentados en agente y condiciones; el olor no es un reloj universal.
+INTERACTUAR
+Resolver las cinco decisiones de cuidado y M52. Conservar la respuesta en el cuaderno y relacionarla con el manual o programa de recambio.
+PREGUNTAR
+¿Qué necesitas definir para limpiar, guardar y cambiar el componente?
+ORIENTAR
+Instrucciones específicas, condiciones de uso y programa sustentado; no lavar filtros ni asignar un mismo tiempo para todos los casos.
+CERRAR Y CONECTAR
+Expliquemos la secuencia y qué hacer cuando aparece una anomalía.
+CONTINGENCIA
+Guiar la misma decisión en pantalla y recoger una respuesta por chat. Registrar la contingencia; no presentarla como trivia o pizarra compartida configurada.
+FUENTES
+OSHA · Programa, uso y mantenimiento: https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134
+OSHA · Cambio de cartuchos: https://www.osha.gov/etools/respiratory-protection/change-schedules/
+
+====================
+
+PS04 · 111–115 min · Explicar, capacitar y reportar anomalías
+MOSTRAR
+Pit stop respiratorio: revisa, ajusta y cuida
+HABLAR
+Una persona explica su revisión antes, durante y después del uso. La capacitación debe permitir comprender el peligro, practicar y reconocer condiciones que impiden continuar.
+
+La HTML apoya decisiones conceptuales. La práctica, la prueba de ajuste cuando corresponda y su verificación requieren el equipo y el programa real.
+INTERACTUAR
+Recoger una explicación breve y corregir un error. Registrar una habilidad por practicar y cómo se gestiona una anomalía según el procedimiento.
+PREGUNTAR
+¿Qué harías si el equipo presenta un defecto o no logras el sello?
+ORIENTAR
+No utilizarlo en la tarea; gestionar la revisión y resolución según el procedimiento. No entrar a probar si funciona.
+CERRAR Y CONECTAR
+Andrés deja una secuencia para preparar, revisar y cuidar el equipo, y reconoce las condiciones que impiden usarlo. Ahora reunamos las preguntas de Camila, los controles propuestos por Mateo y las decisiones de Andrés para resolver una tarea diferente. Cerremos el expediente Respira Sano.
+CONTINGENCIA
+Guiar la misma decisión en pantalla y recoger una respuesta por chat. Registrar la contingencia; no presentarla como trivia o pizarra compartida configurada.
+FUENTES
+OSHA · Programa, uso y mantenimiento: https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134
+NIOSH · Selección y uso de respiradores: https://www.cdc.gov/niosh/ppe/respirators/selection.html
+
+====================
+
+F01 · 115–117 min · Última misión: una decisión completa
+MOSTRAR
+Inicio y cierre
+HABLAR
+En una tarea distinta, relaciona lo que puede liberarse, el control que propones y lo que debes comprobar sobre protección y uso.
+
+Tu respuesta debe reconocer los datos que faltan. Así aplicamos la ruta del expediente a otra situación.
+INTERACTUAR
+Completar las tres decisiones de transferencia con un escenario ya disponible. Recoger un fundamento breve.
+PREGUNTAR
+¿Qué se libera, qué controlarías y qué comprobarías antes de utilizar el equipo?
+ORIENTAR
+Relacionar agente/tarea, controles y revisión de protección; aceptar una decisión de detenerse por datos insuficientes.
+CERRAR Y CONECTAR
+Comparemos nuestra explicación con las ideas iniciales.
+CONTINGENCIA
+Guiar la misma decisión en pantalla y recoger una respuesta por chat. Registrar la contingencia; no presentarla como trivia o pizarra compartida configurada.
+FUENTES
+NIOSH · Jerarquía de controles: https://www.cdc.gov/niosh/hierarchy-of-controls/about/
+NIOSH · Selección y uso de respiradores: https://www.cdc.gov/niosh/ppe/respirators/selection.html
+
+====================
+
+F02 · 117–118 min · Volver a las ideas de entrada
+MOSTRAR
+Inicio y cierre
+HABLAR
+Volvamos al olor y al filtro para partículas. ¿Qué dato añadiríamos ahora para fundamentar la decisión?
+
+Recuperemos una explicación del grupo y aclaremos la confusión más relevante.
+INTERACTUAR
+Contrastar respuestas con el diagnóstico sin atribuir mejora individual si no hay vinculación de respuestas.
+PREGUNTAR
+¿Qué cambió en tu fundamento?
+ORIENTAR
+Debe mencionar datos del agente/tarea o condiciones y límites; el resultado del juego no mide reducción de exposición.
+CERRAR Y CONECTAR
+Llevemos una acción concreta al trabajo.
+CONTINGENCIA
+Guiar la misma decisión en pantalla y recoger una respuesta por chat. Registrar la contingencia; no presentarla como trivia o pizarra compartida configurada.
+FUENTES
+NIOSH · Selección y uso de respiradores: https://www.cdc.gov/niosh/ppe/respirators/selection.html
+
+====================
+
+F03 · 118–119 min · Una acción para la próxima tarea
+MOSTRAR
+Inicio y cierre
+HABLAR
+Completa una frase: antes de mi próxima tarea voy a comprobar…
+
+Elige una acción concreta de identificar, controlar o verificar el uso.
+INTERACTUAR
+Dar unos segundos para escribir un compromiso y recuperar un ejemplo.
+PREGUNTAR
+¿Qué dato o condición comprobarás primero?
+ORIENTAR
+Aceptar una acción específica y verificable, no una promesa general de cuidado.
+CERRAR Y CONECTAR
+Conserva esa acción con las herramientas.
+CONTINGENCIA
+Guiar la misma decisión en pantalla y recoger una respuesta por chat. Registrar la contingencia; no presentarla como trivia o pizarra compartida configurada.
+FUENTES
+NIOSH · Jerarquía de controles: https://www.cdc.gov/niosh/hierarchy-of-controls/about/
+
+====================
+
+F04 · 119–120 min · Conservar la caja y cerrar el expediente
+MOSTRAR
+Inicio y cierre
+HABLAR
+La caja permite repetir los seis recorridos temáticos y conservar las observaciones. Descarga tu cuaderno y consulta la infografía y la lista de chequeo.
+
+Las dudas de la tarea deben llegar al responsable del proceso y a SST con información del producto y las condiciones. Gracias por investigar y decidir con fundamento.
+INTERACTUAR
+Indicar el paquete vigente y la forma de descarga previamente comprobada. Mantener el teleprompter privado.
+PREGUNTAR
+¿Dónde conservarás la observación para darle seguimiento?
+ORIENTAR
+En el registro y canal definidos por la institución, con datos de tarea y acción pendiente.
+CERRAR Y CONECTAR
+Cerramos Respira Sano. La siguiente misión empieza en la tarea real.
+CONTINGENCIA
+Guiar la misma decisión en pantalla y recoger una respuesta por chat. Registrar la contingencia; no presentarla como trivia o pizarra compartida configurada.
+FUENTES
+NIOSH · Jerarquía de controles: https://www.cdc.gov/niosh/hierarchy-of-controls/about/

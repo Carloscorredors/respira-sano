@@ -1,0 +1,33 @@
+{
+  "status": "ok",
+  "date": "2026-10-18",
+  "browser": "Microsoft Edge / WebGL via SwiftShader (headless)",
+  "mode": "file:// offline",
+  "checks": [
+    "actual WebGL renderer",
+    "rendered geometry",
+    "drag rotation",
+    "zoom buttons",
+    "direct graph pins",
+    "camera focus",
+    "air animation",
+    "alveolar close-up",
+    "capillary selection",
+    "pause freezes rendered frame",
+    "keyboard rotates while paused",
+    "9 structures",
+    "interior toggle",
+    "animation speed",
+    "lateral angle",
+    "actual canvas raycast: trachea",
+    "retained quiz and notes download",
+    "390px model and alveoli",
+    "reduced motion starts paused",
+    "simulated touch rotation",
+    "simulated pinch zoom",
+    "no-WebGL fallback retains structure information",
+    "no remote requests"
+  ],
+  "pageErrors": [],
+  "remoteRequests": []
+}

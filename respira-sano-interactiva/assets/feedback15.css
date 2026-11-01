@@ -1,0 +1,20 @@
+body[data-page="gases-vapores"] .rs15-native,body[data-page="hospital"] .rs15-native,body[data-page="respiradores"] .rs15-native{display:none!important}
+.rs15-result{box-sizing:border-box;border:1px solid #a9c2d4;border-radius:10px;background:#f5f9fc;color:#244a64;padding:14px 16px;margin:17px 0;font-size:.875rem;line-height:1.6}
+.rs15-result .rs15-result-title{display:flex;align-items:center;gap:9px;margin:0 0 6px;font-size:1rem;line-height:1.4;color:inherit}
+.rs15-result .rs15-result-icon{display:inline-grid;place-items:center;min-width:22px;font-size:1.2rem;font-weight:800;line-height:1.1;color:inherit}
+.rs15-result .rs15-result-body{white-space:pre-wrap;color:inherit;font-size:.875rem;line-height:1.6}
+.rs15-result.rs15-correct{border:3px solid #347957;background:#f0f8f3;color:#185333;padding:12px 14px}
+.rs15-result.rs15-incorrect{border:3px solid #b54b43;background:#fff3f0;color:#812f2a;padding:12px 14px}
+.rs15-result.rs15-pending{border:1px solid #a9c2d4;background:#f5f9fc;color:#244a64}
+label.option.rs15-option{box-sizing:border-box;border:1px solid #b8ccd9;background:#fff;color:inherit}
+label.option.rs15-option.rs15-answer-selected.rs15-pending{border:1px solid #8eaec3;background:#f2f7fb}
+label.option.rs15-option.rs15-answer-selected.rs15-correct{border:3px solid #347957;background:#f0f8f3}
+label.option.rs15-option.rs15-answer-selected.rs15-incorrect{border:3px solid #b54b43;background:#fff3f0}
+label.option.rs15-option:focus-within{outline:3px solid #0071a3;outline-offset:3px}
+.rs15-sequence{box-sizing:border-box;border:1px solid #a9c2d4;border-radius:10px;padding:12px;background:#f5f9fc}
+.rs15-sequence.rs15-correct{border:3px solid #347957;background:#f0f8f3;padding:10px}
+.rs15-sequence.rs15-incorrect{border:3px solid #b54b43;background:#fff3f0;padding:10px}
+.rs15-sequence.rs15-pending{border:1px solid #a9c2d4;background:#f5f9fc}
+@media(max-width:600px){.rs15-result{padding:12px 13px;font-size:.875rem}.rs15-result.rs15-correct,.rs15-result.rs15-incorrect{padding:10px 11px}.rs15-result .rs15-result-body{font-size:.875rem}}
+@media(prefers-reduced-motion:reduce){.rs15-result,.rs15-option,.rs15-sequence{transition:none!important;animation:none!important}}
+@media print{.rs15-result,.rs15-sequence{break-inside:avoid}.rs15-result{color:#000}.rs15-result .rs15-result-title strong{font-weight:800}}

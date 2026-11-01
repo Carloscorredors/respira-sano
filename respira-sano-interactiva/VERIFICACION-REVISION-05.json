@@ -1,0 +1,178 @@
+{
+  "revision": "05",
+  "at_utc": "2026-10-19T01:56:00.910994+00:00",
+  "status": "verified-for-Carlos-testing-with-disclosed-browser-limits",
+  "scope": "M1: seven sequential screens, detailed system and alveolar models; other five missions preserved.",
+  "screens": [
+    {
+      "id": "M1.1",
+      "title": "Una pregunta invisible",
+      "minutes": 2,
+      "visual": "Historia existente en su entrada clara",
+      "action": "Ver o leer y comenzar",
+      "note": "Historia y video conservados, revisión creativa diferida"
+    },
+    {
+      "id": "M1.2",
+      "title": "Sigue el aire",
+      "minutes": 4,
+      "visual": "Dos modelos juntos en una pantalla exclusiva",
+      "action": "Recorrer cinco paradas; giro/zoom independientes",
+      "note": "No colocar aquí tarjetas de tareas, sustancias ni el juego final"
+    },
+    {
+      "id": "M1.3",
+      "title": "Un intercambio en dos sentidos",
+      "minutes": 2,
+      "visual": "Lupa conceptual alvéolo-capilar",
+      "action": "Seguir O2/CO2 y contestar una pregunta",
+      "note": "No atribuir al CT un detalle alveolar que no contiene"
+    },
+    {
+      "id": "M1.4",
+      "title": "Qué puede acompañar al aire",
+      "minutes": 3,
+      "visual": "Una generación de emisión a la vez",
+      "action": "Pulsar gas, vapor, polvo, niebla, humo o aerosol; contrastar una decisión",
+      "note": "Aerosol es familia de partículas sólidas/líquidas; fibras como ampliación opcional"
+    },
+    {
+      "id": "M1.5",
+      "title": "Una pista en la tarea",
+      "minutes": 3,
+      "visual": "Una escena de Camila, Elena o Mateo",
+      "action": "Investigar una tarea guiada con puntos de interés",
+      "note": "Otras escenas disponibles sin imponer todas en la ruta de veinte minutos"
+    },
+    {
+      "id": "M1.6",
+      "title": "Por dónde puede ingresar",
+      "minutes": 2,
+      "visual": "Silueta con vías de ingreso activables",
+      "action": "Identificar una vía y leer respuesta breve",
+      "note": "Puente a M2 para desarrollar efectos, sin repetir el panel completo de mecanismos y temporalidad"
+    },
+    {
+      "id": "M1.7",
+      "title": "Conecta las pistas",
+      "minutes": 4,
+      "visual": "Un reto o pregunta por estado",
+      "action": "Ordenar ruta, asociar emisiones y escribir observación propia en pasos sucesivos",
+      "note": "Mantener la evidencia del contrato vigente y desbloquear M2 solo tras guardar el cierre válido"
+    }
+  ],
+  "mission1_minutes": 20,
+  "course_minutes": 120,
+  "missions": 6,
+  "technical_points": 18,
+  "changed_existing_files": [
+    "LEEME.txt",
+    "assets/mission1-activities-v4.js",
+    "assets/mission1-ct-v4.js",
+    "assets/mission1-v3.js",
+    "recorrido.html"
+  ],
+  "new_closure_version": "mission1-expedition-v1",
+  "criteria_version": 4,
+  "api_qa_reused": {
+    "checks": 52,
+    "rerun": false,
+    "unchanged_source_sha256": "42a0a6dc150492ed4163841792f2619e26f4e2ad4bed3976be96348992b7c8b9"
+  },
+  "models": {
+    "version": "m1-detail-v5.0.0",
+    "pure_checks": 29,
+    "network_required": false,
+    "runtime_files": [
+      "assets/m1-detail-v5.bundle.js",
+      "assets/m1-detail-v5.css",
+      "assets/m1-detail-v5-LICENSE.txt"
+    ],
+    "visual_reception": "auditor receipt approved"
+  },
+  "preservation": {
+    "public_frozen_exact": 122,
+    "private_frozen_exact": 9,
+    "media04": "sha256 preserved",
+    "other_five_missions": "sha256 preserved",
+    "historic_progress": "same engine, records and certificates"
+  },
+  "auditor_ui": {
+    "fresh_origin_initially_only_mission1_available": true,
+    "exactly_seven_screens": true,
+    "one_visible_screen_and_others_hidden_inert": true,
+    "story_and_entry_integrated_in_screen1": true,
+    "previous_continue_and_step_titles_visible": true,
+    "system_model_really_rendered_with_more_detail": true,
+    "system_rotation_zoom_selection_and_views_work": true,
+    "five_airway_steps_and_start_pause_reset_work": true,
+    "ct_manually_loaded_and_rendered": true,
+    "ct_rotation_and_zoom_controls_work": true,
+    "ct_remained_open_during_local_controls": true,
+    "alveolar_model_really_rendered_with_cut_and_capillaries": true,
+    "alveolar_rotation_zoom_pause_and_views_work": true,
+    "oxygen_carbon_and_both_switches_work": true,
+    "oxygen_carbon_automatically_focus_barrier_in_final_controller": true,
+    "oxygen_carbon_directions_visually_checked_at_barrier": true,
+    "six_forms_fibres_and_diagram_pause_work": true,
+    "practice_wrong_and_correct_feedback_work": true,
+    "camila_elena_tasks_hotspots_and_optional_switch_work": true,
+    "respiration_skin_eyes_and_accidental_ingestion_work": true,
+    "closure_shows_one_challenge_at_a_time": true,
+    "empty_closure_rejected": true,
+    "own_note_only_rejected": true,
+    "wrong_route_and_wrong_association_rejected": true,
+    "corrected_route_by_keyboard_enter_accepted": true,
+    "editing_reviewed_association_invalidated_review": true,
+    "reload_preserved_route_associations_note_and_substep": true,
+    "valid_explicit_save_unlocked_only_mission2": true,
+    "home_reload_preserved_completed1_available2_locked3to6": true,
+    "legacy_story_and_chemical_controls_anchors_resolve": true,
+    "chemical_controls_details_open_and_useless_select_hidden": true,
+    "browser_back_forward_restore_context_and_saved_data": true,
+    "mobile_models_stack_and_ct_controls_reachable": true,
+    "mobile_no_horizontal_overflow": true,
+    "mobile_closure_footer_buttons_fit": true,
+    "mobile_model_metadata_overlap_corrected_and_rechecked": true,
+    "canvas_keyboard_rotation_zoom_pause_work": true,
+    "no_console_errors_in_tested_session": true,
+    "temporary_viewport_reset": true
+  },
+  "documentary_checks": {
+    "seven_screens_exactly": true,
+    "initial_markup_guarded_or_one_screen_visible": true,
+    "hidden_screens_inert": true,
+    "no_duplicate_document_ids": true,
+    "one_final_commit_and_one_air_note": true,
+    "new_models_have_two_dedicated_containers": true,
+    "old_anchors_present_or_aliased_locally": true,
+    "all_local_script_style_image_references_exist": true,
+    "no_previous_public_files_removed": true,
+    "frozen_public_all_preserved": true,
+    "frozen_private_all_preserved": true,
+    "changed_previous_only_allowlist": true,
+    "model_bundle_css_license_match_agent_delivery": true,
+    "model_documentary_receipt_positive": true,
+    "rules_unchanged_for_reusing_52_checks": true,
+    "twenty_minutes_seven_pages_120_course_18_points": true,
+    "baseline04_archive_preserved": true
+  },
+  "receipt_sha256": {
+    "ui": "cfa0c49203061df4ca9403dd7a0b21b1655a1e2c16ab48a5d99ed2d5b612f1ca",
+    "approval": "b5def2b995566a3beb7899770310b9c68350046be4233ca3f6e2a452e3153687",
+    "models": "e01a6fd8fcd98d97411aaebb935fa8c7fa6d08aedf35f633b7d762cd7e42eb01"
+  },
+  "limits": [
+    "HTTP local UI verification does not verify real file:// opening; prior browser permission block was not retried.",
+    "Progress JSON download/import not verified end-to-end due to prior browser permission block.",
+    "CT requires internet; the detailed didactic models and static reference are local.",
+    "20-minute rehearsal and client acceptance remain pending.",
+    "Procedural models are educational, not individual CT anatomy or quantitative gas/dose/injury simulations."
+  ],
+  "deferred": [
+    "History/video/teleprompter creative revision",
+    "Other five missions redesign",
+    "Access expiry",
+    "Cleaning mixtures/SGA proposals"
+  ]
+}

@@ -1,0 +1,750 @@
+{
+  "schema_version": "1.0",
+  "title": "Investigación para nuevo M1.3 y nuevo M1.4",
+  "created_utc": "2026-10-19T09:10:08.780157+00:00",
+  "state": "Investigación entregada. Cambios de aplicación pendientes de la revisión humana posterior.",
+  "authority": "Tarea puntual de investigación delegada por Auditar tras instrucción expresa de Carlos de intercambiar M1.3/M1.4; continúa la recogida de observaciones. No reactiva jornada automática.",
+  "interpretation": "Nuevo M1.3 explica formas/fuentes/generación. Nuevo M1.4 utiliza el mismo modelo alveolar para entrada, interacción, posibles efectos agudos/crónicos y límites de representación.",
+  "findings": [
+    "El intercambio propuesto permite explicar primero lo que existe/se genera en el aire y luego su posible interacción con el organismo.",
+    "El peligro no se identifica por el nombre de la unidad ni por el estado físico: hace falta producto/proceso y evidencia de peligro.",
+    "Aerosol es una categoría de partículas o gotas, no una sexta familia excluyente respecto de polvos/humos/nieblas.",
+    "El modelo alveolar aislado puede sugerir un recorrido universal incorrecto: necesita contexto de vías superiores y distinción entre depósito y absorción.",
+    "Los efectos agudos/crónicos requieren ejemplos de agentes concretos y tres ejes temporales; no una progresión automática de daño."
+  ],
+  "existing_material_read": [
+    {
+      "path": "work/jornada-20261019/pedagogia/matriz-m15-v1.json",
+      "sha256": "dfc68663d7d1e5ec2c3d01949d7ff0d6efccd227b74859894c6bb75da37573b3",
+      "method": "Lectura de fuente, sin ejecución UI ni modificación."
+    },
+    {
+      "path": "work/jornada-20261019/pedagogia/m2-mecanismos-visual-v1.json",
+      "sha256": "022df0b491af6ce68b017a8a18219d0a1faa6b5566b330fd4123cc75dd87b995",
+      "method": "Lectura de fuente, sin ejecución UI ni modificación."
+    },
+    {
+      "path": "work/jornada-20261019/pedagogia/adenda-m15-mantenimiento-volatil-v1.json",
+      "sha256": "e4081cc9dfd37f98505d4d7a98244e96f27864514170f2aee9218a19c5bdb0ca",
+      "method": "Lectura de fuente, sin ejecución UI ni modificación."
+    },
+    {
+      "path": "respira-sano-interactiva/recorrido.html",
+      "sha256": "2a5571a749533e5e9a5516520992ca014a1b1e1d4355a8abe3be52495fc23720",
+      "method": "Lectura de fuente, sin ejecución UI ni modificación."
+    },
+    {
+      "path": "respira-sano-interactiva/assets/layout15.js",
+      "sha256": "8fd4303eb4ff2ed6b950be188004c3e2ed5eae761addfdc3a9fefd8b812d9bc3",
+      "method": "Lectura de fuente, sin ejecución UI ni modificación."
+    }
+  ],
+  "technical_sources": [
+    {
+      "id": "S01",
+      "title": "OSHA 3143 — Industrial Hygiene",
+      "url": "https://www.osha.gov/publications/OSHA3143",
+      "supports": "Formación de polvo por acción mecánica, humo de condensación, niebla por dispersión/condensación y vapor por evaporación.",
+      "consulted_date": "2026-10-19",
+      "status": "Publicación técnica de 1998 aún alojada en OSHA. Se usan definiciones físicas estables; su frase antigua sobre aerosol se reemplaza por la definición amplia de NIOSH 2024. No se trasladan obligaciones legales de EE. UU."
+    },
+    {
+      "id": "S02",
+      "title": "NIOSH — Aerosols in the Workplace",
+      "url": "https://www.cdc.gov/niosh/aerosols/about/",
+      "supports": "Aerosol: partículas sólidas o gotas suspendidas en aire. Tamaño, composición, forma y concentración influyen en el daño.",
+      "consulted_date": "2026-10-19",
+      "status": "Página revisada el 9 de julio de 2024."
+    },
+    {
+      "id": "S03",
+      "title": "NIOSH — Chemical Hazards Risk Factors",
+      "url": "https://www.cdc.gov/niosh/healthcare/risk-factors/chemical-hazards.html",
+      "supports": "Tareas sanitarias, medicamentos aerosolizados y desinfectantes; ejemplos de efectos de esterilizantes y N2O.",
+      "consulted_date": "2026-10-19",
+      "status": "Página de 12 de agosto de 2024. No es inventario de Keralty."
+    },
+    {
+      "id": "S04",
+      "title": "NIOSH Pocket Guide — Formaldehyde",
+      "url": "https://www.cdc.gov/niosh/npg/npgd0293.html",
+      "supports": "Formaldehído gaseoso usado en solución; irritación respiratoria.",
+      "consulted_date": "2026-10-19",
+      "status": "Ficha revisada en 2019. No se incorporan límites o recomendaciones de respiradores de esta ficha."
+    },
+    {
+      "id": "S05",
+      "title": "NIOSH — Formaldehyde and Reproductive Health",
+      "url": "https://www.cdc.gov/niosh/reproductive-health/prevention/formaldehyde.html",
+      "supports": "Uso en patología/citología y peligro carcinogénico del formaldehído.",
+      "consulted_date": "2026-10-19",
+      "status": "Página de 14 de febrero de 2024. No se trasladan instrucciones clínicas ni compatibilidades de guantes."
+    },
+    {
+      "id": "S06",
+      "title": "NIOSH Pocket Guide — Isopropyl alcohol",
+      "url": "https://www.cdc.gov/niosh/npg/npgd0359.html",
+      "supports": "Líquido volátil; inhalación e irritación de ojos/nariz/garganta, mareo y somnolencia entre síntomas.",
+      "consulted_date": "2026-10-19",
+      "status": "Ficha revisada en 2019. No determina temporalidad o diagnóstico individual."
+    },
+    {
+      "id": "S07",
+      "title": "INSST — Riesgos químicos, información básica",
+      "url": "https://www.insst.es/materias/riesgos/riesgos-quimicos",
+      "supports": "Vía inhalatoria; propiedades fisicoquímicas, tamaño, solubilidad y ventilación pulmonar influyen en entrada y absorción.",
+      "consulted_date": "2026-10-19",
+      "status": "Página técnica pública consultada. Su resumen del tamaño se enseña cualitativamente, sin regla universal de que toda partícula menor llegue más lejos."
+    },
+    {
+      "id": "S08",
+      "title": "ATSDR — Estimating Site-Specific Inhalation Exposures",
+      "url": "https://www.atsdr.cdc.gov/pha-guidance/conducting_scientific_evaluations/epcs_and_exposure_calculations/estimating_inhalation_exposures.html",
+      "supports": "Algunos contaminantes inhalados se absorben por epitelio respiratorio y se transportan por sangre; exposición no equivale a dosis absorbida.",
+      "consulted_date": "2026-10-19",
+      "status": "Guía pública de evaluación; no se aplican sus cálculos a participantes."
+    },
+    {
+      "id": "S09",
+      "title": "NIOSH — Information for Clinicians, Work-related Asthma",
+      "url": "https://www.cdc.gov/niosh/asthma/hcp/clinical-guidance/index.html",
+      "supports": "Distingue sensibilizantes inmunitarios e irritantes no alérgicos; formaldehído y glutaraldehído como ejemplos de sensibilizantes.",
+      "consulted_date": "2026-10-19",
+      "status": "Página de 25 de febrero de 2025. Uso educativo de mecanismos, sin enseñanza de diagnóstico."
+    },
+    {
+      "id": "S10",
+      "title": "NIOSH — Glutaraldehyde, Occupational Hazards in Hospitals",
+      "url": "https://www.cdc.gov/niosh/docs/2001-115/pdfs/2001-115.pdf",
+      "supports": "Exposición en tareas con soluciones abiertas/equipo; irritación y asma o síntomas de tipo asmático reportados en trabajadores.",
+      "consulted_date": "2026-10-19",
+      "status": "Documento de mayo de 2001. Se usa como antecedente de peligro y tareas, no catálogo vigente de productos, procedimiento clínico o control cuantificado."
+    },
+    {
+      "id": "S11",
+      "title": "OSHA/NIOSH — Protecting Workers Who Use Cleaning Chemicals",
+      "url": "https://www.cdc.gov/niosh/docs/2012-126/pdfs/2012-126.pdf",
+      "supports": "Productos de limpieza pueden liberar nieblas, vapores o gases; posible irritación/asma y relevancia de formulación, método y ventilación.",
+      "consulted_date": "2026-10-19",
+      "status": "Ficha conjunta de 2012. No se transcriben recetas, diluciones ni respuesta a derrames."
+    },
+    {
+      "id": "S12",
+      "title": "CDC MMWR — Chlorine Gas Toxicity from Mixture of Bleach",
+      "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00015111.htm",
+      "supports": "Hipoclorito con ácidos puede liberar cloro; con compuestos amoniacales puede generar cloraminas.",
+      "consulted_date": "2026-10-19",
+      "status": "Informe histórico de incidentes, no afirmación de incidentes en Keralty. Se omiten cantidades y ecuaciones operativas."
+    },
+    {
+      "id": "S13",
+      "title": "ATSDR — Chlorine, Medical Management Guidelines",
+      "url": "https://wwwn.cdc.gov/TSP/MMG/MMGDetails.aspx?mmgid=198&toxid=36",
+      "supports": "Acción irritante/corrosiva respiratoria, manifestación inmediata o diferida y posibilidad de secuelas persistentes tras una exposición aguda.",
+      "consulted_date": "2026-10-19",
+      "status": "Página archivada, revisada en 2014. Solo se usan los efectos generales; se excluyen mecanismos históricos discutibles, tratamiento y umbrales."
+    },
+    {
+      "id": "S14",
+      "title": "OSHA — Anesthetic Gases, Workplace Exposures",
+      "url": "https://www.osha.gov/waste-anesthetic-gases/workplace-exposures-guidelines",
+      "supports": "Diferencia gas N2O y anestésicos líquidos volátiles; fuentes de fugas/liberación.",
+      "consulted_date": "2026-10-19",
+      "status": "Guía revisada en 2000. Lista de agentes y prácticas históricas no se presumen vigentes en Colombia ni en la institución."
+    },
+    {
+      "id": "S15",
+      "title": "OSHA — Hospitals, Surgical Suite, Smoke Plume",
+      "url": "https://www.osha.gov/etools/hospitals/surgical-suite/smoke-plume",
+      "supports": "Destrucción térmica de tejido con láser/electrocirugía produce plume y puede irritar vías respiratorias; composición compleja.",
+      "consulted_date": "2026-10-19",
+      "status": "Se usan generación y peligro químico general. No se reproducen afirmaciones antiguas sobre infección, transmisión celular ni cifras de captación."
+    },
+    {
+      "id": "S16",
+      "title": "CDC — Disinfection of Healthcare Equipment",
+      "url": "https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/healthcare-equipment.html",
+      "supports": "Diversidad de métodos químicos y térmicos en sistemas de diálisis y reprocesamiento; información del fabricante necesaria.",
+      "consulted_date": "2026-10-19",
+      "status": "Página 2023 que aloja guía de 2008 con referencias anteriores. No es protocolo actual de renal ni recomendación de reutilizar dializadores."
+    },
+    {
+      "id": "S17",
+      "title": "WHO — Health-care waste",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/health-care-waste",
+      "supports": "Distingue residuos químicos de otros residuos; disolventes/reactivos/desinfectantes y emisiones posibles del tratamiento térmico.",
+      "consulted_date": "2026-10-19",
+      "status": "Ficha de 24 de octubre de 2024. No confirma incineración local ni asigna emisiones a todo residuo hospitalario."
+    },
+    {
+      "id": "S18",
+      "title": "NIOSH Pocket Guide — o-Xylene",
+      "url": "https://www.cdc.gov/niosh/npg/npgd0668.html",
+      "supports": "Líquido volátil; irritación y síntomas neurológicos como mareo/somnolencia.",
+      "consulted_date": "2026-10-19",
+      "status": "Ficha 2019 del isómero orto; no equivale a FDS de todo xileno comercial ni de una mezcla."
+    },
+    {
+      "id": "S19",
+      "title": "EPA — Protect Your Family from Exposures to Asbestos",
+      "url": "https://www.epa.gov/asbestos/protect-your-family-exposures-asbestos",
+      "supports": "No identificar asbesto por apariencia; intervención/daño puede liberar fibras si el material lo contiene.",
+      "consulted_date": "2026-10-19",
+      "status": "Recurso preventivo doméstico usado solo para límites de identificación/liberación, no reglas de trabajo colombianas ni muestreo."
+    },
+    {
+      "id": "S20",
+      "title": "NIOSH — Silica and Worker Health",
+      "url": "https://www.cdc.gov/niosh/silica/about/index.html",
+      "supports": "Cortar/perforar materiales que contienen sílice cristalina puede generar polvo respirable; silicosis y otros daños graves.",
+      "consulted_date": "2026-10-19",
+      "status": "Página revisada el 7 de julio de 2026. Ejemplo condicionado a material y tarea, sin asumir presencia local."
+    },
+    {
+      "id": "S21",
+      "title": "OSHA — Safety Data Sheets, Appendix D",
+      "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200AppD",
+      "supports": "FDS: secciones de peligros, propiedades, reactividad y toxicología; efectos inmediatos/diferidos de exposiciones cortas/prolongadas.",
+      "consulted_date": "2026-10-19",
+      "status": "Referencia técnica de estructura y comunicación, no aplicación de legislación estadounidense a Colombia."
+    },
+    {
+      "id": "S22",
+      "title": "ATSDR — Toxicology Curriculum, Module Two",
+      "url": "https://archive.cdc.gov/www_atsdr_cdc_gov/training/toxmanual/modules/2/lecturenotes.html",
+      "supports": "Distingue depósito, absorción y efectos locales/sistémicos; algunas partículas pueden retirarse o absorberse tras disolución.",
+      "consulted_date": "2026-10-19",
+      "status": "Recurso archivado. Se usan principios generales, no sus cortes temporales ni simplificaciones absolutas."
+    }
+  ],
+  "forms": [
+    {
+      "id": "gas",
+      "name": "Gas",
+      "definition": "Sustancia en fase gaseosa en las condiciones consideradas.",
+      "generation": "Liberación desde un sistema o generación por una reacción.",
+      "example": "N2O si se usa; cloro ante una incompatibilidad.",
+      "sources": [
+        "S01",
+        "S12",
+        "S14"
+      ]
+    },
+    {
+      "id": "vapor",
+      "name": "Vapor",
+      "definition": "Fase gaseosa de una sustancia habitualmente líquida o sólida en esas condiciones.",
+      "generation": "Evaporación desde un líquido expuesto.",
+      "example": "Alcohol o disolvente volátil declarado en la FDS.",
+      "sources": [
+        "S01",
+        "S06",
+        "S18"
+      ]
+    },
+    {
+      "id": "polvo",
+      "name": "Polvo",
+      "definition": "Partículas sólidas suspendidas.",
+      "generation": "Fragmentación o resuspensión.",
+      "example": "Perforación de un material de mantenimiento, si la tarea existe.",
+      "sources": [
+        "S01",
+        "S20"
+      ]
+    },
+    {
+      "id": "niebla",
+      "name": "Niebla",
+      "definition": "Gotas líquidas suspendidas.",
+      "generation": "Dispersión de líquido o condensación.",
+      "example": "Método de aplicación que disperse gotas; no equivale al vapor del producto.",
+      "sources": [
+        "S01",
+        "S11"
+      ]
+    },
+    {
+      "id": "humo",
+      "name": "Humos: distinguir el proceso",
+      "definition": "Humo de condensación: partículas sólidas producidas al enfriarse material vaporizado.",
+      "generation": "Proceso térmico; el humo quirúrgico es una mezcla más compleja.",
+      "example": "Soldadura solo si existe; plume quirúrgico de láser/electrocirugía.",
+      "sources": [
+        "S01",
+        "S15"
+      ]
+    },
+    {
+      "id": "aerosol",
+      "name": "Aerosol: categoría",
+      "definition": "Suspensión de partículas sólidas o gotas en aire; incluye polvos, humos y nieblas.",
+      "generation": "Agrupa varios procesos, no una reacción única.",
+      "example": "Medicamento nebulizado: gotas, no gas del medicamento.",
+      "sources": [
+        "S02",
+        "S03"
+      ]
+    }
+  ],
+  "healthcare_task_matrix": [
+    {
+      "id": "laboratorio",
+      "area": "Laboratorio",
+      "task": "Abrir/manejar un fijador.",
+      "conditional_agent": "Formaldehído si lo declara la FDS.",
+      "airborne_form": "Gas desde solución.",
+      "generation_or_release": "Paso al aire al quedar solución expuesta.",
+      "possible_effects": "Irritación de ojos/vías; peligro carcinogénico del agente.",
+      "verify": "Fijador, composición, apertura y captación.",
+      "source_ids": [
+        "S04",
+        "S05"
+      ],
+      "limit": "No todo laboratorio usa formaldehído; porcentaje de la solución no es concentración aérea.",
+      "evidence_type": "Escenario didáctico condicionado, apoyado en fuentes. No inventario ni exposición medida de Keralty."
+    },
+    {
+      "id": "enfermeria",
+      "area": "Enfermería",
+      "task": "Limpieza externa autorizada de equipo.",
+      "conditional_agent": "Isopropanol si está declarado.",
+      "airborne_form": "Vapor; gotas si el método las dispersa.",
+      "generation_or_release": "Evaporación y/o dispersión, procesos distintos.",
+      "possible_effects": "Irritación; mareo/somnolencia posibles. No se asigna efecto crónico sin evidencia específica.",
+      "verify": "Producto, método y ventilación.",
+      "source_ids": [
+        "S06",
+        "S11"
+      ],
+      "limit": "No prescribe producto, compatibilidad del equipo ni técnica clínica.",
+      "evidence_type": "Escenario didáctico condicionado, apoyado en fuentes. No inventario ni exposición medida de Keralty."
+    },
+    {
+      "id": "servicios-generales",
+      "area": "Servicios generales / limpieza",
+      "task": "Identificar dos productos e incompatibilidades.",
+      "conditional_agent": "Cloro o cloraminas solo ante contacto incompatible pertinente.",
+      "airborne_form": "Gases; niebla sería otra emisión.",
+      "generation_or_release": "Reacción no autorizada entre productos incompatibles.",
+      "possible_effects": "Irritación/lesión respiratoria; cloro puede dejar alteración persistente tras episodio agudo.",
+      "verify": "Identidad, FDS sección 10 y procedimiento.",
+      "source_ids": [
+        "S11",
+        "S12",
+        "S13"
+      ],
+      "limit": "No ejecutar mezclas; no representar verter, cantidades ni recetas. Cloraminas, no cloramida.",
+      "evidence_type": "Escenario didáctico condicionado, apoyado en fuentes. No inventario ni exposición medida de Keralty."
+    },
+    {
+      "id": "urgencias",
+      "area": "Urgencias",
+      "task": "Reconocer material con identidad insuficiente; alternativa: administración de aerosol medicinal.",
+      "conditional_agent": "Desconocido en el primer caso; medicamento exacto en el segundo.",
+      "airborne_form": "Por identificar; nebulización produce gotas.",
+      "generation_or_release": "Fuente desconocida no se infiere; aerosolizador genera gotas en el caso alternativo.",
+      "possible_effects": "No asignar efectos sin identidad del agente.",
+      "verify": "Procedencia, producto y respuesta institucional; medicamento/dispositivo si aplica.",
+      "source_ids": [
+        "S03",
+        "S08"
+      ],
+      "limit": "La alternativa no autoriza tratamiento ni considera todos los medicamentos peligrosos por igual.",
+      "evidence_type": "Escenario didáctico condicionado, apoyado en fuentes. No inventario ni exposición medida de Keralty."
+    },
+    {
+      "id": "unidad-renal",
+      "area": "Unidad renal / diálisis",
+      "task": "Identificar la desinfección real del sistema.",
+      "conditional_agent": "Peracético/peróxido u otro componente solo si documentado.",
+      "airborne_form": "Fase gaseosa o gotas según proceso.",
+      "generation_or_release": "Apertura/manejo/liberación posible según producto/equipo.",
+      "possible_effects": "Posible irritación respiratoria de ciertos desinfectantes; efectos específicos requieren producto.",
+      "verify": "Método químico o térmico, FDS y fabricante.",
+      "source_ids": [
+        "S03",
+        "S16"
+      ],
+      "limit": "No presumir formaldehído ni reutilización de dializadores; guía histórica no acredita práctica local actual.",
+      "evidence_type": "Escenario didáctico condicionado, apoyado en fuentes. No inventario ni exposición medida de Keralty."
+    },
+    {
+      "id": "hemodinamia",
+      "area": "Hemodinamia",
+      "task": "Investigar sistema inhalatorio, si se utiliza.",
+      "conditional_agent": "N2O o anestésico volátil concreto, solo si presentes.",
+      "airborne_form": "Gas y/o vapor según agente.",
+      "generation_or_release": "Fuga/liberación residual de sistema inhalatorio.",
+      "possible_effects": "Efectos agudos neurológicos posibles; N2O tiene peligros de exposición prolongada descritos por NIOSH.",
+      "verify": "Sistema, agente y captación; evaluación de fugas.",
+      "source_ids": [
+        "S03",
+        "S14"
+      ],
+      "limit": "Sedación intravenosa, contraste y radiación no implican emisión de gas anestésico.",
+      "evidence_type": "Escenario didáctico condicionado, apoyado en fuentes. No inventario ni exposición medida de Keralty."
+    },
+    {
+      "id": "quirofanos",
+      "area": "Quirófanos",
+      "task": "Láser/electrocirugía sobre tejido, si se usa.",
+      "conditional_agent": "Mezcla variable del humo quirúrgico.",
+      "airborne_form": "Partículas y componentes gaseosos.",
+      "generation_or_release": "Destrucción térmica de tejido.",
+      "possible_effects": "Irritación ocular/respiratoria posible; no asignar una enfermedad crónica a toda mezcla.",
+      "verify": "Dispositivo, tejido/proceso y captación prevista.",
+      "source_ids": [
+        "S02",
+        "S15"
+      ],
+      "limit": "No mostrar plume como un gas puro ni extrapolar enfermedad individual desde composición potencial.",
+      "evidence_type": "Escenario didáctico condicionado, apoyado en fuentes. No inventario ni exposición medida de Keralty."
+    },
+    {
+      "id": "patologia",
+      "area": "Patología",
+      "task": "Fijación y manejo de muestras; disolvente solo si se usa.",
+      "conditional_agent": "Formaldehído o xileno declarado.",
+      "airborne_form": "Gas desde fijador; vapor de disolvente.",
+      "generation_or_release": "Exposición de soluciones/superficies y evaporación.",
+      "possible_effects": "Formaldehído: irritación/carcinogenicidad; xileno: irritación y efectos neurológicos posibles.",
+      "verify": "Producto y etapa de proceso; FDS actual.",
+      "source_ids": [
+        "S04",
+        "S05",
+        "S18"
+      ],
+      "limit": "No asumir que ambos agentes existen o actúan igual; no atribuir toxicidad por apariencia.",
+      "evidence_type": "Escenario didáctico condicionado, apoyado en fuentes. No inventario ni exposición medida de Keralty."
+    },
+    {
+      "id": "residuos",
+      "area": "Gestión / tratamiento de residuos",
+      "task": "Identificar remanentes y tratamiento real.",
+      "conditional_agent": "Según remanente químico; productos térmicos solo si existe dicho tratamiento.",
+      "airborne_form": "Gas/vapor; partículas en procesos pertinentes.",
+      "generation_or_release": "Liberación desde remanente, incompatibilidad o proceso térmico específico.",
+      "possible_effects": "Según agente identificado; no un efecto único por ser residuo hospitalario.",
+      "verify": "Contenido, procedencia, compatibilidad y tratamiento.",
+      "source_ids": [
+        "S17",
+        "S12"
+      ],
+      "limit": "No afirmar incineración local, emisión de todos los envases ni protocolo de tratamiento.",
+      "evidence_type": "Escenario didáctico condicionado, apoyado en fuentes. No inventario ni exposición medida de Keralty."
+    },
+    {
+      "id": "mantenimiento-general",
+      "area": "Mantenimiento general",
+      "task": "Intervenir material o usar producto volátil autorizado.",
+      "conditional_agent": "Polvo/fibras según material; xileno solo si está declarado.",
+      "airborne_form": "Partículas/fibras o vapor.",
+      "generation_or_release": "Fragmentación/resuspensión o evaporación.",
+      "possible_effects": "Depende de composición; sílice cristalina respirable puede causar silicosis si está presente.",
+      "verify": "Inventario/material y tarea; producto/FDS.",
+      "source_ids": [
+        "S01",
+        "S18",
+        "S19",
+        "S20"
+      ],
+      "limit": "No identificar asbesto a simple vista. Variante de volátiles pertenece a mantenimiento general, no biomédico.",
+      "evidence_type": "Escenario didáctico condicionado, apoyado en fuentes. No inventario ni exposición medida de Keralty."
+    },
+    {
+      "id": "biomedico",
+      "area": "Mantenimiento y desinfección de equipo biomédico",
+      "task": "Investigar estado de un reprocesador antes del servicio.",
+      "conditional_agent": "Glutaraldehído/peracético/peróxido si documentados.",
+      "airborne_form": "Vapor/gas o gotas según producto/tarea.",
+      "generation_or_release": "Liberación potencial ligada al manejo/estado real; no emisión automática de equipo cerrado.",
+      "possible_effects": "Glutaraldehído: irritación y asma/sensibilización posibles; otros productos requieren evidencia específica.",
+      "verify": "Modelo, residuos, FDS e instrucciones del fabricante.",
+      "source_ids": [
+        "S03",
+        "S09",
+        "S10",
+        "S16"
+      ],
+      "limit": "No instruye apertura de circuitos, desinfección, reparaciones ni compatibilidad respiratoria.",
+      "evidence_type": "Escenario didáctico condicionado, apoyado en fuentes. No inventario ni exposición medida de Keralty."
+    }
+  ],
+  "respiratory_processes": [
+    {
+      "id": "inhalacion",
+      "claim": "Inhalar es introducir aire con posibles contaminantes en el tracto respiratorio. No demuestra que todo lo inhalado se retenga o se absorba.",
+      "sources": [
+        "S08",
+        "S22"
+      ]
+    },
+    {
+      "id": "deposito",
+      "claim": "El depósito es la retención de partículas sobre una superficie respiratoria. Puede ocurrir antes de los alvéolos; tamaño, forma y patrón respiratorio influyen.",
+      "sources": [
+        "S07",
+        "S02",
+        "S22"
+      ]
+    },
+    {
+      "id": "absorcion",
+      "claim": "Absorber es atravesar una barrera biológica. Algunos agentes pasan a sangre; la inhalación y el depósito no equivalen a absorción completa.",
+      "sources": [
+        "S08",
+        "S22"
+      ]
+    },
+    {
+      "id": "accion_local",
+      "claim": "Un agente puede actuar en el tejido de contacto. La solubilidad y reactividad influyen en el lugar y la magnitud de la interacción; no todo gas llega intacto al alvéolo.",
+      "sources": [
+        "S07",
+        "S13"
+      ]
+    },
+    {
+      "id": "accion_sistemica",
+      "claim": "Tras absorción, ciertos agentes pueden afectar órganos alejados. Xileno permite ilustrar efectos neurológicos; no representa el trayecto de todos los vapores.",
+      "sources": [
+        "S08",
+        "S18"
+      ]
+    },
+    {
+      "id": "retirada",
+      "claim": "Algunas partículas se eliminan mediante defensas respiratorias; otras pueden persistir o disolverse. No animar todas como esferas que atraviesan la pared alveolar.",
+      "sources": [
+        "S22"
+      ]
+    }
+  ],
+  "temporal_explanation": {
+    "instruction": "Separar patrón de exposición, aparición del efecto y persistencia; no unirlos mediante una flecha inevitable.",
+    "acute_effect": "Daño que puede manifestarse durante o después de una exposición breve; su aparición puede ser inmediata o diferida. No informa por sí solo de su gravedad o duración final.",
+    "chronic_effect": "Alteración que se desarrolla a largo plazo o se mantiene; suele discutirse ante exposición repetida/prolongada, sin excluir secuelas duraderas de un episodio agudo.",
+    "exposure": [
+      "Un episodio breve",
+      "Exposición repetida o prolongada"
+    ],
+    "onset": [
+      "Puede manifestarse pronto",
+      "Puede manifestarse de forma diferida"
+    ],
+    "persistence": [
+      "Puede remitir",
+      "Puede persistir"
+    ],
+    "didactic_meaning": "Agudo y crónico orientan la discusión temporal del daño, pero no fijan por sí solos gravedad o reversibilidad. Evitar un umbral universal de horas/días para todos los agentes.",
+    "counterexample": "Una exposición aguda a cloro puede dejar una alteración respiratoria persistente. Sensibilización no equivale a irritación, y cáncer no es la etapa final de todo vapor.",
+    "sources": [
+      "S21",
+      "S13",
+      "S09",
+      "S05"
+    ],
+    "terminology_limit": "Estas frases son una explicación didáctica, no definiciones de categorías SGA ni cortes toxicológicos normativos. La clasificación exacta del producto se consulta en su FDS.",
+    "model_limit": "El reloj de una animación no predice latencia, progresión, gravedad ni riesgo individual."
+  },
+  "effect_examples": [
+    {
+      "agent": "Formaldehído",
+      "acute": "Irritación respiratoria posible.",
+      "chronic": "Peligro carcinogénico respaldado; sensibilización respiratoria posible en agentes concretos.",
+      "avoid": "No mostrar cáncer alveolar automático ni probabilidad/latencia.",
+      "sources": [
+        "S04",
+        "S05",
+        "S09"
+      ]
+    },
+    {
+      "agent": "Glutaraldehído",
+      "acute": "Irritación; síntomas respiratorios pueden aparecer en la tarea.",
+      "chronic": "Asma y sensibilización pueden formar parte del peligro; dependen del contexto y no se diagnostican aquí.",
+      "avoid": "No afirmar que tos significa alergia o que todo caso se sensibiliza.",
+      "sources": [
+        "S10",
+        "S09"
+      ]
+    },
+    {
+      "agent": "Cloro",
+      "acute": "Irritación o lesión respiratoria; efectos pueden aparecer pronto o después.",
+      "chronic": "Puede persistir disfunción tras un episodio agudo.",
+      "avoid": "No equiparar agudo a leve/reversible ni asociar automáticamente a cáncer.",
+      "sources": [
+        "S13"
+      ]
+    },
+    {
+      "agent": "Polvo con sílice cristalina respirable",
+      "acute": "No asignar un cuadro agudo a cualquier polvo por su forma.",
+      "chronic": "Silicosis y otros daños graves si el material y exposición corresponden.",
+      "avoid": "No todo polvo es sílice ni toda partícula llega al alvéolo.",
+      "sources": [
+        "S20"
+      ]
+    },
+    {
+      "agent": "Xileno declarado",
+      "acute": "Irritación y efectos neurológicos como mareo/somnolencia.",
+      "chronic": "No se añade aquí un diagnóstico crónico específico sin revisar producto y evidencia.",
+      "avoid": "No atribuir el ejemplo sistémico a todos los vapores.",
+      "sources": [
+        "S18"
+      ]
+    },
+    {
+      "agent": "Peracético/peróxido en proceso documentado",
+      "acute": "Irritación de vías superiores posible.",
+      "chronic": "No extrapolar un efecto crónico único desde el grupo oxidantes.",
+      "avoid": "No deducir emisión gaseosa o gravedad por un pictograma aislado.",
+      "sources": [
+        "S03",
+        "S21"
+      ]
+    }
+  ],
+  "didactic_proposal": {
+    "status": "Propuesta de contenido e interacciones para revisión futura. No aplicada.",
+    "mapping": [
+      {
+        "new": "M1.3",
+        "current": "M1.4 / #formas",
+        "role": "Qué puede haber en el aire y cómo se genera en el trabajo."
+      },
+      {
+        "new": "M1.4",
+        "current": "M1.3 / #m1-intercambio",
+        "role": "Qué puede ocurrir al inhalarlo, conservando el modelo alveolar actual."
+      }
+    ],
+    "no_route_or_timing_change_applied": true,
+    "m13": {
+      "title": "Reconoce lo que puede acompañar al aire",
+      "lead": "Mira la tarea. Encuentra la fuente. Distingue cómo llega al aire.",
+      "screens": [
+        "Una escena y una pregunta: ¿qué acción puede liberar el contaminante?",
+        "Una forma seleccionada: qué es + cómo se genera + un ejemplo condicionado.",
+        "Etiqueta/FDS para confirmar identidad y peligro; aspecto del aire no basta."
+      ],
+      "composition": "Dos columnas como referencia M1.3 actual: modelo/escena principal y tarjeta breve de explicación/reto. Una selección visible cada vez.",
+      "taxonomy": "Cinco formas principales y un marco Aerosol que agrupe polvos, humos y nieblas. Fibras como ampliación. No seis familias mutuamente excluyentes.",
+      "example_microcopy": [
+        "Vapor: el líquido puede evaporarse. Las gotas serían niebla.",
+        "Polvo: una acción puede liberar partículas sólidas. Confirma el material.",
+        "Humo quirúrgico: el proceso térmico puede generar una mezcla.",
+        "El agente y sus condiciones determinan el peligro; el nombre de la forma no basta."
+      ]
+    },
+    "m14": {
+      "title": "Del aire al tejido: no todos siguen el mismo camino",
+      "lead": "Explora qué puede quedar, qué puede atravesar y dónde puede actuar.",
+      "preserve": "Mismo modelo de unidad alveolar-capilar y controles de cámara existentes. O2/CO2 permanece como estado de referencia separado.",
+      "visual_context": "Añadir una banda o pequeño esquema propio de vías altas/conductoras antes del acercamiento alveolar. Es esencial para evitar que el encuadre sugiera que todo llega a esta unidad. No requiere modificar M1.2.",
+      "layers": [
+        "Referencia: intercambio normal O2/CO2.",
+        "Partículas: depósito conceptual; algunas quedan en otras regiones.",
+        "Agente soluble/reactivo: posible acción local, sin recorrido obligatorio a sangre.",
+        "Agente absorbible concreto: paso esquemático y órgano diana pertinente.",
+        "Efecto y tiempo: comparar episodio breve/repetición, inicio y persistencia."
+      ],
+      "microcopy": [
+        "Inhalar no significa absorberlo todo.",
+        "Puede actuar antes de llegar a los alvéolos.",
+        "Una partícula depositada no pasa automáticamente a la sangre.",
+        "Un daño puede persistir después de una exposición breve."
+      ]
+    },
+    "avoid_duplicate_M2": "M1.4 introduce el mecanismo y dos contrastes temporales. M2 conserva la profundización por agente; alcance/duración futuros quedan por revisar con Carlos.",
+    "interactions": [
+      {
+        "id": "I01",
+        "module": "M1.3",
+        "name": "De la tarea a la forma",
+        "action": "Elegir evaporación, dispersión de gotas o fragmentación sobre escenas existentes; después contrastar la forma.",
+        "feedback": "Explica el proceso elegido y qué dato falta confirmar.",
+        "reuse": "Visor de generación y tres pasos actuales.",
+        "classification": "Comparación conceptual, no simulación de emisión.",
+        "implementation": "Adaptación de contenido/feedback pendiente; no se ejecutó."
+      },
+      {
+        "id": "I02",
+        "module": "M1.3",
+        "name": "Una tarea puede producir dos formas",
+        "action": "Activar Evaporación y Gotas por separado en un producto volátil aplicado por un método que genere gotas.",
+        "feedback": "Vapor y niebla pueden coexistir; uno no se convierte en el otro por el botón.",
+        "reuse": "Escena y estados visuales de vapor/niebla actuales.",
+        "classification": "Convención visual cualitativa; sin concentración o proporciones.",
+        "implementation": "Requiere nueva coordinación visual, no nuevo modelo físico validado."
+      },
+      {
+        "id": "I03",
+        "module": "M1.3",
+        "name": "¿Aerosol o gas/vapor?",
+        "action": "Seleccionar tarjetas para agrupar polvo, humo y niebla bajo Aerosoles; gas y vapor quedan en fase gaseosa.",
+        "feedback": "Muestra pertenencia y proceso con una frase.",
+        "reuse": "Botones actuales de formas y tarjetas.",
+        "classification": "Clasificación conceptual con alternativa mediante botones; no depender de arrastrar.",
+        "implementation": "Pendiente de desarrollo, no cambio de cierre."
+      },
+      {
+        "id": "I04",
+        "module": "M1.4",
+        "name": "¿Llegar significa atravesar?",
+        "action": "Elegir Aire, Depósito o Absorción sobre el mismo encuadre alveolar.",
+        "feedback": "Resalta aire/superficie/sangre como conceptos diferentes; contexto indica otras regiones posibles.",
+        "reuse": "Acercamientos Llegada del aire, Alvéolo abierto, Pared aire-sangre, Red capilar ya disponibles en fuente.",
+        "classification": "Ampliación conceptual: no mide depósito, dosis o permeabilidad.",
+        "implementation": "Requiere estados didácticos nuevos; conservar referencia normal separada."
+      },
+      {
+        "id": "I05",
+        "module": "M1.4",
+        "name": "Compara dos agentes, dos acciones",
+        "action": "Seleccionar un ejemplo de acción local y otro sistémico; cambiar la explicación sin deformar el órgano.",
+        "feedback": "Relaciona agente, propiedad y zona; ofrece Falta información cuando proceda.",
+        "reuse": "Modelo alveolar/capilar con tarjeta lateral.",
+        "classification": "Localización ilustrativa, no mapa exacto de lesión ni predicción.",
+        "implementation": "Vías altas requieren contexto propio; no representar toda acción dentro del alvéolo."
+      },
+      {
+        "id": "I06",
+        "module": "M1.4",
+        "name": "Tres preguntas sobre el tiempo",
+        "action": "Elegir exposición breve/repetida y contrastar tarjetas de inicio pronto/diferido y remisión/persistencia.",
+        "feedback": "Un episodio agudo no garantiza reversibilidad. La combinación debe proceder de un ejemplo respaldado.",
+        "reuse": "Tarjeta lateral y modelo como referencia estable.",
+        "classification": "Contraste de conceptos, sin cronómetro biológico ni resultado automático.",
+        "implementation": "No inventar datos ni cambiar evaluación/desbloqueo."
+      }
+    ],
+    "audiovisual_note": "Investigación y orientación de guion únicamente. No se generaron ni integraron audios, videos, texturas o modelos.",
+    "anatomy_note": "M1.2 queda fuera del alcance; la propuesta de contexto de vías superiores es un recurso nuevo de M1.4, no una edición de aquel modelo."
+  },
+  "evidence_limits": [
+    "No se dispone de inventario, FDS de productos institucionales, condiciones de uso ni mediciones de Keralty. Los once contextos son hipótesis didácticas condicionadas.",
+    "Consulta web realizada el 19 de octubre de 2026; las fechas de publicación/revisión y fuentes archivadas se distinguen. Consultar hoy no convierte un antecedente histórico en protocolo actual.",
+    "Fuentes extranjeras son apoyo técnico; no se presentan como requisitos legales colombianos.",
+    "No se crean dosis, umbrales de depósito, concentraciones, probabilidad de enfermedad ni compatibilidades de respiradores.",
+    "No se enseñan mezclas, recetas, tratamiento clínico ni intervención real sobre equipos.",
+    "No hay nueva verificación UI ni ensayo pedagógico. Viabilidad propuesta basada en lectura de controles existentes."
+  ],
+  "pending_for_future_review": [
+    "Confirmar selección de ejemplos con inventario/FDS y tareas vigentes de cada sede, especialmente renal, hemodinamia, mantenimiento y biomédico.",
+    "Decidir cuánto se introduce de efectos en M1.4 y cuánto se reserva a M2 para evitar repetir la actividad.",
+    "Ensayar futura secuencia y tiempo después de que Carlos termine sus observaciones; no se cambian aquí tiempos, rutas o desbloqueos.",
+    "Revisar todo guion/animación para evitar que gas, vapor, gota y partícula se confundan o que el modelo alveolar prometa resultados fisiológicos."
+  ],
+  "protected": [
+    "Aplicación completa",
+    "M1.2 y dependencias",
+    "ZIP de revisión 16 y anteriores",
+    "Teleprompter",
+    "Progreso y desbloqueo",
+    "Coordinación, observaciones y propuesta general del coordinador"
+  ]
+}

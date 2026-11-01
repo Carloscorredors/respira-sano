@@ -1,0 +1,247 @@
+{
+  "status": "ok",
+  "date": "2026-10-18",
+  "mode": "file:// offline",
+  "entries": [
+    {
+      "id": "viaje-fantastico",
+      "title": "Viaje fantástico: una misión dentro de ti",
+      "entrypoint": "recorrido.html#viaje-fantastico",
+      "order": true,
+      "keyboard": true,
+      "mobile": true
+    },
+    {
+      "id": "gases-vapores",
+      "title": "No te hagas el loco con los gases y vapores",
+      "entrypoint": "gases-vapores.html",
+      "order": true,
+      "keyboard": true,
+      "mobile": true
+    },
+    {
+      "id": "csi-del-aire",
+      "title": "CSI del aire: sigue las pistas",
+      "entrypoint": "hospital.html#csi-del-aire",
+      "order": true,
+      "keyboard": true,
+      "mobile": true
+    },
+    {
+      "id": "mision-posible",
+      "title": "Misión posible: controla la fuente",
+      "entrypoint": "hospital.html#mision-posible",
+      "order": true,
+      "keyboard": true,
+      "mobile": true
+    },
+    {
+      "id": "cazadores-de-mitos",
+      "title": "Cazadores de mitos: ¿qué protege de qué?",
+      "entrypoint": "respiradores.html#cazadores-de-mitos",
+      "order": true,
+      "keyboard": true,
+      "mobile": true
+    },
+    {
+      "id": "pit-stop-respiratorio",
+      "title": "Pit stop respiratorio: revisa, ajusta y cuida",
+      "entrypoint": "respiradores.html#pit-stop-respiratorio",
+      "order": true,
+      "keyboard": true,
+      "mobile": true
+    }
+  ],
+  "homeCards": [
+    {
+      "title": "Viaje fantástico: una misión dentro de ti",
+      "href": "recorrido.html#viaje-fantastico",
+      "image": "assets/portada-viaje-fantastico.png",
+      "loaded": true
+    },
+    {
+      "title": "No te hagas el loco con los gases y vapores",
+      "href": "gases-vapores.html",
+      "image": "assets/portada-gases-vapores.png",
+      "loaded": true
+    },
+    {
+      "title": "CSI del aire: sigue las pistas",
+      "href": "hospital.html#csi-del-aire",
+      "image": "assets/portada-csi-del-aire.png",
+      "loaded": true
+    },
+    {
+      "title": "Misión posible: controla la fuente",
+      "href": "hospital.html#mision-posible",
+      "image": "assets/portada-mision-posible.png",
+      "loaded": true
+    },
+    {
+      "title": "Cazadores de mitos: ¿qué protege de qué?",
+      "href": "respiradores.html#cazadores-de-mitos",
+      "image": "assets/portada-cazadores-de-mitos.png",
+      "loaded": true
+    },
+    {
+      "title": "Pit stop respiratorio: revisa, ajusta y cuida",
+      "href": "respiradores.html#pit-stop-respiratorio",
+      "image": "assets/portada-pit-stop-respiratorio.png",
+      "loaded": true
+    }
+  ],
+  "pages": 13,
+  "dashboard_tiles": 9,
+  "videos": [
+    {
+      "id": "controles",
+      "duration": 37.983333,
+      "width": 1280,
+      "height": 720,
+      "paused": true,
+      "autoplay": false,
+      "controls": true,
+      "tracks": 1,
+      "cues": 4,
+      "mp4_sha256": "6a6453bec4a441920a47da95ef58dd9ffca57e07eb0bc0b40f738af4f1b31ffb",
+      "webm_sha256": "f7979b5af4882b236a8760c93c9f5aecec244486b44a8d001dc05fbbe1a0bab2"
+    },
+    {
+      "id": "uso-cuidado",
+      "duration": 38,
+      "width": 1280,
+      "height": 720,
+      "paused": true,
+      "autoplay": false,
+      "controls": true,
+      "tracks": 1,
+      "cues": 4,
+      "mp4_sha256": "c32cf0a59c4542e21cd2faf1ad8f6fea9a4b8384ada0ee25cad5c36563617a18",
+      "webm_sha256": "157f51d6eab587a56f708dd581c96609e7a62f3c2a9292c3b1def9dfc51975db"
+    }
+  ],
+  "pageErrors": [],
+  "remoteRequests": [],
+  "checks": [
+    "6 home covers and exact titles",
+    "5 contract anchors unique and reachable",
+    "entry to story to video to activity order",
+    "keyboard entry buttons without autoplay",
+    "case retained from investigation to controls",
+    "selection and use interactions retained",
+    "360/390/768 responsive entries; all pages at390",
+    "new videos playback and 4 captions/transcript parts",
+    "4 decoded frames per new video",
+    "no page errors or remote requests"
+  ],
+  "visual_review": "passed",
+  "visually_reviewed": {
+    "inicio-seis-tarjetas.png": "31f4484af6b9196cfe4dafac07e89ae4171af775b38719eb378de30796022923",
+    "mision-posible-desktop.png": "cee01d06206446b9993bc55f1adf47b13df659ff9075f65e1dcd0ff8cdd6244e",
+    "gases-vapores-desktop.png": "26a3edf33d854dc2a59ae33a8aff51bdaa6c5470102e84f62f6d5c083a2e5b3e",
+    "viaje-fantastico-movil.png": "6cb4a78f37d89fee265ad248b2c482bd2b8d1de8eb6eb6ca7f5e2931995c31c0",
+    "pit-stop-respiratorio-movil.png": "1e5ae431ad108343cf22061cd6b5a804509ce57d0b0db68c611d61a090b866e8",
+    "controles-subtitulos.png": "9e0832585962964f7e596c130c909a42fa88ffa774eb0b74aaca2469ca0a4f2e",
+    "uso-cuidado-video-movil.png": "4d9dbabba2db0e764f06a0f27a8d9cde696371c21d5b00331b33d15bae8d7132",
+    "controles-2s.png": "01d24de360280ebbde7394a255219aa450a2a142705a402ce7e80eae886134f1",
+    "controles-12s.png": "5d6e455fd6f6f768cb3b1f537a833e32027fdac46f5426a0caf4d03ccde6171f",
+    "controles-23s.png": "f788f2395ec6c449368f2a3d20561594cd2539730422f23e1beb3d0ce327fe91",
+    "controles-33s.png": "1e7d72044ca6ed4396fad7e1cfc28363ba5b75206dc71ae30c7e13e351b4ce78",
+    "uso-cuidado-2s.png": "4aee34308c7ed76108e68bef05bf978edd3140f20a17b8c880872b5fdcda3df5",
+    "uso-cuidado-12s.png": "2f5df8fc3728d54b6a7a9b79b3e407a1fb3f1579fd7209f300eefe94b626ec1e",
+    "uso-cuidado-23s.png": "6da0e0377062ff3d31c1e9e91a486234f828ee72781c6d8dcb2426afe1c4ad1c",
+    "uso-cuidado-33s.png": "9fd01098319438b8b5563afc2f923e94d6be087a8709e3ce40b957172ccb528d"
+  },
+  "visual_notes": [
+    "Las seis portadas se revisaron en conjunto; entradas seleccionadas en escritorio y móvil.",
+    "Texto principal de los ocho fotogramas legible y sin recorte; capturas de interfaz a la derecha como contexto.",
+    "Subtítulos opcionales y transcripción permiten seguir el texto; no hay narración."
+  ],
+  "preserved_from_previous_package": [
+    {
+      "file": "assets/infografia-respira-sano.pdf",
+      "sha256": "499ddc149c60123c2ba5c3128ffd89965aa25a392ed0f7c813ae52b03bf4dfb9"
+    },
+    {
+      "file": "assets/intro-gases-vapores-poster.png",
+      "sha256": "c7d32f4b3e76ac91d4b6135e3df4ed9a2d7cde9f9692eee8cd6f4531351a58cb"
+    },
+    {
+      "file": "assets/intro-gases-vapores.mp4",
+      "sha256": "6ac4b4b6be13403e466935ac0386972f3d9183e578ffd127d3a92ac9e2fccc37"
+    },
+    {
+      "file": "assets/intro-gases-vapores.vtt",
+      "sha256": "b8e8e577d702b995b17542f2228cc900fbac010e51c97e80988c999274f8243f"
+    },
+    {
+      "file": "assets/intro-gases-vapores.webm",
+      "sha256": "dfd58c3842b7acc6fcdfda1eebc620426bdfb1e6836d09a47ab1aabf5944ab6f"
+    },
+    {
+      "file": "assets/intro-investiga-poster.png",
+      "sha256": "d3c02faa978e4a94c8baf7459fa6e3fa2e1e7635e3dd29893db66de27a6189c5"
+    },
+    {
+      "file": "assets/intro-investiga.mp4",
+      "sha256": "3bcf9abef22d0448fc8c963dba67e21dba03fc177eca94279bb38d467c18a040"
+    },
+    {
+      "file": "assets/intro-investiga.vtt",
+      "sha256": "076d2ce4837f745bc619c9e578329ecfbc2934302298e85dd1cab49a4af7dd77"
+    },
+    {
+      "file": "assets/intro-investiga.webm",
+      "sha256": "2169a211dbd5ac249af6c7a4acf71325b4352c1dbcf77d0161a277b04332e4cc"
+    },
+    {
+      "file": "assets/intro-proteccion-poster.png",
+      "sha256": "6d7ba83ebfa097ec86e08e4423445a04b7ea2819860c4e8edc758529397dd497"
+    },
+    {
+      "file": "assets/intro-proteccion.mp4",
+      "sha256": "5466163551751d85cb5ba73f197592b59f2b8675e6ac1af5f1b384b519a1b30a"
+    },
+    {
+      "file": "assets/intro-proteccion.vtt",
+      "sha256": "a7e4d10a129446dafe836b42f2a783bfe4ea78a47826ebb8903c9b87dbcdf8a0"
+    },
+    {
+      "file": "assets/intro-proteccion.webm",
+      "sha256": "149859440d822e5f679d9567556be0cd31fde5366e6399e25422c0424c612c97"
+    },
+    {
+      "file": "assets/lesson-captions.js",
+      "sha256": "7dccbc5422e304c7d76735a7e67561469746d9053319958ebe1458a36004f9a7"
+    },
+    {
+      "file": "assets/pilot-captions.js",
+      "sha256": "d9b4f865c0ad238e1e11250595502eba06c02c71f26df707fc008e17a1cb477b"
+    },
+    {
+      "file": "assets/piloto-cuerpo-aire-poster.png",
+      "sha256": "a3ec9eab56682d469a22f82a018c3f2f6ca0747d2e21cc6b92acd842bab95acd"
+    },
+    {
+      "file": "assets/piloto-cuerpo-aire.mp4",
+      "sha256": "642d73f14d43f4a91bb47ce69362c603f197afa610f2e38aea796fea607c1914"
+    },
+    {
+      "file": "assets/piloto-cuerpo-aire.vtt",
+      "sha256": "7abcf5a8c67bd342d426ce3ff0b078b5b1fea879d6d0e659fdfccbc4ffe9315e"
+    },
+    {
+      "file": "assets/piloto-cuerpo-aire.webm",
+      "sha256": "6eefe12e48e3d19ff1b1ff4a541a9b52bafed77a31ec4dfd9fc2b18e0adfaac3"
+    },
+    {
+      "file": "assets/portada-gases-vapores.png",
+      "sha256": "373f4c2b2ca74bef0c67906ed71644c45a3b9dbd1447ace52813605256300423"
+    },
+    {
+      "file": "assets/respiratory3d.bundle.js",
+      "sha256": "2257d313d4fb54cc40212478471bb6672dbc823799691e4d047584458bde6f2f"
+    }
+  ],
+  "scope_limit": "Versión para revisión. Operación grupal, ensayo y aceptación final pendientes."
+}

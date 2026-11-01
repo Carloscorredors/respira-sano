@@ -1,0 +1,476 @@
+{
+  "date": "2026-10-30",
+  "status": "Propuesta documental sin cambios en aplicación",
+  "modules": [
+    {
+      "n": 1,
+      "title": "Viaje fantástico",
+      "minutes": 20,
+      "purpose": "Reconocer los peligros químicos que pueden llegar al aire, relacionarlos con tareas sanitarias y comprender sus posibles efectos por inhalación.",
+      "result": "Relaciona una tarea con una fuente, una forma del contaminante en el aire y un posible efecto que debe confirmar.",
+      "rows": [
+        [
+          "M1.1",
+          2,
+          "Una pregunta invisible",
+          "Historia del equipo de salud y reto de identificar qué puede liberarse al aire."
+        ],
+        [
+          "M1.2",
+          4,
+          "Sigue el aire",
+          "Modelo respiratorio y audio sincronizado. Anatomía como apoyo para comprender la inhalación; CT como consulta."
+        ],
+        [
+          "M1.3",
+          4,
+          "Qué puede acompañar al aire",
+          "Gases, vapores, polvos, nieblas, humos y aerosoles; fibras como forma particular. Fuente y generación o liberación."
+        ],
+        [
+          "M1.4",
+          3,
+          "Cómo puede afectarnos",
+          "Ingreso y comportamiento según el agente. Modelo alveolar como apoyo; introducción a efectos agudos y crónicos."
+        ],
+        [
+          "M1.5",
+          3,
+          "Una pista en mi servicio",
+          "Seleccionar una tarea de las once áreas y relacionar producto o material, fuente, forma en el aire y peligro."
+        ],
+        [
+          "M1.6",
+          1,
+          "Detecta una exposición posible",
+          "Propuesta de sustitución del enfoque de otras vías: conectar fuente, aire, tarea y persona; señalar qué falta conocer."
+        ],
+        [
+          "M1.7",
+          3,
+          "Conecta las pistas",
+          "Trivia o rompecabezas de relaciones, retroalimentación, reflexión y audio breve de síntesis."
+        ]
+      ],
+      "activity": "Unir tarjetas de tarea, fuente y contaminante; comprobar la relación con una pista técnica. En sesión se trabaja un caso; el atlas completo queda para consulta.",
+      "resources": "Historia audiovisual, modelo respiratorio, modelo alveolar, escenas de generación, atlas de once áreas y cápsulas con transcripción.",
+      "deliverable": "Ficha de reconocimiento de una tarea",
+      "fields": "Servicio y tarea; producto o material; fuente; forma en el aire; peligro o efecto posible; dato por confirmar en etiqueta o FDS.",
+      "criterion": "La relación propuesta es coherente y distingue un ejemplo didáctico de una exposición institucional confirmada.",
+      "bridge": "M2 retoma la pista para profundizar en mecanismos, efectos y evidencias del producto.",
+      "state": "M1.2 y sus mejoras visuales existen. El intercambio M1.3/M1.4, el nuevo enfoque de M1.6 y el cierre lúdico son propuesta pendiente de implementación.",
+      "note": "Se conserva M1.2. La anatomía deja de ser el eje del módulo. No todos los contaminantes siguen el mismo recorrido ni todos alcanzan el alvéolo o la sangre."
+    },
+    {
+      "n": 2,
+      "title": "No te hagas el loco con los gases y vapores",
+      "minutes": 15,
+      "purpose": "Profundizar en los peligros y posibles efectos de agentes del sector salud y aprender a confirmarlos en la etiqueta y la ficha de datos de seguridad.",
+      "result": "Justifica una relación entre agente, tarea y efecto posible utilizando información del producto y reconoce sus límites.",
+      "rows": [
+        [
+          "M2.1",
+          2,
+          "La apariencia no es evidencia",
+          "Narrativa de los Addams y caso simulado. Formular una hipótesis sin diagnosticar a los personajes."
+        ],
+        [
+          "M2.2",
+          4,
+          "Cómo actúa el agente",
+          "Contrastar irritación, sensibilización y otras acciones posibles, según el agente y sus condiciones de exposición."
+        ],
+        [
+          "M2.3",
+          3,
+          "Efectos agudos y crónicos",
+          "Aplicar estos conceptos a casos: aparición, duración, exposición repetida y persistencia de los efectos."
+        ],
+        [
+          "M2.4",
+          4,
+          "Lee las señales del producto",
+          "Etiqueta SGA: signo de exclamación, peligro para la salud y corrosión; indicaciones de peligro y precaución. FDS 2, 10 y 11; incompatibilidades y prevención de mezclas."
+        ],
+        [
+          "M2.5",
+          2,
+          "Desmonta el mito",
+          "Trivia breve con justificación, pista técnica y una pregunta que el participante llevará a M3."
+        ]
+      ],
+      "activity": "Contrastar una afirmación de la historia con la etiqueta o un extracto de FDS y corregir una conclusión apresurada.",
+      "resources": "Portada y relato Addams existentes; casos de agentes; etiqueta ampliable; FDS de ejemplo; cápsulas explicativas y transcripciones.",
+      "deliverable": "Tarjeta del agente y su evidencia",
+      "fields": "Producto y agente; tarea; posible efecto agudo o crónico; información encontrada en etiqueta o FDS; dato que aún falta.",
+      "criterion": "El efecto se atribuye al agente y a información pertinente, sin confundir apariencia, olor o pictograma con una evaluación de exposición.",
+      "bridge": "M3 investiga si puede haber exposición y bajo qué condiciones.",
+      "state": "La narrativa Addams y actividades de tiempo y acción existen. La organización en estos cinco submódulos y la integración ampliada de etiqueta/FDS son propuestas.",
+      "note": "M1 introduce los efectos; M2 los aplica a agentes y fuentes documentales. Los pictogramas orientan la consulta, pero no identifican por sí solos todos los mecanismos o mezclas peligrosas."
+    },
+    {
+      "n": 3,
+      "title": "CSI del aire",
+      "minutes": 20,
+      "purpose": "Investigar las condiciones de una tarea y reconocer los datos necesarios para evaluar la exposición por inhalación.",
+      "result": "Diferencia lo observado de lo medido y formula una pregunta de evaluación higiénica.",
+      "rows": [
+        [
+          "M3.1",
+          2,
+          "Abre el expediente",
+          "Recibir una tarea sanitaria concreta y una pregunta de exposición."
+        ],
+        [
+          "M3.2",
+          4,
+          "Localiza la fuente",
+          "Explorar producto, equipo, apertura, transferencia o proceso que pueda liberar el agente."
+        ],
+        [
+          "M3.3",
+          3,
+          "Identifica el producto",
+          "Confirmar composición y propiedades pertinentes. Consultar FDS 1, 2, 3 y 9."
+        ],
+        [
+          "M3.4",
+          4,
+          "Reconstruye la exposición",
+          "Revisar frecuencia, duración, concentración en aire, ventilación y personas potencialmente expuestas."
+        ],
+        [
+          "M3.5",
+          4,
+          "Busca la evidencia que falta",
+          "Importancia de mediciones higiénicas representativas; FDS 8 como referencia de información sobre exposición y controles."
+        ],
+        [
+          "M3.6",
+          3,
+          "Presenta tus hallazgos",
+          "Separar hechos, hipótesis y datos faltantes en un expediente breve."
+        ]
+      ],
+      "activity": "Abrir cinco pistas en una escena interactiva y decidir qué se sabe y qué debe investigarse.",
+      "resources": "Escena de trabajo con puntos de consulta, cuaderno de investigación, audio de orientación y FDS de apoyo.",
+      "deliverable": "Mini expediente de exposición",
+      "fields": "Tarea y fuente; agente posible; condiciones de exposición; evidencia disponible; medición o información por obtener.",
+      "criterion": "No presenta como concentración en aire la concentración del envase, ni considera una observación visual equivalente a una medición.",
+      "bridge": "El mismo expediente pasa a M4 para priorizar controles y su verificación.",
+      "state": "La escena de cinco pistas y el cuaderno existen. Esta numeración y organización son una propuesta de estructura para revisión.",
+      "note": "El participante aprende a reconocer cuándo solicitar apoyo técnico; el ejercicio no calcula una exposición real con datos inventados."
+    },
+    {
+      "n": 4,
+      "title": "Misión posible",
+      "minutes": 15,
+      "purpose": "Priorizar medidas sobre la fuente y el ambiente y comprender las capacidades y límites generales de la protección respiratoria.",
+      "result": "Propone un control prioritario y explica qué debe verificarse para considerar que funciona.",
+      "rows": [
+        [
+          "M4.1",
+          1,
+          "Prioriza dónde actuar",
+          "Jerarquía de controles aplicada al expediente recibido."
+        ],
+        [
+          "M4.2",
+          2,
+          "Elimina o sustituye",
+          "Valorar alternativas de sustancia o proceso, su viabilidad y nuevos peligros."
+        ],
+        [
+          "M4.3",
+          4,
+          "Controla con ingeniería",
+          "Encerramiento, sistemas cerrados, campanas, extracción localizada y ventilación. Ejemplos sanitarios y captación en la fuente."
+        ],
+        [
+          "M4.4",
+          3,
+          "Previene liberaciones y fugas",
+          "Procedimientos seguros, mantenimiento, condiciones anormales y verificación del funcionamiento de controles."
+        ],
+        [
+          "M4.5",
+          3,
+          "Compara qué puede proteger",
+          "Tapabocas quirúrgico, N95, media cara y cara completa: función general y límites; diferenciar pieza facial de filtro o cartucho."
+        ],
+        [
+          "M4.6",
+          2,
+          "Defiende tu propuesta",
+          "Elegir una medida prioritaria, un complemento y una evidencia para comprobar resultados."
+        ]
+      ],
+      "activity": "Resolver el caso cambiando medidas sobre una escena y justificar qué se haría primero.",
+      "resources": "Esquemas de campanas y extracción, comparación visual de equipos, caso documentado de apoyo y audio breve.",
+      "deliverable": "Plan breve de control",
+      "fields": "Problema y tarea; control prioritario; complemento; motivo; responsable por consultar; evidencia de verificación.",
+      "criterion": "Prioriza medidas viables sobre la fuente o el ambiente y no asume que disponer de un extractor o de EPP demuestra control eficaz.",
+      "bridge": "M5 toma la comparación de capacidades y la convierte en decisiones de selección con datos de una tarea.",
+      "state": "Existe el escenario de controles. La ampliación sobre campanas, sistemas complejos y comparación de equipos responde a observaciones guardadas y sigue pendiente.",
+      "note": "Los 15 minutos permiten una comparación guiada, no diseñar sistemas de extracción. La ampliación opcional desarrolla un segundo caso."
+    },
+    {
+      "n": 5,
+      "title": "Cazadores de mitos",
+      "minutes": 20,
+      "purpose": "Aplicar criterios para seleccionar protección respiratoria y reconocer cuándo faltan condiciones para utilizar un respirador purificador de aire.",
+      "result": "Distingue filtro de partículas y cartucho químico y explica qué información necesita para una selección.",
+      "rows": [
+        [
+          "M5.1",
+          2,
+          "Cuestiona la selección",
+          "Caso de una elección por apariencia, color o costumbre."
+        ],
+        [
+          "M5.2",
+          4,
+          "Distingue el medio protector",
+          "Filtros para partículas, cartuchos para gases y vapores y combinaciones aprobadas."
+        ],
+        [
+          "M5.3",
+          4,
+          "Relaciona agente y tarea",
+          "Información sobre contaminante, exposición, oxígeno y condiciones; datos del fabricante y del programa de protección."
+        ],
+        [
+          "M5.4",
+          4,
+          "Comprueba el conjunto",
+          "Pieza facial, medio filtrante, ajuste y compatibilidad del conjunto. Explorador de media cara o cara completa como apoyo visual."
+        ],
+        [
+          "M5.5",
+          3,
+          "Reconoce cuándo detenerte",
+          "Limitaciones de purificadores, atmósfera desconocida, falta de oxígeno y condiciones que exigen evaluación especializada."
+        ],
+        [
+          "M5.6",
+          3,
+          "Caza el mito",
+          "Resolver decisiones con retroalimentación y justificar selección o detención por falta de datos."
+        ]
+      ],
+      "activity": "Comparador de contaminante y equipo; decisión de seleccionar o detener la selección y solicitar información.",
+      "resources": "Comparador interactivo, fichas de fabricante como referencia, máscara externa 3D con conexión y alternativa local.",
+      "deliverable": "Matriz de decisión de protección",
+      "fields": "Tarea; agente y forma; datos disponibles; función requerida; equipo o medio por evaluar; limitación; información faltante.",
+      "criterion": "No prescribe un respirador solo por servicio o por forma visual; distingue que un purificador no aporta oxígeno.",
+      "bridge": "M6 trabaja sobre un supuesto con tarea evaluada y equipo ya seleccionado, para aprender a revisar y cuidar.",
+      "state": "Existen comparador, decisiones y máscara externa. Estos seis submódulos ordenan la profundidad propuesta sin repetir la introducción de M4.",
+      "note": "La máscara 3D es una referencia visual; su aspecto no demuestra certificación, compatibilidad ni capacidad frente a un contaminante."
+    },
+    {
+      "n": 6,
+      "title": "Pit stop respiratorio",
+      "minutes": 20,
+      "purpose": "Reconocer la preparación, inspección, uso y cuidado del respirador, incluyendo el seguimiento de filtros y cartuchos.",
+      "result": "Identifica una falla, ordena la preparación y registra uso sin confundir horas acumuladas con vida útil universal.",
+      "rows": [
+        [
+          "M6.1",
+          2,
+          "Inspecciona antes de usar",
+          "Pieza facial, arnés, válvulas, conexiones y medios filtrantes; defectos y condiciones de no uso."
+        ],
+        [
+          "M6.2",
+          3,
+          "Coloca según el manual",
+          "Ordenar la preparación y colocación conforme al modelo y a las instrucciones del fabricante."
+        ],
+        [
+          "M6.3",
+          3,
+          "Comprueba el ajuste",
+          "Verificación del sello en cada colocación; diferencia con prueba de ajuste y necesidad de capacitación."
+        ],
+        [
+          "M6.4",
+          3,
+          "Limpia y almacena",
+          "Cuidado por componente, almacenamiento y decisiones ante anomalías durante el uso."
+        ],
+        [
+          "M6.5",
+          3,
+          "Decide el recambio",
+          "Distinguir criterios para filtros de partículas y cartuchos químicos; programa de cambio e instrucciones aplicables."
+        ],
+        [
+          "M6.6",
+          3,
+          "Registra las horas de uso",
+          "Identificación, apertura, intervalos de uso, tiempo acumulado, condiciones, criterio de recambio y responsable."
+        ],
+        [
+          "M6.7",
+          3,
+          "Completa el pit stop",
+          "Secuencia o trivia, análisis de una falla y audio corto con compromisos de cuidado."
+        ]
+      ],
+      "activity": "Ordenar la preparación, responder a una falla del sello y completar un ejemplo de bitácora.",
+      "resources": "Esquemas de componentes, modelo facial, secuencia interactiva, decisiones de cuidado, manual y bitácora editable propuesta.",
+      "deliverable": "Lista de revisión y bitácora de uso",
+      "fields": "Equipo y medio; inspección; fecha de apertura; inicio y fin de uso; horas acumuladas; condiciones; criterio autorizado de recambio; fecha y motivo del cambio.",
+      "criterion": "Detiene el uso ante una falla y consulta el procedimiento; registra horas sin convertirlas en autorización automática para seguir usando el medio.",
+      "bridge": "El cierre general reúne las seis evidencias y una acción preventiva para una tarea del participante.",
+      "state": "Existen inspección, secuencia, sello y decisiones de cuidado. La bitácora específica de horas y su actividad requieren desarrollo posterior.",
+      "note": "No se fijará un número universal de horas. El registro apoya el seguimiento; el recambio requiere un criterio sustentado y no depender del olor como indicador principal."
+    }
+  ],
+  "main_minutes": 120,
+  "extension_minutes": 60,
+  "coverage": [
+    [
+      "1  Reconocimiento del riesgo respiratorio",
+      [
+        [
+          "1.1",
+          "Humos, gases, vapores, polvos, nieblas y aerosoles",
+          "M1.3; refuerzo M2"
+        ],
+        [
+          "1.2",
+          "Vía de ingreso y posibles efectos en la salud",
+          "M1.2 y M1.4; M2.2 y M2.3"
+        ],
+        [
+          "1.3",
+          "Actividades y procesos de mayor exposición",
+          "M1.5; casos M2 y M3"
+        ]
+      ]
+    ],
+    [
+      "2  Evaluación de la exposición",
+      [
+        [
+          "2.1",
+          "Fuentes y condiciones de exposición",
+          "M3.1 a M3.4"
+        ],
+        [
+          "2.2",
+          "Concentración, tiempo y ventilación",
+          "M3.4"
+        ],
+        [
+          "2.3",
+          "Importancia de las mediciones higiénicas",
+          "M3.5 y M3.6"
+        ]
+      ]
+    ],
+    [
+      "3  Controles para proteger la respiración",
+      [
+        [
+          "3.1",
+          "Eliminación y sustitución",
+          "M4.1 y M4.2"
+        ],
+        [
+          "3.2",
+          "Encerramiento, extracción localizada y ventilación",
+          "M4.3"
+        ],
+        [
+          "3.3",
+          "Procedimientos seguros y control de fugas",
+          "M4.4"
+        ],
+        [
+          "3.4",
+          "Protección respiratoria como última barrera",
+          "M4.5 y M4.6"
+        ]
+      ]
+    ],
+    [
+      "4  Selección del respirador",
+      [
+        [
+          "4.1",
+          "Filtros de partículas y cartuchos químicos",
+          "M4.5; M5.2"
+        ],
+        [
+          "4.2",
+          "Selección según contaminante y tarea",
+          "M5.3 y M5.4"
+        ],
+        [
+          "4.3",
+          "Limitaciones de los respiradores",
+          "M5.4 y M5.5"
+        ],
+        [
+          "4.4",
+          "Situaciones de no uso de purificadores de aire",
+          "M5.5 y M5.6"
+        ]
+      ]
+    ],
+    [
+      "5  Uso inspección y mantenimiento",
+      [
+        [
+          "5.1",
+          "Colocación y verificación del sello",
+          "M6.2 y M6.3"
+        ],
+        [
+          "5.2",
+          "Inspección antes del uso",
+          "M6.1"
+        ],
+        [
+          "5.3",
+          "Limpieza, almacenamiento y cambio de filtros",
+          "M6.4 a M6.6"
+        ],
+        [
+          "5.4",
+          "Ajuste facial y capacitación",
+          "M6.3 y práctica supervisada pertinente"
+        ]
+      ]
+    ]
+  ],
+  "sources": [
+    [
+      "M2 y M3  Etiqueta y FDS",
+      "OSHA Hazard Communication Questions and Answers",
+      "https://www.osha.gov/hazcom/faq"
+    ],
+    [
+      "M2  Significado de pictogramas",
+      "OSHA Hazard Communication Pictograms",
+      "https://www.osha.gov/hazcom/pictograms"
+    ],
+    [
+      "M4  Jerarquía de controles",
+      "NIOSH Hierarchy of Controls",
+      "https://www.cdc.gov/niosh/hierarchy-of-controls/about/index.html"
+    ],
+    [
+      "M5  Capacidades y límites",
+      "NIOSH A Guide to Air Purifying Respirators",
+      "https://www.cdc.gov/niosh/docs/2018-176/default.html"
+    ],
+    [
+      "M6  Criterios de recambio",
+      "OSHA Respirator Change Schedules",
+      "https://www.osha.gov/etools/respiratory-protection/change-schedules"
+    ]
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "status": "comprobaciones_locales_correctas",
+  "audio_video_delta_seconds": 0.08266700000000071,
+  "video_size": [
+    1280,
+    720
+  ],
+  "audio_codec": "aac",
+  "subtitle_codec": "mov_text",
+  "caption_count": 4,
+  "local_links_verified": [
+    "../viaje-fantastico/viaje-fantastico-narrado.mp4",
+    "viaje-fantastico-salome-clipchamp.mp4",
+    "viaje-fantastico-salome-clipchamp.mp4",
+    "narracion-salome-clipchamp.mp3"
+  ],
+  "qa_frames": [
+    "qa-escena-1-subtitulos.png",
+    "qa-escena-2-subtitulos.png",
+    "qa-escena-3-subtitulos.png",
+    "qa-escena-4-subtitulos.png"
+  ],
+  "caption_render_reference": "ASS de referencia a 1280x720 y 26px; el estilo real de CC depende del reproductor.",
+  "browser_test": "No ejecutado: la política del navegador bloqueó el protocolo file:. No se intentó eludir el bloqueo.",
+  "human_voice_review": "Pendiente de Carlos: naturalidad, pronunciación y tono."
+}

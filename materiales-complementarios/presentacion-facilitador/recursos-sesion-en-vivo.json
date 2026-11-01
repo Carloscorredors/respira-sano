@@ -1,0 +1,365 @@
+{
+  "version": "0.1",
+  "created_at_utc": "2026-10-18T15:18:42+00:00",
+  "status": "Recursos de conducción para revisión; no se ha configurado una plataforma o sesión compartida.",
+  "purpose": "Preparar A07 sin confundir la disponibilidad de materiales con operación real para 70–100 personas.",
+  "audience_expected": "70–100, número final por confirmar",
+  "private_facilitator_resource": true,
+  "time_rule": "Estas preguntas reemplazan el momento equivalente de decisión de cada bloque. No añadir otra trivia completa ni sumar minutos a la agenda propuesta.",
+  "trivia": {
+    "selection_status": "Seis decisiones propuestas, adaptables al ensayo y a la plataforma autorizada.",
+    "source_versions": {
+      "bank": "0.1.1",
+      "module": "0.1"
+    },
+    "source_files": {
+      "bank": "work/BANCO_DECISIONES_RESPIRA_SANO.json",
+      "module": "work/MODULO_GASES_VAPORES_ESTRATEGIA.json"
+    },
+    "questions": [
+      {
+        "id": "M11",
+        "slot_proposed": "M1 · Reconocimiento",
+        "scenario": "Se pulveriza un producto; en otro lugar se manipula polvo y en un procedimiento se genera humo quirúrgico.",
+        "question": "¿Qué clasificación evita una confusión importante?",
+        "options": {
+          "A": "La pulverización puede formar gotas; polvos y humos contienen partículas, y un proceso puede generar también gases y vapores.",
+          "B": "Toda emisión que no se puede sostener en la mano es un gas.",
+          "C": "Niebla y vapor son equivalentes si proceden de un líquido."
+        },
+        "answer_for_facilitator": "A",
+        "feedback": "Los aerosoles comprenden partículas sólidas o líquidas suspendidas. La tarea puede producir una mezcla; las categorías no deben tratarse como siempre excluyentes.",
+        "seconds_to_answer_proposed": 45,
+        "sources_catalog": "bank",
+        "source_ids": [
+          "LAB",
+          "QSA",
+          "HUM"
+        ]
+      },
+      {
+        "id": "GV-TIEMPO",
+        "slot_proposed": "Módulo gases y vapores",
+        "scenario": null,
+        "question": "Un gas puede producir irritación en un episodio breve y dejar efectos persistentes tras una exposición intensa. ¿Qué interpretación conserva las diferencias?",
+        "options": {
+          "A": "Agudo significa leve y siempre reversible.",
+          "B": "Irritante y crónico son categorías incompatibles.",
+          "C": "El tiempo y el tipo de acción son dimensiones distintas; hay que considerar agente y exposición."
+        },
+        "answer_for_facilitator": "C",
+        "feedback": "Irritación describe una acción. El patrón temporal y la persistencia se examinan por separado; no se calcula daño a partir de la duración de una animación.",
+        "seconds_to_answer_proposed": 45,
+        "sources_catalog": "module",
+        "source_ids": [
+          "CLORO"
+        ]
+      },
+      {
+        "id": "M22",
+        "slot_proposed": "M2 · Evaluación",
+        "scenario": "Se identifica producto y FDS; hay una rejilla junto a la mesa. No se conoce si introduce o extrae aire ni su desempeño.",
+        "question": "¿Cuál es la conclusión fundamentada?",
+        "options": {
+          "A": "La inspección encontró información y un control por verificar; todavía no demuestra concentración controlada.",
+          "B": "La presencia de la rejilla permite omitir la evaluación higiénica.",
+          "C": "El porcentaje del ingrediente en la FDS equivale a su porcentaje en el aire."
+        },
+        "answer_for_facilitator": "A",
+        "feedback": "Se debe conocer la función y eficacia del sistema y definir una estrategia de evaluación, con mediciones cuando corresponda.",
+        "seconds_to_answer_proposed": 45,
+        "sources_catalog": "bank",
+        "source_ids": [
+          "FDS",
+          "N937"
+        ]
+      },
+      {
+        "id": "M31",
+        "slot_proposed": "M3 · Controles",
+        "scenario": "Una operación utiliza un producto en un recipiente abierto y se necesita mejorar su control.",
+        "question": "¿Qué propuesta sigue la jerarquía sin ignorar el proceso asistencial?",
+        "options": {
+          "A": "Adoptar cualquier sustituto que huela menos.",
+          "B": "Valorar eliminación o sustitución compatible, encierro/captación y controles de trabajo; integrar protección personal según evaluación.",
+          "C": "Conservar el proceso y elegir un respirador por su apariencia."
+        },
+        "answer_for_facilitator": "B",
+        "feedback": "Los controles sobre fuente y ambiente se priorizan. En salud, una sustitución también debe conservar eficacia y compatibilidad.",
+        "seconds_to_answer_proposed": 45,
+        "sources_catalog": "bank",
+        "source_ids": [
+          "JER",
+          "PAA",
+          "EQU"
+        ]
+      },
+      {
+        "id": "M42",
+        "slot_proposed": "M4 · Selección y límites",
+        "scenario": "Para intervenir un sistema se desconoce la atmósfera y podría haber falta de oxígeno.",
+        "question": "¿Qué decisión debe tomar el equipo de trabajo?",
+        "options": {
+          "A": "Entrar por poco tiempo con un purificador y observar.",
+          "B": "Suspender la intervención y gestionar evaluación y procedimiento autorizados; un purificador no aporta oxígeno.",
+          "C": "Elegir un cartucho que elimine el olor antes de entrar."
+        },
+        "answer_for_facilitator": "B",
+        "feedback": "La condición desconocida no se resuelve probando un equipo. Se sigue la evaluación y la respuesta autorizada para el escenario.",
+        "seconds_to_answer_proposed": 40,
+        "sources_catalog": "bank",
+        "source_ids": [
+          "SEL",
+          "PRO"
+        ]
+      },
+      {
+        "id": "M52",
+        "slot_proposed": "M5 · Uso y cuidado",
+        "scenario": "Al terminar la tarea se propone lavar todas las piezas y cambiar cartuchos solo cuando se perciba olor.",
+        "question": "¿Qué plan de cuidado corresponde revisar?",
+        "options": {
+          "A": "Instrucciones de limpieza por componente, almacenamiento protegido y recambio sustentado en agente y condiciones, con capacitación.",
+          "B": "Una limpieza idéntica para filtros, cartuchos y pieza facial.",
+          "C": "Un mismo número de horas para todos los agentes, usuarios y condiciones."
+        },
+        "answer_for_facilitator": "A",
+        "feedback": "Los componentes tienen instrucciones distintas. El olor no sirve para programar el recambio; una percepción anormal requiere actuar conforme al procedimiento, no esperar más exposición.",
+        "seconds_to_answer_proposed": 45,
+        "sources_catalog": "bank",
+        "source_ids": [
+          "REC",
+          "PRO"
+        ]
+      }
+    ],
+    "reserve_ids": [
+      "D01",
+      "D02",
+      "T03"
+    ],
+    "run_sequence": [
+      "Presentar el escenario y dar tiempo para decidir.",
+      "Recoger respuestas en la herramienta compartida configurada antes de revelar la clave.",
+      "Pedir un fundamento breve, explicar el dato decisivo y el siguiente paso.",
+      "Registrar participación real y dudas sin atribuir competencia certificada."
+    ],
+    "feedback_rule": "La velocidad o el ranking no sustituyen el fundamento. Aceptar datos insuficientes cuando se explica qué falta y por qué.",
+    "sources": {
+      "bank": {
+        "ANA": {
+          "title": "NHLBI · Sistema respiratorio",
+          "url": "https://www.nhlbi.nih.gov/es/salud/pulmones/sistema-respiratorio"
+        },
+        "FDS": {
+          "title": "OSHA · Safety Data Sheets",
+          "url": "https://www.osha.gov/sites/default/files/publications/OSHA3514.pdf"
+        },
+        "LAB": {
+          "title": "OSHA · Laboratory Safety Guidance",
+          "url": "https://www.osha.gov/sites/default/files/publications/OSHA3404laboratory-safety-guidance.pdf"
+        },
+        "FOR": {
+          "title": "ATSDR · Formaldehyde Public Health Statement",
+          "url": "https://wwwn.cdc.gov/TSP/PHS/PHS.aspx?phsid=218&toxid=39"
+        },
+        "HUM": {
+          "title": "NIOSH · Surgical Smoke",
+          "url": "https://www.cdc.gov/niosh/bulletin/2020/surgical-smoke.html"
+        },
+        "QSA": {
+          "title": "NIOSH · Chemical Hazards in Healthcare",
+          "url": "https://www.cdc.gov/niosh/healthcare/risk-factors/chemical-hazards.html"
+        },
+        "PAA": {
+          "title": "NIOSH · Hospital Exposure Evaluation: Peroxide, Peracetic and Acetic Acid",
+          "url": "https://www.cdc.gov/niosh/hhe/reports/pdfs/2017-0114-3357.pdf"
+        },
+        "EQU": {
+          "title": "CDC · Disinfection of Healthcare Equipment: eficacia e instrucciones de compatibilidad",
+          "url": "https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/healthcare-equipment.html"
+        },
+        "N936": {
+          "title": "INSST · NTP 936 / COSHH Essentials",
+          "url": "https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/27-serie-ntp-numeros-926-a-960-ano-2012/nota-tecnica-de-prevencion-ntp-936"
+        },
+        "N937": {
+          "title": "INSST · NTP 937 / método basado en INRS",
+          "url": "https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/27-serie-ntp-numeros-926-a-960-ano-2012/nota-tecnica-de-prevencion-ntp-937"
+        },
+        "JER": {
+          "title": "NIOSH · Hierarchy of Controls",
+          "url": "https://www.cdc.gov/niosh/hierarchy-of-controls/about/"
+        },
+        "MEZ": {
+          "title": "CDC · Bleach, Chlorine and Chloramines",
+          "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00015111.htm"
+        },
+        "FFR": {
+          "title": "NIOSH · Filtering Facepiece Respirators",
+          "url": "https://www.cdc.gov/niosh/ppe/respirators/ffr.html"
+        },
+        "SEL": {
+          "title": "NIOSH · Respirator Selection and Use",
+          "url": "https://www.cdc.gov/niosh/ppe/respirators/selection.html"
+        },
+        "FIT": {
+          "title": "NIOSH · Fit Testing",
+          "url": "https://www.cdc.gov/niosh/ppe/respirators/fit-testing.html"
+        },
+        "PRO": {
+          "title": "OSHA · Respiratory Protection, 1910.134",
+          "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134"
+        },
+        "REC": {
+          "title": "OSHA · Respirator Change Schedules",
+          "url": "https://www.osha.gov/etools/respiratory-protection/change-schedules/"
+        }
+      },
+      "module": {
+        "NPG_FOR": {
+          "title": "NIOSH · Formaldehyde",
+          "url": "https://www.cdc.gov/niosh/npg/npgd0293.html"
+        },
+        "NCI_FOR": {
+          "title": "NCI · Formaldehyde and Cancer Risk",
+          "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/formaldehyde/formaldehyde-fact-sheet"
+        },
+        "GLUT": {
+          "title": "NIOSH · Glutaraldehyde, Occupational Hazards in Hospitals",
+          "url": "https://www.cdc.gov/niosh/docs/2001-115/pdfs/2001-115.pdf"
+        },
+        "PAA": {
+          "title": "NIOSH · HHE 2017-0114-3357",
+          "url": "https://www.cdc.gov/niosh/hhe/reports/pdfs/2017-0114-3357.pdf"
+        },
+        "CLORO": {
+          "title": "CDC · Chlorine, Chemical Emergencies",
+          "url": "https://www.cdc.gov/chemical-emergencies/chemical-fact-sheets/chlorine.html"
+        },
+        "MEZ": {
+          "title": "CDC · Chlorine Gas Toxicity from Mixture of Bleach with Other Cleaning Products",
+          "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00015111.htm"
+        },
+        "XIL": {
+          "title": "ATSDR · Resumen de Salud Pública: Xileno, sección 1.5",
+          "url": "https://www.atsdr.cdc.gov/es/phs/es_phs71.html"
+        },
+        "FFR": {
+          "title": "NIOSH · Filtering Facepiece Respirators",
+          "url": "https://www.cdc.gov/niosh/ppe/respirators/ffr.html"
+        },
+        "JER": {
+          "title": "NIOSH · Hierarchy of Controls",
+          "url": "https://www.cdc.gov/niosh/hierarchy-of-controls/about/"
+        },
+        "FDS": {
+          "title": "OSHA · Safety Data Sheets",
+          "url": "https://www.osha.gov/sites/default/files/publications/OSHA3514.pdf"
+        }
+      }
+    }
+  },
+  "collaborative_board": {
+    "title_proposed": "De la fuente al control: ¿qué comprobarías?",
+    "place_in_agenda": "Tres minutos de pizarra dentro de M3; no se agrega otro bloque a los 120 minutos.",
+    "columns": [
+      "Tarea y fuente",
+      "Control propuesto",
+      "Evidencia para comprobarlo"
+    ],
+    "participant_prompt": "Elige una tarea del caso. Escribe qué puede liberarse, una medida que actuaría sobre la fuente o el medio y cómo comprobarías su funcionamiento. Si falta información, indícala.",
+    "rows_to_copy": [
+      {
+        "case": "Muestra con fijador · simulado",
+        "task_source": "",
+        "control": "",
+        "verification": ""
+      },
+      {
+        "case": "Cambio de suministro de reprocesamiento · simulado",
+        "task_source": "",
+        "control": "",
+        "verification": ""
+      },
+      {
+        "case": "Aplicación de un producto de limpieza · simulado",
+        "task_source": "",
+        "control": "",
+        "verification": ""
+      }
+    ],
+    "facilitator_example": {
+      "task_source": "Apertura de un recipiente con fijador que contiene formaldehído, en el caso simulado.",
+      "control": "Evaluar evitar aperturas y usar contención/captación compatible con el proceso.",
+      "verification": "Revisar producto/FDS, condiciones y funcionamiento del control; definir evaluación higiénica pertinente. No inventar concentración ni eficacia."
+    },
+    "facilitator_steps": [
+      {
+        "seconds_proposed": 45,
+        "action": "Explicar las tres columnas y mostrar una fila de ejemplo."
+      },
+      {
+        "seconds_proposed": 90,
+        "action": "Recoger aportes breves; organización individual o por grupos pendiente de confirmar."
+      },
+      {
+        "seconds_proposed": 45,
+        "action": "Comentar dos aportes: una fortaleza y un dato pendiente. Relacionar con mediciones y protección."
+      }
+    ],
+    "discussion_criteria": [
+      "Relaciona fuente con una tarea concreta.",
+      "Propone una medida y su viabilidad, con eficacia clínica/compatibilidad cuando corresponde.",
+      "Indica qué evidencia permitiría comprobar el desempeño y qué falta conocer."
+    ],
+    "interpretation": "Los aportes son evidencia educativa de la sesión; no medición del puesto ni diagnóstico."
+  },
+  "operational_dependencies": [
+    {
+      "item": "Plataforma de trivia y cuenta anfitriona",
+      "status": "por confirmar"
+    },
+    {
+      "item": "Capacidad del plan para la audiencia real y tipo de preguntas",
+      "status": "por confirmar"
+    },
+    {
+      "item": "Pizarra vigente, cuenta y enlace compartido",
+      "status": "por confirmar"
+    },
+    {
+      "item": "Permisos de participación desde computador",
+      "status": "por comprobar"
+    },
+    {
+      "item": "Webex anfitrión y funciones habilitadas",
+      "status": "por confirmar"
+    },
+    {
+      "item": "Apoyo de moderación o adaptación si hay un solo facilitador",
+      "status": "por confirmar"
+    },
+    {
+      "item": "Ensayo con rol anfitrión y participantes reales autorizados",
+      "status": "pendiente"
+    }
+  ],
+  "rehearsal_acceptance": [
+    "El participante entra con el acceso realmente previsto y puede responder.",
+    "El anfitrión ve respuestas reales y controla cuándo mostrar la retroalimentación.",
+    "Participantes autorizados pueden aportar y ver aportes en la misma pizarra.",
+    "Se comprueban permisos, roles y capacidad del plan frente a la audiencia inscrita.",
+    "Los enlaces y las instrucciones son legibles dentro de la sesión.",
+    "Se ensaya el tiempo dentro de la agenda y la contingencia."
+  ],
+  "operational_evidence": {
+    "trivia_session_url": null,
+    "board_url": null,
+    "account_capacity_confirmed": null,
+    "permissions_checked": null,
+    "real_participant_rehearsal": null
+  },
+  "fallback": "Si falla el servicio, se puede conducir la pregunta por pantalla/chat y recoger aportes manualmente. Registrar la contingencia; no presentarla como prueba de una pizarra o trivia compartida operativas.",
+  "distribution": "Recurso privado de facilitación con claves. No incluir en el ZIP de participantes ni subirlo a servicios sin la configuración autorizada."
+}

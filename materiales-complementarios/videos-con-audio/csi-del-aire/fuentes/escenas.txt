@@ -1,0 +1,9 @@
+file 'C:/Users/Carlos Corredor/Desktop/COLSANITAS/RESPIRA SANO/videos-con-audio/csi-del-aire/fuentes/escena-1.png'
+duration 9.5000
+file 'C:/Users/Carlos Corredor/Desktop/COLSANITAS/RESPIRA SANO/videos-con-audio/csi-del-aire/fuentes/escena-2.png'
+duration 9.5000
+file 'C:/Users/Carlos Corredor/Desktop/COLSANITAS/RESPIRA SANO/videos-con-audio/csi-del-aire/fuentes/escena-3.png'
+duration 10.4000
+file 'C:/Users/Carlos Corredor/Desktop/COLSANITAS/RESPIRA SANO/videos-con-audio/csi-del-aire/fuentes/escena-4.png'
+duration 9.5000
+file 'C:/Users/Carlos Corredor/Desktop/COLSANITAS/RESPIRA SANO/videos-con-audio/csi-del-aire/fuentes/escena-4.png'

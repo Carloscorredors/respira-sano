@@ -1,0 +1,31 @@
+1
+00:00:00,350 --> 00:00:08,080
+Antes de elegir un respirador, revisa si puedes eliminar o
+sustituir el peligro, conservando la eficacia de la tarea.
+
+2
+00:00:09,850 --> 00:00:14,580
+Considera encerramiento, extracción localizada y
+ventilación.
+
+3
+00:00:14,730 --> 00:00:18,505
+Ver una extracción no demuestra que capture la emisión.
+
+4
+00:00:19,370 --> 00:00:23,980
+Revisa conexiones, procedimientos y prevención de fugas.
+
+5
+00:00:24,130 --> 00:00:29,530
+Ante una condición anormal, activa el procedimiento de
+respuesta establecido.
+
+6
+00:00:30,410 --> 00:00:33,875
+La protección respiratoria es la última barrera.
+
+7
+00:00:34,025 --> 00:00:38,835
+Propón controles sobre la fuente y explica cómo comprobar
+su desempeño.

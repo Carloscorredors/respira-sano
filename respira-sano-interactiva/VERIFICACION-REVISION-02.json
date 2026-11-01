@@ -1,0 +1,81 @@
+{
+  "revision": "02a",
+  "date": "2026-10-18T23:23:15.697794+00:00",
+  "status": "verified-with-disclosed-browser-limits-pending-Carlos-review",
+  "scope": "Portada Keralty/uniformes azules, cierres contextuales y desbloqueo automático secuencial1a6, guardado desde index, copia JSON y reinicio.",
+  "checks": {
+    "pure_closure_contract": 33,
+    "static_routes_schema_guards": 13,
+    "all_javascript_syntax": "passed",
+    "html_unique_ids_and_local_file_links": "passed",
+    "mission2_evidence_link": "UI passed from stage0 to stage4; textarea visible, focused and at viewport top",
+    "browser_http_full_flow_1_to_6": "passed through UI, no progress injection",
+    "wrong_case_reuse": "rejected; returning restores original case",
+    "shared_pages_3_to_4_and_5_to_6": "passed without iframe reload",
+    "mission4_proposal_and_closed_decision": "passed",
+    "mission6_failed_seal_and_one_care_decision": "passed",
+    "reload_and_close_reopen": "passed, six completed preserved",
+    "independent_browser": {
+      "logo_y_ocho_imagenes_cargan": true,
+      "uniformes_azules_mayoritarios": true,
+      "home_tarjetas_proporcion_corregida": true,
+      "movil_sin_desborde_horizontal": true,
+      "acceso_directo_mision4_bloqueado": true,
+      "cierre1_vacio_rechazado": true,
+      "cierre1_decision_correcta_y_evidencia_escrita_desbloquea2": true,
+      "mision3_a6_permanecen_bloqueadas": true,
+      "recarga_conserva_avance": true,
+      "reinicio_sin_confirmacion_rechazado": true,
+      "reinicio_confirmado_restaura1_y_bloquea2a6": true
+    },
+    "opaque_origin": "sandbox harness loads protected mission through handshake and displays storage-denied warning; full nested-frame editing not validated because browser input tooling could not focus it",
+    "regeneration": "stage idempotent; active integration hook verified separately in package manifest"
+  },
+  "limits": [
+    "Real file:// opening not verified because browser tool policy blocked it. HTTP and opaque sandbox are not a file:// test.",
+    "Browser permission gate rejected progress JSON download. Not retried through alternate mechanisms. Download/recovery round trip not verified end-to-end.",
+    "JSON validation is exercised by pure tests; actual import file chooser not verified.",
+    "Client review and rehearsal remain pending."
+  ],
+  "preserved": {
+    "baseline_files": 96,
+    "protected_assets_by_sha256": 56,
+    "six_internal_covers_and_six_mp4_webm": true,
+    "ct_fullface_native_labels_valves": true,
+    "missions": 6,
+    "technical_points": 18,
+    "main_minutes": 120,
+    "optional_completion_required": false,
+    "teleprompter_and_audiovisual": "untouched",
+    "expiry": "not implemented"
+  },
+  "changed_existing_files": [
+    "LEEME.txt",
+    "assets/app.js",
+    "assets/gases-vapores.js",
+    "assets/respirator-use.js",
+    "assets/revision01.js",
+    "gases-vapores.html",
+    "herramientas/fuentes.html",
+    "herramientas/guia-rapida.html",
+    "herramientas/index.html",
+    "herramientas/infografia.html",
+    "herramientas/leer-fds.html",
+    "herramientas/lista-chequeo.html",
+    "herramientas/micromundos.html",
+    "hospital.html",
+    "index.html",
+    "recorrido.html",
+    "referencias.html",
+    "respiradores.html"
+  ],
+  "rules_sha256": "aeeac5d7c77d880cf2bee92a4ed51e4a647dd82de37dd95c51c45956fc65de3f",
+  "independent_qa_sha256": "27c7d3d9c0cde3013f23b17641c4e98c85be9437f9327ab012d62431094bb30c",
+  "visual_evidence": [
+    "work/qa-auditor-revision02/home-uniformes-desktop.png",
+    "work/qa-auditor-revision02/home-uniformes-mobile.png",
+    "work/qa-auditor-revision02/home-mision2-desbloqueada.png",
+    "work/qa-revision02/progreso-6-de-6.jpg",
+    "work/qa-revision02/origen-opaco.jpg"
+  ]
+}

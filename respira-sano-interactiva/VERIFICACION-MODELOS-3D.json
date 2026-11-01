@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-18",
+  "browser": "Codex in-app browser",
+  "mode": "HTTP local",
+  "checks": [
+    "CT: cero solicitudes externas, sin SDK ni iframe antes de activación",
+    "CT cargado realmente; siete anotaciones traducidas, selección de bronquios y panel sincronizados",
+    "Regreso CT→alvéolos elimina el visor y activa el detalle local",
+    "Regreso CT→agentes activa el modo químico local",
+    "CT a390px sin desbordamiento; siete accesos habilitados",
+    "Retorno repetido al detalle alveolar conserva alvéolos abiertos",
+    "Selección de lóbulo izquierdo sincroniza información y anotación",
+    "Regreso CT→alvéolos desde modo químico activa anatomía y detalle alveolar",
+    "Reemplazo full face212addc y esquema local completo; cuatro regiones; sin SDK/iframe inicial",
+    "Recorrido local avanza automáticamente entre regiones y admite pausa",
+    "Reiniciar, selección manual de conexiones y fuga conceptual conservados en esquema full face",
+    "Gas Mask212addc cargado con centrado del conjunto; API confirma0pistas de animación nativa",
+    "Full face: cuatro regiones muestran sus textos; avance automático, pausa, reanudación y reinicio comprobados en el visor; final de cuatro pasos comprobado en la vista local.",
+    "Full face: pérdida de conexión elimina iframe, conserva esquema facial completo y permite recorrido local completo con reinicio.",
+    "Pit stop: enlaces de ida y regreso conservan medio/condición y pausan el recorrido.",
+    "CT: siete etiquetas en español corresponden al orden visible del menú original de anotaciones del autor.",
+    "Full face a 390 px: sin desbordamiento horizontal, visor 3D cargado y selección de conexiones; pausa flotante detiene el recorrido.",
+    "Full face: cero solicitudes externas e iframe ausente antes de activar el botón de carga.",
+    "Full face: fallo de descarga del SDK simulado; mensaje de error, ningún iframe y vista local operativa.",
+    "CT actual a 390 px: siete accesos habilitados, sin desbordamiento, selección del lóbulo inferior izquierdo y retorno a alvéolos comprobados."
+  ],
+  "screenshots": [
+    "pulmones-ct-integrado.png",
+    "fullface-general-final.png",
+    "fullface-conexiones-final.png",
+    "fullface-revision-controles.png",
+    "fullface-local-sin-conexion.png",
+    "fullface-movil.png",
+    "pulmones-ct-movil-final.png"
+  ],
+  "limits": [
+    "Los modelos Sketchfab requieren internet y no se distribuyen geometrías de terceros.",
+    "La política del navegador de pruebas permite HTTP/HTTPS y bloquea file://; no se probó la carga externa desde archivo."
+  ],
+  "native_animation_count": 0,
+  "ct_annotation_order": {
+    "verified_from": "Menú visible de anotaciones del visor original de Holoxica",
+    "source": "https://sketchfab.com/3d-models/lung-ct-scan-f7232f2e10524eacbfb8fd149d0550e0",
+    "pairs": [
+      [
+        "Trachea",
+        "Tráquea"
+      ],
+      [
+        "Primary bronchi (left and right)",
+        "Bronquios principales"
+      ],
+      [
+        "Superior lobe of the right lung",
+        "Lóbulo superior derecho"
+      ],
+      [
+        "Middle lobe of the right lung",
+        "Lóbulo medio derecho"
+      ],
+      [
+        "Inferior lobe of the right lung",
+        "Lóbulo inferior derecho"
+      ],
+      [
+        "Superior lobe of the left lung",
+        "Lóbulo superior izquierdo"
+      ],
+      [
+        "Inferior lobe of the left lung",
+        "Lóbulo inferior izquierdo"
+      ]
+    ]
+  },
+  "status": "ok",
+  "models": {
+    "lungs": {
+      "uid": "f7232f2e10524eacbfb8fd149d0550e0",
+      "author": "Holoxica"
+    },
+    "fullface": {
+      "uid": "212addc22db34a329ec279d3e1a29665",
+      "author": "jespermolander3d",
+      "replaces": "f2d16e7c0a3947fa973fd14687ab4211"
+    }
+  },
+  "console": "Sin errores de consola en la última carga CT; la prueba de SDK bloqueado provoca un error de red esperado.",
+  "idempotence": "passed",
+  "local_links_and_ids": "passed",
+  "html_pages": 13,
+  "previous_package": "Respira-Sano-historias-alineadas.zip",
+  "previous_package_sha256": "4c0e8a5e79ac4b49038b325491ce18d0e3a541fdd9f0614232c3999a2423765e",
+  "changed_existing_files": [
+    "LEEME.txt",
+    "recorrido.html",
+    "referencias.html",
+    "respiradores.html"
+  ],
+  "preserved_existing_assets": 53,
+  "six_videos_and_existing_app_model_captions_covers_pdf_preserved_by_sha256": true,
+  "six_modules_120_proposed_minutes_18_technical_points_preserved": true,
+  "visual_review": "passed",
+  "visual_evidence_sha256": {
+    "pulmones-ct-integrado.png": "0c54b0b607dbc649a2b3211e870b76452f178e0ca62b64dce92a0686a00a0888",
+    "fullface-general-final.png": "f7d38a05b9a9e09607b2bc78949c5af176c620a2943b4c05debd0b2f896dc822",
+    "fullface-conexiones-final.png": "4f6f8e31aff7acf09967ff47eaf618cd30543b39ea4e9c623d00647884ed3ef4",
+    "fullface-revision-controles.png": "fa918fe54269249899515ee7e48ecaaff55dae1b782f44d7577a6b8705c0bbf6",
+    "fullface-local-sin-conexion.png": "558a86d3801c6d32a8b310b351b94c7a8a7f6f65ab73cd9789854ee1c3e9885e",
+    "fullface-movil.png": "35197a603c3a25f10e0f9154a2c089e3dbdaf27e7efed0b0054edf1af719037d",
+    "pulmones-ct-movil-final.png": "5583fb6e273cb1f25ce0e3634cac73875552ab89a2e445c84933d41f47811f20"
+  }
+}

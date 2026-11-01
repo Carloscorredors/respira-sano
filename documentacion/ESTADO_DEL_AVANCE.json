@@ -1,0 +1,30 @@
+{
+  "snapshot_date": "2026-11-01",
+  "state": "Copia del avance para GitHub privado; no es una liberación final del cliente.",
+  "application": {
+    "date": "2026-11-01",
+    "version": "RG01 + MF01 + VD04 + LC01 + FV02-original + CM01 + RM02 + RM03",
+    "type": "Materiales y geometrías de órganos diana, barrera/dosis y N95.",
+    "verified": true,
+    "verification_scope": "Documental, estática, texturas, geometría, escenarios, controles, ancho emulado, acceso activo y continuidad. No ensayo clínico ni aceptación del cliente.",
+    "whole_course_acceptance": false,
+    "new_zip_created": false,
+    "private_incremental_backup_created": true,
+    "receipt": "work/investigacion-participacion-toxicologia-20261031/modelos-RM03/RECIBO_RM03.json",
+    "latest_validation": "work/investigacion-participacion-toxicologia-20261031/modelos-RM03/CONTINUIDAD_RM03.json"
+  },
+  "latest_human_direction": {
+    "human_text": "Usar una copia del modelo de pulmones de M1 para órganos diana de M2, conservando su detalle, integrarlo y mostrarlo en la copia provisional, sin modificar M1.2.",
+    "state": "Integrado y verificado en la copia provisional; revisión visual de Carlos pendiente",
+    "receipt": "work/investigacion-participacion-toxicologia-20261031/pulmones-M1-en-M2-PM01/RECIBO_PM01.json",
+    "application_modified": false,
+    "provisional_copy_modified": true,
+    "M12_preserved": true,
+    "automation_reactivated": false
+  },
+  "source_application_files": 390,
+  "main_video": "Video original FV02 de 128.3 s/1920x1080, conservado por la instrucción posterior de Carlos. FV01 editado permanece como alternativa.",
+  "provisional_work": "M2 EC01 + PM01 separados como cinco archivos acumulados para superponer en una copia; no promovidos a principal.",
+  "no_automation_restarted": true,
+  "no_application_content_modified_for_upload": true
+}

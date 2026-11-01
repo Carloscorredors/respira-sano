@@ -1,0 +1,153 @@
+{
+  "revision": "15",
+  "at_utc": "2026-10-19T05:43:59.117305+00:00",
+  "status": "received-for-Carlos-testing",
+  "scope": "C015 presentation of native reviewed decisions in M2–M6; scoped M1.3/M1.4 hierarchy and 14px/44px controls; six optional practice blocks with thirteen guarded resources and explicit native return to their block; removal of candidate wording from the historical case eyebrow only.",
+  "baseline14_sha256": "effc16cf92eb7ec874b410ee1f2daefc2320b27497c034c653125e07b86a4741",
+  "frozen_manifest_sha256": "d94f0fa8a8d4e67364067f872d09875cdd44f1d58f60befd72ad16de93cc1843",
+  "changed_existing": [
+    "LEEME.txt",
+    "gases-vapores.html",
+    "herramientas/index.html",
+    "hospital.html",
+    "index.html",
+    "recorrido.html",
+    "respiradores.html"
+  ],
+  "preserved_existing_files": 245,
+  "new_runtime_files": [
+    "assets/config15.js",
+    "assets/feedback15.css",
+    "assets/feedback15.js",
+    "assets/layout15.css",
+    "assets/layout15.js",
+    "assets/practice-return15.css",
+    "assets/practice-return15.js",
+    "herramientas/ampliacion-opcional.html"
+  ],
+  "protection": {
+    "M12_section_unchanged": true,
+    "previous_assets_unchanged": 204
+  },
+  "mission1_minutes": 20,
+  "M15_minutes": 3,
+  "M2_minutes": 15,
+  "M3_minutes": 20,
+  "M4_minutes": 15,
+  "M5_minutes": 20,
+  "M6_minutes": 20,
+  "course_proposed_minutes": 120,
+  "optional_extension_minutes": 60,
+  "optional_blocks_minutes": [
+    15,
+    10,
+    10,
+    10,
+    10,
+    5
+  ],
+  "optional_resource_count": 13,
+  "duration_exceptions_inherited": {
+    "Audio02": {
+      "actual_seconds": 44.496,
+      "target_seconds": [
+        45,
+        60
+      ],
+      "target_met": false,
+      "fits_M13_120_seconds": true
+    },
+    "M2_audio": {
+      "actual_seconds": 77.568,
+      "target_seconds": [
+        45,
+        75
+      ],
+      "target_met": false,
+      "fits_M2_900_seconds": true
+    }
+  },
+  "human_listening_accepted": false,
+  "mobile390_ui_verified": false,
+  "checks": {
+    "ui": {
+      "manifest15_SHA_exact": true,
+      "260_runtime_hashes_exact": true,
+      "15_source_hashes_same_as_producer_UI": true,
+      "producer35_UI_checks_all_true": true,
+      "M12_section_exact": true,
+      "204_previous_assets_unchanged": true,
+      "245_previous_files_unchanged": true,
+      "only_seven_authorized_existing_modified": true,
+      "index.html_original_script_order_retained": true,
+      "recorrido.html_original_script_order_retained": true,
+      "hospital.html_original_script_order_retained": true,
+      "respiradores.html_original_script_order_retained": true,
+      "gases-vapores.html_original_script_order_retained": true,
+      "herramientas/index.html_original_script_order_retained": true,
+      "root_C015_all_observed_states_match_review_edit_restore": true,
+      "M3_M4_three_cases_and_opposite_review_restoration": true,
+      "M5_unknown_and_fit_decisions_only_graded": true,
+      "M6_five_care_wrong_pending_correct_and_reload": true,
+      "M6_complete_order_wrong_move_pending_correct_four_single_illustrations": true,
+      "M4_priority_and_notes_preserved": true,
+      "simulated_seal_and_comparison_remain_ungraded": true,
+      "eight_high_resources_return_same_block_guarded_shell": true,
+      "six_optional_panels_and_prev_next_endpoints": true,
+      "root_visual_M14_scoped_controls_and_original_scene_retained": true,
+      "new_return_source_has_no_storage_history_nonce_writes": true
+    },
+    "documentary": {
+      "frozen_manifest_SHA_exact": true,
+      "frozen_phase": true,
+      "all260_runtime_names_exact": true,
+      "all260_runtime_hashes_exact": true,
+      "15_source_hashes_exact": true,
+      "all260_same_as_received_return_delta": true,
+      "partial40_checks_exact_and_conformant": true,
+      "return_delta21_checks_exact_and_conformant": true,
+      "baseline14_archive_preserved": true,
+      "all252_previous_names_retained": true,
+      "eight_new_files_only": true,
+      "245_previous_files_identical": true,
+      "only7_previous_files_modified": true,
+      "all204_previous_assets_unchanged": true,
+      "nine_private_facilitator_sources_unchanged": true,
+      "M12_section_and_three_technical_bodies_unchanged_reused": true,
+      "historical_case_only_public_candidate_phrase_removed_reused": true,
+      "original_script_relative_order_retained": true,
+      "C015_objective_native_only_no_new_grades_reused": true,
+      "layout_scoped_M13_M14_original_nodes_reused": true,
+      "route_literal_content15_10_10_10_10_5_and_one_block_reused": true,
+      "13_return_queries_guarded_and_M12_excluded_source_reused": true,
+      "original_bridge_rules_config_files_untouched": true,
+      "only_new_consultation0_config_supplement_reused": true,
+      "history_limit_and_explicit_return_guidance_honest": true,
+      "core120_optional60_and_inherited_duration_exceptions_honest": true,
+      "no_private_work_teacher_answers_or_QA_in_runtime": true,
+      "producer35_UI_receipt_hash_and_source_binding": true
+    }
+  },
+  "receipt_sha256": {
+    "ui": "fcc29b3d75b0d6e0f0d25d5ce790fa63c701ac0cbdf5a9490504bf185b79a6aa",
+    "documentary": "6820d4e43a25916c4ec84867a99876b47014c58abb919990ad7bc35e6d6f819b"
+  },
+  "reused_evidence": {
+    "progress_rules_API": 52,
+    "synchronization_geometry_media_clock": 47,
+    "received14_package_sha256": "effc16cf92eb7ec874b410ee1f2daefc2320b27497c034c653125e07b86a4741"
+  },
+  "limits": [
+    "Default-view UI and source CSS only; denied mobile emulation was not retried.",
+    "Native browser Back with historical iframe concessions remains a known limitation; use Volver a mi práctica. No nonce, bridge, history or engine changes.",
+    "Optional practice is sixty indicative minutes after the existing120-minute course; personal notes are not stored and add no score or completion gates.",
+    "Human listening and group duration trial remain uncertified.",
+    "Conceptual geometry and trajectories do not calculate concentrations, dose, clinical outcomes or protection efficacy.",
+    "Previously blocked file:// and full JSON import/export were not retried.",
+    "M1.2 section and all204 received assets remain identical; no access restriction or teleprompter changes.",
+    "C015 mirrors native review feedback only. Open reflections, assumptions and completeness closures retain their original meaning.",
+    "Historical glutaraldehyde case retains its combined measures, reported outcomes, references and limits; only candidate wording was removed from its eyebrow.",
+    "The optional page includes participant instructions and resources, without private facilitator answers or stored notes.",
+    "The return parameter presents a native link only; all original mission guards remain in effect."
+  ]
+}

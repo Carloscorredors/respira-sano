@@ -1,0 +1,12 @@
+.r9-narrative{margin:8px 10px 0;padding:11px 14px;border:1px solid #78bdcc;border-radius:10px;background:#edf8fa;color:#143c51}
+.r9-modes{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:8px}.r9-modes button{font:650 14px/1.3 system-ui;min-height:38px;padding:8px 13px;border:1px solid #337b98;border-radius:8px;color:#07506d;background:#fff}
+.r9-modes [aria-pressed=true]{background:#006e96;color:#fff;border-color:#006e96}
+.r9-current{display:flex;gap:7px 20px;align-items:baseline;justify-content:space-between;flex-wrap:wrap}.r9-current strong{font-size:16px;line-height:1.4}.r9-current span{font-size:13px;line-height:1.45;max-width:74ch}
+.r9-mode-status{display:block;margin-top:5px;font-size:12px;line-height:1.4;color:#45677a}
+#m1-explora .m5-system-card .r9-inline-detail .rsdm-stage{height:clamp(490px,62vh,650px)}
+.r9-inline-detail .rsdm-status{position:absolute;width:1px;height:1px;margin:-1px;padding:0;clip:rect(0,0,0,0);clip-path:inset(50%);overflow:hidden;white-space:nowrap}
+.r9-inline-detail .rsdm-part-buttons{display:flex;flex-wrap:wrap;padding:10px 14px;gap:6px}
+.r9-following [data-action=pause]{display:none!important}
+.r9-following .r9-system .rsdm-detail,.r9-following .r9-guided-detail .rsdm-detail{display:none}
+.r9-following .r9-guided-detail .rsdm-gas-switch{pointer-events:auto}
+@media(max-width:700px){.r9-narrative{margin:6px 8px 0;padding:10px}.r9-modes{gap:5px}.r9-modes button{font-size:12px;padding:8px 10px}.r9-current strong{font-size:14px}.r9-current span{font-size:12px}.r9-mode-status{font-size:11px}#m1-explora .m5-system-card .r9-inline-detail .rsdm-stage{height:390px}}

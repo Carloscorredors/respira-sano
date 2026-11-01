@@ -1,0 +1,14 @@
+/* FV01: presentación exclusiva del nuevo video de Pit stop. */
+#video-uso-cuidado[data-fullface-fv01]{max-width:1120px;margin:24px auto;padding:22px;border:1px solid #b5d4e2;border-radius:16px;background:#fff}
+#video-uso-cuidado[data-fullface-fv01] h2{font-size:clamp(24px,2.5vw,32px);line-height:1.2;margin:8px 0 12px}
+#video-uso-cuidado[data-fullface-fv01]>p{font-size:17px;line-height:1.55;max-width:85ch}
+#video-uso-cuidado [data-fullface-fv01-player]{display:block;width:100%;height:auto;aspect-ratio:16/9;max-height:none;margin:16px 0;border-radius:12px;background:#102e42}
+#video-uso-cuidado[data-fullface-fv01] .actions{display:flex;flex-wrap:wrap;gap:12px 18px;margin:14px 0}
+#video-uso-cuidado[data-fullface-fv01] .actions a{font-size:16px;line-height:1.4}
+#video-uso-cuidado[data-fullface-fv01] details{padding:12px 0;border-top:1px solid #d6e5ed;margin-top:12px}
+#video-uso-cuidado[data-fullface-fv01] summary{cursor:pointer;font-size:17px;line-height:1.4;font-weight:650;min-height:36px;padding:6px 0}
+#video-uso-cuidado [data-fv01-transcript]{max-width:85ch;font-size:17px;line-height:1.65}
+#video-uso-cuidado [data-fv01-transcript] p{font-size:inherit;line-height:inherit;margin:12px 0}
+#video-uso-cuidado .fv01-previous{font-size:15px;line-height:1.6}
+#video-uso-cuidado[data-fullface-fv01] :is(a,summary):focus-visible{outline:3px solid #00849c;outline-offset:3px}
+@media(max-width:700px){#video-uso-cuidado[data-fullface-fv01]{padding:16px;margin:16px auto;border-radius:12px}#video-uso-cuidado[data-fullface-fv01]>p,#video-uso-cuidado [data-fv01-transcript]{font-size:16px}#video-uso-cuidado [data-fullface-fv01-player]{border-radius:8px}}

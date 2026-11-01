@@ -1,0 +1,17 @@
+/* M1.2 only. The model and audio engines remain untouched. */
+#m1-explora .m12p-layout{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);gap:22px;width:100%;max-width:1350px;margin-inline:auto;align-items:start}
+#m1-explora .m12p-layout #m4-local-viewer{width:100%;max-width:none;min-width:0;margin:0}
+#m1-explora .m12p-side{min-width:0;display:grid;gap:14px;position:sticky;top:12px;align-self:start}
+#m1-explora .m12p-side>.rs-audio01{display:block;min-width:0;margin:0;padding:15px;border-width:2px;box-shadow:none}
+#m1-explora .m12p-side>.rs-audio01 audio{display:block;width:100%;max-width:100%;height:48px}
+#m1-explora .m12p-side>.rs-audio01>details[open]{max-height:260px;overflow:auto}
+#m1-explora .m12p-function{padding:20px;background:#fff;border:1px solid #b4d4e2;border-radius:14px;min-width:0;overflow-wrap:anywhere}
+#m1-explora .m12p-function h3{margin:0 0 16px;font-size:15px;color:#245673;font-weight:650}
+#m1-explora .m12p-function h4{margin:0 0 10px;font-size:25px;line-height:1.2;color:#073b63}
+#m1-explora .m12p-function p{font-size:16px;line-height:1.55;margin:0;color:#173e58}
+#m1-explora .m12p-function .m12p-context{margin-top:15px;padding-top:12px;border-top:1px solid #d5e6ee;font-size:13px;color:#47677c}
+#m1-explora.m12p-ready #m4-local-viewer .rsdm-detail,
+#m1-explora.m12p-ready #m4-local-viewer .r9-current{display:none}
+#m1-explora .m12p-layout .r9-narrative{padding:12px}
+@media(max-width:850px){#m1-explora .m12p-layout{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:13px}#m1-explora .m12p-function{padding:15px}#m1-explora .m12p-function h4{font-size:22px}}
+@media(max-width:700px){#m1-explora .m12p-layout{display:flex;flex-direction:column;gap:12px}#m1-explora .m12p-side{display:contents;position:static}#m1-explora .m12p-side>.rs-audio01{order:-1;width:100%;box-sizing:border-box}#m1-explora .m12p-layout #m4-local-viewer{order:0;width:100%;max-width:100%}#m1-explora .m12p-function{order:1;width:100%;box-sizing:border-box}}

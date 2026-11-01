@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "date": "2026-10-18",
+  "mode": "file:// offline",
+  "checks": [
+    "pathology to formaldehyde and back",
+    "endoscopy to oxidants and glutaraldehyde and back",
+    "case observations clues and controls persist on return",
+    "endoscopy options explicitly conditional on FDS",
+    "cleaning to mist concepts without substituting another chemical",
+    "return selects same case",
+    "case hash change supported",
+    "invalid agent and inherited-object case names ignored",
+    "390px without horizontal overflow",
+    "linked chemical lesson works without WebGL",
+    "no page errors or remote requests"
+  ],
+  "pageErrors": []
+}

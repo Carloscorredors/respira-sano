@@ -1,0 +1,85 @@
+{
+  "revision": "11",
+  "scope": "Both M1.2 navigation bars traverse the same12 anatomical structures one at a time; reset selects nose1.",
+  "at_utc": "2026-10-19T03:59:28.394402+00:00",
+  "baseline10_sha256": "1cfb21cc8d9511d0c9ca1ed7089ce6dd05b64482465a93b6cfc2d7fb99d29365",
+  "changed_existing": [
+    "LEEME.txt",
+    "recorrido.html"
+  ],
+  "preserved_existing_files": 157,
+  "new_files": [
+    "assets/activities11.js",
+    "assets/narration11.bundle.js"
+  ],
+  "mission_minutes": 20,
+  "screens": 7,
+  "assessment_route_ids": [
+    "entrada",
+    "traquea",
+    "bronquios",
+    "bronquiolos",
+    "alveolos"
+  ],
+  "checks": {
+    "ui": {
+      "upper_reset_selects1_nose": true,
+      "upper_next_sequence_exact1through12_no_skips": true,
+      "upper_and_lower_counters_match_all12": true,
+      "upper_next_disabled_at12": true,
+      "upper_previous_disabled_at1": true,
+      "lower_previous_and_upper_previous_share_selection": true,
+      "upper_next_during_audio_pauses_at8_928909_and_free": true,
+      "M13_mounts_four_anatomy_controls_without_reference_error": true,
+      "returnM12_preserves1_nose": true,
+      "mobile390_no_horizontal_overflow": true,
+      "thorax_without_selection_next_starts1_nose": true,
+      "mobile_Space_from1_selects2_mouth": true,
+      "pin_pharynx3_then_upper_next_selects4_larynx": true
+    },
+    "documentary": {
+      "baseline10_archive_and_final_receipt_preserved": true,
+      "runtime161_exactly_matches_final_manifest": true,
+      "only_LEEME_and_HTML_changed_existing_from10": true,
+      "two_new_assets_no_removals_and157_public10_files_preserved": true,
+      "all_four_final_source_hashes_match": true,
+      "nine_private_facilitator_files_preserved": true,
+      "HTML_delta_only_two_script_references_and_upper_12_label_counter": true,
+      "only_activities11_is_loaded_no_legacy_v4_double_binding": true,
+      "compact_helper_restored_exactly_before_system_and_alveolar_calls": true,
+      "forms_tasks_ways_micro_questions_and_state_after_form_preserved": true,
+      "legacy_routeIndex_paint_timer_and_upper_control_handlers_removed": true,
+      "inherited09_10_timing_geometry_data_JS_unchanged": true,
+      "narration11_only_renames_import_and_mount_to_shared_pager": true,
+      "real_system_twelve_structures_exact_order": true,
+      "one_selection_drives_both_bars_and_both_counters": true,
+      "forward_backward_advance_exactly_one_item_without_wrap": true,
+      "unselected_next_always_nose1_without_thorax_exception": true,
+      "upper_reset_selects_nose1_via_same_choose": true,
+      "both_bars_disable_endpoints_consistently": true,
+      "manual_navigation_pauses_voice_and_enters_free_before_select": true,
+      "shared_native_buttons_live_state_and_listener_observer_cleanup": true,
+      "original_audio01_controller_timeline_progress_and_five_evaluation_data_preserved": true,
+      "responsive_contrast_CSS_and_manual_M13_model_assets_preserved": true,
+      "seven_screens_20min_120min_and18_contents_preserved": true,
+      "LEEME11_matches_one_by_one_both_bars_nose_reset_and_history": true,
+      "Audio02_C015_story_video_and_teleprompter_not_added": true
+    }
+  },
+  "receipt_sha256": {
+    "ui": "dcc4be09978e681d9793b1d6c767a6127cc6204ae71908eacf40a4100a6ee56d",
+    "documentary": "9281385d302149316b2d0db6734c21de5f51e224cb13a5d3d724b5c61ff789a1"
+  },
+  "reused_evidence": {
+    "synchronization_geometry_media_clock": 47,
+    "progress_rules_API": 52,
+    "revision10_final_reception_sha256": "e85bf63d40eed47f25412094f4f43422a428c66b0ed89350c1a9c8af39df3302"
+  },
+  "status": "received-for-Carlos-testing",
+  "limits": [
+    "Procedural anatomy and motion remain conceptual, without physiological scale.",
+    "CT remains independent and internet dependent; earlier too-heavy warning was not retried.",
+    "HTTP local checks do not certify file:// or full JSON import/export; prior blocked tests not repeated.",
+    "Audio02 comparison candidates and CT annotation proposals are not included."
+  ]
+}

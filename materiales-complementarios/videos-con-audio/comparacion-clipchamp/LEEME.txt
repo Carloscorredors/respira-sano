@@ -1,0 +1,20 @@
+Prueba completa de voz de Clipchamp — Viaje fantástico
+
+Estado: muestra completa generada, pendiente de escucha y valoración de Carlos.
+Voz: Salome, Español (Colombia), ritmo 1x y tono predeterminado. Solo funciones gratuitas de Clipchamp de Windows.
+
+Archivos principales:
+- viaje-fantastico-salome-clipchamp.mp4: video completo de 36,8 segundos con la nueva locución.
+- narracion-salome-clipchamp.mp3: pista completa de audio.
+- comparar-voces.html: dos reproductores para comparar la nueva versión con la referencia de Windows.
+- salome-subtitulos.vtt y salome-subtitulos.srt: subtítulos por escena.
+- salome-escena-1.m4a a salome-escena-4.m4a: exportaciones reales de Clipchamp.
+
+Se conservaron las mismas palabras e imágenes. Las cuatro escenas se ajustaron a sus locuciones reales, con pausas y sin acelerar la voz. Los subtítulos seleccionables están integrados en el MP4. El volumen del nuevo video se normalizó a aproximadamente -18 LUFS para compararlo con la referencia.
+
+Verificado: decodificación completa sin errores, pistas H.264/AAC/mov_text, cuatro subtítulos, archivos enlazados existentes y cuadros con subtítulos de referencia.
+La prueba funcional de la página en navegador no se ejecutó: la política del navegador bloqueó el protocolo file:. No se intentó eludir el bloqueo. Abrir comparar-voces.html manualmente.
+
+La voz de Windows permanece solo como referencia; Carlos la descartó para entrega final. No se han cambiado los otros cinco videos. La naturalidad, pronunciación y tono de Salome requieren escucha humana.
+
+Evidencia: estado.json, qa-comparacion.json y qa-escena-1-subtitulos.png a qa-escena-4-subtitulos.png.

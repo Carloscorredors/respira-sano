@@ -1,0 +1,30 @@
+/* Keralty · Manual v02, 27-02-2018, sección 3.6, p. 17.
+   RGB transcritos del manual; los fondos suaves son tintas de esos colores.
+   Fuente: https://portal.colsanitas.com/funcionarios/documents/10183/2367019/Manual_Keralty_V3.pdf */
+:root{
+  --brand-blue:#002f87; /* Pantone 287 C · 0,47,135 */
+  --brand-navy:#002e58; /* Pantone 288 C · 0,46,88 */
+  --brand-link:#0071a3; /* Pantone 307 C · 0,113,163 */
+  --brand-azure:#0071ce; /* Pantone 285 C · 0,113,206 */
+  --brand-sky:#3e8ede; /* Pantone 279 C · 62,142,222 */
+  --brand-cyan:#00b4e3; /* Pantone 306 C · 0,180,227 */
+  --brand-green:#00b288; /* Pantone 339 C · 0,178,136 */
+  --brand-mint:#49c3b1; /* Pantone 3258 C · 73,195,177 */
+  --brand-lime:#8cc63f; /* Pantone 376 C · 140,198,63 */
+  --brand-leaf:#4e9d2d; /* Pantone 362 C · 78,157,45 */
+  --brand-gray:#dcd5cb; /* Pantone 400 C · 220,213,203 */
+  --brand-white:#fff;
+  --brand-surface:#f4f8fc;
+  --brand-soft:#e8f3fa;
+  --brand-line:#caddeb;
+  --brand-muted:#41617e;
+  --brand-dark-panel:#073e68;
+  --brand-on-dark:#d9ecfa;
+}
+header{border-top:4px solid var(--brand-blue);border-image:linear-gradient(90deg,var(--brand-blue) 55%,var(--brand-cyan) 80%,var(--brand-green)) 1}
+h1,h2,h3{color:var(--brand-blue)}
+.brand b{background:var(--brand-blue);color:var(--brand-white)}
+.cards>.card:nth-child(2){border-top-color:var(--brand-cyan)}
+.cards>.card:nth-child(3){border-top-color:var(--brand-green)}
+input[type=range],input[type=checkbox],input[type=radio]{accent-color:var(--brand-azure)}
+@media print{h1,h2,h3{color:black}header{border-image:none}}

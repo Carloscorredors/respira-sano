@@ -1,0 +1,57 @@
+"use strict";
+(()=>{
+ const root=document.querySelector('.m1-wizard');if(!root)return;
+ const R=window.RespiraProgressRules,M=R.M1,record=window.RespiraMissionRecord,$=s=>root.querySelector(s);
+ const copy=x=>JSON.parse(JSON.stringify(x));const validReview=(v,snapshot)=>v?.reviewed===true&&v.contractVersion===M.version&&Number.isFinite(v.reviewedAt)&&v.reviewedAt>0&&snapshot;
+ const raw=record?.get(),state={contractVersion:M.version,route:{order:[],reviewed:false},associations:{},practice:{},view:{}};
+ if(raw?.contractVersion===M.version){const o=raw.route?.order;if(Array.isArray(o)&&o.length<=5&&new Set(o).size===o.length&&o.every(id=>M.route.includes(id))){state.route={...copy(raw.route),order:[...o]};state.route.reviewed=validReview(raw.route,Array.isArray(raw.route.reviewedOrder)&&raw.route.reviewedOrder.join('|')===o.join('|'));}for(const key of Object.keys(M.associations)){const a=raw.associations?.[key];if(a&&['','vapor','niebla','polvo'].includes(a.selected)){state.associations[key]={...copy(a)};state.associations[key].reviewed=validReview(a,a.reviewedValue===a.selected);}}if(raw.practice&&typeof raw.practice==='object'&&!Array.isArray(raw.practice))state.practice=copy(raw.practice);if(raw.view&&typeof raw.view==='object'&&!Array.isArray(raw.view))state.view=copy(raw.view);}
+ for(const id of Object.keys(M.associations))if(!state.associations[id])state.associations[id]={selected:'',reviewed:false};
+ const save=()=>record?.set(state);const labels=Object.fromEntries([...root.querySelectorAll('[data-route-add]')].map(b=>[b.dataset.routeAdd,b.textContent.replace(/＋/g,'').trim()]));
+ const feedback={evaporacion:'Moléculas que pasan a fase gaseosa: vapor.',gotas:'Pequeñas gotas líquidas suspendidas: niebla, un aerosol líquido.',fragmentacion:'Fragmentación mecánica de sólidos: polvo, un aerosol sólido.'};
+ function routeFeedback(){const meta=state.route,out=$('#m4-route-feedback');if(!meta.reviewed){out.textContent='';return;}out.textContent=meta.order.join('|')===M.route.join('|')?'Recorrido coherente: de la entrada hacia los alvéolos.':'Revisa las posiciones señaladas. Primero entra el aire; después sigue las ramificaciones hasta los alvéolos.';}
+ function renderRoute(focusId){const order=state.route.order;root.querySelectorAll('[data-route-add]').forEach(b=>{b.disabled=order.includes(b.dataset.routeAdd);});const host=$('#m4-route-order');host.replaceChildren();for(let i=0;i<5;i++){const id=order[i],li=document.createElement('li');li.dataset.routeSlot=String(i);li.className=id?'m4-route-item':'m4-route-empty';if(id){li.dataset.routeItem=id;li.draggable=true;li.dataset.routeDrag=id;const label=document.createElement('strong');label.textContent=(i+1)+'. '+labels[id];li.append(label);const controls=document.createElement('div');for(const [text,dir] of [['↑',-1],['↓',1]]){const b=document.createElement('button');b.className='secondary';b.textContent=text;b.dataset.routeMove=id;b.dataset.direction=String(dir);b.disabled=dir===-1?i===0:i===order.length-1;b.setAttribute('aria-label',(dir===-1?'Subir ':'Bajar ')+labels[id]);controls.append(b);}const remove=document.createElement('button');remove.className='secondary';remove.dataset.routeRemove=id;remove.textContent='Retirar';remove.setAttribute('aria-label','Retirar '+labels[id]);controls.append(remove);li.append(controls);if(state.route.reviewed){const p=document.createElement('p');p.className='m4-item-feedback';p.dataset.correct=String(id===M.route[i]);p.textContent=id===M.route[i]?'✓ Etapa bien situada':'Revisa esta posición';li.append(p);}}else li.textContent=(i+1)+'. Coloca una etapa aquí';host.append(li);}routeFeedback();if(focusId)host.querySelector('[data-route-item="'+focusId+'"] button:not([disabled])')?.focus({preventScroll:true});}
+ function invalidateRoute(){state.route.reviewed=false;delete state.route.reviewedOrder;delete state.route.reviewedAt;save();}
+ function place(id,index=state.route.order.length){if(!M.route.includes(id))return;const order=state.route.order,old=order.indexOf(id);if(old>=0){order.splice(old,1);if(old<index)index--;}order.splice(Math.max(0,Math.min(index,order.length)),0,id);invalidateRoute();renderRoute(id);}
+ function reviewRoute(){state.route.reviewed=true;state.route.contractVersion=M.version;state.route.reviewedAt=Date.now();state.route.reviewedOrder=[...state.route.order];save();renderRoute();}
+ function renderAssociation(id){const a=state.associations[id],field=$('[data-association="'+id+'"]'),out=$('[data-association-feedback="'+id+'"]');field.value=a.selected;out.textContent=a.reviewed?(a.selected===M.associations[id]?'✓ '+feedback[id]:a.selected?'Revisa. '+feedback[id]:'Elige una forma y vuelve a contrastar.') :'';out.dataset.correct=String(a.selected===M.associations[id]);}
+ function chooseAssociation(id,value){if(!Object.hasOwn(M.associations,id)||!['','vapor','niebla','polvo'].includes(value))return;state.associations[id]={selected:value,reviewed:false};save();renderAssociation(id);}
+ function reviewAssociations(){for(const id of Object.keys(M.associations)){const a=state.associations[id];a.reviewed=true;a.reviewedValue=a.selected;a.contractVersion=M.version;a.reviewedAt=Date.now();renderAssociation(id);}save();}
+ root.addEventListener('click',event=>{const add=event.target.closest('[data-route-add]'),move=event.target.closest('[data-route-move]'),remove=event.target.closest('[data-route-remove]');if(add)place(add.dataset.routeAdd);if(move){const id=move.dataset.routeMove,i=state.route.order.indexOf(id),next=i+Number(move.dataset.direction);if(next>=0&&next<state.route.order.length){[state.route.order[i],state.route.order[next]]=[state.route.order[next],state.route.order[i]];invalidateRoute();renderRoute(id);}}if(remove){state.route.order=state.route.order.filter(id=>id!==remove.dataset.routeRemove);invalidateRoute();renderRoute();}});
+ $('#m4-route-review').addEventListener('click',reviewRoute);$('#m4-associations-review').addEventListener('click',reviewAssociations);
+ root.querySelectorAll('[data-association]').forEach(select=>select.addEventListener('change',()=>chooseAssociation(select.dataset.association,select.value)));
+ root.addEventListener('dragstart',event=>{const route=event.target.closest('[data-route-drag]'),form=event.target.closest('[data-form-drag]');if(route)event.dataTransfer.setData('text/plain','route:'+route.dataset.routeDrag);if(form)event.dataTransfer.setData('text/plain','form:'+form.dataset.formDrag);});
+ root.addEventListener('dragover',event=>{if(event.target.closest('[data-route-slot],[data-association-drop]'))event.preventDefault();});root.addEventListener('drop',event=>{const slot=event.target.closest('[data-route-slot]'),match=event.target.closest('[data-association-drop]'),data=event.dataTransfer.getData('text/plain');if(slot&&data.startsWith('route:')){event.preventDefault();place(data.slice(6),Number(slot.dataset.routeSlot));}if(match&&data.startsWith('form:')){event.preventDefault();chooseAssociation(match.dataset.associationDrop,data.slice(5));}});
+ // Registered before the bridge's commit listener: explicit save reviews the
+ // actual current games first, then the parent evaluates their fresh proof.
+ document.addEventListener('click',event=>{if(event.target.closest('[data-mission-commit="1"]')){reviewRoute();reviewAssociations();}},true);
+ window.RespiraExpedition={get:()=>state,save,practice(id,selected,reviewed){state.practice[id]={selected,reviewed};save();},view(key,value){state.view[key]=value;save();}};
+ renderRoute();Object.keys(M.associations).forEach(renderAssociation);
+ const screens=[...root.querySelectorAll('[data-m1-screen]')];let current=-1,pendingFocus=false;
+ const aliases={'m1-historia':1,'historia-camila':1,'agentes':4,'chemical-controls':4,'notes-chemical':4,'alveolus':3,'m4-alv':3,'notes-air':7,'cierre-mision-1':7,'m1-reconoce':5,'m1-resuelve':7,'m1-explora':2};
+ let closingStep=Math.max(0,Math.min(4,Number(state.view.closeStep)||0));
+ function closeStep(index,focus=false){closingStep=Math.max(0,Math.min(4,index));const group=closingStep===0?0:closingStep===4?2:1;
+  root.querySelectorAll('[data-m5-close-step]').forEach(el=>{el.hidden=+el.dataset.m5CloseStep!==group;el.inert=el.hidden;});
+  root.querySelectorAll('[data-m5-association]').forEach(el=>{el.hidden=+el.dataset.m5Association!==closingStep-1;el.inert=el.hidden;});
+  root.querySelectorAll('[data-m5-close-go]').forEach(b=>b.setAttribute('aria-pressed',String(+b.dataset.m5CloseGo===closingStep)));
+  $('#m5-close-next').hidden=closingStep===4;root.querySelector('[data-mission-commit="1"]').hidden=closingStep!==4;
+  $('#m5-close-status').textContent='Reto '+(closingStep+1)+' de 5 · '+['Ordena el recorrido','Relaciona evaporación','Relaciona gotas suspendidas','Relaciona fragmentación','Escribe tu observación'][closingStep];
+  state.view.closeStep=closingStep;save();
+  if(focus){$('#m5-close-status').tabIndex=-1;$('#m5-close-status').focus({preventScroll:true});root.querySelector('[data-m1-screen="7"] .m1-content').scrollTo(0,0);}
+ }
+ root.querySelectorAll('[data-m5-close-go]').forEach(b=>b.addEventListener('click',()=>closeStep(+b.dataset.m5CloseGo,true)));
+ $('#m5-close-prev').addEventListener('click',()=>{if(closingStep>0)closeStep(closingStep-1,true);else root.querySelector('[data-m1-step-link="6"]').click();});$('#m5-close-next').addEventListener('click',()=>closeStep(closingStep+1,true));
+ function sync(){let hash='';try{hash=decodeURIComponent(location.hash.slice(1));}catch{}const target=document.getElementById(hash);const id=aliases[hash]||Number(target?.closest('[data-m1-screen]')?.dataset.m1Screen)||1;
+  if(current!==id){if(current>0){const sc=root.querySelector('[data-m1-screen="'+current+'"] .m1-content');state.view.scroll={...(state.view.scroll||{}),[current]:sc?.scrollTop||0};}
+   current=id;state.view.screen=id;save();pendingFocus=true;screens.forEach(el=>{el.hidden=+el.dataset.m1Screen!==id;el.inert=el.hidden;});
+   root.querySelectorAll('[data-m1-step-link]').forEach(a=>{if(+a.dataset.m1StepLink===id)a.setAttribute('aria-current','step');else a.removeAttribute('aria-current');});
+   if(id!==1)root.querySelectorAll('video').forEach(v=>v.pause());
+   const top=Number(state.view.scroll?.[id])||0;root.querySelector('[data-m1-screen="'+id+'"] .m1-content')?.scrollTo(0,top);
+   document.dispatchEvent(new CustomEvent('m1viewswitch',{detail:{screen:id}}));
+  }
+  if(hash==='notes-air')closeStep(4);let ancestor=target;while(ancestor&&ancestor!==root){if(ancestor.tagName==='DETAILS')ancestor.open=true;ancestor=ancestor.parentElement;}
+ }
+ window.addEventListener('hashchange',sync);window.addEventListener('popstate',sync);
+ document.addEventListener('rsmissioncontext',event=>{sync();$('#m4-legacy-notice').hidden=!event.detail.legacyMission1;if(pendingFocus){pendingFocus=false;root.querySelector('[data-m1-screen="'+current+'"] [data-m1-heading]')?.focus({preventScroll:true});}});
+ const out=$('#rs-close-feedback-1');new MutationObserver(()=>{if(out.hidden||!out.textContent.trim())return;if(out.dataset.ok!=='true'){const order=state.route.order;if(order.join('|')!==M.route.join('|'))closeStep(0);else{const bad=Object.keys(M.associations).findIndex(id=>state.associations[id].selected!==M.associations[id]);if(bad>=0)closeStep(bad+1);}}out.focus({preventScroll:true});out.scrollIntoView({block:'nearest',behavior:'instant'});}).observe(out,{childList:true,subtree:true});
+ closeStep(closingStep);sync();
+})();

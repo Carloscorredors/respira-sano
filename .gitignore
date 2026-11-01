@@ -1,0 +1,19 @@
+# Materiales privados, entornos y archivos temporales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+**/node_modules/
+**/__pycache__/
+**/.venv/
+**/.DS_Store
+**/Thumbs.db
+**/~$*
+*.tmp
+*.log
+*.zip
+/work/
+/backups/

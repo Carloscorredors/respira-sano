@@ -1,0 +1,25 @@
+.m5-system-card .rsa8 .rsdm-stage{height:360px}
+.rsa8{position:relative}
+.rsa8 .rsdm-status{position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;overflow:hidden;clip:rect(0,0,0,0);clip-path:inset(50%);white-space:nowrap}
+.rsa8-choose{display:flex;align-items:center;gap:12px;padding:12px;background:#e7f4f7;flex-wrap:wrap}
+.rsa8-choose label{font-size:14px;font-weight:700;margin:0}
+.rsa8-choose select{flex:1;min-width:190px;max-width:100%;font-size:15px;padding:9px;border:1px solid #6c9bb0;border-radius:8px;color:#123e55;background:white}
+.rsa8-regions{display:flex;gap:6px;padding:9px 11px;flex-wrap:wrap;background:#f6fafc}
+.rsa8-regions button{font-size:13px;min-height:36px;padding:7px 12px}
+.rsa8 .rsdm-labels{z-index:2}
+.rsa8-leaders{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}
+.rsa8-leaders line{stroke:#a1d0de;stroke-width:1;opacity:.45}
+.rsa8-leaders circle{fill:#ffe1a0;stroke:#194a61;stroke-width:1}
+.rsa8-leaders .rsa8-line-selected{stroke:#ffe1a0;stroke-width:2;opacity:1}
+.m1-wizard .rsa8 .rsdm-pin{width:38px;min-width:38px;height:38px;min-height:38px;padding:0;font-size:14px;line-height:36px;text-align:center;border:1px solid #b7e3eb;background:#123e5ded;border-radius:50%}
+.rsa8 .rsdm-pin:before{display:none}
+.rsa8 .rsdm-pin[aria-pressed=true]{background:#f5dca2;color:#17384a;border-color:#fff1d0}
+.rsa8[data-renderer=fallback] .rsa8-active{display:none}
+.rsa8-active{position:absolute;bottom:39px;left:65px;right:65px;text-align:center;color:#fff7e2;background:#143d56e8;border:1px solid #c6ad74;border-radius:7px;padding:7px;font-size:15px;pointer-events:none;z-index:3}
+.rsa8 .rsdm-heading{right:50px}
+.rsa8-detail-link{display:block;font-size:14px;line-height:1.5;padding:5px 12px 13px;color:#005f89}
+.rsa8 [data-fallback-part]{cursor:pointer;outline:none}
+.rsa8 [data-fallback-part]:focus .rsa8-fallback-dot,.rsa8 .rsa8-selected .rsa8-fallback-dot{fill:#957443;stroke:#fff1c9;stroke-width:3}
+.rsa8-alveolar-parts{display:flex;flex-wrap:wrap;gap:7px;padding:11px 14px}
+.rsa8-alveolar-parts button{font-size:13px!important;min-height:38px}
+@media(max-width:600px){.m5-system-card .rsa8 .rsdm-stage{height:390px}.rsa8-choose{display:block}.rsa8-choose label{display:block;margin-bottom:6px}.rsa8-choose select{width:100%;min-width:0}.rsa8-regions{gap:5px}.rsa8-regions button{font-size:12px;padding:7px 10px}.rsa8-active{font-size:13px;left:52px;right:52px}.rsa8 .rsdm-compass,.rsa8 .rsdm-concept{font-size:10px!important}.rsa8 .rsdm-heading strong{font-size:13px!important}}

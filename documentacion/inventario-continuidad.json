@@ -1,0 +1,400 @@
+{
+  "state": "Inventario de conservación de la copia de trabajo actual. No representa aprobación final del cliente.",
+  "elements": [
+    {
+      "id": "INICIO",
+      "name": "Inicio con seis misiones y logo Colsanitas",
+      "location": "Inicio",
+      "files": [
+        "index.html",
+        "assets/colsanitas-logo17.png",
+        "assets/home-v2.css"
+      ],
+      "markers": {
+        "index.html": [
+          "Tus misiones",
+          "Pit stop respiratorio"
+        ]
+      },
+      "state": "Existente; conservar",
+      "observation": ""
+    },
+    {
+      "id": "M11",
+      "name": "Historia audiovisual",
+      "location": "M1.1",
+      "files": [
+        "recorrido.html",
+        "assets/fotografia-v3/historia-fotografica-v4.mp4"
+      ],
+      "markers": {
+        "recorrido.html": [
+          "historia-fotografica-v4.mp4"
+        ]
+      },
+      "state": "Existente; conservar",
+      "observation": ""
+    },
+    {
+      "id": "M12",
+      "name": "Modelo respiratorio principal y doce estructuras",
+      "location": "M1.2",
+      "files": [
+        "recorrido.html",
+        "assets/narration09.bundle.js",
+        "assets/sync09-adapter.js",
+        "assets/timeline09.js",
+        "assets/m12-ancho-cr16-02.css"
+      ],
+      "markers": {
+        "recorrido.html": [
+          "id=\"m4-local-viewer\"",
+          "id=\"m1-explora\"",
+          "assets/m12-ancho-cr16-02.css"
+        ]
+      },
+      "state": "Existente; conservar",
+      "observation": "Ancho corregido y recibido el30oct; conservar funciones y sincronización."
+    },
+    {
+      "id": "AUDIO01",
+      "name": "Audio del sistema respiratorio",
+      "location": "M1.2, sobre el modelo",
+      "files": [
+        "assets/como-funciona-sistema-respiratorio-salome.mp3",
+        "recorrido.html"
+      ],
+      "markers": {
+        "recorrido.html": [
+          "id=\"rs-audio01-player\""
+        ]
+      },
+      "state": "Existente; conservar",
+      "observation": ""
+    },
+    {
+      "id": "CT3D",
+      "name": "Segundo modelo respiratorio CT3D",
+      "location": "M1.2, sección plegable inferior",
+      "files": [
+        "recorrido.html",
+        "assets/ct09-controller.js"
+      ],
+      "markers": {
+        "recorrido.html": [
+          "id=\"r9-ct-secondary\"",
+          "f7232f2e10524eacbfb8fd149d0550e0",
+          "Cargar CT3D"
+        ]
+      },
+      "state": "Presente y abierto visualmente; acceso poco visible",
+      "observation": "Requiere internet. Mantener acceso, créditos y alternativa local. Mejorar visibilidad sin cambiar el modelo principal."
+    },
+    {
+      "id": "M13",
+      "name": "Modelo alveolar y capilar con audio",
+      "location": "M1.3 actual",
+      "files": [
+        "recorrido.html",
+        "assets/media13-data.js",
+        "assets/media13/unidad-alveolar-capilar-gonzalo.mp3"
+      ],
+      "markers": {
+        "recorrido.html": [
+          "id=\"m1-intercambio\""
+        ],
+        "assets/media13-data.js": [
+          "Escucha cómo ocurre el intercambio"
+        ]
+      },
+      "state": "Existente; conservar",
+      "observation": "Intercambio de orden M1.3/M1.4 propuesto; pendiente, conservar lo existente hasta integrar el cambio."
+    },
+    {
+      "id": "M14",
+      "name": "Formas de contaminantes en el aire",
+      "location": "M1.4 actual",
+      "files": [
+        "recorrido.html",
+        "assets/media12/m14-formas-v1.mp3",
+        "assets/media12/m14-formas-v1.mp4"
+      ],
+      "markers": {
+        "recorrido.html": [
+          "id=\"formas\""
+        ]
+      },
+      "state": "Existente; conservar",
+      "observation": ""
+    },
+    {
+      "id": "M15",
+      "name": "Casos por áreas y tareas sanitarias",
+      "location": "M1.5",
+      "files": [
+        "recorrido.html",
+        "assets/cases12-data.js",
+        "assets/cases12.js",
+        "assets/maintenance14-data.js"
+      ],
+      "markers": {
+        "recorrido.html": [
+          "id=\"m1-reconoce\""
+        ]
+      },
+      "state": "Existente; conservar",
+      "observation": ""
+    },
+    {
+      "id": "M16_M17",
+      "name": "Vías de ingreso y cierre de la misión",
+      "location": "M1.6 y M1.7 actuales",
+      "files": [
+        "recorrido.html",
+        "assets/mission1-activities-v4.js"
+      ],
+      "markers": {
+        "recorrido.html": [
+          "id=\"m1-vias\"",
+          "id=\"m1-resuelve\""
+        ]
+      },
+      "state": "Existente; conservar",
+      "observation": "Reorientación exclusivamente respiratoria y cierre didáctico pendientes; no se han eliminado estos recursos."
+    },
+    {
+      "id": "ADDAMS",
+      "name": "Narrativa y actividad de los Locos Addams",
+      "location": "M2, portada Gases y vapores",
+      "files": [
+        "gases-vapores.html",
+        "assets/portada-gases-vapores.png"
+      ],
+      "markers": {
+        "gases-vapores.html": [
+          "La familia Addams",
+          "No te hagas el loco con los gases y vapores"
+        ]
+      },
+      "state": "Presente y abierto visualmente; tarjeta del inicio no anuncia la narrativa",
+      "observation": "Pendiente mejorar identificación desde el inicio."
+    },
+    {
+      "id": "M3_M4",
+      "name": "Investigación de exposición y decisiones de control",
+      "location": "CSI del aire y Misión posible",
+      "files": [
+        "hospital.html"
+      ],
+      "markers": {
+        "hospital.html": [
+          "id=\"csi-del-aire\"",
+          "Misión posible"
+        ]
+      },
+      "state": "Existente; conservar",
+      "observation": ""
+    },
+    {
+      "id": "M5_M6",
+      "name": "Protección, inspección y cuidado",
+      "location": "Cazadores de mitos y Pit stop",
+      "files": [
+        "respiradores.html"
+      ],
+      "markers": {
+        "respiradores.html": [
+          "id=\"cazadores-de-mitos\"",
+          "id=\"pit-stop-respiratorio\""
+        ]
+      },
+      "state": "Existente; conservar",
+      "observation": ""
+    },
+    {
+      "id": "FULLFACE3D",
+      "name": "Respirador externo de cara completa",
+      "location": "M6, Explorar máscara facial completa; también en explorador de selección",
+      "files": [
+        "respiradores.html",
+        "assets/external-models.js"
+      ],
+      "markers": {
+        "respiradores.html": [
+          "212addc22db34a329ec279d3e1a29665",
+          "Abrir máscara 3D · Internet",
+          "Explorar máscara facial completa"
+        ]
+      },
+      "state": "Presente y abierto visualmente; acceso poco visible",
+      "observation": "Requiere internet y activación manual. No confundir esquema local con visor externo."
+    },
+    {
+      "id": "SGA_FDS",
+      "name": "Consulta de etiqueta y FDS",
+      "location": "Ayuda contextual y Mis herramientas",
+      "files": [
+        "assets/fds-help13.js",
+        "assets/fds-help14-data.js",
+        "herramientas/leer-fds.html"
+      ],
+      "markers": {},
+      "state": "Existente; conservar",
+      "observation": ""
+    },
+    {
+      "id": "PROGRESO",
+      "name": "Progreso, notas y acceso temporal",
+      "location": "Todas las misiones",
+      "files": [
+        "assets/progress-shell.js",
+        "assets/progress-bridge.js",
+        "assets/progress-rules.js",
+        "assets/progress-config.js",
+        "assets/review17-config.js"
+      ],
+      "markers": {},
+      "state": "Existente; conservar",
+      "observation": "Mantener acceso para revisión, datos y criterios de cierre. No fabricar certificados ni borrar respuestas."
+    },
+    {
+      "id": "AMPLIACION",
+      "name": "Caja de herramientas y práctica opcional",
+      "location": "Mis herramientas",
+      "files": [
+        "herramientas/index.html",
+        "herramientas/ampliacion-opcional.html"
+      ],
+      "markers": {
+        "herramientas/index.html": [
+          "ampliacion-opcional.html"
+        ]
+      },
+      "state": "Existente; conservar",
+      "observation": ""
+    },
+    {
+      "id": "FOTOGRAFIA",
+      "name": "Serie de imágenes y nuevo montaje audiovisual",
+      "location": "Inicio, casos y M1.1",
+      "files": [
+        "galeria-fotografica.html",
+        "assets/fotografia-v3/historia-fotografica-v4.mp4"
+      ],
+      "markers": {},
+      "state": "Existente; conservar",
+      "observation": "25 escenas generadas con estética fotográfica; integración actual distinta del ZIP17. Archivos fuente y prompts no se deben confundir con el paquete final de participantes."
+    },
+    {
+      "id": "M12_FUNCION",
+      "name": "Audio junto al modelo y panel dinámico de función anatómica",
+      "location": "M1.2, junto al modelo en escritorio; apilado en ventanaestrecha",
+      "files": [
+        "assets/m12-panel-funcion.css",
+        "assets/m12-panel-funcion.js"
+      ],
+      "markers": {
+        "recorrido.html": [
+          "assets/m12-panel-funcion.css",
+          "assets/m12-panel-funcion.js"
+        ],
+        "assets/m12-panel-funcion.js": [
+          "Qué hace esta estructura",
+          "rs-audio01",
+          "MutationObserver"
+        ]
+      },
+      "state": "Integrado y verificado; pendiente revisión deCarlos",
+      "observation": "MismoAudio01,12funcionescopiadasliteralmente delmodelo, datos y motores intactos; recibo work/m12-panel-funcion-20261030/auditor/RECEPCION_FINAL.json"
+    },
+    {
+      "id": "NAVEGACION_CLARA",
+      "name": "Navegación ampliada y alineada; M1.2 ligeramente más ancho",
+      "location": "Cabecera común, etapas y pie de M1, distribución M1.2",
+      "files": [
+        "index.html",
+        "recorrido.html",
+        "assets/navegacion-clara-20261030.css"
+      ],
+      "markers": {
+        "index.html": [
+          "assets/navegacion-clara-20261030.css"
+        ],
+        "recorrido.html": [
+          "assets/navegacion-clara-20261030.css"
+        ]
+      },
+      "state": "Integrado y verificado; pendiente revisión de Carlos.",
+      "observation": "work/navegacion-clara-20261030/auditor/RECEPCION_FINAL.json"
+    },
+    {
+      "id": "FV01",
+      "name": "Video corregido y optimizado de respirador de cara completa",
+      "location": "M6 Pit stop, acceso Historia y video antes de inspección",
+      "files": [
+        "respiradores.html",
+        "assets/fullface-FV01/fullface-FV01-poster.jpg",
+        "assets/fullface-FV01/fullface-FV01-transcripcion.txt",
+        "assets/fullface-FV01/fullface-FV01.css",
+        "assets/fullface-FV01/fullface-FV01.js",
+        "assets/fullface-FV01/fullface-FV01.mp4",
+        "assets/fullface-FV01/fullface-FV01.vtt"
+      ],
+      "markers": {
+        "respiradores.html": [
+          "data-fullface-fv01-player",
+          "assets/fullface-FV01/fullface-FV01.mp4",
+          "fv01-introduccion-anterior"
+        ],
+        "assets/fullface-FV01/fullface-FV01.js": [
+          "rsmissioncontext",
+          "visibilitychange",
+          "pagehide"
+        ]
+      },
+      "state": "Versión editada conservada como respaldo opcional; principal sustituido por original FV02.",
+      "observation": "FV01 de128.3s/13.03MB, subtítulos incrustados corregidos, VTT opcional ytranscripción. Intro38s opcional,3Dexterno/local y actividades conservados. Recibo work/fullface-integracion-20261031-FV01/productor/RECIBO_INTEGRACION_FV01.json"
+    },
+    {
+      "id": "FV02_ORIGINAL",
+      "name": "Video original de cara completa sin modificaciones añadidas",
+      "location": "M6 Pit stop, reproductor principal",
+      "files": [
+        "respiradores.html",
+        "assets/fullface-original-FV02/fullface-original-CC02.mp4",
+        "assets/fullface-FV01/fullface-FV01.js"
+      ],
+      "markers": {
+        "respiradores.html": [
+          "assets/fullface-original-FV02/fullface-original-CC02.mp4",
+          "Video original.",
+          "fv02-version-editada"
+        ]
+      },
+      "state": "Video original restaurado y verificado en Pit stop.",
+      "observation": "Archivo original128.3s/306767028bytes cotejado por SHA-256. Sin recodificación, póster ni pistas de subtítulos añadidas. Modelo3D, actividades ydatos conservados. work/fullface-original-20261031-FV02/RECIBO_FV02.json"
+    }
+  ],
+  "protected_files": [
+    "assets/como-funciona-sistema-respiratorio-salome.mp3",
+    "assets/narration09.bundle.js",
+    "assets/sync09-adapter.js",
+    "assets/timeline09.js",
+    "assets/ct09-controller.js",
+    "assets/mission1-ct-v4.js",
+    "assets/progress-rules.js",
+    "assets/progress-config.js",
+    "assets/review17-config.js"
+  ],
+  "pending_observations": "work/OBSERVACIONES_CARLOS_REV16.json",
+  "last_verified_zip": "Respira-Sano-REVISION-17-Colsanitas-revision-abierta.zip",
+  "working_copy_matches_last_zip": false,
+  "release_gates": [
+    "Respaldo previo y alcance explícito del cambio",
+    "Comparación de archivos y conservación de elementos",
+    "Recepción visual de accesos y funciones afectadas",
+    "Revisión de contenido proporcional al cambio",
+    "ZIP idéntico a la copia recibida y exclusión de materiales privados",
+    "Mostrar captura, versión, qué cambió, qué se conservó y pendientes"
+  ]
+}

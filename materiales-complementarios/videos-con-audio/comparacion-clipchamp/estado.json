@@ -1,0 +1,76 @@
+{
+  "status": "voz_base_preferida_pulido_pendiente_otra_sesion",
+  "provider": "Clipchamp aplicación Windows",
+  "voice": "Salome",
+  "language": "Español (Colombia)",
+  "pitch": "Predeterminado",
+  "rate": "1x",
+  "paid_upgrade": false,
+  "script": "Mismas palabras que el original",
+  "duration_seconds": 36.802667,
+  "scenes": [
+    {
+      "number": 1,
+      "title": "Una muestra. Una pregunta.",
+      "text": "Camila recibe una muestra con fijador. Antes de abrirla, investiga qué puede pasar al aire.",
+      "audio_seconds": 7.248,
+      "duration": 8.36,
+      "start": 0,
+      "end": 8.36,
+      "audio_sha256": "a46f723081786676bbe95f91bd164fe6482b1311a5829b3b8d72133c7b826347"
+    },
+    {
+      "number": 2,
+      "title": "Conoce el recorrido del aire.",
+      "text": "Explora las vías respiratorias y los alvéolos. El modelo muestra una función normal del cuerpo.",
+      "audio_seconds": 7.296,
+      "duration": 8.4,
+      "start": 8.36,
+      "end": 16.76,
+      "audio_sha256": "16f6b261b59dc663b0786cea54890c3e7eb08eb501e6d6a8bc073e2579bffde4"
+    },
+    {
+      "number": 3,
+      "title": "Reconoce las formas en el aire.",
+      "text": "Reconoce gases, vapores y aerosoles como polvos, humos y nieblas. Sus propiedades y la tarea condicionan la exposición.",
+      "audio_seconds": 9.6,
+      "duration": 10.72,
+      "start": 16.76,
+      "end": 27.48,
+      "audio_sha256": "f6769b5ac584c4b575e2d941cb3fb51cfa9e9d4195a86a802b0984393ff407ef"
+    },
+    {
+      "number": 4,
+      "title": "Tu misión: compara.",
+      "text": "Gira el modelo y selecciona sus partes. Después compara agentes: no todos interactúan igual con el cuerpo.",
+      "audio_seconds": 8.136,
+      "duration": 9.24,
+      "start": 27.48,
+      "end": 36.72,
+      "audio_sha256": "c895ab431fa8cb0592a3458ba2030ed68dfdfbb9da9f5d8528ccd520ce574c78"
+    }
+  ],
+  "audio_measurement": {
+    "input_i": "-18.24",
+    "input_tp": "-2.72",
+    "input_lra": "5.40",
+    "input_thresh": "-28.58",
+    "output_i": "-18.22",
+    "output_tp": "-2.93",
+    "output_lra": "4.40",
+    "output_thresh": "-28.51",
+    "normalization_type": "dynamic",
+    "target_offset": "0.22"
+  },
+  "full_decode": "ok",
+  "original_preserved": true,
+  "original_sha256": "4fb91b2535673b9a0e9e1fffd4489985023882e4e9e4eaacaa352ca0247192ae",
+  "candidate_sha256": "1af0e382fbb4b6c9ef7460bfa2787c8e9fbb4cea83ef4bf808c3024edd54b50d",
+  "limitations": [
+    "Naturalidad, pronunciación y tono requieren escucha humana.",
+    "Subtítulos sincronizados por escena completa; no por palabra.",
+    "Las escenas siguen las exportaciones reales de Clipchamp, sin acelerar la voz."
+  ],
+  "privacy_prompt": "Carlos confirmó que pulsó No permitir. Aviso cerrado; exportaciones completadas.",
+  "user_feedback": "Esta voz suena mejor, pero puliremos en otra sesión. Salome queda como base preferida, sin aprobación final."
+}

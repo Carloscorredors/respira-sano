@@ -1,0 +1,111 @@
+RESPIRA SANO · TELEPROMPTER DEL FACILITADOR · VERSIÓN 0.2.4 · RÓTULOS Y VÁLVULAS
+Para revisión conjunta. Preparado el 18 de octubre de 2026.
+
+Revisiones narrativas autorizadas por Carlos: Camila conecta el recorrido del
+cuerpo con los efectos; Mateo utiliza el mismo expediente para investigar y
+proponer controles/verificación; Andrés detiene una selección sin información y
+continúa su capacitación en otro supuesto con tarea evaluada, equipo seleccionado
+y manual. El cierre reúne a los tres protagonistas. Se conservan los seis temas,
+35 tramos, 120 minutos propuestos y 18 contenidos técnicos.
+
+MODELOS Y ANIMACIÓN
+Mostrar/Ocultar rótulos identifica cuatro regiones mediante anotaciones 3D y leyenda.
+La selección sigue la pregunta de inspección. Para explicar, elegir cada nombre
+manualmente o pausar: el recorrido automático cambia cada seis segundos.
+Válvulas · detalle conceptual permite comparar Inhalación y Exhalación en un esquema
+separado; no identifica membranas internas del modelo artístico. Cerrar el detalle
+regresa al modelo; Volver al Pit stop conecta la inspección con colocación y sello.
+La referencia de máscara es Gas Mask, de jespermolander3d: pieza facial completa.
+El recorrido de inspección permite reproducir, pausar y reiniciar el acercamiento
+a visor, cuerpo/sello, conexiones y anclajes. En línea mueve la cámara del visor;
+sin conexión utiliza el esquema didáctico local. No sustituye el equipo ni el manual.
+Los pulmones CT de Holoxica se consultan con conexión y permiten regresar al
+detalle alveolar y a los agentes del explorador didáctico.
+Las consultas se integran en V01, CM02 y PS01, dentro de sus minutos existentes.
+La API confirmó que esta máscara no tiene pistas de animación del autor. El movimiento
+implementado es el recorrido de cámara y el acercamiento del esquema didáctico local.
+Los visores externos se comprobaron desde un servidor HTTP local, en escritorio y móvil.
+La carga externa desde file:// no se pudo probar con el navegador disponible; ensayarla
+en el navegador de destino. Conservar el esquema local, que permite continuar sin internet.
+
+ABRIR
+Extraer todo el ZIP. Abrir presentacion-facilitador/index.html.
+El paquete incluye una copia de las experiencias interactivas disponibles al
+empaquetar. Conservar ambas carpetas una junto a la otra para usar los enlaces.
+No requiere instalación, servidor ni conexión para lectura, controles o descarga.
+Las fuentes externas y las herramientas colaborativas sí requieren conexión.
+
+USAR EN LA CAPACITACIÓN
+El guion propone 35 tramos con duraciones propias en ocho momentos. Son 120 minutos incluyendo
+preguntas, exploración y puesta en común. El texto no es una narración de dos
+horas: proporciona introducciones, orientaciones y transiciones.
+Cronómetro y desplazamiento funcionan por separado.
+La navegación cambia de segmento y reinicia su tiempo; conserva el total real
+de sesión. Al agotar la duración del tramo no avanza automáticamente.
+Las duraciones son de facilitación, no tiempos mínimos obligatorios de lectura.
+
+CONTROLES
+Letra: tamaño ajustable.
+Velocidad: desplazamiento en píxeles por segundo; no estima palabras por minuto.
+Espacio: iniciar/pausar desplazamiento cuando el foco está en el texto.
+Flechas izquierda/derecha: segmento anterior/siguiente.
+N: mostrar/ocultar indicaciones.
+Espejo: invierte solo el texto de lectura para equipo de teleprompter físico.
+Pantalla completa: depende del permiso del navegador.
+El desplazamiento se detiene al terminar el texto o usar la rueda.
+
+VENTANA DEL FACILITADOR
+Mantener este teleprompter en una ventana privada.
+En Webex compartir la ventana de las actividades para participantes.
+Ensayar el cambio entre ambas y la distribución de pantallas antes del evento.
+Los enlaces abren las experiencias existentes; no activan automáticamente
+opciones dentro de ellas y sus gráficos podrán cambiar en el otro chat.
+
+MIS AJUSTES
+Las notas se mantienen durante esta visita entre segmentos.
+Descargar el guion en texto para conservarlas antes de recargar o cerrar.
+No hay envío de notas a un servidor ni recuperación automática de la visita.
+El texto descargado puede editarse fuera de la aplicación; esa edición no
+se importa automáticamente al teleprompter.
+Para cambiar el texto base de lectura, revisar guion.js.
+
+ARCHIVOS
+Guion-Respira-Sano.txt: copia legible sin notas de prueba.
+Preguntas-y-respuestas.csv: banco de preguntas abiertas y respuestas orientadoras;
+no es una importación directa en un formato específico de Kahoot o Mentimeter.
+VERIFICACION.json: comprobaciones realizadas en Edge sin conexión.
+La interfaz y su QA funcional se conservan de0.2.3. La revisión0.2.4 cambia contenido
+de conducciónPS01 y sus exportaciones: validación estática, sin repetir navegador.
+VERIFICACION.json distingue esa revisión de contenido de la prueba funcional previa.
+La interfaz usa funciones estándar; Edge se usó para QA, no es requisito de uso.
+
+PREPARACIÓN PENDIENTE
+Carlos indicó integrar las dinámicas al descargable, sin exigir plataformas externas.
+La revisión de la ruta local y del inicio/Misión posible se coordina en el chat auditor.
+Esta copia es el checkpoint de rótulos; la adaptación operativa deMP05,preparación y
+contingencias se muestra por separado en DELTA_TELEPROMPTER_REVISION_01.json.
+No interpretar las instrucciones antiguas de pizarra como requisito vigente ni dar
+por implementado el escape room global propuesto. Ensayar resolución local y puesta
+en común por videoconferencia; revisión deCarlos pendiente.
+Confirmar Webex, moderación, marca y productos/procedimientos institucionales.
+Confirmar equipo de demostración y su manual.
+Paquete de seis micromódulos comprobado técnicamente; revisar con Carlos la
+infografía, lista de chequeo y experiencia completa antes de la distribución final.
+El panel de requisitos distingue estos pendientes de lo incorporado al guion.
+
+BASE TÉCNICA
+El objetivo y los 18 puntos del temario se vinculan a los segmentos.
+Personajes y escenas son simulados, salvo el caso NIOSH señalado como real.
+Addams se utiliza como mito frente a evidencia, no como diagnóstico ni etiología
+de la apariencia de los personajes.
+La capacitación y la HTML no sustituyen una evaluación higiénica, selección
+técnica, prueba de ajuste real ni verificación de competencia práctica.
+Las fuentes estadounidenses y españolas se usan como referencias técnicas,
+sin presentarlas como legislación colombiana.
+
+NARRATIVA ELEGIDA POR CARLOS
+Viaje fantástico; No te hagas el loco con los gases y vapores; CSI del aire;
+Misión posible; Cazadores de mitos; Pit stop respiratorio.
+Los cinco bloques y sus 18 contenidos se conservan. Addams refuerza efectos y tareas.
+Los temas están elegidos; el minutaje y la conducción requieren ensayo.
+Los seis enlaces temáticos se comprueban contra la entrega del chat de interacciones.

@@ -1,0 +1,72 @@
+{
+  "version": "EC01 sobre la copia MI01/RM03",
+  "state": "Integrado y verificado en la copia provisional; revisión de Carlos pendiente",
+  "verified_at_utc": "2026-11-01T19:09:08.470145+00:00",
+  "human_scope": "Corregir el rótulo recortado del modelo de dosis y ajustar el encuadre para que órganos diana, dosis y N95 se vean completos en la copia, conservando M1.2.",
+  "copy_root": "work/investigacion-participacion-toxicologia-20261031/muestra-integral-MI01/proyecto-respaldo",
+  "copy_files_modified": [
+    "assets/m2-modelos-RM02/index.html",
+    "assets/m2-modelos-RM02/laboratorio.bundle.js",
+    "assets/m2-modelos-RM02/laboratorio.css",
+    "assets/m2-modelos-RM02/m2-modelos-launcher.js",
+    "gases-vapores.html"
+  ],
+  "copy_files_unchanged": 385,
+  "copy_missing": [],
+  "copy_added": [],
+  "changes": [
+    "Rótulos contenidos por su caja de texto completa.",
+    "Encuadre calculado con los límites del volumen y la relación de aspecto.",
+    "Acercamientos ajustados a las estructuras elegidas.",
+    "Altura y desplazamiento compatibles con la guía fija de M2.",
+    "Versionado del cargador y recursos para cargar EC01 en navegadores con RM03 en caché."
+  ],
+  "verification": {
+    "candidate_cases": 14,
+    "widths": [
+      390,
+      1280
+    ],
+    "model_views": 10,
+    "candidate_passed": true,
+    "actual_copy_access_and_framing_passed": true,
+    "other_resources_smoke": [
+      {
+        "id": "mucosa",
+        "ready": true
+      },
+      {
+        "id": "time",
+        "visible": true
+      },
+      {
+        "id": "mixtures",
+        "ready": true
+      }
+    ],
+    "copy_continuity_passed": true,
+    "main_continuity_passed": true,
+    "preservation": "work/investigacion-participacion-toxicologia-20261031/ajuste-copia-M2-EC01/QA_CONSERVACION_EC01.json",
+    "candidate": "work/investigacion-participacion-toxicologia-20261031/ajuste-copia-M2-EC01/QA_CANDIDATO_EC01.json",
+    "copy": "work/investigacion-participacion-toxicologia-20261031/ajuste-copia-M2-EC01/QA_COPIA_EC01.json",
+    "method_note": "La inspección anidada de marcos puede desplazar la página en las herramientas. Se restauró la vista y se revisaron las capturas finales de la copia."
+  },
+  "screenshots": [
+    "work/investigacion-participacion-toxicologia-20261031/ajuste-copia-M2-EC01/capturas/COPIA-1280-dose-barrier.png",
+    "work/investigacion-participacion-toxicologia-20261031/ajuste-copia-M2-EC01/capturas/COPIA-390-dose.png",
+    "work/investigacion-participacion-toxicologia-20261031/ajuste-copia-M2-EC01/capturas/COPIA-390-organs.png",
+    "work/investigacion-participacion-toxicologia-20261031/ajuste-copia-M2-EC01/capturas/COPIA-390-n95.png"
+  ],
+  "local_url": "http://127.0.0.1:8787/proyecto-respaldo/index.html?rs-route=gases-vapores.html%23gases-vapores&rs-mission=2",
+  "M12_preserved": true,
+  "main_application_modified": false,
+  "main_application_files_unchanged": 390,
+  "progress_or_notes_reset": false,
+  "geometry_and_health_content_changed": false,
+  "original_backup_and_manifest_preserved": true,
+  "new_participant_zip": false,
+  "client_accepted": false,
+  "automations_reactivated": false,
+  "agents_reactivated": false,
+  "not_repeated": "Pruebas extensas de audios, CT y servicios externos con dependencias conservadas."
+}

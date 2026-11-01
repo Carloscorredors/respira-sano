@@ -1,0 +1,1014 @@
+{
+  "version": "candidata-1",
+  "status": "candidata-para-revision",
+  "voice": {
+    "name": "Microsoft Sabina",
+    "language": "es-MX",
+    "engine": "Windows WinRT SpeechSynthesis",
+    "local": true,
+    "native_sample_rate": 16000,
+    "music": false
+  },
+  "modules": [
+    {
+      "id": "viaje-fantastico",
+      "title": "Viaje fantástico: una misión dentro de ti",
+      "technical_block": "1. Reconocimiento del riesgo respiratorio",
+      "module_minutes_proposed": 20,
+      "activity": "recorrido.html#viaje-fantastico",
+      "scenes": [
+        {
+          "number": 1,
+          "title": "Una muestra. Una pregunta.",
+          "narration": "Camila recibe una muestra con fijador. Antes de abrirla, investiga qué puede pasar al aire.",
+          "chunks": [
+            {
+              "text": "Camila recibe una muestra con fijador.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\viaje-fantastico\\fuentes\\escena-1-voz-1.wav",
+              "start": 0.35,
+              "end": 3.405
+            },
+            {
+              "text": "Antes de abrirla, investiga qué puede pasar al aire.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\viaje-fantastico\\fuentes\\escena-1-voz-2.wav",
+              "start": 3.555,
+              "end": 7.415
+            }
+          ],
+          "summary": "Investiga antes de abrir.",
+          "visual": "modelo-0",
+          "note": "Caso simulado · La anatomía no representa la ruta de un químico.",
+          "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\viaje-fantastico\\fuentes\\escena-1.wav",
+          "frame": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\viaje-fantastico\\fuentes\\escena-1.png",
+          "start": 0,
+          "end": 9.5,
+          "duration": 9.5
+        },
+        {
+          "number": 2,
+          "title": "Conoce el recorrido del aire.",
+          "narration": "Explora las vías respiratorias y los alvéolos. El modelo muestra una función normal del cuerpo.",
+          "chunks": [
+            {
+              "text": "Explora las vías respiratorias y los alvéolos.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\viaje-fantastico\\fuentes\\escena-2-voz-1.wav",
+              "start": 9.85,
+              "end": 13.4
+            },
+            {
+              "text": "El modelo muestra una función normal del cuerpo.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\viaje-fantastico\\fuentes\\escena-2-voz-2.wav",
+              "start": 13.55,
+              "end": 17.07
+            }
+          ],
+          "summary": "Vías respiratorias → alvéolos",
+          "visual": "modelo-1",
+          "note": "O₂ y CO₂ ilustran función normal.",
+          "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\viaje-fantastico\\fuentes\\escena-2.wav",
+          "frame": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\viaje-fantastico\\fuentes\\escena-2.png",
+          "start": 9.5,
+          "end": 19.0,
+          "duration": 9.5
+        },
+        {
+          "number": 3,
+          "title": "Reconoce las formas en el aire.",
+          "narration": "Reconoce gases, vapores y aerosoles como polvos, humos y nieblas. Sus propiedades y la tarea condicionan la exposición.",
+          "chunks": [
+            {
+              "text": "Reconoce gases, vapores y aerosoles como polvos, humos y nieblas.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\viaje-fantastico\\fuentes\\escena-3-voz-1.wav",
+              "start": 19.35,
+              "end": 24.815
+            },
+            {
+              "text": "Sus propiedades y la tarea condicionan la exposición.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\viaje-fantastico\\fuentes\\escena-3-voz-2.wav",
+              "start": 24.965,
+              "end": 28.855
+            }
+          ],
+          "summary": "Identifica la forma y la tarea.",
+          "visual": "facts:Gases|Vapores|Aerosoles: polvos, humos y nieblas",
+          "note": "Representación conceptual · Sin dosis ni predicción clínica.",
+          "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\viaje-fantastico\\fuentes\\escena-3.wav",
+          "frame": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\viaje-fantastico\\fuentes\\escena-3.png",
+          "start": 19.0,
+          "end": 29.36,
+          "duration": 10.36
+        },
+        {
+          "number": 4,
+          "title": "Tu misión: compara.",
+          "narration": "Gira el modelo y selecciona sus partes. Después compara agentes: no todos interactúan igual con el cuerpo.",
+          "chunks": [
+            {
+              "text": "Gira el modelo y selecciona sus partes.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\viaje-fantastico\\fuentes\\escena-4-voz-1.wav",
+              "start": 29.71,
+              "end": 32.94
+            },
+            {
+              "text": "Después compara agentes: no todos interactúan igual con el cuerpo.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\viaje-fantastico\\fuentes\\escena-4-voz-2.wav",
+              "start": 33.09,
+              "end": 38.025
+            }
+          ],
+          "summary": "Explora. Compara. Formula preguntas.",
+          "visual": "modelo-2",
+          "note": "Continúa en el modelo interactivo.",
+          "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\viaje-fantastico\\fuentes\\escena-4.wav",
+          "frame": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\viaje-fantastico\\fuentes\\escena-4.png",
+          "start": 29.36,
+          "end": 38.86,
+          "duration": 9.5
+        }
+      ],
+      "duration": 38.86,
+      "cues": [
+        {
+          "start": 0.35,
+          "end": 3.405,
+          "text": "Camila recibe una muestra con fijador."
+        },
+        {
+          "start": 3.555,
+          "end": 7.415,
+          "text": "Antes de abrirla, investiga qué puede pasar al aire."
+        },
+        {
+          "start": 9.85,
+          "end": 13.4,
+          "text": "Explora las vías respiratorias y los alvéolos."
+        },
+        {
+          "start": 13.55,
+          "end": 17.07,
+          "text": "El modelo muestra una función normal del cuerpo."
+        },
+        {
+          "start": 19.35,
+          "end": 24.815,
+          "text": "Reconoce gases, vapores y aerosoles como polvos, humos y nieblas."
+        },
+        {
+          "start": 24.965,
+          "end": 28.855,
+          "text": "Sus propiedades y la tarea condicionan la exposición."
+        },
+        {
+          "start": 29.71,
+          "end": 32.94,
+          "text": "Gira el modelo y selecciona sus partes."
+        },
+        {
+          "start": 33.09,
+          "end": 38.025,
+          "text": "Después compara agentes: no todos interactúan igual con el cuerpo."
+        }
+      ],
+      "mp4": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\viaje-fantastico\\viaje-fantastico-narrado.mp4",
+      "sha256": "4fb91b2535673b9a0e9e1fffd4489985023882e4e9e4eaacaa352ca0247192ae",
+      "review_html": "<article id=\"viaje-fantastico\"><h2>1. Viaje fantástico: una misión dentro de ti</h2><p>1. Reconocimiento del riesgo respiratorio · Introducción de 38.86 s</p><video controls playsinline preload=\"metadata\" poster=\"viaje-fantastico/poster.png\" data-id=\"viaje-fantastico\" aria-label=\"Viaje fantástico: una misión dentro de ti\"><source src=\"viaje-fantastico/viaje-fantastico-narrado.mp4\" type=\"video/mp4\"></video><p class=\"links\"><a href=\"viaje-fantastico/viaje-fantastico-narrado.mp4\" download>MP4 narrado</a><a href=\"viaje-fantastico/subtitulos.vtt\" download>VTT</a><a href=\"viaje-fantastico/subtitulos.srt\" download>SRT</a><a href=\"viaje-fantastico/narracion.wav\" download>Voz WAV</a></p><details><summary>Leer la narración exacta</summary><ol><li><b>00:00:00.000 · Una muestra. Una pregunta.</b><p>Camila recibe una muestra con fijador. Antes de abrirla, investiga qué puede pasar al aire.</p></li><li><b>00:00:09.500 · Conoce el recorrido del aire.</b><p>Explora las vías respiratorias y los alvéolos. El modelo muestra una función normal del cuerpo.</p></li><li><b>00:00:19.000 · Reconoce las formas en el aire.</b><p>Reconoce gases, vapores y aerosoles como polvos, humos y nieblas. Sus propiedades y la tarea condicionan la exposición.</p></li><li><b>00:00:29.360 · Tu misión: compara.</b><p>Gira el modelo y selecciona sus partes. Después compara agentes: no todos interactúan igual con el cuerpo.</p></li></ol></details></article>"
+    },
+    {
+      "id": "gases-vapores",
+      "title": "No te hagas el loco con los gases y vapores",
+      "technical_block": "Refuerzo de 1. Reconocimiento: efectos y tareas",
+      "module_minutes_proposed": 15,
+      "activity": "gases-vapores.html",
+      "scenes": [
+        {
+          "number": 1,
+          "title": "La apariencia no es evidencia.",
+          "narration": "Los Addams abren la historia de Camila. Para investigar, identifica el agente y la tarea.",
+          "chunks": [
+            {
+              "text": "Los Addams abren la historia de Camila.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\gases-vapores\\fuentes\\escena-1-voz-1.wav",
+              "start": 0.35,
+              "end": 3.19
+            },
+            {
+              "text": "Para investigar, identifica el agente y la tarea.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\gases-vapores\\fuentes\\escena-1-voz-2.wav",
+              "start": 3.34,
+              "end": 7.21
+            }
+          ],
+          "summary": "De la ficción a la evidencia.",
+          "visual": "addams",
+          "note": "Ficción narrativa · No diagnostiques por apariencia.",
+          "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\gases-vapores\\fuentes\\escena-1.wav",
+          "frame": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\gases-vapores\\fuentes\\escena-1.png",
+          "start": 0,
+          "end": 9.5,
+          "duration": 9.5
+        },
+        {
+          "number": 2,
+          "title": "Tiempo y acción: dos preguntas.",
+          "narration": "Los efectos pueden ser agudos o crónicos, irritantes o corrosivos. Son preguntas distintas y las etiquetas pueden coexistir.",
+          "chunks": [
+            {
+              "text": "Los efectos pueden ser agudos o crónicos, irritantes o corrosivos.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\gases-vapores\\fuentes\\escena-2-voz-1.wav",
+              "start": 9.85,
+              "end": 14.975
+            },
+            {
+              "text": "Son preguntas distintas y las etiquetas pueden coexistir.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\gases-vapores\\fuentes\\escena-2-voz-2.wav",
+              "start": 15.125,
+              "end": 19.355
+            }
+          ],
+          "summary": "¿Cuándo? ¿Cómo actúa?",
+          "visual": "axes",
+          "note": "Los efectos posibles dependen del agente y de la exposición.",
+          "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\gases-vapores\\fuentes\\escena-2.wav",
+          "frame": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\gases-vapores\\fuentes\\escena-2.png",
+          "start": 9.5,
+          "end": 19.86,
+          "duration": 10.36
+        },
+        {
+          "number": 3,
+          "title": "Un agente, varias posibilidades.",
+          "narration": "Compara los efectos posibles de cada agente. Reconocer un peligro no predice una enfermedad individual.",
+          "chunks": [
+            {
+              "text": "Compara los efectos posibles de cada agente.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\gases-vapores\\fuentes\\escena-3-voz-1.wav",
+              "start": 20.21,
+              "end": 23.56
+            },
+            {
+              "text": "Reconocer un peligro no predice una enfermedad individual.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\gases-vapores\\fuentes\\escena-3-voz-2.wav",
+              "start": 23.71,
+              "end": 27.77
+            }
+          ],
+          "summary": "Consulta las tarjetas y sus fuentes.",
+          "visual": "facts:Efecto posible|Agente específico|Condiciones de exposición",
+          "note": "No se diagnostica por el aspecto ni por el dibujo.",
+          "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\gases-vapores\\fuentes\\escena-3.wav",
+          "frame": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\gases-vapores\\fuentes\\escena-3.png",
+          "start": 19.86,
+          "end": 29.36,
+          "duration": 9.5
+        },
+        {
+          "number": 4,
+          "title": "Conecta con prevención.",
+          "narration": "Elige un agente y una tarea que pueda liberarlo. Explica qué dato falta comprobar antes de decidir.",
+          "chunks": [
+            {
+              "text": "Elige un agente y una tarea que pueda liberarlo.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\gases-vapores\\fuentes\\escena-4-voz-1.wav",
+              "start": 29.71,
+              "end": 33.215
+            },
+            {
+              "text": "Explica qué dato falta comprobar antes de decidir.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\gases-vapores\\fuentes\\escena-4-voz-2.wav",
+              "start": 33.365,
+              "end": 36.985
+            }
+          ],
+          "summary": "Agente → tarea → dato pendiente",
+          "visual": "facts:Elige un agente|Describe la tarea|Señala lo que falta",
+          "note": "Continúa en las tarjetas interactivas.",
+          "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\gases-vapores\\fuentes\\escena-4.wav",
+          "frame": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\gases-vapores\\fuentes\\escena-4.png",
+          "start": 29.36,
+          "end": 38.86,
+          "duration": 9.5
+        }
+      ],
+      "duration": 38.86,
+      "cues": [
+        {
+          "start": 0.35,
+          "end": 3.19,
+          "text": "Los Addams abren la historia de Camila."
+        },
+        {
+          "start": 3.34,
+          "end": 7.21,
+          "text": "Para investigar, identifica el agente y la tarea."
+        },
+        {
+          "start": 9.85,
+          "end": 14.975,
+          "text": "Los efectos pueden ser agudos o crónicos, irritantes o corrosivos."
+        },
+        {
+          "start": 15.125,
+          "end": 19.355,
+          "text": "Son preguntas distintas y las etiquetas pueden coexistir."
+        },
+        {
+          "start": 20.21,
+          "end": 23.56,
+          "text": "Compara los efectos posibles de cada agente."
+        },
+        {
+          "start": 23.71,
+          "end": 27.77,
+          "text": "Reconocer un peligro no predice una enfermedad individual."
+        },
+        {
+          "start": 29.71,
+          "end": 33.215,
+          "text": "Elige un agente y una tarea que pueda liberarlo."
+        },
+        {
+          "start": 33.365,
+          "end": 36.985,
+          "text": "Explica qué dato falta comprobar antes de decidir."
+        }
+      ],
+      "mp4": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\gases-vapores\\gases-vapores-narrado.mp4",
+      "sha256": "14304398c0904ba56b5107a5a7390c0c5ca685a988ab68f436e9c51513d4ee28",
+      "review_html": "<article id=\"gases-vapores\"><h2>2. No te hagas el loco con los gases y vapores</h2><p>Refuerzo de 1. Reconocimiento: efectos y tareas · Introducción de 38.86 s</p><video controls playsinline preload=\"metadata\" poster=\"gases-vapores/poster.png\" data-id=\"gases-vapores\" aria-label=\"No te hagas el loco con los gases y vapores\"><source src=\"gases-vapores/gases-vapores-narrado.mp4\" type=\"video/mp4\"></video><p class=\"links\"><a href=\"gases-vapores/gases-vapores-narrado.mp4\" download>MP4 narrado</a><a href=\"gases-vapores/subtitulos.vtt\" download>VTT</a><a href=\"gases-vapores/subtitulos.srt\" download>SRT</a><a href=\"gases-vapores/narracion.wav\" download>Voz WAV</a></p><details><summary>Leer la narración exacta</summary><ol><li><b>00:00:00.000 · La apariencia no es evidencia.</b><p>Los Addams abren la historia de Camila. Para investigar, identifica el agente y la tarea.</p></li><li><b>00:00:09.500 · Tiempo y acción: dos preguntas.</b><p>Los efectos pueden ser agudos o crónicos, irritantes o corrosivos. Son preguntas distintas y las etiquetas pueden coexistir.</p></li><li><b>00:00:19.860 · Un agente, varias posibilidades.</b><p>Compara los efectos posibles de cada agente. Reconocer un peligro no predice una enfermedad individual.</p></li><li><b>00:00:29.360 · Conecta con prevención.</b><p>Elige un agente y una tarea que pueda liberarlo. Explica qué dato falta comprobar antes de decidir.</p></li></ol></details></article>"
+    },
+    {
+      "id": "csi-del-aire",
+      "title": "CSI del aire: sigue las pistas",
+      "technical_block": "2. Evaluación de la exposición",
+      "module_minutes_proposed": 20,
+      "activity": "hospital.html#csi-del-aire",
+      "scenes": [
+        {
+          "number": 1,
+          "title": "Mateo sigue las pistas.",
+          "narration": "Mateo cambia un suministro después de un ciclo cerrado. Investiga conexiones, aperturas y manejo de residuos.",
+          "chunks": [
+            {
+              "text": "Mateo cambia un suministro después de un ciclo cerrado.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\csi-del-aire\\fuentes\\escena-1-voz-1.wav",
+              "start": 0.35,
+              "end": 4.27
+            },
+            {
+              "text": "Investiga conexiones, aperturas y manejo de residuos.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\csi-del-aire\\fuentes\\escena-1-voz-2.wav",
+              "start": 4.42,
+              "end": 8.93
+            }
+          ],
+          "summary": "Un ciclo cerrado también tiene tareas.",
+          "visual": "hospital",
+          "note": "Caso simulado · No es un inventario institucional.",
+          "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\csi-del-aire\\fuentes\\escena-1.wav",
+          "frame": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\csi-del-aire\\fuentes\\escena-1.png",
+          "start": 0,
+          "end": 9.5,
+          "duration": 9.5
+        },
+        {
+          "number": 2,
+          "title": "Confirma el producto y la tarea.",
+          "narration": "Consulta la ficha de datos de seguridad y el procedimiento vigente. El nombre del servicio no identifica la exposición.",
+          "chunks": [
+            {
+              "text": "Consulta la ficha de datos de seguridad y el procedimiento vigente.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\csi-del-aire\\fuentes\\escena-2-voz-1.wav",
+              "start": 9.85,
+              "end": 14.29
+            },
+            {
+              "text": "El nombre del servicio no identifica la exposición.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\csi-del-aire\\fuentes\\escena-2-voz-2.wav",
+              "start": 14.44,
+              "end": 18.185
+            }
+          ],
+          "summary": "Producto + procedimiento vigente",
+          "visual": "facts:Producto identificado|Tarea concreta|FDS y procedimiento",
+          "note": "FDS: ficha de datos de seguridad.",
+          "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\csi-del-aire\\fuentes\\escena-2.wav",
+          "frame": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\csi-del-aire\\fuentes\\escena-2.png",
+          "start": 9.5,
+          "end": 19.0,
+          "duration": 9.5
+        },
+        {
+          "number": 3,
+          "title": "¿Qué falta comprobar?",
+          "narration": "Revisa concentración en aire, duración, frecuencia y ventilación. Observar u oler no sustituye las mediciones higiénicas.",
+          "chunks": [
+            {
+              "text": "Revisa concentración en aire, duración, frecuencia y ventilación.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\csi-del-aire\\fuentes\\escena-3-voz-1.wav",
+              "start": 19.35,
+              "end": 24.635
+            },
+            {
+              "text": "Observar u oler no sustituye las mediciones higiénicas.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\csi-del-aire\\fuentes\\escena-3-voz-2.wav",
+              "start": 24.785,
+              "end": 28.89
+            }
+          ],
+          "summary": "Reúne datos de exposición.",
+          "visual": "facts:Concentración en aire|Tiempo y frecuencia|Ventilación y mediciones",
+          "note": "Escena cualitativa · No mide flujo ni exposición.",
+          "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\csi-del-aire\\fuentes\\escena-3.wav",
+          "frame": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\csi-del-aire\\fuentes\\escena-3.png",
+          "start": 19.0,
+          "end": 29.4,
+          "duration": 10.4
+        },
+        {
+          "number": 4,
+          "title": "Distingue evidencia de suposición.",
+          "narration": "Reúne lo confirmado y anota lo pendiente. Después justifica qué necesitas medir y qué controles revisar.",
+          "chunks": [
+            {
+              "text": "Reúne lo confirmado y anota lo pendiente.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\csi-del-aire\\fuentes\\escena-4-voz-1.wav",
+              "start": 29.75,
+              "end": 32.97
+            },
+            {
+              "text": "Después justifica qué necesitas medir y qué controles revisar.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\csi-del-aire\\fuentes\\escena-4-voz-2.wav",
+              "start": 33.12,
+              "end": 37.4
+            }
+          ],
+          "summary": "Confirmado / pendiente / por verificar",
+          "visual": "facts:¿Qué sabes?|¿Qué falta?|¿Cómo lo comprobarías?",
+          "note": "Continúa en la investigación del escenario.",
+          "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\csi-del-aire\\fuentes\\escena-4.wav",
+          "frame": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\csi-del-aire\\fuentes\\escena-4.png",
+          "start": 29.4,
+          "end": 38.9,
+          "duration": 9.5
+        }
+      ],
+      "duration": 38.9,
+      "cues": [
+        {
+          "start": 0.35,
+          "end": 4.27,
+          "text": "Mateo cambia un suministro después de un ciclo cerrado."
+        },
+        {
+          "start": 4.42,
+          "end": 8.93,
+          "text": "Investiga conexiones, aperturas y manejo de residuos."
+        },
+        {
+          "start": 9.85,
+          "end": 14.29,
+          "text": "Consulta la ficha de datos de seguridad y el procedimiento vigente."
+        },
+        {
+          "start": 14.44,
+          "end": 18.185,
+          "text": "El nombre del servicio no identifica la exposición."
+        },
+        {
+          "start": 19.35,
+          "end": 24.635,
+          "text": "Revisa concentración en aire, duración, frecuencia y ventilación."
+        },
+        {
+          "start": 24.785,
+          "end": 28.89,
+          "text": "Observar u oler no sustituye las mediciones higiénicas."
+        },
+        {
+          "start": 29.75,
+          "end": 32.97,
+          "text": "Reúne lo confirmado y anota lo pendiente."
+        },
+        {
+          "start": 33.12,
+          "end": 37.4,
+          "text": "Después justifica qué necesitas medir y qué controles revisar."
+        }
+      ],
+      "mp4": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\csi-del-aire\\csi-del-aire-narrado.mp4",
+      "sha256": "53c2c36558f7e8efb38baa54f576b6bd71dcb1834dca1c4f7a06d5ca3abb59d1",
+      "review_html": "<article id=\"csi-del-aire\"><h2>3. CSI del aire: sigue las pistas</h2><p>2. Evaluación de la exposición · Introducción de 38.9 s</p><video controls playsinline preload=\"metadata\" poster=\"csi-del-aire/poster.png\" data-id=\"csi-del-aire\" aria-label=\"CSI del aire: sigue las pistas\"><source src=\"csi-del-aire/csi-del-aire-narrado.mp4\" type=\"video/mp4\"></video><p class=\"links\"><a href=\"csi-del-aire/csi-del-aire-narrado.mp4\" download>MP4 narrado</a><a href=\"csi-del-aire/subtitulos.vtt\" download>VTT</a><a href=\"csi-del-aire/subtitulos.srt\" download>SRT</a><a href=\"csi-del-aire/narracion.wav\" download>Voz WAV</a></p><details><summary>Leer la narración exacta</summary><ol><li><b>00:00:00.000 · Mateo sigue las pistas.</b><p>Mateo cambia un suministro después de un ciclo cerrado. Investiga conexiones, aperturas y manejo de residuos.</p></li><li><b>00:00:09.500 · Confirma el producto y la tarea.</b><p>Consulta la ficha de datos de seguridad y el procedimiento vigente. El nombre del servicio no identifica la exposición.</p></li><li><b>00:00:19.000 · ¿Qué falta comprobar?</b><p>Revisa concentración en aire, duración, frecuencia y ventilación. Observar u oler no sustituye las mediciones higiénicas.</p></li><li><b>00:00:29.400 · Distingue evidencia de suposición.</b><p>Reúne lo confirmado y anota lo pendiente. Después justifica qué necesitas medir y qué controles revisar.</p></li></ol></details></article>"
+    },
+    {
+      "id": "mision-posible",
+      "title": "Misión posible: controla la fuente",
+      "technical_block": "3. Controles para proteger la respiración",
+      "module_minutes_proposed": 15,
+      "activity": "hospital.html#mision-posible",
+      "scenes": [
+        {
+          "number": 1,
+          "title": "La misión empieza en la fuente.",
+          "narration": "Antes de elegir un respirador, revisa si puedes eliminar o sustituir el peligro, conservando la eficacia de la tarea.",
+          "chunks": [
+            {
+              "text": "Antes de elegir un respirador, revisa si puedes eliminar o sustituir el peligro, conservando la eficacia de la tarea.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\mision-posible\\fuentes\\escena-1-voz-1.wav",
+              "start": 0.35,
+              "end": 8.08
+            }
+          ],
+          "summary": "Eliminar → sustituir",
+          "visual": "hierarchy",
+          "note": "La viabilidad depende del producto, proceso y tarea.",
+          "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\mision-posible\\fuentes\\escena-1.wav",
+          "frame": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\mision-posible\\fuentes\\escena-1.png",
+          "start": 0,
+          "end": 9.5,
+          "duration": 9.5
+        },
+        {
+          "number": 2,
+          "title": "Captura y contiene la emisión.",
+          "narration": "Considera encerramiento, extracción localizada y ventilación. Ver una extracción no demuestra que capture la emisión.",
+          "chunks": [
+            {
+              "text": "Considera encerramiento, extracción localizada y ventilación.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\mision-posible\\fuentes\\escena-2-voz-1.wav",
+              "start": 9.85,
+              "end": 14.58
+            },
+            {
+              "text": "Ver una extracción no demuestra que capture la emisión.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\mision-posible\\fuentes\\escena-2-voz-2.wav",
+              "start": 14.73,
+              "end": 18.505
+            }
+          ],
+          "summary": "Contener. Captar. Comprobar.",
+          "visual": "facts:Encerramiento|Extracción localizada|Ventilación",
+          "note": "Comprueba el desempeño; no asignes eficacias inventadas.",
+          "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\mision-posible\\fuentes\\escena-2.wav",
+          "frame": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\mision-posible\\fuentes\\escena-2.png",
+          "start": 9.5,
+          "end": 19.02,
+          "duration": 9.52
+        },
+        {
+          "number": 3,
+          "title": "Prepara una tarea segura.",
+          "narration": "Revisa conexiones, procedimientos y prevención de fugas. Ante una condición anormal, activa el procedimiento de respuesta establecido.",
+          "chunks": [
+            {
+              "text": "Revisa conexiones, procedimientos y prevención de fugas.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\mision-posible\\fuentes\\escena-3-voz-1.wav",
+              "start": 19.37,
+              "end": 23.98
+            },
+            {
+              "text": "Ante una condición anormal, activa el procedimiento de respuesta establecido.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\mision-posible\\fuentes\\escena-3-voz-2.wav",
+              "start": 24.13,
+              "end": 29.53
+            }
+          ],
+          "summary": "Prevén liberaciones y prepara la respuesta.",
+          "visual": "facts:Conexiones seguras|Procedimiento vigente|Respuesta a condiciones anormales",
+          "note": "No se improvisa una intervención en atmósfera desconocida.",
+          "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\mision-posible\\fuentes\\escena-3.wav",
+          "frame": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\mision-posible\\fuentes\\escena-3.png",
+          "start": 19.02,
+          "end": 30.06,
+          "duration": 11.04
+        },
+        {
+          "number": 4,
+          "title": "Combina controles y comprueba.",
+          "narration": "La protección respiratoria es la última barrera. Propón controles sobre la fuente y explica cómo comprobar su desempeño.",
+          "chunks": [
+            {
+              "text": "La protección respiratoria es la última barrera.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\mision-posible\\fuentes\\escena-4-voz-1.wav",
+              "start": 30.41,
+              "end": 33.875
+            },
+            {
+              "text": "Propón controles sobre la fuente y explica cómo comprobar su desempeño.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\mision-posible\\fuentes\\escena-4-voz-2.wav",
+              "start": 34.025,
+              "end": 38.835
+            }
+          ],
+          "summary": "Fuente + condiciones + protección",
+          "visual": "hierarchy",
+          "note": "Continúa en la selección de controles del escenario.",
+          "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\mision-posible\\fuentes\\escena-4.wav",
+          "frame": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\mision-posible\\fuentes\\escena-4.png",
+          "start": 30.06,
+          "end": 39.56,
+          "duration": 9.5
+        }
+      ],
+      "duration": 39.56,
+      "cues": [
+        {
+          "start": 0.35,
+          "end": 8.08,
+          "text": "Antes de elegir un respirador, revisa si puedes eliminar o sustituir el peligro, conservando la eficacia de la tarea."
+        },
+        {
+          "start": 9.85,
+          "end": 14.58,
+          "text": "Considera encerramiento, extracción localizada y ventilación."
+        },
+        {
+          "start": 14.73,
+          "end": 18.505,
+          "text": "Ver una extracción no demuestra que capture la emisión."
+        },
+        {
+          "start": 19.37,
+          "end": 23.98,
+          "text": "Revisa conexiones, procedimientos y prevención de fugas."
+        },
+        {
+          "start": 24.13,
+          "end": 29.53,
+          "text": "Ante una condición anormal, activa el procedimiento de respuesta establecido."
+        },
+        {
+          "start": 30.41,
+          "end": 33.875,
+          "text": "La protección respiratoria es la última barrera."
+        },
+        {
+          "start": 34.025,
+          "end": 38.835,
+          "text": "Propón controles sobre la fuente y explica cómo comprobar su desempeño."
+        }
+      ],
+      "mp4": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\mision-posible\\mision-posible-narrado.mp4",
+      "sha256": "72c1166f91fbe1e1760cc79a8d1273281c36e17d37c1aa894fec653af6c679f8",
+      "review_html": "<article id=\"mision-posible\"><h2>4. Misión posible: controla la fuente</h2><p>3. Controles para proteger la respiración · Introducción de 39.56 s</p><video controls playsinline preload=\"metadata\" poster=\"mision-posible/poster.png\" data-id=\"mision-posible\" aria-label=\"Misión posible: controla la fuente\"><source src=\"mision-posible/mision-posible-narrado.mp4\" type=\"video/mp4\"></video><p class=\"links\"><a href=\"mision-posible/mision-posible-narrado.mp4\" download>MP4 narrado</a><a href=\"mision-posible/subtitulos.vtt\" download>VTT</a><a href=\"mision-posible/subtitulos.srt\" download>SRT</a><a href=\"mision-posible/narracion.wav\" download>Voz WAV</a></p><details><summary>Leer la narración exacta</summary><ol><li><b>00:00:00.000 · La misión empieza en la fuente.</b><p>Antes de elegir un respirador, revisa si puedes eliminar o sustituir el peligro, conservando la eficacia de la tarea.</p></li><li><b>00:00:09.500 · Captura y contiene la emisión.</b><p>Considera encerramiento, extracción localizada y ventilación. Ver una extracción no demuestra que capture la emisión.</p></li><li><b>00:00:19.020 · Prepara una tarea segura.</b><p>Revisa conexiones, procedimientos y prevención de fugas. Ante una condición anormal, activa el procedimiento de respuesta establecido.</p></li><li><b>00:00:30.060 · Combina controles y comprueba.</b><p>La protección respiratoria es la última barrera. Propón controles sobre la fuente y explica cómo comprobar su desempeño.</p></li></ol></details></article>"
+    },
+    {
+      "id": "cazadores-de-mitos",
+      "title": "Cazadores de mitos: ¿qué protege de qué?",
+      "technical_block": "4. Selección del respirador",
+      "module_minutes_proposed": 20,
+      "activity": "respiradores.html#cazadores-de-mitos",
+      "scenes": [
+        {
+          "number": 1,
+          "title": "Andrés detiene la selección.",
+          "narration": "Andrés debe intervenir un sistema, pero desconoce la atmósfera. Elegir un equipo exige información de la exposición.",
+          "chunks": [
+            {
+              "text": "Andrés debe intervenir un sistema, pero desconoce la atmósfera.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\cazadores-de-mitos\\fuentes\\escena-1-voz-1.wav",
+              "start": 0.35,
+              "end": 4.925
+            },
+            {
+              "text": "Elegir un equipo exige información de la exposición.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\cazadores-de-mitos\\fuentes\\escena-1-voz-2.wav",
+              "start": 5.075,
+              "end": 8.985
+            }
+          ],
+          "summary": "Primero identifica lo que falta.",
+          "visual": "facts:Agente y concentración|Oxígeno y condiciones|Tarea y límites",
+          "note": "Caso simulado · No autoriza la entrada.",
+          "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\cazadores-de-mitos\\fuentes\\escena-1.wav",
+          "frame": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\cazadores-de-mitos\\fuentes\\escena-1.png",
+          "start": 0,
+          "end": 9.52,
+          "duration": 9.52
+        },
+        {
+          "number": 2,
+          "title": "¿Qué protege de qué?",
+          "narration": "Un filtro de partículas y un cartucho químico cumplen funciones distintas. La selección depende del contaminante y la tarea.",
+          "chunks": [
+            {
+              "text": "Un filtro de partículas y un cartucho químico cumplen funciones distintas.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\cazadores-de-mitos\\fuentes\\escena-2-voz-1.wav",
+              "start": 9.87,
+              "end": 15.0
+            },
+            {
+              "text": "La selección depende del contaminante y la tarea.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\cazadores-de-mitos\\fuentes\\escena-2-voz-2.wav",
+              "start": 15.15,
+              "end": 18.69
+            }
+          ],
+          "summary": "Partículas ≠ gases y vapores",
+          "visual": "filters",
+          "note": "Ningún equipo se presenta como protección universal.",
+          "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\cazadores-de-mitos\\fuentes\\escena-2.wav",
+          "frame": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\cazadores-de-mitos\\fuentes\\escena-2.png",
+          "start": 9.52,
+          "end": 19.2,
+          "duration": 9.68
+        },
+        {
+          "number": 3,
+          "title": "Un purificador no aporta oxígeno.",
+          "narration": "No improvises su uso en una atmósfera desconocida. Detén la selección y solicita la evaluación correspondiente.",
+          "chunks": [
+            {
+              "text": "No improvises su uso en una atmósfera desconocida.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\cazadores-de-mitos\\fuentes\\escena-3-voz-1.wav",
+              "start": 19.55,
+              "end": 23.3
+            },
+            {
+              "text": "Detén la selección y solicita la evaluación correspondiente.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\cazadores-de-mitos\\fuentes\\escena-3-voz-2.wav",
+              "start": 23.45,
+              "end": 27.62
+            }
+          ],
+          "summary": "Atmósfera desconocida: detener y evaluar.",
+          "visual": "facts:No aporta oxígeno|No improvisar|Solicitar evaluación",
+          "note": "Reconocer límites es parte de seleccionar correctamente.",
+          "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\cazadores-de-mitos\\fuentes\\escena-3.wav",
+          "frame": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\cazadores-de-mitos\\fuentes\\escena-3.png",
+          "start": 19.2,
+          "end": 28.7,
+          "duration": 9.5
+        },
+        {
+          "number": 4,
+          "title": "Contrasta antes de decidir.",
+          "narration": "Revisa agente, exposición, compatibilidad y límites del equipo. Si faltan datos, explica qué necesitas antes de elegir.",
+          "chunks": [
+            {
+              "text": "Revisa agente, exposición, compatibilidad y límites del equipo.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\cazadores-de-mitos\\fuentes\\escena-4-voz-1.wav",
+              "start": 29.05,
+              "end": 34.345
+            },
+            {
+              "text": "Si faltan datos, explica qué necesitas antes de elegir.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\cazadores-de-mitos\\fuentes\\escena-4-voz-2.wav",
+              "start": 34.495,
+              "end": 38.96
+            }
+          ],
+          "summary": "¿Qué dato cambia tu decisión?",
+          "visual": "filters",
+          "note": "Continúa en el comparador de protección respiratoria.",
+          "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\cazadores-de-mitos\\fuentes\\escena-4.wav",
+          "frame": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\cazadores-de-mitos\\fuentes\\escena-4.png",
+          "start": 28.7,
+          "end": 39.46,
+          "duration": 10.76
+        }
+      ],
+      "duration": 39.46,
+      "cues": [
+        {
+          "start": 0.35,
+          "end": 4.925,
+          "text": "Andrés debe intervenir un sistema, pero desconoce la atmósfera."
+        },
+        {
+          "start": 5.075,
+          "end": 8.985,
+          "text": "Elegir un equipo exige información de la exposición."
+        },
+        {
+          "start": 9.87,
+          "end": 15.0,
+          "text": "Un filtro de partículas y un cartucho químico cumplen funciones distintas."
+        },
+        {
+          "start": 15.15,
+          "end": 18.69,
+          "text": "La selección depende del contaminante y la tarea."
+        },
+        {
+          "start": 19.55,
+          "end": 23.3,
+          "text": "No improvises su uso en una atmósfera desconocida."
+        },
+        {
+          "start": 23.45,
+          "end": 27.62,
+          "text": "Detén la selección y solicita la evaluación correspondiente."
+        },
+        {
+          "start": 29.05,
+          "end": 34.345,
+          "text": "Revisa agente, exposición, compatibilidad y límites del equipo."
+        },
+        {
+          "start": 34.495,
+          "end": 38.96,
+          "text": "Si faltan datos, explica qué necesitas antes de elegir."
+        }
+      ],
+      "mp4": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\cazadores-de-mitos\\cazadores-de-mitos-narrado.mp4",
+      "sha256": "f7ca3534fa0b413fc95226587c18d029de729425af1e5e9dc9c4f71f95a1d833",
+      "review_html": "<article id=\"cazadores-de-mitos\"><h2>5. Cazadores de mitos: ¿qué protege de qué?</h2><p>4. Selección del respirador · Introducción de 39.46 s</p><video controls playsinline preload=\"metadata\" poster=\"cazadores-de-mitos/poster.png\" data-id=\"cazadores-de-mitos\" aria-label=\"Cazadores de mitos: ¿qué protege de qué?\"><source src=\"cazadores-de-mitos/cazadores-de-mitos-narrado.mp4\" type=\"video/mp4\"></video><p class=\"links\"><a href=\"cazadores-de-mitos/cazadores-de-mitos-narrado.mp4\" download>MP4 narrado</a><a href=\"cazadores-de-mitos/subtitulos.vtt\" download>VTT</a><a href=\"cazadores-de-mitos/subtitulos.srt\" download>SRT</a><a href=\"cazadores-de-mitos/narracion.wav\" download>Voz WAV</a></p><details><summary>Leer la narración exacta</summary><ol><li><b>00:00:00.000 · Andrés detiene la selección.</b><p>Andrés debe intervenir un sistema, pero desconoce la atmósfera. Elegir un equipo exige información de la exposición.</p></li><li><b>00:00:09.520 · ¿Qué protege de qué?</b><p>Un filtro de partículas y un cartucho químico cumplen funciones distintas. La selección depende del contaminante y la tarea.</p></li><li><b>00:00:19.200 · Un purificador no aporta oxígeno.</b><p>No improvises su uso en una atmósfera desconocida. Detén la selección y solicita la evaluación correspondiente.</p></li><li><b>00:00:28.700 · Contrasta antes de decidir.</b><p>Revisa agente, exposición, compatibilidad y límites del equipo. Si faltan datos, explica qué necesitas antes de elegir.</p></li></ol></details></article>"
+    },
+    {
+      "id": "pit-stop-respiratorio",
+      "title": "Pit stop respiratorio: revisa, ajusta y cuida",
+      "technical_block": "5. Uso, inspección y mantenimiento",
+      "module_minutes_proposed": 20,
+      "activity": "respiradores.html#pit-stop-respiratorio",
+      "scenes": [
+        {
+          "number": 1,
+          "title": "El cuidado empieza antes de usar.",
+          "narration": "Para una tarea evaluada, inspecciona el respirador y sus componentes. Sigue las instrucciones del fabricante del equipo.",
+          "chunks": [
+            {
+              "text": "Para una tarea evaluada, inspecciona el respirador y sus componentes.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\pit-stop-respiratorio\\fuentes\\escena-1-voz-1.wav",
+              "start": 0.35,
+              "end": 5.34
+            },
+            {
+              "text": "Sigue las instrucciones del fabricante del equipo.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\pit-stop-respiratorio\\fuentes\\escena-1-voz-2.wav",
+              "start": 5.49,
+              "end": 9.005
+            }
+          ],
+          "summary": "Inspecciona antes de usar.",
+          "visual": "facts:Pieza facial y válvulas|Correas y conexiones|Filtros o cartuchos",
+          "note": "Revisión sistemática · Sin competir por velocidad.",
+          "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\pit-stop-respiratorio\\fuentes\\escena-1.wav",
+          "frame": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\pit-stop-respiratorio\\fuentes\\escena-1.png",
+          "start": 0,
+          "end": 9.52,
+          "duration": 9.52
+        },
+        {
+          "number": 2,
+          "title": "Coloca y verifica el sello.",
+          "narration": "Sigue la secuencia del fabricante. Verifica el sello en cada colocación; esto es distinto de la prueba de ajuste.",
+          "chunks": [
+            {
+              "text": "Sigue la secuencia del fabricante.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\pit-stop-respiratorio\\fuentes\\escena-2-voz-1.wav",
+              "start": 9.87,
+              "end": 12.595
+            },
+            {
+              "text": "Verifica el sello en cada colocación;",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\pit-stop-respiratorio\\fuentes\\escena-2-voz-2.wav",
+              "start": 12.745,
+              "end": 15.78
+            },
+            {
+              "text": "esto es distinto de la prueba de ajuste.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\pit-stop-respiratorio\\fuentes\\escena-2-voz-3.wav",
+              "start": 15.93,
+              "end": 18.92
+            }
+          ],
+          "summary": "Sello en cada colocación ≠ prueba de ajuste",
+          "visual": "seal",
+          "note": "Si no logras un sello adecuado, no lo uses en la tarea.",
+          "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\pit-stop-respiratorio\\fuentes\\escena-2.wav",
+          "frame": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\pit-stop-respiratorio\\fuentes\\escena-2.png",
+          "start": 9.52,
+          "end": 19.44,
+          "duration": 9.92
+        },
+        {
+          "number": 3,
+          "title": "Limpia, guarda y programa el cambio.",
+          "narration": "Sigue las instrucciones para limpieza y almacenamiento. El cambio de filtros o cartuchos requiere criterios del fabricante y del programa.",
+          "chunks": [
+            {
+              "text": "Sigue las instrucciones para limpieza y almacenamiento.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\pit-stop-respiratorio\\fuentes\\escena-3-voz-1.wav",
+              "start": 19.79,
+              "end": 23.745
+            },
+            {
+              "text": "El cambio de filtros o cartuchos requiere criterios del fabricante y del programa.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\pit-stop-respiratorio\\fuentes\\escena-3-voz-2.wav",
+              "start": 23.895,
+              "end": 29.045
+            }
+          ],
+          "summary": "Limpieza + guarda + recambio",
+          "visual": "facts:Instrucciones del fabricante|Almacenamiento adecuado|Criterios de recambio",
+          "note": "No se propone lavar filtros ni un recambio universal.",
+          "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\pit-stop-respiratorio\\fuentes\\escena-3.wav",
+          "frame": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\pit-stop-respiratorio\\fuentes\\escena-3.png",
+          "start": 19.44,
+          "end": 29.56,
+          "duration": 10.12
+        },
+        {
+          "number": 4,
+          "title": "Tu turno: revisa y practica.",
+          "narration": "Identifica defectos y ordena los pasos. Esta actividad conceptual acompaña la capacitación; no sustituye la práctica ni la prueba de ajuste.",
+          "chunks": [
+            {
+              "text": "Identifica defectos y ordena los pasos.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\pit-stop-respiratorio\\fuentes\\escena-4-voz-1.wav",
+              "start": 29.91,
+              "end": 33.215
+            },
+            {
+              "text": "Esta actividad conceptual acompaña la capacitación;",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\pit-stop-respiratorio\\fuentes\\escena-4-voz-2.wav",
+              "start": 33.365,
+              "end": 37.32
+            },
+            {
+              "text": "no sustituye la práctica ni la prueba de ajuste.",
+              "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\pit-stop-respiratorio\\fuentes\\escena-4-voz-3.wav",
+              "start": 37.47,
+              "end": 41.07
+            }
+          ],
+          "summary": "Inspecciona. Coloca. Comprueba. Cuida.",
+          "visual": "seal",
+          "note": "Continúa con inspección y secuencia de uso interactivas.",
+          "wav": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\pit-stop-respiratorio\\fuentes\\escena-4.wav",
+          "frame": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\pit-stop-respiratorio\\fuentes\\escena-4.png",
+          "start": 29.56,
+          "end": 41.6,
+          "duration": 12.04
+        }
+      ],
+      "duration": 41.6,
+      "cues": [
+        {
+          "start": 0.35,
+          "end": 5.34,
+          "text": "Para una tarea evaluada, inspecciona el respirador y sus componentes."
+        },
+        {
+          "start": 5.49,
+          "end": 9.005,
+          "text": "Sigue las instrucciones del fabricante del equipo."
+        },
+        {
+          "start": 9.87,
+          "end": 12.595,
+          "text": "Sigue la secuencia del fabricante."
+        },
+        {
+          "start": 12.745,
+          "end": 15.78,
+          "text": "Verifica el sello en cada colocación;"
+        },
+        {
+          "start": 15.93,
+          "end": 18.92,
+          "text": "esto es distinto de la prueba de ajuste."
+        },
+        {
+          "start": 19.79,
+          "end": 23.745,
+          "text": "Sigue las instrucciones para limpieza y almacenamiento."
+        },
+        {
+          "start": 23.895,
+          "end": 29.045,
+          "text": "El cambio de filtros o cartuchos requiere criterios del fabricante y del programa."
+        },
+        {
+          "start": 29.91,
+          "end": 33.215,
+          "text": "Identifica defectos y ordena los pasos."
+        },
+        {
+          "start": 33.365,
+          "end": 37.32,
+          "text": "Esta actividad conceptual acompaña la capacitación;"
+        },
+        {
+          "start": 37.47,
+          "end": 41.07,
+          "text": "no sustituye la práctica ni la prueba de ajuste."
+        }
+      ],
+      "mp4": "C:\\Users\\Carlos Corredor\\Desktop\\COLSANITAS\\RESPIRA SANO\\videos-con-audio\\pit-stop-respiratorio\\pit-stop-respiratorio-narrado.mp4",
+      "sha256": "c5478f701d7647154e95d8ef81b16a30b9f181374a39aa63451dc28953a03cfd",
+      "review_html": "<article id=\"pit-stop-respiratorio\"><h2>6. Pit stop respiratorio: revisa, ajusta y cuida</h2><p>5. Uso, inspección y mantenimiento · Introducción de 41.6 s</p><video controls playsinline preload=\"metadata\" poster=\"pit-stop-respiratorio/poster.png\" data-id=\"pit-stop-respiratorio\" aria-label=\"Pit stop respiratorio: revisa, ajusta y cuida\"><source src=\"pit-stop-respiratorio/pit-stop-respiratorio-narrado.mp4\" type=\"video/mp4\"></video><p class=\"links\"><a href=\"pit-stop-respiratorio/pit-stop-respiratorio-narrado.mp4\" download>MP4 narrado</a><a href=\"pit-stop-respiratorio/subtitulos.vtt\" download>VTT</a><a href=\"pit-stop-respiratorio/subtitulos.srt\" download>SRT</a><a href=\"pit-stop-respiratorio/narracion.wav\" download>Voz WAV</a></p><details><summary>Leer la narración exacta</summary><ol><li><b>00:00:00.000 · El cuidado empieza antes de usar.</b><p>Para una tarea evaluada, inspecciona el respirador y sus componentes. Sigue las instrucciones del fabricante del equipo.</p></li><li><b>00:00:09.520 · Coloca y verifica el sello.</b><p>Sigue la secuencia del fabricante. Verifica el sello en cada colocación; esto es distinto de la prueba de ajuste.</p></li><li><b>00:00:19.440 · Limpia, guarda y programa el cambio.</b><p>Sigue las instrucciones para limpieza y almacenamiento. El cambio de filtros o cartuchos requiere criterios del fabricante y del programa.</p></li><li><b>00:00:29.560 · Tu turno: revisa y practica.</b><p>Identifica defectos y ordena los pasos. Esta actividad conceptual acompaña la capacitación; no sustituye la práctica ni la prueba de ajuste.</p></li></ol></details></article>"
+    }
+  ],
+  "input_hashes": {
+    "work\\ALCANCE_DIDACTICO_RESPIRA_SANO.md": "375c64293912c7a62638812b026c016c05a1df6c7d1d58696939565abc3f02b0",
+    "work\\NARRATIVA_SEIS_MICROMODULOS.json": "ee0c7647c3606a8b206493cf84bebd333dcdeb697db2c0c0fb9c7ce21c403336",
+    "work\\pilot-cuerpo-aire\\metadata.json": "ec70c17dd362b87aab54684e335bb92da386039e9056bd97483e56fae188b269",
+    "work\\create_remaining_clips.cjs": "b502a396e1aff2aafcb80bf933a55bb58df306e64f7b5537abf4f24cacc161cd"
+  },
+  "clinical_review_sources": [
+    "https://www.nhlbi.nih.gov/es/salud/pulmones/sistema-respiratorio",
+    "https://www.cdc.gov/niosh/ppe/respirators/selection.html",
+    "https://www.cdc.gov/niosh/hierarchy-of-controls/about/index.html"
+  ]
+}

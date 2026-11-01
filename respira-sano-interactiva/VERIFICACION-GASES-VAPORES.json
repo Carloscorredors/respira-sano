@@ -1,0 +1,30 @@
+{
+  "status": "ok",
+  "date": "2026-10-18",
+  "mode": "file:// offline",
+  "widths": [
+    1440,
+    768,
+    390,
+    360
+  ],
+  "checks": [
+    "cover and accessible exact title",
+    "five freely navigable stages",
+    "3 decisions with missing wrong and correct feedback",
+    "reviewed decisions persist and export",
+    "multi-action filters coexist",
+    "5 agent cards and chlorine has no 3D substitution",
+    "keyboard agent selection retains focus",
+    "4 correct 3D links and return",
+    "return follows changed agent",
+    "old hospital return remains intact",
+    "notes transfer and 3-field conclusion",
+    "downloaded course notebook contains answers and notes",
+    "mobile without horizontal overflow",
+    "print exposes educational stages",
+    "works with session storage disabled and without WebGL",
+    "no JavaScript errors or remote requests"
+  ],
+  "pageErrors": []
+}

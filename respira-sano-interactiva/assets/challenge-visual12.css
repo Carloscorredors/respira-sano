@@ -1,0 +1,53 @@
+/* M1.7 only. Does not style M1.2 or shared elements. */
+#m1-resuelve .rs12-m17{--rs12-ink:#123d56;--rs12-blue:#006f92;--rs12-pale:#eef8fb;color:var(--rs12-ink);box-sizing:border-box}
+#m1-resuelve .rs12-m17-reference{border:1px solid #9ebfce;border-radius:14px;margin:14px 0;background:#f5fafc;overflow:hidden}
+#m1-resuelve .rs12-m17-reference summary{font-weight:700;cursor:pointer;padding:14px 18px;color:#005a7a}
+#m1-resuelve .rs12-m17-reference-content{display:grid;grid-template-columns:minmax(240px,.95fr) minmax(250px,1fr);gap:20px;padding:0 18px 18px}
+#m1-resuelve .rs12-m17-anatomy-wrap{border:1px solid #b5d1dd;border-radius:12px;background:radial-gradient(ellipse at 40% 20%,#fff 25%,#e0f1f5);min-height:290px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+#m1-resuelve .rs12-m17-anatomy{width:100%;height:310px;max-width:460px;display:block}
+#m1-resuelve .rs12-m17-mark{fill:none;stroke:#446e86;stroke-width:2;opacity:.45}
+#m1-resuelve .rs12-m17-mark-active{stroke:#006d90;stroke-width:3.5;opacity:1}
+#m1-resuelve .rs12-m17-mark-active circle{fill:#ffffff33}
+#m1-resuelve .rs12-m17-mark[role="button"]{cursor:pointer}
+#m1-resuelve .rs12-m17-mark[role="button"]:hover,#m1-resuelve .rs12-m17-mark[role="button"]:focus-visible{stroke:#005777;opacity:1;outline:none}
+#m1-resuelve .rs12-m17-reference-buttons{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+#m1-resuelve .rs12-m17-button{border:1px solid #7eacbe;border-radius:9px;background:#fff;color:#15516d;min-height:44px;padding:9px 12px;font:inherit;font-weight:650;cursor:pointer;line-height:1.25;text-align:center;box-shadow:0 1px 0 #bad3df}
+#m1-resuelve .rs12-m17-button:hover,#m1-resuelve .rs12-m17-button:active{background:#dff0f5;color:#123e57;border-color:#407e99}
+#m1-resuelve .rs12-m17-button[aria-pressed="true"]{background:#006484;color:white;border-color:#006484}
+#m1-resuelve .rs12-m17-button:focus-visible{outline:3px solid #b46600;outline-offset:3px}
+#m1-resuelve .rs12-m17-button:disabled{background:#e8eef1;color:#556c78;box-shadow:none;border-color:#c1cdd3;cursor:default;opacity:1}
+#m1-resuelve .rs12-m17-route-tile{display:flex;align-items:center;gap:10px;text-align:left;min-height:82px}
+#m1-resuelve .rs12-m17-route-tile .rs12-m17-tile-image{display:block;flex:0 0 56px;width:56px;height:58px;overflow:hidden;border-radius:9px;background:#eaf5f7}
+#m1-resuelve .rs12-m17-thumb{display:block;width:100%;height:100%}
+#m1-resuelve .rs12-m17-route-tile:disabled .rs12-m17-tile-image{opacity:.6}
+#m1-resuelve .rs12-m17-card{grid-template-columns:minmax(0,1fr);gap:12px}
+#m1-resuelve .rs12-m17-card>label,#m1-resuelve .rs12-m17-card>[data-association-feedback],#m1-resuelve .rs12-m17-card>.rs12-m17-status{grid-column:1/-1}
+#m1-resuelve .rs12-m17-scene{grid-column:1/-1;border:1px solid #abc9d6;border-radius:16px;background:linear-gradient(145deg,#f7fcfd,#edf5f9);padding:14px;margin:0;overflow:hidden}
+#m1-resuelve .rs12-m17-eyebrow{font-size:.76rem;letter-spacing:.1em;font-weight:750;color:#376e87;margin:0 0 5px}
+#m1-resuelve .rs12-m17-title{font-size:1.16rem;line-height:1.25;margin:0 0 10px;color:#123d56}
+#m1-resuelve .rs12-m17-image{max-width:620px;margin:auto}
+#m1-resuelve .rs12-m17-process{display:block;width:100%;height:auto;max-height:240px}
+#m1-resuelve .rs12-m17-process text{font:14px system-ui,sans-serif;fill:#315a70}
+#m1-resuelve .rs12-m17-flow{fill:none;stroke:#257f9e;stroke-width:3;stroke-dasharray:6 5}
+#m1-resuelve .rs12-m17-scene [data-layer]{transition:opacity .18s ease}
+#m1-resuelve .rs12-m17-scene[data-stage="0"] [data-layer="1"],#m1-resuelve .rs12-m17-scene[data-stage="0"] [data-layer="2"]{opacity:.16}
+#m1-resuelve .rs12-m17-scene[data-stage="1"] [data-layer="2"]{opacity:.24}
+#m1-resuelve .rs12-m17-scene[data-stage="2"] [data-layer="0"]{opacity:.38}
+#m1-resuelve .rs12-m17-stage-buttons{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:8px 0 12px}
+#m1-resuelve .rs12-m17-hint{font-size:.98rem;line-height:1.5;margin:12px 0;min-height:3em;color:#143e56}
+#m1-resuelve .rs12-m17-caption{font-size:.82rem;line-height:1.45;color:#365b70;margin:9px 0}
+#m1-resuelve .rs12-m17-status{display:flex;align-items:center;gap:7px;border:1px solid #8aa8b7;border-left-width:5px;border-radius:7px;padding:9px 12px;margin:12px 0 6px;font-size:.94rem;font-weight:700;background:#edf3f7;color:#264e66}
+#m1-resuelve .rs12-m17-status[data-state="correct"]{background:#e7f3ec;color:#13522e;border-color:#347957}
+#m1-resuelve .rs12-m17-status[data-state="review"]{background:#fff0ee;color:#812f2a;border-color:#b54b43}
+#m1-resuelve .rs12-m17-status[data-state="pending"]{background:#fff6df;color:#6c5018;border-color:#baa16a}
+#m1-resuelve .rs12-m17-feedback[data-rs12-state="correct"]{color:#13522e;background:#e7f3ec;border-left:4px solid #347957;padding:10px 12px;border-radius:5px}
+#m1-resuelve .rs12-m17-feedback[data-rs12-state="review"]{color:#812f2a;background:#fff0ee;border-left:4px solid #b54b43;padding:10px 12px;border-radius:5px}
+#m1-resuelve .rs12-m17-feedback:empty{display:none}
+#m1-resuelve [data-association][data-rs12-state="review"]{border:3px solid #b54b43;color:#812f2a;background:#fff6f4}
+#m1-resuelve [data-association][data-rs12-state="correct"]{border:3px solid #347957;color:#13522e;background:#f0f8f3}
+#m1-resuelve #m4-route-order [data-correct="false"]{outline:3px solid #b54b43;outline-offset:1px}
+#m1-resuelve #m4-route-order [data-correct="true"]{outline:3px solid #347957;outline-offset:1px}
+#m1-resuelve #m4-route-order:not(:has(.m4-route-empty)) .m4-route-item:has([data-correct="false"]){border:3px solid #b54b43}
+#m1-resuelve #m4-route-order:not(:has(.m4-route-empty)) .m4-route-item:has([data-correct="true"]){border:3px solid #347957}
+@media(max-width:640px){#m1-resuelve .rs12-m17-reference-content{grid-template-columns:minmax(0,1fr);gap:12px;padding:0 12px 12px}#m1-resuelve .rs12-m17-reference-side{min-width:0}#m1-resuelve .rs12-m17-anatomy-wrap{min-height:230px}#m1-resuelve .rs12-m17-anatomy{height:260px}#m1-resuelve .rs12-m17-scene{padding:12px}#m1-resuelve .rs12-m17-stage-buttons{gap:5px}#m1-resuelve .rs12-m17-button{font-size:.9rem;padding:9px 7px}#m1-resuelve .rs12-m17-route-tile{gap:7px}#m1-resuelve .rs12-m17-route-tile .rs12-m17-tile-image{flex-basis:44px;width:44px;height:48px}}
+@media(prefers-reduced-motion:reduce){#m1-resuelve .rs12-m17-scene [data-layer]{transition:none}}

@@ -1,0 +1,13 @@
+/* Only the optional maintenance alternative and its small toolbar. */
+.rs14-maint-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:10px 16px;border-bottom:1px solid #cbdfe8;background:#f6fbfc;color:#254e65}
+.rs14-maint-toolbar[hidden],.rs14-maint-variant[hidden]{display:none!important}
+.rs14-maint-toolbar .rs14-maint-label{font-size:14px;font-weight:650;line-height:1.4;margin-right:5px}
+.rs14-maint-toolbar [data-maint-mode]{font:inherit;font-size:14px;font-weight:700;line-height:1.35;min-height:44px;padding:9px 12px;background:white;color:#15516d;border:1px solid #83adbf;border-radius:8px;cursor:pointer}
+.rs14-maint-toolbar [data-maint-mode]:hover,.rs14-maint-toolbar [data-maint-mode]:active{color:#12425b;background:#dfedf3;border-color:#4a829b}
+.rs14-maint-toolbar [data-maint-mode][aria-pressed="true"]{background:#006585;color:white;border-color:#006585}
+.rs14-maint-toolbar [data-maint-mode]:focus-visible{outline:3px solid #ad6f09;outline-offset:3px}
+.rs14-maint-variant{margin-top:12px;min-width:0}
+.rs14-maint-variant .rs12-case-picker,.rs14-maint-variant .rs12-case-browser{display:none!important}
+.rs14-maint-variant .rs12-m15{border-top-left-radius:12px;border-top-right-radius:12px}
+@media(max-width:560px){.rs14-maint-toolbar{padding:10px 13px;gap:7px}.rs14-maint-toolbar .rs14-maint-label{width:100%;margin:0;font-size:14px}.rs14-maint-toolbar [data-maint-mode]{flex:1;min-width:0;font-size:14px;min-height:44px}}
+@media(prefers-reduced-motion:reduce){.rs14-maint-toolbar *,.rs14-maint-variant *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}

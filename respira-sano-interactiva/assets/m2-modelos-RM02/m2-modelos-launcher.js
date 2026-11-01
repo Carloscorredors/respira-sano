@@ -1,0 +1,6 @@
+/* RM02: exploración opcional de contenido; no lee ni escribe respuestas o progreso. */
+(()=>{'use strict';const section=document.querySelector('#rm02-explore');if(!section)return;const shell=section.querySelector('#rm02-shell'),toggle=section.querySelector('[data-rm02-toggle]'),entry=document.querySelector('[data-rm02-open]');let frame=null;
+function setOpen(open){shell.hidden=!open;toggle.textContent=open?'Cerrar explorador':'Abrir explorador';for(const b of [toggle,entry])if(b)b.setAttribute('aria-expanded',String(open));if(open&&!frame){frame=document.createElement('iframe');frame.title='Explorador de efectos: mucosa, órganos, tiempos, dosis, mezclas y N95';frame.src='assets/m2-modelos-RM02/index.html';frame.className='rm02-frame';frame.height='1180';shell.append(frame);}if(!open&&frame){frame.remove();frame=null;}}
+toggle.addEventListener('click',()=>setOpen(shell.hidden));entry?.addEventListener('click',()=>{setOpen(true);section.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});});
+window.addEventListener('message',event=>{if(!frame||event.source!==frame.contentWindow||event.origin!==location.origin||event.data?.type!=='respira-m2-models-height')return;const h=Number(event.data.height);if(Number.isFinite(h))frame.height=String(Math.min(6500,Math.max(650,Math.ceil(h)+4)));});
+})();

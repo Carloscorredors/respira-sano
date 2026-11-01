@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "pages": 1,
+  "page_size_points": [
+    594.95996,
+    841.91998
+  ],
+  "has_five_route_stages": true,
+  "has_anomaly_and_manual_cautions": true,
+  "render": "work/qa-correcciones/infografia-pdf.png",
+  "visual_review": "Revisado el PNG renderizado del PDF: una página, cinco etapas legibles, sin cortes ni solapamientos."
+}

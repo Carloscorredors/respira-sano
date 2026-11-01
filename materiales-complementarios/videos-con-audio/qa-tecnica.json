@@ -1,0 +1,149 @@
+{
+  "status": "ok",
+  "videos": [
+    {
+      "id": "viaje-fantastico",
+      "duration_seconds": 38.86,
+      "video_codec": "h264",
+      "video_size": [
+        1280,
+        720
+      ],
+      "fps": 25,
+      "audio_codec": "aac",
+      "audio_sample_rate": 48000,
+      "native_voice_sample_rate": 16000,
+      "subtitle_codec": "mov_text",
+      "cue_count": 8,
+      "scene_count": 4,
+      "audio_video_delta_seconds": 0.02,
+      "integrated_lufs": -18.01,
+      "true_peak_dbtp": -1.95,
+      "full_decode": "ok",
+      "sha256": "4fb91b2535673b9a0e9e1fffd4489985023882e4e9e4eaacaa352ca0247192ae",
+      "timing": "phrase audio durations + 350ms lead + 150ms between phrases, scene padding after voice",
+      "no_acceleration": true
+    },
+    {
+      "id": "gases-vapores",
+      "duration_seconds": 38.86,
+      "video_codec": "h264",
+      "video_size": [
+        1280,
+        720
+      ],
+      "fps": 25,
+      "audio_codec": "aac",
+      "audio_sample_rate": 48000,
+      "native_voice_sample_rate": 16000,
+      "subtitle_codec": "mov_text",
+      "cue_count": 8,
+      "scene_count": 4,
+      "audio_video_delta_seconds": 0.02,
+      "integrated_lufs": -18.11,
+      "true_peak_dbtp": -1.94,
+      "full_decode": "ok",
+      "sha256": "14304398c0904ba56b5107a5a7390c0c5ca685a988ab68f436e9c51513d4ee28",
+      "timing": "phrase audio durations + 350ms lead + 150ms between phrases, scene padding after voice",
+      "no_acceleration": true
+    },
+    {
+      "id": "csi-del-aire",
+      "duration_seconds": 38.9,
+      "video_codec": "h264",
+      "video_size": [
+        1280,
+        720
+      ],
+      "fps": 25,
+      "audio_codec": "aac",
+      "audio_sample_rate": 48000,
+      "native_voice_sample_rate": 16000,
+      "subtitle_codec": "mov_text",
+      "cue_count": 8,
+      "scene_count": 4,
+      "audio_video_delta_seconds": 0.02,
+      "integrated_lufs": -18.16,
+      "true_peak_dbtp": -1.96,
+      "full_decode": "ok",
+      "sha256": "53c2c36558f7e8efb38baa54f576b6bd71dcb1834dca1c4f7a06d5ca3abb59d1",
+      "timing": "phrase audio durations + 350ms lead + 150ms between phrases, scene padding after voice",
+      "no_acceleration": true
+    },
+    {
+      "id": "mision-posible",
+      "duration_seconds": 39.56,
+      "video_codec": "h264",
+      "video_size": [
+        1280,
+        720
+      ],
+      "fps": 25,
+      "audio_codec": "aac",
+      "audio_sample_rate": 48000,
+      "native_voice_sample_rate": 16000,
+      "subtitle_codec": "mov_text",
+      "cue_count": 7,
+      "scene_count": 4,
+      "audio_video_delta_seconds": 0.0,
+      "integrated_lufs": -18.15,
+      "true_peak_dbtp": -1.98,
+      "full_decode": "ok",
+      "sha256": "72c1166f91fbe1e1760cc79a8d1273281c36e17d37c1aa894fec653af6c679f8",
+      "timing": "phrase audio durations + 350ms lead + 150ms between phrases, scene padding after voice",
+      "no_acceleration": true
+    },
+    {
+      "id": "cazadores-de-mitos",
+      "duration_seconds": 39.46,
+      "video_codec": "h264",
+      "video_size": [
+        1280,
+        720
+      ],
+      "fps": 25,
+      "audio_codec": "aac",
+      "audio_sample_rate": 48000,
+      "native_voice_sample_rate": 16000,
+      "subtitle_codec": "mov_text",
+      "cue_count": 8,
+      "scene_count": 4,
+      "audio_video_delta_seconds": 0.02,
+      "integrated_lufs": -18.34,
+      "true_peak_dbtp": -1.99,
+      "full_decode": "ok",
+      "sha256": "f7ca3534fa0b413fc95226587c18d029de729425af1e5e9dc9c4f71f95a1d833",
+      "timing": "phrase audio durations + 350ms lead + 150ms between phrases, scene padding after voice",
+      "no_acceleration": true
+    },
+    {
+      "id": "pit-stop-respiratorio",
+      "duration_seconds": 41.6,
+      "video_codec": "h264",
+      "video_size": [
+        1280,
+        720
+      ],
+      "fps": 25,
+      "audio_codec": "aac",
+      "audio_sample_rate": 48000,
+      "native_voice_sample_rate": 16000,
+      "subtitle_codec": "mov_text",
+      "cue_count": 10,
+      "scene_count": 4,
+      "audio_video_delta_seconds": 0.0,
+      "integrated_lufs": -18.23,
+      "true_peak_dbtp": -1.97,
+      "full_decode": "ok",
+      "sha256": "c5478f701d7647154e95d8ef81b16a30b9f181374a39aa63451dc28953a03cfd",
+      "timing": "phrase audio durations + 350ms lead + 150ms between phrases, scene padding after voice",
+      "no_acceleration": true
+    }
+  ],
+  "limitations": [
+    "Sin escucha humana ni evaluación perceptual automatizada: revisar naturalidad y pronunciación en el índice.",
+    "Subtítulos alineados por fragmentos efectivamente sintetizados, sin alineación fonética palabra por palabra.",
+    "Seis introducciones; no equivalen a cobertura audiovisual completa del temario ni sustituyen práctica o prueba de ajuste.",
+    "No se integraron en los HTML/ZIP existentes; candidatos independientes."
+  ]
+}

@@ -1,0 +1,444 @@
+{
+  "status": "ok",
+  "samples": [
+    {
+      "id": "viaje-fantastico",
+      "scene": 1,
+      "position": "inicio",
+      "second": 0.2,
+      "mean_absolute_pixel_difference": 1.4288,
+      "same_scene": true,
+      "image": "videos-con-audio\\viaje-fantastico\\fuentes\\qa-decodificada-1-inicio.png"
+    },
+    {
+      "id": "viaje-fantastico",
+      "scene": 1,
+      "position": "fin",
+      "second": 9.3,
+      "mean_absolute_pixel_difference": 1.4282,
+      "same_scene": true,
+      "image": "videos-con-audio\\viaje-fantastico\\fuentes\\qa-decodificada-1-fin.png"
+    },
+    {
+      "id": "viaje-fantastico",
+      "scene": 2,
+      "position": "inicio",
+      "second": 9.7,
+      "mean_absolute_pixel_difference": 1.3925,
+      "same_scene": true,
+      "image": "videos-con-audio\\viaje-fantastico\\fuentes\\qa-decodificada-2-inicio.png"
+    },
+    {
+      "id": "viaje-fantastico",
+      "scene": 2,
+      "position": "fin",
+      "second": 18.8,
+      "mean_absolute_pixel_difference": 1.3225,
+      "same_scene": true,
+      "image": "videos-con-audio\\viaje-fantastico\\fuentes\\qa-decodificada-2-fin.png"
+    },
+    {
+      "id": "viaje-fantastico",
+      "scene": 3,
+      "position": "inicio",
+      "second": 19.2,
+      "mean_absolute_pixel_difference": 1.5275,
+      "same_scene": true,
+      "image": "videos-con-audio\\viaje-fantastico\\fuentes\\qa-decodificada-3-inicio.png"
+    },
+    {
+      "id": "viaje-fantastico",
+      "scene": 3,
+      "position": "fin",
+      "second": 29.16,
+      "mean_absolute_pixel_difference": 1.447,
+      "same_scene": true,
+      "image": "videos-con-audio\\viaje-fantastico\\fuentes\\qa-decodificada-3-fin.png"
+    },
+    {
+      "id": "viaje-fantastico",
+      "scene": 4,
+      "position": "inicio",
+      "second": 29.56,
+      "mean_absolute_pixel_difference": 1.5202,
+      "same_scene": true,
+      "image": "videos-con-audio\\viaje-fantastico\\fuentes\\qa-decodificada-4-inicio.png"
+    },
+    {
+      "id": "viaje-fantastico",
+      "scene": 4,
+      "position": "fin",
+      "second": 38.66,
+      "mean_absolute_pixel_difference": 1.4499,
+      "same_scene": true,
+      "image": "videos-con-audio\\viaje-fantastico\\fuentes\\qa-decodificada-4-fin.png"
+    },
+    {
+      "id": "gases-vapores",
+      "scene": 1,
+      "position": "inicio",
+      "second": 0.2,
+      "mean_absolute_pixel_difference": 1.7976,
+      "same_scene": true,
+      "image": "videos-con-audio\\gases-vapores\\fuentes\\qa-decodificada-1-inicio.png"
+    },
+    {
+      "id": "gases-vapores",
+      "scene": 1,
+      "position": "fin",
+      "second": 9.3,
+      "mean_absolute_pixel_difference": 1.7969,
+      "same_scene": true,
+      "image": "videos-con-audio\\gases-vapores\\fuentes\\qa-decodificada-1-fin.png"
+    },
+    {
+      "id": "gases-vapores",
+      "scene": 2,
+      "position": "inicio",
+      "second": 9.7,
+      "mean_absolute_pixel_difference": 1.5161,
+      "same_scene": true,
+      "image": "videos-con-audio\\gases-vapores\\fuentes\\qa-decodificada-2-inicio.png"
+    },
+    {
+      "id": "gases-vapores",
+      "scene": 2,
+      "position": "fin",
+      "second": 19.66,
+      "mean_absolute_pixel_difference": 1.5158,
+      "same_scene": true,
+      "image": "videos-con-audio\\gases-vapores\\fuentes\\qa-decodificada-2-fin.png"
+    },
+    {
+      "id": "gases-vapores",
+      "scene": 3,
+      "position": "inicio",
+      "second": 20.06,
+      "mean_absolute_pixel_difference": 1.5873,
+      "same_scene": true,
+      "image": "videos-con-audio\\gases-vapores\\fuentes\\qa-decodificada-3-inicio.png"
+    },
+    {
+      "id": "gases-vapores",
+      "scene": 3,
+      "position": "fin",
+      "second": 29.16,
+      "mean_absolute_pixel_difference": 1.5862,
+      "same_scene": true,
+      "image": "videos-con-audio\\gases-vapores\\fuentes\\qa-decodificada-3-fin.png"
+    },
+    {
+      "id": "gases-vapores",
+      "scene": 4,
+      "position": "inicio",
+      "second": 29.56,
+      "mean_absolute_pixel_difference": 1.4104,
+      "same_scene": true,
+      "image": "videos-con-audio\\gases-vapores\\fuentes\\qa-decodificada-4-inicio.png"
+    },
+    {
+      "id": "gases-vapores",
+      "scene": 4,
+      "position": "fin",
+      "second": 38.66,
+      "mean_absolute_pixel_difference": 1.41,
+      "same_scene": true,
+      "image": "videos-con-audio\\gases-vapores\\fuentes\\qa-decodificada-4-fin.png"
+    },
+    {
+      "id": "csi-del-aire",
+      "scene": 1,
+      "position": "inicio",
+      "second": 0.2,
+      "mean_absolute_pixel_difference": 1.4112,
+      "same_scene": true,
+      "image": "videos-con-audio\\csi-del-aire\\fuentes\\qa-decodificada-1-inicio.png"
+    },
+    {
+      "id": "csi-del-aire",
+      "scene": 1,
+      "position": "fin",
+      "second": 9.3,
+      "mean_absolute_pixel_difference": 1.4105,
+      "same_scene": true,
+      "image": "videos-con-audio\\csi-del-aire\\fuentes\\qa-decodificada-1-fin.png"
+    },
+    {
+      "id": "csi-del-aire",
+      "scene": 2,
+      "position": "inicio",
+      "second": 9.7,
+      "mean_absolute_pixel_difference": 1.4388,
+      "same_scene": true,
+      "image": "videos-con-audio\\csi-del-aire\\fuentes\\qa-decodificada-2-inicio.png"
+    },
+    {
+      "id": "csi-del-aire",
+      "scene": 2,
+      "position": "fin",
+      "second": 18.8,
+      "mean_absolute_pixel_difference": 1.4387,
+      "same_scene": true,
+      "image": "videos-con-audio\\csi-del-aire\\fuentes\\qa-decodificada-2-fin.png"
+    },
+    {
+      "id": "csi-del-aire",
+      "scene": 3,
+      "position": "inicio",
+      "second": 19.2,
+      "mean_absolute_pixel_difference": 1.47,
+      "same_scene": true,
+      "image": "videos-con-audio\\csi-del-aire\\fuentes\\qa-decodificada-3-inicio.png"
+    },
+    {
+      "id": "csi-del-aire",
+      "scene": 3,
+      "position": "fin",
+      "second": 29.2,
+      "mean_absolute_pixel_difference": 1.4175,
+      "same_scene": true,
+      "image": "videos-con-audio\\csi-del-aire\\fuentes\\qa-decodificada-3-fin.png"
+    },
+    {
+      "id": "csi-del-aire",
+      "scene": 4,
+      "position": "inicio",
+      "second": 29.6,
+      "mean_absolute_pixel_difference": 1.4529,
+      "same_scene": true,
+      "image": "videos-con-audio\\csi-del-aire\\fuentes\\qa-decodificada-4-inicio.png"
+    },
+    {
+      "id": "csi-del-aire",
+      "scene": 4,
+      "position": "fin",
+      "second": 38.7,
+      "mean_absolute_pixel_difference": 1.4528,
+      "same_scene": true,
+      "image": "videos-con-audio\\csi-del-aire\\fuentes\\qa-decodificada-4-fin.png"
+    },
+    {
+      "id": "mision-posible",
+      "scene": 1,
+      "position": "inicio",
+      "second": 0.2,
+      "mean_absolute_pixel_difference": 1.6185,
+      "same_scene": true,
+      "image": "videos-con-audio\\mision-posible\\fuentes\\qa-decodificada-1-inicio.png"
+    },
+    {
+      "id": "mision-posible",
+      "scene": 1,
+      "position": "fin",
+      "second": 9.3,
+      "mean_absolute_pixel_difference": 1.6125,
+      "same_scene": true,
+      "image": "videos-con-audio\\mision-posible\\fuentes\\qa-decodificada-1-fin.png"
+    },
+    {
+      "id": "mision-posible",
+      "scene": 2,
+      "position": "inicio",
+      "second": 9.7,
+      "mean_absolute_pixel_difference": 1.583,
+      "same_scene": true,
+      "image": "videos-con-audio\\mision-posible\\fuentes\\qa-decodificada-2-inicio.png"
+    },
+    {
+      "id": "mision-posible",
+      "scene": 2,
+      "position": "fin",
+      "second": 18.82,
+      "mean_absolute_pixel_difference": 1.4488,
+      "same_scene": true,
+      "image": "videos-con-audio\\mision-posible\\fuentes\\qa-decodificada-2-fin.png"
+    },
+    {
+      "id": "mision-posible",
+      "scene": 3,
+      "position": "inicio",
+      "second": 19.22,
+      "mean_absolute_pixel_difference": 1.5843,
+      "same_scene": true,
+      "image": "videos-con-audio\\mision-posible\\fuentes\\qa-decodificada-3-inicio.png"
+    },
+    {
+      "id": "mision-posible",
+      "scene": 3,
+      "position": "fin",
+      "second": 29.86,
+      "mean_absolute_pixel_difference": 1.5242,
+      "same_scene": true,
+      "image": "videos-con-audio\\mision-posible\\fuentes\\qa-decodificada-3-fin.png"
+    },
+    {
+      "id": "mision-posible",
+      "scene": 4,
+      "position": "inicio",
+      "second": 30.26,
+      "mean_absolute_pixel_difference": 1.7013,
+      "same_scene": true,
+      "image": "videos-con-audio\\mision-posible\\fuentes\\qa-decodificada-4-inicio.png"
+    },
+    {
+      "id": "mision-posible",
+      "scene": 4,
+      "position": "fin",
+      "second": 39.36,
+      "mean_absolute_pixel_difference": 1.6965,
+      "same_scene": true,
+      "image": "videos-con-audio\\mision-posible\\fuentes\\qa-decodificada-4-fin.png"
+    },
+    {
+      "id": "cazadores-de-mitos",
+      "scene": 1,
+      "position": "inicio",
+      "second": 0.2,
+      "mean_absolute_pixel_difference": 1.5181,
+      "same_scene": true,
+      "image": "videos-con-audio\\cazadores-de-mitos\\fuentes\\qa-decodificada-1-inicio.png"
+    },
+    {
+      "id": "cazadores-de-mitos",
+      "scene": 1,
+      "position": "fin",
+      "second": 9.32,
+      "mean_absolute_pixel_difference": 1.5181,
+      "same_scene": true,
+      "image": "videos-con-audio\\cazadores-de-mitos\\fuentes\\qa-decodificada-1-fin.png"
+    },
+    {
+      "id": "cazadores-de-mitos",
+      "scene": 2,
+      "position": "inicio",
+      "second": 9.72,
+      "mean_absolute_pixel_difference": 1.4757,
+      "same_scene": true,
+      "image": "videos-con-audio\\cazadores-de-mitos\\fuentes\\qa-decodificada-2-inicio.png"
+    },
+    {
+      "id": "cazadores-de-mitos",
+      "scene": 2,
+      "position": "fin",
+      "second": 19.0,
+      "mean_absolute_pixel_difference": 1.4745,
+      "same_scene": true,
+      "image": "videos-con-audio\\cazadores-de-mitos\\fuentes\\qa-decodificada-2-fin.png"
+    },
+    {
+      "id": "cazadores-de-mitos",
+      "scene": 3,
+      "position": "inicio",
+      "second": 19.4,
+      "mean_absolute_pixel_difference": 1.5112,
+      "same_scene": true,
+      "image": "videos-con-audio\\cazadores-de-mitos\\fuentes\\qa-decodificada-3-inicio.png"
+    },
+    {
+      "id": "cazadores-de-mitos",
+      "scene": 3,
+      "position": "fin",
+      "second": 28.5,
+      "mean_absolute_pixel_difference": 1.5109,
+      "same_scene": true,
+      "image": "videos-con-audio\\cazadores-de-mitos\\fuentes\\qa-decodificada-3-fin.png"
+    },
+    {
+      "id": "cazadores-de-mitos",
+      "scene": 4,
+      "position": "inicio",
+      "second": 28.9,
+      "mean_absolute_pixel_difference": 1.5071,
+      "same_scene": true,
+      "image": "videos-con-audio\\cazadores-de-mitos\\fuentes\\qa-decodificada-4-inicio.png"
+    },
+    {
+      "id": "cazadores-de-mitos",
+      "scene": 4,
+      "position": "fin",
+      "second": 39.26,
+      "mean_absolute_pixel_difference": 1.5071,
+      "same_scene": true,
+      "image": "videos-con-audio\\cazadores-de-mitos\\fuentes\\qa-decodificada-4-fin.png"
+    },
+    {
+      "id": "pit-stop-respiratorio",
+      "scene": 1,
+      "position": "inicio",
+      "second": 0.2,
+      "mean_absolute_pixel_difference": 1.5411,
+      "same_scene": true,
+      "image": "videos-con-audio\\pit-stop-respiratorio\\fuentes\\qa-decodificada-1-inicio.png"
+    },
+    {
+      "id": "pit-stop-respiratorio",
+      "scene": 1,
+      "position": "fin",
+      "second": 9.32,
+      "mean_absolute_pixel_difference": 1.5383,
+      "same_scene": true,
+      "image": "videos-con-audio\\pit-stop-respiratorio\\fuentes\\qa-decodificada-1-fin.png"
+    },
+    {
+      "id": "pit-stop-respiratorio",
+      "scene": 2,
+      "position": "inicio",
+      "second": 9.72,
+      "mean_absolute_pixel_difference": 1.5722,
+      "same_scene": true,
+      "image": "videos-con-audio\\pit-stop-respiratorio\\fuentes\\qa-decodificada-2-inicio.png"
+    },
+    {
+      "id": "pit-stop-respiratorio",
+      "scene": 2,
+      "position": "fin",
+      "second": 19.24,
+      "mean_absolute_pixel_difference": 1.572,
+      "same_scene": true,
+      "image": "videos-con-audio\\pit-stop-respiratorio\\fuentes\\qa-decodificada-2-fin.png"
+    },
+    {
+      "id": "pit-stop-respiratorio",
+      "scene": 3,
+      "position": "inicio",
+      "second": 19.64,
+      "mean_absolute_pixel_difference": 1.561,
+      "same_scene": true,
+      "image": "videos-con-audio\\pit-stop-respiratorio\\fuentes\\qa-decodificada-3-inicio.png"
+    },
+    {
+      "id": "pit-stop-respiratorio",
+      "scene": 3,
+      "position": "fin",
+      "second": 29.36,
+      "mean_absolute_pixel_difference": 1.5599,
+      "same_scene": true,
+      "image": "videos-con-audio\\pit-stop-respiratorio\\fuentes\\qa-decodificada-3-fin.png"
+    },
+    {
+      "id": "pit-stop-respiratorio",
+      "scene": 4,
+      "position": "inicio",
+      "second": 29.76,
+      "mean_absolute_pixel_difference": 1.6603,
+      "same_scene": true,
+      "image": "videos-con-audio\\pit-stop-respiratorio\\fuentes\\qa-decodificada-4-inicio.png"
+    },
+    {
+      "id": "pit-stop-respiratorio",
+      "scene": 4,
+      "position": "fin",
+      "second": 41.4,
+      "mean_absolute_pixel_difference": 1.584,
+      "same_scene": true,
+      "image": "videos-con-audio\\pit-stop-respiratorio\\fuentes\\qa-decodificada-4-fin.png"
+    }
+  ],
+  "originals_match_prior_qa": {
+    "intro-gases-vapores.mp4": true,
+    "intro-investiga.mp4": true,
+    "intro-proteccion.mp4": true
+  },
+  "visual_review": "24 escenas revisadas mediante seis hojas de contacto. Texto principal y diagramas sin cortes; ilustraciones de interfaz secundarias requieren explorar el módulo para leer detalle.",
+  "listening_review": "pendiente de escucha humana; no afirmada por este control"
+}

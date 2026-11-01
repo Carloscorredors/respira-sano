@@ -1,0 +1,567 @@
+{
+  "version": "PM01",
+  "passed": true,
+  "source": "work/revision11-unoparuno/system09.geometry.js",
+  "exact_geometry_attributes": true,
+  "exact_indices": true,
+  "exact_colors": true,
+  "exact_material_parameters": true,
+  "exact_instance_matrices": true,
+  "no_decimation": true,
+  "stats": {
+    "meshes": 10,
+    "triangles": 128008,
+    "vertices": 81468,
+    "uniqueGeometries": 10,
+    "uniqueMaterials": 7,
+    "instances": 384
+  },
+  "compared_meshes": 10,
+  "surface_meshes": 2,
+  "interior_toggle_verified": true,
+  "records": [
+    {
+      "name": "",
+      "part": "pulmones",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attrs": {
+        "position": {
+          "count": 5865,
+          "itemSize": 3,
+          "sha256": "3a2d9ce42521cd20955c8b8a5efc6395571cc1e4a5761ebd5c960ff0ca5d35c9"
+        },
+        "color": {
+          "count": 5865,
+          "itemSize": 3,
+          "sha256": "4e164e53cbcbb67f031e2cd0a17698e7258fbedbde1331bf62e16e94e8d6e01c"
+        },
+        "uv": {
+          "count": 5865,
+          "itemSize": 2,
+          "sha256": "b207f9ffefb547fa60559abe74c3683ca17a99c9ad46d3e5f49cb9bbf7be37bb"
+        },
+        "normal": {
+          "count": 5865,
+          "itemSize": 3,
+          "sha256": "b2e231f5a53894b2e5ab339e237081ec2a181b1f15ab1443705f0917e4bef59a"
+        }
+      },
+      "index": "9fc7ced49fdda9b05b79f155a67a4696e4326930af4fa4f62fa7351bcf0dbc5d",
+      "materials": [
+        {
+          "type": "MeshPhysicalMaterial",
+          "color": 16777215,
+          "roughness": 0.43,
+          "clearcoat": 0.16,
+          "clearcoatRoughness": 0.52,
+          "vertexColors": true,
+          "opacity": 0.28,
+          "transparent": true,
+          "depthWrite": false,
+          "side": 2
+        }
+      ],
+      "instances": null
+    },
+    {
+      "name": "",
+      "part": "pulmones",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attrs": {
+        "position": {
+          "count": 371,
+          "itemSize": 3,
+          "sha256": "af5523ccfff97471221a0cf6c4352f7071f35c3611a5f96fcabe35d9a8eb5586"
+        },
+        "normal": {
+          "count": 371,
+          "itemSize": 3,
+          "sha256": "599df4007263d573ff8fdc4e0dbe9a7e0331ceb8b1856fe693072e5c32134a0d"
+        },
+        "uv": {
+          "count": 371,
+          "itemSize": 2,
+          "sha256": "d0318ce4f3610232686311533f376dea27d90a184754400e00e9117cb3331e31"
+        }
+      },
+      "index": "d222aff4d9f8842e55bad179ef462fb3b6843a99377534b05b84d43f47a55a98",
+      "materials": [
+        {
+          "type": "MeshPhysicalMaterial",
+          "color": 10245740,
+          "roughness": 0.48,
+          "clearcoat": 0.16,
+          "clearcoatRoughness": 0.52,
+          "vertexColors": false,
+          "opacity": 0.7,
+          "transparent": true,
+          "depthWrite": true,
+          "side": 0
+        }
+      ],
+      "instances": null
+    },
+    {
+      "name": "",
+      "part": "pulmones",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attrs": {
+        "position": {
+          "count": 259,
+          "itemSize": 3,
+          "sha256": "c8d9cb13b74bbb43cd4f8746f5d401a39513fc645b5a87106b9ab6906b6f5627"
+        },
+        "normal": {
+          "count": 259,
+          "itemSize": 3,
+          "sha256": "3a20cd197f9b172343e03afd78f58a1a6568960aa7d87e39c695747ffcd22bf1"
+        },
+        "uv": {
+          "count": 259,
+          "itemSize": 2,
+          "sha256": "eb105a66e301136d8fa836ee8751e313fb4db7c1044ad2f9a12df05a5bfb637d"
+        }
+      },
+      "index": "76309c7ccbcb965066a4b44295350b0fe19bd098ddb81df4303ce64c4987a0bc",
+      "materials": [
+        {
+          "type": "MeshPhysicalMaterial",
+          "color": 10245740,
+          "roughness": 0.48,
+          "clearcoat": 0.16,
+          "clearcoatRoughness": 0.52,
+          "vertexColors": false,
+          "opacity": 0.7,
+          "transparent": true,
+          "depthWrite": true,
+          "side": 0
+        }
+      ],
+      "instances": null
+    },
+    {
+      "name": "",
+      "part": "pulmones",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attrs": {
+        "position": {
+          "count": 5865,
+          "itemSize": 3,
+          "sha256": "bc58b8317f6ac86d838b9e451fdbcd2aacef345504a67dc33bdb1411e0500995"
+        },
+        "color": {
+          "count": 5865,
+          "itemSize": 3,
+          "sha256": "4e164e53cbcbb67f031e2cd0a17698e7258fbedbde1331bf62e16e94e8d6e01c"
+        },
+        "uv": {
+          "count": 5865,
+          "itemSize": 2,
+          "sha256": "b207f9ffefb547fa60559abe74c3683ca17a99c9ad46d3e5f49cb9bbf7be37bb"
+        },
+        "normal": {
+          "count": 5865,
+          "itemSize": 3,
+          "sha256": "863a6dd17b2fd8966a730b637732f2f61fe3132df22c2df0c83a2f343d3ff342"
+        }
+      },
+      "index": "9fc7ced49fdda9b05b79f155a67a4696e4326930af4fa4f62fa7351bcf0dbc5d",
+      "materials": [
+        {
+          "type": "MeshPhysicalMaterial",
+          "color": 16777215,
+          "roughness": 0.43,
+          "clearcoat": 0.16,
+          "clearcoatRoughness": 0.52,
+          "vertexColors": true,
+          "opacity": 0.28,
+          "transparent": true,
+          "depthWrite": false,
+          "side": 2
+        }
+      ],
+      "instances": null
+    },
+    {
+      "name": "",
+      "part": "pulmones",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attrs": {
+        "position": {
+          "count": 371,
+          "itemSize": 3,
+          "sha256": "69627ced955f7ffa6169d6c1833df2a0ecd1e14bba863f29282fd68468ee95aa"
+        },
+        "normal": {
+          "count": 371,
+          "itemSize": 3,
+          "sha256": "7466bae882c7ed7da4864f60790cd5bb56ed1bb7a9ca357fd3182215a1a2c9c7"
+        },
+        "uv": {
+          "count": 371,
+          "itemSize": 2,
+          "sha256": "d0318ce4f3610232686311533f376dea27d90a184754400e00e9117cb3331e31"
+        }
+      },
+      "index": "d222aff4d9f8842e55bad179ef462fb3b6843a99377534b05b84d43f47a55a98",
+      "materials": [
+        {
+          "type": "MeshPhysicalMaterial",
+          "color": 10245740,
+          "roughness": 0.48,
+          "clearcoat": 0.16,
+          "clearcoatRoughness": 0.52,
+          "vertexColors": false,
+          "opacity": 0.7,
+          "transparent": true,
+          "depthWrite": true,
+          "side": 0
+        }
+      ],
+      "instances": null
+    },
+    {
+      "name": "",
+      "part": "bronquios",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attrs": {
+        "position": {
+          "count": 2892,
+          "itemSize": 3,
+          "sha256": "aa38b1f0ef15a713eeaf3560e7a15c0e0770833102979fe875c8132804b0eb2a"
+        },
+        "normal": {
+          "count": 2892,
+          "itemSize": 3,
+          "sha256": "15df20bd54a5bc7c34d50823a19af9915bc124c05adb9016d42b35d2e4bada7a"
+        },
+        "uv": {
+          "count": 2892,
+          "itemSize": 2,
+          "sha256": "0b8651ffd8d0fb06c7a6fcc0c4a04bc62099bd06c3989c37424c70e313b2959d"
+        }
+      },
+      "index": "ce47a798f317c677fe8e6c81c1a3279a9f2ac4b5e0e6eaf212b0d3b306ebf7e7",
+      "materials": [
+        {
+          "type": "MeshPhysicalMaterial",
+          "color": 16115406,
+          "roughness": 0.48,
+          "clearcoat": 0.16,
+          "clearcoatRoughness": 0.52,
+          "vertexColors": false,
+          "opacity": 1,
+          "transparent": false,
+          "depthWrite": true,
+          "side": 0
+        }
+      ],
+      "instances": null
+    },
+    {
+      "name": "",
+      "part": "bronquiolos",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attrs": {
+        "position": {
+          "count": 25680,
+          "itemSize": 3,
+          "sha256": "a31768c85d0686e6fdacf3e8a784b3e5ac691b7b1aa8d4b03ddac14f6d909cfc"
+        },
+        "normal": {
+          "count": 25680,
+          "itemSize": 3,
+          "sha256": "9bce7870836d229d7e11069fabd318530d11b4f13e6162376a68af3239524f48"
+        },
+        "uv": {
+          "count": 25680,
+          "itemSize": 2,
+          "sha256": "7b4f6c35a21361c9a06500f26da311d4c9b06ad0b671a511f4a7bbc79fd17274"
+        }
+      },
+      "index": "1b3a6f4d8a097aa4308aef8fd09730709d0405432d2eb4c346c2ba826fc4d48d",
+      "materials": [
+        {
+          "type": "MeshPhysicalMaterial",
+          "color": 13942174,
+          "roughness": 0.48,
+          "clearcoat": 0.16,
+          "clearcoatRoughness": 0.52,
+          "vertexColors": false,
+          "opacity": 1,
+          "transparent": false,
+          "depthWrite": true,
+          "side": 0
+        }
+      ],
+      "instances": null
+    },
+    {
+      "name": "",
+      "part": "traquea",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attrs": {
+        "position": {
+          "count": 1045,
+          "itemSize": 3,
+          "sha256": "2fab9d738988a4fe5514be0c3b0d57433f057bd4c68a9106f180972a1957aa4b"
+        },
+        "normal": {
+          "count": 1045,
+          "itemSize": 3,
+          "sha256": "ba906f7d021669d2e6ca848b75040265daa3d182da3133245db5906b78756986"
+        },
+        "uv": {
+          "count": 1045,
+          "itemSize": 2,
+          "sha256": "da3833429dbe97cc829478e9c8e2d98a4b31d2164b68e4f736b727ac60c35b91"
+        }
+      },
+      "index": "33403e502cd7f60412f36c135f35352910e593c0b9e78c97d2837f3f2f907d63",
+      "materials": [
+        {
+          "type": "MeshPhysicalMaterial",
+          "color": 14992551,
+          "roughness": 0.54,
+          "clearcoat": 0.16,
+          "clearcoatRoughness": 0.52,
+          "vertexColors": false,
+          "opacity": 1,
+          "transparent": false,
+          "depthWrite": true,
+          "side": 0
+        }
+      ],
+      "instances": null
+    },
+    {
+      "name": "",
+      "part": "traquea",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attrs": {
+        "position": {
+          "count": 5328,
+          "itemSize": 3,
+          "sha256": "6b7243757404112a3f595e6be3a6f9c8013037be6de8bfe0c91b8c4e3c79927f"
+        },
+        "normal": {
+          "count": 5328,
+          "itemSize": 3,
+          "sha256": "32846ece30e74270d77e98d7ac16f7e5e1f0e2069bb8fc81a291876ae63ca3de"
+        },
+        "uv": {
+          "count": 5328,
+          "itemSize": 2,
+          "sha256": "c9db361a956e8ce8de286a766a7b3b18ca6e6a444f09051a470ef5f03bd9f514"
+        }
+      },
+      "index": "a092e34f38ae504ba79811c66d432c7a275b8eb08baf10b30dfc3590177dcad5",
+      "materials": [
+        {
+          "type": "MeshPhysicalMaterial",
+          "color": 16115406,
+          "roughness": 0.48,
+          "clearcoat": 0.16,
+          "clearcoatRoughness": 0.52,
+          "vertexColors": false,
+          "opacity": 1,
+          "transparent": false,
+          "depthWrite": true,
+          "side": 0
+        }
+      ],
+      "instances": null
+    },
+    {
+      "name": "terminal-region-markers",
+      "part": "alveolos",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attrs": {
+        "position": {
+          "count": 88,
+          "itemSize": 3,
+          "sha256": "e67b2623844c85ad2d0945412d27d244d03967246fa889066dd50e036234b8f0"
+        },
+        "normal": {
+          "count": 88,
+          "itemSize": 3,
+          "sha256": "a98a9df305ec6e0e353fabc1d786a8416a290e36892bc4d9f6241f9a444db9d5"
+        },
+        "uv": {
+          "count": 88,
+          "itemSize": 2,
+          "sha256": "30db93a8886572a366418351b8d0f2cb64d19c1dfed3356994e75be56b463f3b"
+        }
+      },
+      "index": "eca0cc0561b7603d1896b6d4557af02fb20e8ec505a4e85f2c2a59f87daa1126",
+      "materials": [
+        {
+          "type": "MeshPhysicalMaterial",
+          "color": 15912862,
+          "roughness": 0.6,
+          "clearcoat": 0.16,
+          "clearcoatRoughness": 0.52,
+          "vertexColors": false,
+          "opacity": 1,
+          "transparent": false,
+          "depthWrite": true,
+          "side": 0
+        }
+      ],
+      "instances": {
+        "count": 384,
+        "matrix": "89a14023dd4f9c701b00876c16815604ce75fa3ace506c354b2278752d61d2e1"
+      }
+    }
+  ]
+}

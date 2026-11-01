@@ -1,0 +1,36 @@
+{
+  "status": "ok",
+  "date": "2026-10-18",
+  "mode": "file:// offline",
+  "agenda": [
+    5,
+    20,
+    15,
+    20,
+    15,
+    20,
+    20,
+    5
+  ],
+  "total": 120,
+  "pages": 13,
+  "checks": [
+    "single integrated proposed agenda",
+    "15 minutes explicitly proposed",
+    "Camila story before model",
+    "gases narrative before activity",
+    "reorder conceptual preparation with keyboard and focus",
+    "correct and incorrect order feedback",
+    "seal pass/fail/empty decisions",
+    "5 care decisions wrong/correct",
+    "inspection and leak controls intact",
+    "notes and reviewed decisions exported and restored",
+    "768/390/360 without overflow",
+    "infographic has 5 route stages and correct contextual link",
+    "PDF generated from print CSS; separate page/render check required",
+    "13 pages retain 7 navigation tiles at 390",
+    "works with storage disabled",
+    "no page errors or remote requests"
+  ],
+  "pageErrors": []
+}

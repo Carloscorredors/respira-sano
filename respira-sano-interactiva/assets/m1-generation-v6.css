@@ -1,0 +1,44 @@
+#formas .m5-form-layout{grid-template-columns:minmax(0,1.55fr) minmax(260px,.85fr);align-items:start}
+#formas #m4-form-diagram{display:block;min-height:0;height:auto;background:none;border:0;overflow:visible;padding:0}
+#formas .m5-form-copy>[data-m4-motion]{display:none}
+.rsg{min-width:0;color:#14384a;font-family:inherit;border:1px solid #d3e3ea;border-radius:20px;overflow:hidden;background:#fff;box-shadow:0 14px 40px #14384a12}
+.rsg-stage{height:380px;position:relative;background:radial-gradient(ellipse at 50% 35%,#214a60,#102939);overflow:hidden;isolation:isolate}
+.rsg-canvas{display:block;width:100%;height:100%;touch-action:none;outline-offset:-4px}
+.rsg-canvas[hidden],.rsg-fallback[hidden]{display:none}
+.rsg-heading{position:absolute;left:20px;top:19px;right:16px;pointer-events:none;color:#f4fbff;display:grid;gap:5px}
+.rsg-tag{font-size:11px;letter-spacing:.12em;font-weight:750;color:#a8dfe8}.rsg-name{font-size:21px;line-height:1.15}
+.rsg-hint,.rsg-convention{position:absolute;left:16px;right:16px;color:#d8e8ef;font-size:12px;pointer-events:none;text-shadow:0 1px 3px #102939}
+.rsg-hint{bottom:32px}.rsg-convention{bottom:13px;font-size:11px;color:#afc9d4}
+.rsg-controls,.rsg-steps,.rsg-picks{display:flex;gap:6px;flex-wrap:wrap;padding:12px 14px 0}
+.rsg button{min-height:36px;padding:7px 10px;font:600 13px/1.25 inherit;font-family:inherit;font-size:13px;border:1px solid #bed2de;border-radius:9px;background:#f6fafc;color:#19455b;box-shadow:none;cursor:pointer}
+.rsg button:hover{background:#e4f2f5;border-color:#087da2}.rsg button:focus-visible{outline:3px solid #f6b44d;outline-offset:2px}.rsg button:disabled{opacity:.45;cursor:default}
+.rsg [data-gen=play]{background:#006b95;border-color:#006b95;color:#fff;min-width:72px}.rsg-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));padding-top:12px}
+.rsg-steps button{font-size:12px;padding:8px 5px}.rsg-steps [aria-pressed=true]{background:#def2f4;border-color:#00818b;color:#005b66;box-shadow:inset 0 -2px #00818b}
+.rsg-caption{padding:13px 16px 0;min-height:56px;font-size:15px;line-height:1.45;font-weight:600}.rsg-picks{padding-top:9px}.rsg-picks button{background:#fff;font-size:12px}.rsg-picks [aria-pressed=true]{border-color:#007ba3;color:#00688b;background:#edf9fc}
+.rsg-explanation{margin:10px 14px 0;border-left:3px solid #17899e;padding:7px 10px;background:#eff8fa;font-size:14px;line-height:1.5}.rsg-explanation[hidden]{display:none}
+.rsg-extra{margin:12px 14px 14px;font-size:13px;line-height:1.5}.rsg-extra summary{cursor:pointer;color:#426071;font-size:12px}.rsg-extra p{font-size:13px!important;margin:10px 0!important}.rsg-extra a{color:#006787}
+.rsg-fallback{height:100%;padding:55px 14px 10px;color:#d8edf5}.rsg-fallback svg{display:block;width:100%;height:78%}.rsg-fallback p{font-size:12px!important;text-align:center;margin:3px 0!important;color:#d8edf5}
+.rsg[data-renderer=fallback] .rsg-convention{display:none}
+@media(max-width:850px){#formas .m5-form-layout{grid-template-columns:minmax(0,1fr)}.rsg-stage{height:370px}.rsg-caption{min-height:0}}
+@media(max-width:460px){.rsg-stage{height:320px}.rsg-heading{left:14px;top:15px}.rsg-name{font-size:19px}.rsg-controls{gap:5px;padding:10px 10px 0}.rsg button{font-size:12px;padding:7px 8px}.rsg-steps{padding:10px 10px 0;gap:4px}.rsg-steps button{font-size:11px;padding:8px 3px}.rsg-caption{font-size:14px;padding:12px 12px 0}.rsg-hint{font-size:10px;bottom:31px}.rsg-convention{font-size:10px}.rsg-tag{font-size:10px;letter-spacing:.08em}}
+
+/* M1.4 · renovación de los siete modelos, 30 octubre 2026. */
+#formas .rsg-stage{height:440px}
+#formas .rsg-heading{gap:7px;right:20px}
+#formas .rsg-name{font-size:23px;font-weight:650;letter-spacing:-.02em}
+#formas .rsg-hotspot{position:absolute;transform:translate(-50%,-50%);display:flex;align-items:center;gap:7px;z-index:2;min-height:40px;padding:5px 10px 5px 5px;border:1px solid #87c8dc;border-radius:24px;background:#0d2d41eb;color:#f0fbff;box-shadow:0 4px 18px #00111b50;font-size:12px;white-space:nowrap}
+#formas .rsg-hotspot span{display:grid;place-items:center;width:27px;height:27px;border-radius:50%;background:#daf4f7;color:#09526c;font-weight:750}
+#formas .rsg-hotspot:hover,#formas .rsg-hotspot[aria-pressed=true]{background:#086585;color:#fff;border-color:#d8f6ff}
+#formas .rsg-hotspot[hidden],#formas .rsg-scrub[hidden],#formas .rsg-steps[hidden]{display:none!important}
+#formas .rsg-scrub{display:grid;grid-template-columns:1fr;gap:3px;padding:12px 16px 0;margin:0;font-size:12px;font-weight:650;color:#345b70}
+#formas .rsg-scrub input{width:100%;min-height:30px;accent-color:#007da3;margin:0;cursor:pointer;padding:0;box-shadow:none;border:0}
+#formas .rsg-scrub span{font-size:11px;color:#547687;font-weight:400}
+#formas .rsg-picks [data-gen=inspect]{background:#e4f4f7;border-color:#55a3b9;color:#07536c}
+#formas .rsg[data-view=detail] .rsg-heading .rsg-tag{color:#aee4ee}
+#formas .rsg-controls,#formas .rsg-picks{gap:7px}
+#formas .rsg-caption{font-weight:550}
+#formas .rsg-explanation{border-radius:0 10px 10px 0}
+#formas .m4-form-buttons{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:14px}
+#formas .m4-form-buttons [aria-pressed=true]{background:#006b95;color:white;border-color:#006b95}
+@media(max-width:850px){#formas .rsg-stage{height:400px}}
+@media(max-width:460px){#formas .rsg-stage{height:345px}#formas .rsg-name{font-size:19px}#formas .rsg-hotspot{font-size:11px;gap:4px;padding-right:7px}#formas .rsg-hotspot span{width:24px;height:24px}#formas .rsg-picks{padding:10px 10px 0}}

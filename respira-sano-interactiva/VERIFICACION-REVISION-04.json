@@ -1,0 +1,135 @@
+{
+  "revision": "04",
+  "at_utc": "2026-10-19T00:52:31.076887+00:00",
+  "status": "verified-for-Carlos-testing-with-disclosed-browser-limits",
+  "scope": "Misión 1: expedición interactiva, dos visores independientes y cierre con ruta, tres relaciones y nota propia.",
+  "timing": [
+    {
+      "moment": "Portada e historia",
+      "start_minute": 0,
+      "end_minute": 2,
+      "minutes": 2
+    },
+    {
+      "moment": "Explora: doble visor, aire, intercambio y comparación breve",
+      "start_minute": 2,
+      "end_minute": 9,
+      "minutes": 7
+    },
+    {
+      "moment": "Reconoce: una tarea guiada",
+      "start_minute": 9,
+      "end_minute": 12,
+      "minutes": 3
+    },
+    {
+      "moment": "Reconoce: formas y vías con mini actividad",
+      "start_minute": 12,
+      "end_minute": 15,
+      "minutes": 3
+    },
+    {
+      "moment": "Reconoce: efectos y puente a M2",
+      "start_minute": 15,
+      "end_minute": 16,
+      "minutes": 1
+    },
+    {
+      "moment": "Resuelve: reto, observación propia y cierre",
+      "start_minute": 16,
+      "end_minute": 20,
+      "minutes": 4
+    }
+  ],
+  "course_minutes": 120,
+  "technical_points": 18,
+  "missions": 6,
+  "changed_existing_files": [
+    "LEEME.txt",
+    "assets/app.js",
+    "assets/external-models.js",
+    "assets/m1-historia-v3.txt",
+    "assets/mission1-v3.css",
+    "assets/mission1-v3.js",
+    "assets/progress-bridge.js",
+    "assets/progress-config.js",
+    "assets/progress-rules.js",
+    "assets/progress-shell.js",
+    "recorrido.html",
+    "referencias.html"
+  ],
+  "new_closure_version": "mission1-expedition-v1",
+  "api_tests": {
+    "passed": 52,
+    "total": 52
+  },
+  "preservation": {
+    "frozen_public_files_exact": 112,
+    "authorized_exception": {
+      "source": "Auditor chat authorized narrow exception before promotion; human scope verified in planning turn01a1518c-494f-7660-a9f9-1e457a9be7ef",
+      "auditor_thread": "01a150f2-5030-7072-81d8-7e817ae0c13e",
+      "file": "assets/progress-shell.js",
+      "before_sha256": "3ca3016fb4bcff90885f92420071e1bc57439fbe494789040eb1eff7fe6739b9",
+      "after_sha256": "55bda43961699f4077ef99f095c8b7421544eedbd2d54bea04ed2a964b7cc82b",
+      "reason": "Home continuation link label changed with available mission but its href stayed at mission1. Opening or copying the link used a stale destination.",
+      "change": "Only render(): set href from C.missions[n===6?0:available-1].route. No access, record or certificate logic changes.",
+      "frozen_exception_count": 1,
+      "all_other_public_frozen_files": 112
+    },
+    "frozen_private_files": 11,
+    "other_five_missions": "sha256 preserved",
+    "all_existing_media": "sha256 preserved"
+  },
+  "legacy_progress": "Historic criteriaVersion2 certificates and notes remain valid; new games start pending and use criteriaVersion4.",
+  "checks": {
+    "generation_idempotence": true,
+    "auditor_ui_accepted": true,
+    "documentary_receipt_accepted": true,
+    "rule_contract_accepted": true
+  },
+  "auditor_ui": {
+    "portada_instrucciones_y_cuatro_pasos": true,
+    "relato_limpio_sin_escenas_timestamps": true,
+    "dos_visores_coexisten_en_escritorio": true,
+    "ct_gira_acerca_con_controles_propios": true,
+    "ct_permanece_tras_pasos_alveolos_y_familias_del_local": true,
+    "referencia_local_rotulada_con_zoom": true,
+    "aire_entrada_traquea_bronquios_bronquiolos_alveolos": true,
+    "inicio_pausa_pasos_reinicio_del_recorrido": true,
+    "lupa_o2_co2_y_feedback_de_respuesta_incorrecta": true,
+    "comparacion_gas_particulas_fibras_activable": true,
+    "tres_tareas_abren_escena_puntos_y_microdecision": true,
+    "seis_formas_y_fibras_seleccionables": true,
+    "formas_incorrecta_feedback_explicado": true,
+    "vias_ingestion_y_respuesta_explicada": true,
+    "efectos_temporales_y_microdecision": true,
+    "cierre_vacio_rechazado": true,
+    "nota_sola_rechazada": true,
+    "ruta_incorrecta_rechazada": true,
+    "asociacion_incorrecta_rechazada": true,
+    "ruta_resuelta_con_botones_y_enter_sin_arrastrar": true,
+    "editar_asociacion_invalida_revision_visible": true,
+    "correctos_mas_nota_guardar_habilita_solo_mision2": true,
+    "recarga_conserva_ruta_asociaciones_nota_y_avance": true,
+    "home1_completa2_disponible3a6_bloqueadas": true,
+    "movil390_sin_desborde_con_visores_apilados": true,
+    "movil_controles_cierre_alcanzables": true,
+    "cta_home_texto_y_href_coinciden": true,
+    "copys_elena_y_formas_condicionales_verificados": true
+  },
+  "receipts": {
+    "ui_sha256": "ad09c288a033cfa70870e88e47ec2cc246622b28f4d095af47d5418245c04461",
+    "approval_sha256": "7fa25cb8ae804c56bf348f8deacd475f8098e3078c21e2dbf2dc037109de612a",
+    "rules_sha256": "ca30dbd3632dfe1606286104395edff07125299ce27a0c18698bc286ef165c7f"
+  },
+  "limits": [
+    "UI checked through local HTTP; real file:// opening was blocked by browser tool permissions and is unverified.",
+    "Progress JSON download/recovery not verified end-to-end; prior browser permission denial was not retried.",
+    "CT requires internet; local didactic model and static reference remain included.",
+    "20-minute rehearsal, Carlos review and destination browser checks remain pending."
+  ],
+  "scientific_scope": "Conceptual educational motion only; no concentration, dose or individual injury prediction.",
+  "access_expiry": "not implemented",
+  "new_audiovisual": "none",
+  "teleprompter": "untouched"
+}

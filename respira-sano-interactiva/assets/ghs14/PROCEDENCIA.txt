@@ -1,0 +1,5 @@
+Pictogramas SGA/GHS: PubChem · National Library of Medicine (NIH).
+Originales SVG sin modificar: https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS05.svg (y GHS06/GHS07/GHS08).
+Documentación: https://pubchem.ncbi.nlm.nih.gov/pcfe/docs/markdown/imaging-services.md
+Política del proveedor: https://www.nlm.nih.gov/privacy.html
+La procedencia de los símbolos no implica aval del proveedor a Respira Sano ni a ningún producto.

@@ -1,0 +1,9 @@
+.r10-anatomy-nav{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:12px;padding:12px 16px;background:#edf6f9;border-top:1px solid #8eb6c9;border-bottom:1px solid #bdd5df;color:#123e57}
+.r10-anatomy-nav button{min-height:44px;padding:9px 16px;border:1px solid #006e96;border-radius:8px;background:#006e96;color:#fff;font:650 14px/1.35 system-ui;cursor:pointer}
+.r10-anatomy-nav button:enabled:hover,.r10-anatomy-nav button:enabled:focus-visible{background:#005978;color:#fff;border-color:#004a65}
+.r10-anatomy-nav button:enabled:active{background:#004661;color:#fff;border-color:#003d54}
+.r10-anatomy-nav button:disabled{background:#e3ebef;border-color:#a6bac5;color:#607985;cursor:default}
+.r10-anatomy-nav button:disabled:hover,.r10-anatomy-nav button:disabled:active{background:#e3ebef;border-color:#a6bac5;color:#607985}
+.r10-anatomy-nav button:focus-visible{outline:3px solid #eaaf38;outline-offset:3px}
+.r10-anatomy-nav [data-anatomy-position]{font:650 15px/1.4 system-ui;text-align:center;overflow-wrap:anywhere}
+@media(max-width:600px){.r10-anatomy-nav{gap:8px;padding:10px;grid-template-columns:1fr 1fr}.r10-anatomy-nav [data-anatomy-position]{grid-column:1/-1;grid-row:1;font-size:14px}.r10-anatomy-nav button{width:100%;padding:9px 8px}}

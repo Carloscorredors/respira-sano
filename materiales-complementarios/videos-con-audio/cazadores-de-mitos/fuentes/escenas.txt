@@ -1,0 +1,9 @@
+file 'C:/Users/Carlos Corredor/Desktop/COLSANITAS/RESPIRA SANO/videos-con-audio/cazadores-de-mitos/fuentes/escena-1.png'
+duration 9.5200
+file 'C:/Users/Carlos Corredor/Desktop/COLSANITAS/RESPIRA SANO/videos-con-audio/cazadores-de-mitos/fuentes/escena-2.png'
+duration 9.6800
+file 'C:/Users/Carlos Corredor/Desktop/COLSANITAS/RESPIRA SANO/videos-con-audio/cazadores-de-mitos/fuentes/escena-3.png'
+duration 9.5000
+file 'C:/Users/Carlos Corredor/Desktop/COLSANITAS/RESPIRA SANO/videos-con-audio/cazadores-de-mitos/fuentes/escena-4.png'
+duration 10.7600
+file 'C:/Users/Carlos Corredor/Desktop/COLSANITAS/RESPIRA SANO/videos-con-audio/cazadores-de-mitos/fuentes/escena-4.png'

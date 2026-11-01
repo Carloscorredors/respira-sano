@@ -1,0 +1,35 @@
+1
+00:00:00,350 --> 00:00:04,925
+Andrés debe intervenir un sistema, pero desconoce la
+atmósfera.
+
+2
+00:00:05,075 --> 00:00:08,985
+Elegir un equipo exige información de la exposición.
+
+3
+00:00:09,870 --> 00:00:15,000
+Un filtro de partículas y un cartucho químico cumplen
+funciones distintas.
+
+4
+00:00:15,150 --> 00:00:18,690
+La selección depende del contaminante y la tarea.
+
+5
+00:00:19,550 --> 00:00:23,300
+No improvises su uso en una atmósfera desconocida.
+
+6
+00:00:23,450 --> 00:00:27,620
+Detén la selección y solicita la evaluación
+correspondiente.
+
+7
+00:00:29,050 --> 00:00:34,345
+Revisa agente, exposición, compatibilidad y límites del
+equipo.
+
+8
+00:00:34,495 --> 00:00:38,960
+Si faltan datos, explica qué necesitas antes de elegir.

@@ -1,0 +1,254 @@
+{
+  "status": "ok",
+  "date": "2026-10-18",
+  "mode": "HTTP local",
+  "checks": [
+    "Inicio: Comenzar lleva a Viaje fantástico; ruta compacta lleva a CSI/Misión; header móvil75px, sin desbordamiento.",
+    "Misión: seis medidas, captación y ventilación separadas; escena visible junto al botón de revisión y controles en móvil.",
+    "Feedback EPR como única medida solicita revisar fuente/ambiente; propuesta con motivo/verificación queda pendiente de verificación, no correcta automáticamente.",
+    "Caso Limpieza muestra Diana; datos insuficientes queda pendiente y sin insignia falsa de prioridad. Regreso a Endoscopia restaura prioridad/motivo/nota y1pista.",
+    "Exportación real y continuidad CSI→Misión→recarga verificadas por el auditor en su sesión HTTP independiente; incluye prioridad, motivo, verificación y orientación.",
+    "Móvil: escena sticky visible junto a controles y revisión; no se calculan eficacias ni concentraciones."
+  ],
+  "screenshots": [
+    "inicio-antes-desktop-final.jpg",
+    "inicio-antes-movil-final.jpg",
+    "mision-antes-desktop-final.jpg",
+    "mision-antes-movil-final.jpg",
+    "inicio-despues-desktop-final.jpg",
+    "inicio-despues-movil-final.jpg",
+    "mision-despues-movil-controles.jpg",
+    "mision-despues-movil-propuesta.jpg"
+  ],
+  "limits": [
+    "Prototipo para mostrar/probar a Carlos; no aprobación final.",
+    "Esta revisión implementa Inicio y Misión posible. Escape room/progreso global/cierre/60min opcionales siguen propuestos.",
+    "Rótulos3D conservados del checkpoint92; no se repite QA de CT o videos intactos.",
+    "El texto libre no se evalúa semánticamente: la orientación debe contrastarse con el facilitador.",
+    "No se probó file:// ni se repitió emulación de red para la nueva actividad; recursos de esta revisión son locales.",
+    "Permiso raw CDP rechazado para el servidor de comparación8780; no se repitió ni se eludió la acción. Las comparaciones se capturaron mediante navegación y controles normales."
+  ],
+  "client_review": "pending",
+  "capture_metadata": {
+    "inicio-antes-desktop-final.jpg": {
+      "dom": {
+        "hash": "",
+        "header": 161,
+        "height": 720,
+        "title": "Respira Sano · Panel de módulos",
+        "width": 1280
+      },
+      "image": {
+        "width": 1265,
+        "height": 712,
+        "format": "jpg"
+      },
+      "nativeCapture": true,
+      "pixelEditing": false
+    },
+    "inicio-antes-movil-final.jpg": {
+      "dom": {
+        "hash": "",
+        "header": 451,
+        "height": 812,
+        "title": "Respira Sano · Panel de módulos",
+        "width": 375
+      },
+      "image": {
+        "width": 360,
+        "height": 780,
+        "format": "jpg"
+      },
+      "nativeCapture": true,
+      "pixelEditing": false
+    },
+    "mision-antes-desktop-final.jpg": {
+      "dom": {
+        "hash": "#actividad-controles",
+        "header": 161,
+        "height": 900,
+        "title": "CSI del aire: sigue las pistas · Respira Sano",
+        "width": 1440
+      },
+      "image": {
+        "width": 1425,
+        "height": 891,
+        "format": "jpg"
+      },
+      "nativeCapture": true,
+      "pixelEditing": false
+    },
+    "mision-antes-movil-final.jpg": {
+      "dom": {
+        "hash": "#actividad-controles",
+        "header": 451,
+        "height": 812,
+        "title": "CSI del aire: sigue las pistas · Respira Sano",
+        "width": 375
+      },
+      "image": {
+        "width": 360,
+        "height": 780,
+        "format": "jpg"
+      },
+      "nativeCapture": true,
+      "pixelEditing": false
+    },
+    "inicio-despues-desktop-final.jpg": {
+      "dom": {
+        "hash": "",
+        "header": 82.96875,
+        "height": 900,
+        "title": "Respira Sano · Misiones",
+        "width": 1440
+      },
+      "image": {
+        "width": 1425,
+        "height": 891,
+        "format": "jpg"
+      },
+      "nativeCapture": true,
+      "pixelEditing": false
+    },
+    "inicio-despues-movil-final.jpg": {
+      "dom": {
+        "hash": "",
+        "header": 75.3125,
+        "height": 812,
+        "title": "Respira Sano · Misiones",
+        "width": 375
+      },
+      "image": {
+        "width": 360,
+        "height": 780,
+        "format": "jpg"
+      },
+      "nativeCapture": true,
+      "pixelEditing": false
+    },
+    "mision-despues-movil-controles.jpg": {
+      "dom": {
+        "hash": "#actividad-controles",
+        "header": 451,
+        "height": 812,
+        "title": "CSI del aire: sigue las pistas · Respira Sano",
+        "width": 375
+      },
+      "image": {
+        "width": 360,
+        "height": 780,
+        "format": "jpg"
+      },
+      "nativeCapture": true,
+      "pixelEditing": false
+    },
+    "mision-despues-movil-propuesta.jpg": {
+      "dom": {
+        "hash": "#actividad-controles",
+        "header": 451,
+        "height": 812,
+        "title": "CSI del aire: sigue las pistas · Respira Sano",
+        "width": 375
+      },
+      "image": {
+        "width": 360,
+        "height": 780,
+        "format": "jpg"
+      },
+      "nativeCapture": true,
+      "pixelEditing": false
+    }
+  },
+  "capture_method": "Capturas nativas JPEG del navegador, sin recorte, reescala ni edición de píxeles. Se registran viewport CSS y dimensiones reales del archivo; el proveedor devuelve una imagen algo menor que el viewport.",
+  "before_source": "Fixture de solo comparación derivada del checkpoint Respira-Sano-full-face-rotulos-y-valvulas.zip; no se modificó la carpeta activa para reconstruir el antes.",
+  "excluded_artifacts": [
+    "inicio-antes-movil.png",
+    "mision-antes-desktop.png",
+    "mision-despues-desktop.jpg"
+  ],
+  "excluded_reason": "Tomas iniciales con tamaño/posición transitorios o contenido distinto al nombre. No se usan como pase visual; escritorio de Misión usa evidencia del auditor.",
+  "idempotence": "passed",
+  "local_links_and_unique_ids": "passed",
+  "html_pages": 13,
+  "previous_package": "Respira-Sano-full-face-rotulos-y-valvulas.zip",
+  "previous_package_sha256": "a1ecd8c387c902a6d23b71bb5e9b5ba7eb9c6443d5e94296b13bf9d8d9899c64",
+  "changed_existing_files": [
+    "LEEME.txt",
+    "assets/app.js",
+    "hospital.html",
+    "index.html"
+  ],
+  "preserved_assets_by_sha256": 57,
+  "six_videos_ct_fullface_labels_preserved": true,
+  "six_modules_120_main_minutes_18_topics_preserved": true,
+  "visual_review": "passed for selected evidence",
+  "visual_evidence_sha256": {
+    "inicio-antes-desktop-final.jpg": "855845aaef6ef8193ae7d5924cd994b78bb8a568c3dfd770d03f1dd08956572a",
+    "inicio-antes-movil-final.jpg": "61372c896f8d4957efe6538447fe359192447e2ba1e43d9b9f424d7ae301306d",
+    "mision-antes-desktop-final.jpg": "3384da37ad65444d86da18f3df4c88878c78f1ddb447b6529956c5f0b1215c3f",
+    "mision-antes-movil-final.jpg": "d4920961c9742e7855558b64861cba134eef7f85167de86ebd5e66334cd439aa",
+    "inicio-despues-desktop-final.jpg": "39aa4f3c908c7d8cb19350ce92d5b1d1e4c81e72488ebdf2d097f8e74fcb7e2c",
+    "inicio-despues-movil-final.jpg": "928aa9b82dbdae91f87a15c59907ef009d6da9aed04f45510365210da7309984",
+    "mision-despues-movil-controles.jpg": "3aff1ffe7d3f27131afdf4c08ef38780b5620118325e023ef2a8aa44c6f374df",
+    "mision-despues-movil-propuesta.jpg": "fa8ac1327d737ee56dda522faba58794d1b2c61dc42c9f2af43e1b3dccc5d52b"
+  },
+  "independent_qa_report": "work/qa-auditor-revision01/recepcion.json",
+  "independent_qa_report_sha256": "4f0dd4e8674a81ae7910944b472bb025234168a733b2aa81bc8230d4f868edec",
+  "independent_checks": [
+    {
+      "id": "inicio",
+      "result": "pass",
+      "evidence": "Comenzar y Mis herramientas visibles; seis accesos de misión sin descripciones repetidas; sin desbordamiento horizontal"
+    },
+    {
+      "id": "inicio-movil",
+      "result": "pass",
+      "header_height_px": 75.3125,
+      "start_button_top_px": 282.0625,
+      "previous_header_height_px": 451,
+      "previous_start_button_top_px": 725.25
+    },
+    {
+      "id": "esquema-controles-escritorio",
+      "result": "pass",
+      "evidence": "Esquema y control Captar en la fuente visibles simultáneamente; flujo de captación cambia a visible y texto pertinente"
+    },
+    {
+      "id": "esquema-controles-movil",
+      "result": "pass",
+      "evidence": "Esquema permanece visible junto a la exploración; extracción y ventilación representadas como funciones distintas; sin desbordamiento"
+    },
+    {
+      "id": "feedback",
+      "result": "pass",
+      "evidence": "Prioridad EPR solicita revisar fuente/ambiente; opción datos reconoce pendientes; extracción conserva motivo y verificación sin declarar eficacia acreditada"
+    },
+    {
+      "id": "casos",
+      "result": "pass",
+      "evidence": "Diana/Limpieza cambia título y consigna; volver a Mateo/Endoscopia restaura su prioridad y motivo"
+    },
+    {
+      "id": "continuidad",
+      "result": "pass",
+      "evidence": "CSI a Misión y recarga conservan pista explorada, nota y prioridad en esta sesión HTTP"
+    },
+    {
+      "id": "exportacion",
+      "result": "pass",
+      "evidence": "Descarga real del cuaderno leída; incluye prioridad, motivo, verificación y retroalimentación"
+    },
+    {
+      "id": "consola",
+      "result": "pass",
+      "evidence": "Sin errores observados en las comprobaciones independientes"
+    }
+  ],
+  "independent_visual_evidence_sha256": {
+    "inicio-escritorio.png": "1b46dbb2bf4154762c2dfbd0f545488b98b7797e0e70c248d57be388df0bf597",
+    "inicio-movil.png": "928aa9b82dbdae91f87a15c59907ef009d6da9aed04f45510365210da7309984",
+    "mision-escritorio.png": "342e673516dd6cafd1506161c1b4c10fe7c7f1e9b7ba33b2fddbf73419bb37d7",
+    "mision-movil.png": "40f0daf89a99a0fe609db707d880943f451ccccc718d6c63b1dd16d6f5760827"
+  },
+  "route_contract_sha256": "d6385ba3fe0321aa7abc2f5c5f00c65e363a8b3fa505d7ddf6af5ab0b2744de0"
+}

@@ -1,0 +1,143 @@
+{
+  "revision": "13",
+  "at_utc": "2026-10-19T04:53:23.293077+00:00",
+  "status": "received-for-Carlos-testing",
+  "scope": "Optional alveolar Audio02 and M1.6 narration; M2 independent time/action comparator, five contextual agent illustrations, optional audio and actual animated MP4.",
+  "baseline12_sha256": "4d6b8b5f0f2dfaf1724eb7316d736dfa8ac1f68dba7c558a95f6da4262156949",
+  "frozen_manifest_sha256": "58478d233260791b5b108e29695ce00dc2cdcebf2fe81e6587f986726f242f26",
+  "changed_existing": [
+    "LEEME.txt",
+    "gases-vapores.html",
+    "recorrido.html"
+  ],
+  "preserved_existing_files": 194,
+  "new_runtime_files": [
+    "assets/audio13.css",
+    "assets/audio13.js",
+    "assets/boot13.js",
+    "assets/m2-visual-data.js",
+    "assets/m2-visual.css",
+    "assets/m2-visual.js",
+    "assets/media13-data.js",
+    "assets/media13/m16-ingreso-v1.mp3",
+    "assets/media13/m16-ingreso-v1.txt",
+    "assets/media13/m16-ingreso-v1.vtt",
+    "assets/media13/m2-mecanismos-v1_1-poster.jpg",
+    "assets/media13/m2-mecanismos-v1_1.mp3",
+    "assets/media13/m2-mecanismos-v1_1.mp4",
+    "assets/media13/m2-mecanismos-v1_1.txt",
+    "assets/media13/m2-mecanismos-v1_1.vtt",
+    "assets/media13/unidad-alveolar-capilar-gonzalo.mp3",
+    "assets/media13/unidad-alveolar-capilar-gonzalo.txt"
+  ],
+  "protection": {
+    "M12_section_unchanged": true,
+    "previous_assets_unchanged": 151
+  },
+  "mission1_minutes": 20,
+  "M13_minutes": 2,
+  "M16_minutes": 2,
+  "M2_minutes": 15,
+  "course_proposed_minutes": 120,
+  "optional_extension_minutes": 60,
+  "duration_exceptions": {
+    "Audio02": {
+      "actual_seconds": 44.496,
+      "target_seconds": [
+        45,
+        60
+      ],
+      "target_met": false,
+      "fits_M13_120_seconds": true
+    },
+    "M2_audio": {
+      "actual_seconds": 77.568,
+      "target_seconds": [
+        45,
+        75
+      ],
+      "target_met": false,
+      "fits_M2_900_seconds": true
+    }
+  },
+  "human_listening_accepted": false,
+  "checks": {
+    "ui": {
+      "frozen_manifest_sha256_exact": true,
+      "214_runtime_hashes_match": true,
+      "151_previous_assets_unchanged": true,
+      "194_previous_files_unchanged": true,
+      "M12_section_exact": true,
+      "M12_original_boot_prefix": true,
+      "Audio02_order_model_audio_description": true,
+      "Audio02_manual_transcript_and_leave_pauses": true,
+      "M16_manual_transcript_and_leave_pauses": true,
+      "M2_three_temporal_patterns_independent_actions_multiselect": true,
+      "M2_zoom_changes_viewBox_and_restores": true,
+      "M2_five_agents_match_scene_highlights": true,
+      "M2_filter_changes_agent_and_scene": true,
+      "M2_three_points_and_SVG_Enter": true,
+      "M2_audio_to_video_pauses_audio_video_manual": true,
+      "M2_video_720p_77_583_no_error_leave_stage_pauses": true,
+      "M2_link_honest_and_return_retains_xylene": true,
+      "M2_existing_reviewed_decisions_retained": true,
+      "M2_ARIA_only_highlighted_and_explicit_description": true,
+      "M2_carcinogenic_label_only_formaldehyde_highlighted": true,
+      "M2_buttons_default_computed14px_minheight44px": true,
+      "M2_duplicate_task_removed_without_losing_effects_sources_notebook": true,
+      "13_provider_metadata_removed_from_visible_duration_labels": true
+    },
+    "documentary": {
+      "frozen_manifest_SHA_exact": true,
+      "frozen_phase": true,
+      "all214_runtime_names_exact": true,
+      "all214_runtime_hashes_exact": true,
+      "20_source_hashes_exact": true,
+      "only_four_delta_files_since_partial": true,
+      "previous27_partial_checks_conformant": true,
+      "all197_baseline12_names_retained": true,
+      "17_new_files_only": true,
+      "194_baseline_files_identical": true,
+      "only_three_previous_files_modified": true,
+      "all151_previous_assets_unchanged": true,
+      "M12_section_and_HTML_delta_reused_unchanged": true,
+      "M2_HTML_additions_same_as_partial": true,
+      "nine_private_facilitator_files_unchanged": true,
+      "no_new_private_work_QA_in_runtime": true,
+      "M2_visual_brief_hash_bound": true,
+      "M2_carcinogenic_label_in_three_maps": true,
+      "M2_only_formaldehyde_carcinogenic_highlight": true,
+      "five_original_agents_preserved": true,
+      "M2_unsupported_legend_hidden_from_reader_source": true,
+      "M2_no_exhaustive_or_diagnostic_claim_source": true,
+      "M2_task_duplicate_only_when_equal_and_restored_source": true,
+      "M2_14px_and44px_controls_CSS_source": true,
+      "M2_reduced_motion_source": true,
+      "M2_general_forms_link_honest_source": true,
+      "media13_and_transcripts_unchanged_since_received_partial": true,
+      "Audio02_exception_honest_and_fit": true,
+      "M2_exception_honest_and_fit": true,
+      "README13_names_scope_and_limits": true,
+      "listening_not_certified": true
+    }
+  },
+  "receipt_sha256": {
+    "ui": "9309a9c3c117464e7e7f52203e222ce03edee2e95d13a9faed070e4c080e7de7",
+    "documentary": "838957b5fcf61f59a04ae4279238a456c74837004c98b3484d2ddc7b3b2df4c2"
+  },
+  "reused_evidence": {
+    "progress_rules_API": 52,
+    "synchronization_geometry_media_clock": 47,
+    "received12_package_sha256": "4d6b8b5f0f2dfaf1724eb7316d736dfa8ac1f68dba7c558a95f6da4262156949"
+  },
+  "limits": [
+    "Narrations are manual alternatives within the existing times, without completion gates.",
+    "Audio02 is independent of M1.2 and is not synchronized to its model. Browser container duration can differ by milliseconds from source duration.",
+    "M2 SVG scenes and time markers are conceptual, without dose, measured exposure, clinical progression or prediction.",
+    "Human listening and voice naturalness remain uncertified.",
+    "Developer mobile emulation was denied by the browser permission gate; it was not retried through another route. New button14px/44px styles and default-view behavior were checked; this receipt does not certify a new390px test.",
+    "HTTP does not certify file:// or full JSON import/export previously blocked.",
+    "M1.2 and all151 previous assets remain unchanged; external optional CT needs internet.",
+    "M3–6 improvements, FDS help, volatile-maintenance variant and cleaning clip-v2 remain deferred to14."
+  ]
+}
